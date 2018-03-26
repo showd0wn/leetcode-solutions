@@ -1,3 +1,7 @@
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
 var maxProfit = function(prices) {
   var maxProfit = 0
   var length = prices.length

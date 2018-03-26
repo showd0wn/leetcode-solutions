@@ -1,3 +1,7 @@
+/**
+ * @param {character[][]} board
+ * @return {boolean}
+ */
 var isValidSudoku = function(board) {
   var ch
 
@@ -17,13 +21,13 @@ var isValidSudoku = function(board) {
       if (ch !== '.') {
         if (colNums.indexOf(ch) > -1) return false
         colNums.push(ch)
-      } 
-      
+      }
+
       var row = Math.floor(i / 3) * 3 + Math.floor(j / 3)
       var col = i % 3 * 3 + j % 3
       ch = board[row][col]
       if (ch !== '.') {
-        if (cubeNums.indexOf(ch) > -1) return false  
+        if (cubeNums.indexOf(ch) > -1) return false
         cubeNums.push(ch)
       }
     }
