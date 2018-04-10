@@ -1,7 +1,7 @@
 /**
- * @param {string} s
- * @return {boolean}
+ * @param {string} str
+ * @return {number}
  */
-var isPalindrome = function(s) {
-
+var myAtoi = function(str) {
+  return Math.max(Math.min(parseInt(str) || 0, 2147483647), -2147483648)
 }
