@@ -20,15 +20,15 @@ var reverseList = function(head) {
     head = next
   }
   return prev
-};
+}
 
 // recursively
-var reverseList = function(head) {
-  if (!head || !head.next) {
-      return head;
-  }
-  var newHead =  reverseList(head.next)
-  head.next.next = head
-  head.next = null
-  return newHead
-};
+// var reverseList = function(head) {
+//   if (!head || !head.next) {
+//     return head
+//   }
+//   var newHead =  reverseList(head.next)
+//   head.next.next = head
+//   head.next = null
+//   return newHead
+// }

@@ -34,4 +34,4 @@ var isPalindrome = function(head) {
     if (list1.val !== list2.val) return false
   }
   return true
-};
+}
