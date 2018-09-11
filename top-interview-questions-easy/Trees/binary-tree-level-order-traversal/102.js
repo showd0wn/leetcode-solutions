@@ -22,26 +22,26 @@ var levelOrder = function(root) {
   }
   helper(root, 0)
   return result
-};
+}
 
 // recursively
-var levelOrder = function(root) {
-  var result = []
-  var levelNodes = [root]
-  if(root == null) return result;
-
-  while (levelNodes.length) {
-    result.push(levelNodes.map(item => {
-      if (item) return item.val
-    }))
-    
-    var nextLevelNodes = [];
-    for(var node of levelNodes){
-      if(node && node.left) nextLevelNodes.push(node.left);
-      if(node && node.right) nextLevelNodes.push(node.right);
-    }
-
-    levelNodes = nextLevelNodes;
-  }
-  return result
-}
+// var levelOrder = function(root) {
+//   var result = []
+//   var levelNodes = [root]
+//   if(root == null) return result
+//
+//   while (levelNodes.length) {
+//     result.push(levelNodes.map(item => {
+//       if (item) return item.val
+//     }))
+//
+//     var nextLevelNodes = []
+//     for(var node of levelNodes){
+//       if(node && node.left) nextLevelNodes.push(node.left)
+//       if(node && node.right) nextLevelNodes.push(node.right)
+//     }
+//
+//     levelNodes = nextLevelNodes
+//   }
+//   return result
+// }

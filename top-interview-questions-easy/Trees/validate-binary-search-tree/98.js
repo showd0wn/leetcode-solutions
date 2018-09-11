@@ -17,4 +17,4 @@ var isValidBST = function(root) {
     return helper(root.left, min, root.val) && helper(root.right, root.val, max)
   }
   return helper(root, null, null)
-};
+}
