@@ -2,7 +2,7 @@
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function(digits, current = '', result = []) {
+var letterCombinations = function (digits, current = '', result = []) {
   const map = {
     2: 'abc',
     3: 'def',
