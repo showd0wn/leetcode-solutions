@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|25|6|0|31|
+|**Accept**|27|6|0|33|
 |**Total**|328|625|260|1213|
 ### 题解
 | ID | Title | Difficulty | JavaScript | Python |
@@ -96,7 +96,7 @@
 |0085|[Maximal Rectangle](https://leetcode-cn.com/problems/Maximal-Rectangle/)|Hard|To Do|To Do|
 |0086|[Partition List](https://leetcode-cn.com/problems/Partition-List/)|Medium|To Do|To Do|
 |0087|[Scramble String](https://leetcode-cn.com/problems/Scramble-String/)|Hard|To Do|To Do|
-|0088|[Merge Sorted Array](https://leetcode-cn.com/problems/Merge-Sorted-Array/)|Easy|To Do|To Do|
+|0088|[Merge Sorted Array](https://leetcode-cn.com/problems/Merge-Sorted-Array/)|Easy|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0088.%20合并两个有序数组/0088.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0088.%20合并两个有序数组/0088.py)|
 |0089|[Gray Code](https://leetcode-cn.com/problems/Gray-Code/)|Medium|To Do|To Do|
 |0090|[Subsets II](https://leetcode-cn.com/problems/Subsets-II/)|Medium|To Do|To Do|
 |0091|[Decode Ways](https://leetcode-cn.com/problems/Decode-Ways/)|Medium|To Do|To Do|
@@ -269,7 +269,7 @@
 |0275|[H-Index II](https://leetcode-cn.com/problems/H-Index-II/)|Medium|To Do|To Do|
 |0276|[Paint Fence :lock:](https://leetcode-cn.com/problems/Paint-Fence/)|Easy|To Do|To Do|
 |0277|[Find the Celebrity :lock:](https://leetcode-cn.com/problems/Find-the-Celebrity/)|Medium|To Do|To Do|
-|0278|[First Bad Version](https://leetcode-cn.com/problems/First-Bad-Version/)|Easy|To Do|To Do|
+|0278|[First Bad Version](https://leetcode-cn.com/problems/First-Bad-Version/)|Easy|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0278.%20第一个错误的版本/0278.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0278.%20第一个错误的版本/0278.py)|
 |0279|[Perfect Squares](https://leetcode-cn.com/problems/Perfect-Squares/)|Medium|To Do|To Do|
 |0280|[Wiggle Sort :lock:](https://leetcode-cn.com/problems/Wiggle-Sort/)|Medium|To Do|To Do|
 |0281|[Zigzag Iterator :lock:](https://leetcode-cn.com/problems/Zigzag-Iterator/)|Medium|To Do|To Do|
