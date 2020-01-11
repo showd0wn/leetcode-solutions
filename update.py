@@ -28,7 +28,7 @@ class Readme:
             solutions = self.solutions[num] = {}
             for file in files:
                 fileType = file.split('.')[1]
-                filePath = os.path.join(root, file).replace('\\', '/')
+                filePath = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
                 solutions[fileType] = filePath
 
     def __getAlgorithms(self):
@@ -95,7 +95,7 @@ class Readme:
 
     def generateTableTitle(self, title, lock):
         return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
-            title + ' :lock' if lock else title,
+            title + ' :lock:' if lock else title,
             title.replace(' ', '-')
         )
 
