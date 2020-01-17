@@ -7,9 +7,9 @@ import os
 class Readme:
     __target = 'https://github.com/showd0wn/leetcode/tree/master/'
     __url = 'https://leetcode-cn.com/api/problems/algorithms/'
-    __algoDir = './algorithms/'
-    __readmePath = './README.md'
-    __levelMap = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
+    __dir = './algorithms/'
+    __readme_path = './README.md'
+    __level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
 
     def __init__(self):
         self.stats = {
@@ -20,18 +20,18 @@ class Readme:
         self.solutions = {}
         self.problems = []
 
-    def __getLocalFiles(self):
-        for root, _, files in os.walk(self.__algoDir):
+    def __get_localfiles(self):
+        for root, _, files in os.walk(self.__dir):
             if not len(files):
                 continue
             num = re.search(r'\d{4}', root).group()
             solutions = self.solutions[num] = {}
             for file in files:
-                fileType = file.split('.')[1]
-                filePath = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
-                solutions[fileType] = filePath
+                file_type = file.split('.')[1]
+                file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
+                solutions[file_type] = file_path
 
-    def __getAlgorithms(self):
+    def __get_algorithms(self):
         response = requests.get(self.__url, verify=False, proxies={
             'http': 'http://f00503438:forevercet-6@proxy.huawei.com:8080/',
             'https': 'https://f00503438:forevercet-6@proxy.huawei.com:8080/',
@@ -42,7 +42,7 @@ class Readme:
         for algo in algorithms[::-1]:
             num = algo['stat']['frontend_question_id'].zfill(4)
             level = algo['difficulty']['level']
-            levelDesc = self.__levelMap[level]
+            level_desc = self.__level_map[level]
 
             self.problems.append({
                 'id': num,
@@ -51,16 +51,16 @@ class Readme:
                 'lock': algo['paid_only'],
             })
 
-            self.stats[levelDesc]['total'] += 1
+            self.stats[level_desc]['total'] += 1
 
             if num in self.solutions and len(self.solutions[num]):
-                self.stats[levelDesc]['accept'] += 1
+                self.stats[level_desc]['accept'] += 1
 
     def update(self):
-        self.__getLocalFiles()
-        self.__getAlgorithms()
+        self.__get_localfiles()
+        self.__get_algorithms()
 
-        with open(self.__readmePath, 'w', encoding='utf-8') as f:
+        with open(self.__readme_path, 'w', encoding='utf-8') as f:
             f.write('# LeetCode\n'
                     '### 进度\n'
                     '> 统计规则： 算法题\n\n'
@@ -83,7 +83,7 @@ class Readme:
             for problem in self.problems:
                 data = {
                     'id': problem['id'],
-                    'level': self.__levelMap[problem['level']],
+                    'level': self.__level_map[problem['level']],
                     'title': self.generateTableTitle(problem['title'], problem['lock']),
                     'js': self.generateTableSolution('js', problem['id']),
                     'py': self.generateTableSolution('py', problem['id']),

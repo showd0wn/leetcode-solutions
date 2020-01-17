@@ -5,7 +5,7 @@
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |**Accept**|27|6|0|33|
-|**Total**|328|625|260|1213|
+|**Total**|330|629|262|1221|
 ### 题解
 | ID | Title | Difficulty | JavaScript | Python |
 |:---:|:---:|:---:|:---:|:---:|
@@ -1124,6 +1124,10 @@
 |1138|[Alphabet Board Path](https://leetcode-cn.com/problems/Alphabet-Board-Path/)|Medium|To Do|To Do|
 |1139|[Largest 1-Bordered Square](https://leetcode-cn.com/problems/Largest-1-Bordered-Square/)|Medium|To Do|To Do|
 |1140|[Stone Game II](https://leetcode-cn.com/problems/Stone-Game-II/)|Medium|To Do|To Do|
+|1313|[Decompress Run-Length Encoded List](https://leetcode-cn.com/problems/Decompress-Run-Length-Encoded-List/)|Easy|To Do|To Do|
+|1314|[Matrix Block Sum](https://leetcode-cn.com/problems/Matrix-Block-Sum/)|Medium|To Do|To Do|
+|1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode-cn.com/problems/Sum-of-Nodes-with-Even-Valued-Grandparent/)|Medium|To Do|To Do|
+|1316|[Distinct Echo Substrings](https://leetcode-cn.com/problems/Distinct-Echo-Substrings/)|Hard|To Do|To Do|
 |1144|[Decrease Elements To Make Array Zigzag](https://leetcode-cn.com/problems/Decrease-Elements-To-Make-Array-Zigzag/)|Medium|To Do|To Do|
 |1145|[Binary Tree Coloring Game](https://leetcode-cn.com/problems/Binary-Tree-Coloring-Game/)|Medium|To Do|To Do|
 |1146|[Snapshot Array](https://leetcode-cn.com/problems/Snapshot-Array/)|Medium|To Do|To Do|
@@ -1217,6 +1221,10 @@
 |1310|[XOR Queries of a Subarray](https://leetcode-cn.com/problems/XOR-Queries-of-a-Subarray/)|Medium|To Do|To Do|
 |1311|[Get Watched Videos by Your Friends](https://leetcode-cn.com/problems/Get-Watched-Videos-by-Your-Friends/)|Medium|To Do|To Do|
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode-cn.com/problems/Minimum-Insertion-Steps-to-Make-a-String-Palindrome/)|Hard|To Do|To Do|
+|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode-cn.com/problems/Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers/)|Easy|To Do|To Do|
+|1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode-cn.com/problems/Minimum-Flips-to-Make-a-OR-b-Equal-to-c/)|Medium|To Do|To Do|
+|1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/Number-of-Operations-to-Make-Network-Connected/)|Medium|To Do|To Do|
+|1320|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode-cn.com/problems/Minimum-Distance-to-Type-a-Word-Using-Two-Fingers/)|Hard|To Do|To Do|
 |LCP 2|[Deep Dark Fraction](https://leetcode-cn.com/problems/Deep-Dark-Fraction/)|Easy|To Do|To Do|
 |LCP 4|[Broken Board Dominoes](https://leetcode-cn.com/problems/Broken-Board-Dominoes/)|Hard|To Do|To Do|
 |LCP 5|[Coin Bonus](https://leetcode-cn.com/problems/Coin-Bonus/)|Hard|To Do|To Do|
