@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|27|6|0|33|
-|**Total**|330|629|262|1221|
+|**Accept**|30|7|0|37|
+|**Total**|331|631|263|1225|
 ### 题解
 | ID | Title | Difficulty | JavaScript | Python |
 |:---:|:---:|:---:|:---:|:---:|
@@ -163,7 +163,7 @@
 |0152|[Maximum Product Subarray](https://leetcode-cn.com/problems/Maximum-Product-Subarray/)|Medium|To Do|To Do|
 |0153|[Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/Find-Minimum-in-Rotated-Sorted-Array/)|Medium|To Do|To Do|
 |0154|[Find Minimum in Rotated Sorted Array II](https://leetcode-cn.com/problems/Find-Minimum-in-Rotated-Sorted-Array-II/)|Hard|To Do|To Do|
-|0155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|To Do|To Do|
+|0155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0155.%20最小栈/0155.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0155.%20最小栈/0155.py)|
 |0156|[Binary Tree Upside Down :lock:](https://leetcode-cn.com/problems/Binary-Tree-Upside-Down/)|Medium|To Do|To Do|
 |0157|[Read N Characters Given Read4 :lock:](https://leetcode-cn.com/problems/Read-N-Characters-Given-Read4/)|Easy|To Do|To Do|
 |0158|[Read N Characters Given Read4 II - Call multiple times :lock:](https://leetcode-cn.com/problems/Read-N-Characters-Given-Read4-II---Call-multiple-times/)|Hard|To Do|To Do|
@@ -196,7 +196,7 @@
 |0201|[Bitwise AND of Numbers Range](https://leetcode-cn.com/problems/Bitwise-AND-of-Numbers-Range/)|Medium|To Do|To Do|
 |0202|[Happy Number](https://leetcode-cn.com/problems/Happy-Number/)|Easy|To Do|To Do|
 |0203|[Remove Linked List Elements](https://leetcode-cn.com/problems/Remove-Linked-List-Elements/)|Easy|To Do|To Do|
-|0204|[Count Primes](https://leetcode-cn.com/problems/Count-Primes/)|Easy|To Do|To Do|
+|0204|[Count Primes](https://leetcode-cn.com/problems/Count-Primes/)|Easy|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0204.%20计数质数/0204.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0204.%20计数质数/0204.py)|
 |0205|[Isomorphic Strings](https://leetcode-cn.com/problems/Isomorphic-Strings/)|Easy|To Do|To Do|
 |0206|[Reverse Linked List](https://leetcode-cn.com/problems/Reverse-Linked-List/)|Easy|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0206.%20反转链表/0206.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0206.%20反转链表/0206.py)|
 |0207|[Course Schedule](https://leetcode-cn.com/problems/Course-Schedule/)|Medium|To Do|To Do|
@@ -375,7 +375,7 @@
 |0381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode-cn.com/problems/Insert-Delete-GetRandom-O(1)---Duplicates-allowed/)|Hard|To Do|To Do|
 |0382|[Linked List Random Node](https://leetcode-cn.com/problems/Linked-List-Random-Node/)|Medium|To Do|To Do|
 |0383|[Ransom Note](https://leetcode-cn.com/problems/Ransom-Note/)|Easy|To Do|To Do|
-|0384|[Shuffle an Array](https://leetcode-cn.com/problems/Shuffle-an-Array/)|Medium|To Do|To Do|
+|0384|[Shuffle an Array](https://leetcode-cn.com/problems/Shuffle-an-Array/)|Medium|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0384.%20打乱数组/0384.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0384.%20打乱数组/0384.py)|
 |0385|[Mini Parser](https://leetcode-cn.com/problems/Mini-Parser/)|Medium|To Do|To Do|
 |0386|[Lexicographical Numbers](https://leetcode-cn.com/problems/Lexicographical-Numbers/)|Medium|To Do|To Do|
 |0387|[First Unique Character in a String](https://leetcode-cn.com/problems/First-Unique-Character-in-a-String/)|Easy|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0387.%20字符串中的第一个唯一字符/0387.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0387.%20字符串中的第一个唯一字符/0387.py)|
@@ -403,7 +403,7 @@
 |0409|[Longest Palindrome](https://leetcode-cn.com/problems/Longest-Palindrome/)|Easy|To Do|To Do|
 |0410|[Split Array Largest Sum](https://leetcode-cn.com/problems/Split-Array-Largest-Sum/)|Hard|To Do|To Do|
 |0411|[Minimum Unique Word Abbreviation :lock:](https://leetcode-cn.com/problems/Minimum-Unique-Word-Abbreviation/)|Hard|To Do|To Do|
-|0412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|To Do|To Do|
+|0412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0412.%20Fizz%20Buzz/0412.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0412.%20Fizz%20Buzz/0412.py)|
 |0413|[Arithmetic Slices](https://leetcode-cn.com/problems/Arithmetic-Slices/)|Medium|To Do|To Do|
 |0414|[Third Maximum Number](https://leetcode-cn.com/problems/Third-Maximum-Number/)|Easy|To Do|To Do|
 |0415|[Add Strings](https://leetcode-cn.com/problems/Add-Strings/)|Easy|To Do|To Do|
@@ -1225,6 +1225,10 @@
 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode-cn.com/problems/Minimum-Flips-to-Make-a-OR-b-Equal-to-c/)|Medium|To Do|To Do|
 |1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/Number-of-Operations-to-Make-Network-Connected/)|Medium|To Do|To Do|
 |1320|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode-cn.com/problems/Minimum-Distance-to-Type-a-Word-Using-Two-Fingers/)|Hard|To Do|To Do|
+|1323|[Maximum 69 Number](https://leetcode-cn.com/problems/Maximum-69-Number/)|Easy|To Do|To Do|
+|1324|[Print Words Vertically](https://leetcode-cn.com/problems/Print-Words-Vertically/)|Medium|To Do|To Do|
+|1325|[Delete Leaves With a Given Value](https://leetcode-cn.com/problems/Delete-Leaves-With-a-Given-Value/)|Medium|To Do|To Do|
+|1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode-cn.com/problems/Minimum-Number-of-Taps-to-Open-to-Water-a-Garden/)|Hard|To Do|To Do|
 |LCP 2|[Deep Dark Fraction](https://leetcode-cn.com/problems/Deep-Dark-Fraction/)|Easy|To Do|To Do|
 |LCP 4|[Broken Board Dominoes](https://leetcode-cn.com/problems/Broken-Board-Dominoes/)|Hard|To Do|To Do|
 |LCP 5|[Coin Bonus](https://leetcode-cn.com/problems/Coin-Bonus/)|Hard|To Do|To Do|

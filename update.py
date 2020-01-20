@@ -32,10 +32,7 @@ class Readme:
                 solutions[file_type] = file_path
 
     def __get_algorithms(self):
-        response = requests.get(self.__url, verify=False, proxies={
-            'http': 'http://f00503438:forevercet-6@proxy.huawei.com:8080/',
-            'https': 'https://f00503438:forevercet-6@proxy.huawei.com:8080/',
-        }).json()
+        response = requests.get(self.__url).json()
 
         algorithms = response['stat_status_pairs']
 
