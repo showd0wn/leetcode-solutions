@@ -66,7 +66,7 @@ class Readme:
                     '|**Accept**|{}|{}|{}|{}|\n'
                     '|**Total**|{}|{}|{}|{}|\n'
                     '### 题解\n'
-                    '| ID | Title | Difficulty | &nbsp;&nbsp;Java&nbsp;&nbsp; | JavaScript | Python |\n'
+                    '| &nbsp;&nbsp;ID&nbsp;&nbsp; | Title | Difficulty | &nbsp;&nbsp;Java&nbsp;&nbsp; | JavaScript | Python |\n'
                     '|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
                         self.stats['Easy']['accept'],
                         self.stats['Medium']['accept'],
