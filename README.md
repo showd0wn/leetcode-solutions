@@ -7,7 +7,7 @@
 |**Accept**|31|7|0|38|
 |**Total**|358|687|293|1338|
 ### 题解
-| &nbsp;&nbsp;ID&nbsp;&nbsp; | Title | Difficulty | &nbsp;&nbsp;Java&nbsp;&nbsp; | JavaScript | Python |
+| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | &nbsp;&nbsp;Java&nbsp;&nbsp; | JavaScript | Python |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0001|[Two Sum](https://leetcode-cn.com/problems/Two-Sum/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0001.%20两数之和/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0001.%20两数之和/solution.py)|
 |0002|[Add Two Numbers](https://leetcode-cn.com/problems/Add-Two-Numbers/)|Medium|To Do|To Do|To Do|
