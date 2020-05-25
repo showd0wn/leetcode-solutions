@@ -16,7 +16,7 @@
 |0005|[Longest Palindromic Substring](https://leetcode-cn.com/problems/Longest-Palindromic-Substring/)|Medium|To Do|To Do|To Do|
 |0006|[ZigZag Conversion](https://leetcode-cn.com/problems/ZigZag-Conversion/)|Medium|To Do|To Do|To Do|
 |0007|[Reverse Integer](https://leetcode-cn.com/problems/Reverse-Integer/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0007.%20整数反转/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0007.%20整数反转/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0007.%20整数反转/solution.py)|
-|0008|[String to Integer (atoi)](https://leetcode-cn.com/problems/String-to-Integer-atoi/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0008.%20字符串转换整数%20(atoi)/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0008.%20字符串转换整数%20(atoi)/solution.py)|
+|0008|[String to Integer (atoi)](https://leetcode-cn.com/problems/String-to-Integer-atoi/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0008.%20字符串转换整数%20(atoi)/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0008.%20字符串转换整数%20(atoi)/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/0008.%20字符串转换整数%20(atoi)/solution.py)|
 |0009|[Palindrome Number](https://leetcode-cn.com/problems/Palindrome-Number/)|Easy|To Do|To Do|To Do|
 |0010|[Regular Expression Matching](https://leetcode-cn.com/problems/Regular-Expression-Matching/)|Hard|To Do|To Do|To Do|
 |0011|[Container With Most Water](https://leetcode-cn.com/problems/Container-With-Most-Water/)|Medium|To Do|To Do|To Do|
