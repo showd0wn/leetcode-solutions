@@ -3,6 +3,7 @@ import requests
 import re
 import os
 
+requests.packages.urllib3.disable_warnings()
 
 class Readme:
     __target = 'https://github.com/showd0wn/leetcode/tree/master/'
@@ -32,7 +33,7 @@ class Readme:
                 solutions[file_type] = file_path
 
     def __get_algorithms(self):
-        response = requests.get(self.__url).json()
+        response = requests.get(self.__url, verify=False).json()
 
         algorithms = response['stat_status_pairs']
 
@@ -94,7 +95,7 @@ class Readme:
     def generateTableTitle(self, title, lock):
         return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
             title + ' :lock:' if lock else title,
-            title.replace(' ', '-')
+            title.replace(' ', '-').replace('(', '').replace(')', '')
         )
 
     def generateTableSolution(self, type, id):
