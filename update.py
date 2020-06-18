@@ -25,7 +25,7 @@ class Readme:
         for root, _, files in os.walk(self.__dir):
             if not len(files):
                 continue
-            num = re.search(r'\d{4}', root).group()
+            num = re.search(r'\[.+\]', root).group()[1:-1]
             solutions = self.solutions[num] = {}
             for file in files:
                 file_type = file.split('.')[1]
