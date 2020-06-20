@@ -20,7 +20,7 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int firstUniqChar(String s) {
-        HashMap<Character, Integer> count = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> count = new HashMap<>();
         int length = s.length();
 
         for (int i = 0; i < length; i++) {
