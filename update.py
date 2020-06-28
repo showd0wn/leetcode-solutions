@@ -38,7 +38,7 @@ class Readme:
         algorithms = response['stat_status_pairs']
 
         for algo in algorithms[::-1]:
-            num = algo['stat']['frontend_question_id'].zfill(4)
+            num = algo['stat']['frontend_question_id']
             level = algo['difficulty']['level']
             level_desc = self.__level_map[level]
 
