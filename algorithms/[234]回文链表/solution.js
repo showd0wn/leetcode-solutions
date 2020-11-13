@@ -10,28 +10,28 @@
  * @return {boolean}
  */
 const isPalindrome = function(head) {
-    if (!head || !head.next) return true
+    if (!head || !head.next) return true;
 
     // find middle
-    let slow = head, fast = head, cacheHead = head
+    let slow = head, fast = head, cacheHead = head;
     while (fast && fast.next) {
-        slow = slow.next
-        fast = fast.next.next
+        slow = slow.next;
+        fast = fast.next.next;
     }
 
     // reverse link list
-    let prev = null
+    let prev = null;
     while (slow) {
-        let next = slow.next
-        slow.next = prev
-        prev = slow
-        slow = next
+        let next = slow.next;
+        slow.next = prev;
+        prev = slow;
+        slow = next;
     }
 
     // judge palindrom
-    let list1 = cacheHead, list2 = prev
+    let list1 = cacheHead, list2 = prev;
     for (; list2; list1 = list1.next, list2 = list2.next) {
-        if (list1.val !== list2.val) return false
+        if (list1.val !== list2.val) return false;
     }
-    return true
-}
+    return true;
+};

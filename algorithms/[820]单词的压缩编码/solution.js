@@ -6,7 +6,7 @@ const minimumLengthEncoding = function(words) {
   if (!words || !words.length) return 0;
   
   words.sort((a, b) => b.length - a.length);
-  const len = words.length
+  const len = words.length;
   const dp = [];
   
   dp[0] = words[0].length + 1;

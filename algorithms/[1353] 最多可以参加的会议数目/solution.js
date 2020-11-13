@@ -16,7 +16,7 @@ var maxEvents = function(events) {
   for (let day = startDay; day <= endDay; day += 1) {
     const index = events.findIndex(([start, end]) => start <= day && day <= end);
     if (index >= 0) {
-      result += 1
+      result += 1;
       events.splice(index, 1);
       if (!events.length) break;
     }

@@ -3,17 +3,17 @@
  * @return {string[]}
  */
 const fizzBuzz = function(n) {
-    const res = []
+    const res = [];
     for (let i = 1; i <= n; i += 1) {
         if (i % 3 == 0 && i % 5 == 0) {
-            res.push('FizzBuzz')
+            res.push('FizzBuzz');
         } else if (i % 3 == 0 ) {
-            res.push('Fizz')
+            res.push('Fizz');
         } else if (i % 5 == 0 ) {
-            res.push('Buzz')
+            res.push('Buzz');
         } else {
-            res.push(i + '')
+            res.push(i + '');
         }
     }
-    return res
-}
+    return res;
+};

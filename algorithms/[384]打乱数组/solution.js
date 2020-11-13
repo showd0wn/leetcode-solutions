@@ -2,7 +2,7 @@
  * @param {number[]} nums
  */
 var Solution = function(nums) {
-    this.nums = nums || []
+    this.nums = nums || [];
 };
 
 /**
@@ -10,7 +10,7 @@ var Solution = function(nums) {
  * @return {number[]}
  */
 Solution.prototype.reset = function() {
-    return this.nums
+    return this.nums;
 };
 
 /**
@@ -18,14 +18,14 @@ Solution.prototype.reset = function() {
  * @return {number[]}
  */
 Solution.prototype.shuffle = function() {
-    let random = []
-    let numsCopy = [...this.nums]
+    let random = [];
+    let numsCopy = [...this.nums];
     while(numsCopy.length > 0) {
-        let index = Math.floor(Math.random() * numsCopy.length)
-        random.push(numsCopy[index])
-        numsCopy.splice(index, 1)
+        let index = Math.floor(Math.random() * numsCopy.length);
+        random.push(numsCopy[index]);
+        numsCopy.splice(index, 1);
     }
-    return random
+    return random;
 };
 
 /**

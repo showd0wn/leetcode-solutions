@@ -4,6 +4,6 @@
  * @return {boolean}
  */
 const isAnagram = function(s, t) {
-    const helper = str => str.split('').sort().join('')
-    return helper(s) === helper(t)
-}
+    const helper = str => str.split('').sort().join('');
+    return helper(s) === helper(t);
+};

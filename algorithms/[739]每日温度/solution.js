@@ -10,7 +10,7 @@ const dailyTemperatures = function(T) {
   //   if (T[i] < T[i + 1]) {
   //     res.push(1);
   //   } else {
-  //     const left = T.slice(i + 1)
+  //     const left = T.slice(i + 1);
   //     const index = left.findIndex(item => item > T[i]);
   //     res.push(index === -1 ? 0 : index + 1);
   //   }
@@ -30,7 +30,7 @@ const dailyTemperatures = function(T) {
       } else if (res[j] === 0) {
         break;
       } else {
-        j += res[j]
+        j += res[j];
       }
     }
   }
