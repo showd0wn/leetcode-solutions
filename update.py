@@ -5,6 +5,7 @@ import os
 
 requests.packages.urllib3.disable_warnings()
 
+
 class Readme:
     __target = 'https://github.com/showd0wn/leetcode/tree/master/'
     __url = 'https://leetcode-cn.com/api/problems/algorithms/'
