@@ -2,6 +2,7 @@
  * @param {string} s
  * @return {number}
  */
+// 滑动窗口
 const lengthOfLongestSubstring = function(s) {
   const len = s.length;
 

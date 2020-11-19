@@ -2,6 +2,7 @@
  * @param {character[][]} grid
  * @return {number}
  */
+// 深度优先搜索 dfs
 const numIslands = function(grid) {
   if (!grid || !grid.length) return 0;
   const rLen = grid.length;
