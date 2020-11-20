@@ -18,6 +18,7 @@ const maxArea = function(height) {
 };
 
 // 双指针
+// 左右指针分别指向数组的左右两端，总是移动值较小的那个指针
 const maxArea2 = function(height) {
   const len = height.length;
   let [left, right] = [0, len - 1];

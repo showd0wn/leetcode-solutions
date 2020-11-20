@@ -2,6 +2,7 @@
  * @param {number[][]} people
  * @return {number[][]}
  */
+// 排序 + 插入
 const reconstructQueue = function(people) {
   if (!people || !people.length) return [];
 

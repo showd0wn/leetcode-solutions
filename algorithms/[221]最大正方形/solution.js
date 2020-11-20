@@ -10,7 +10,9 @@ const maximalSquare = function(matrix) {
   let maxSide = 0;
   for (let i = 0; i < rowLen; i += 1) {
     for (let j = 0; j < colLen; j += 1) {
+      // 广度优先搜索 BFS
       if (matrix[i][j] === '1') {
+        // k 表示以 (i,j) 为左上角的最大正方形边长
         let k = 1;
         while (i + k < rowLen && j + k < colLen) {
           let flag = true;
@@ -43,13 +45,16 @@ const maximalSquare = function(matrix) {
 };
 
 
-// dp
+// 动态规划
 const maximalSquare2 = function(matrix) {
   if (!matrix || !matrix.length) return 0;
   let rowLen = matrix.length;
   let colLen = matrix[0].length;
-
+  
+  // dp[i][j] 表示以 (i,j) 为右下角的最大正方形的边长
   const dp = [];
+
+  // 根据递推关系，从上往下，从左往右遍历
   for (let i = 0; i < rowLen; i += 1) {
     dp[i] = [];
     for (let j = 0; j < colLen; j += 1) {

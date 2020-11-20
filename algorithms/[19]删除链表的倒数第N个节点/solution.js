@@ -14,6 +14,7 @@ const removeNthFromEnd = function(head, n) {
     const start = new ListNode(0)
     start.next = head
 
+    // 快慢指针
     let i = start, j = start
     while (n--) {
         j = j.next

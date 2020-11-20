@@ -19,6 +19,7 @@ const letterCombinations = function(digits) {
     '9': 'wxyz',
   };
 
+  // 回溯
   const backtrack = function(f = 0) {
     if (f === len) {
       res.push(tmp.join(''));

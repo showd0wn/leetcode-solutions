@@ -7,7 +7,8 @@ const longestLine = function(M) {
   const rlen = M.length;
   const clen = M[0].length;
   let res = 0;
-  
+
+  // 深度优先搜索 DFS
   const dfs = function(i, j, direction, count) {
     if (!M[i] || M[i][j] !== 1) {
       res = Math.max(res, count);

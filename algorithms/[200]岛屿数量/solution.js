@@ -2,7 +2,6 @@
  * @param {character[][]} grid
  * @return {number}
  */
-// 深度优先搜索 dfs
 const numIslands = function(grid) {
   if (!grid || !grid.length) return 0;
   const rLen = grid.length;
@@ -21,6 +20,7 @@ const numIslands = function(grid) {
   return res;
 };
 
+// 深度优先搜索 DFS
 function dfs(grid, row, col) {
   const rLen = grid.length;
   const cLen = grid[0].length;

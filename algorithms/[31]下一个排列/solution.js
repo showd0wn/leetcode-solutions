@@ -7,6 +7,7 @@ const nextPermutation = function(nums) {
   let k = -1;
   let l = -1;
 
+  // 第一遍扫描
   for (let i = len - 2; i >= 0; i -= 1) {
     if (nums[i] < nums[i + 1]) {
       k = i;
@@ -17,6 +18,7 @@ const nextPermutation = function(nums) {
     return nums.reverse();
   }
 
+  // 第二遍扫描
   for (let j = len - 1; j >= 0; j -= 1) {
     if (nums[j] > nums[k]) {
       l = j;

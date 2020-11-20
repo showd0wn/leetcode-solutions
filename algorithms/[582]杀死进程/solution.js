@@ -40,7 +40,7 @@ const killProcess2 = function(pid, ppid, kill) {
   return res;
 };
 
-// HaskMap * BFS
+// HaskMap & BFS
 const killProcess3 = function(pid, ppid, kill) {
   const n = pid.length;
   const map = new Map();

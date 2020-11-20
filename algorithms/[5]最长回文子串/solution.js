@@ -2,13 +2,15 @@
  * @param {string} s
  * @return {string}
  */
-
-// 动态规划 dp
 const longestPalindrome = function(s) {
   const n = s.length;
+
+  // 动态规划
+  // dp[i][j] 代表字符串下标从 i 到 j 是否为回文子串
   const dp = [];
   let res = '';
 
+  // 根据递推关系，按子串长度从小到大遍历
   for (let l = 0; l < n; l += 1) {
     for (let i = 0; i < n - l; i += 1) {
       if (dp[i] === undefined) {

@@ -3,12 +3,14 @@
  * @param {number[][]} prerequisites
  * @return {boolean}
  */
+ // 拓扑排序问题
 const canFinish = function(numCourses, prerequisites) {
   const indeg = new Array(numCourses).fill(0);
   prerequisites.forEach(([course, _]) => {
     indeg[course] += 1;
   });
 
+   // 广度优先搜索 BFS
   const queue = [];
   indeg.forEach((v, i) => {
     if (v === 0) {

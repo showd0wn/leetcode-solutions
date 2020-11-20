@@ -9,9 +9,9 @@ const decodeString = function (s) {
   let res = '';
   // 用于记录当前的数字
   let times = 0;
-  // 记录出现过的数字
+  // 记录出现过的数字 辅助栈
   let numStack = [];
-  // 记录出现过的字符
+  // 记录出现过的字符 辅助栈
   let strStack = [];
 
   for (let i = 0; i < s.length; i += 1) {

@@ -5,7 +5,8 @@
 const maxDistance = function(grid) {
   const len = grid.length;
   let res = -1;
-
+  
+  // 广度优先搜索 BFS
   const bfs = function(x, y) {
     const visited = [];
     for (let i = 0; i < len; i++) {

@@ -8,9 +8,9 @@ const threeSum = function(nums) {
   // for (let i = 0; i < len; i += 1) {
   //   const x = nums[i];
   //   const map = new Map();
-  //   const left = nums.slice(i + 1);
+  //   const right = nums.slice(i + 1);
   //   for (let j = 0; j < len -i - 1; j += 1) {
-  //     const y = left[j];
+  //     const y = right[j];
   //     if (map.has(y)) {
   //       result.push([x, y, map.get(y)].sort((a, b) => a - b));
   //       map.delete(y);
@@ -26,6 +26,7 @@ const threeSum = function(nums) {
   // const tmp = result.map(array => array.join(','));
   // return [...new Set(tmp)].map(item => item.split(','))
 
+  // 排序 + 双指针
   let ans = [];
   const len = nums.length;
   if (nums == null || len < 3) return ans;

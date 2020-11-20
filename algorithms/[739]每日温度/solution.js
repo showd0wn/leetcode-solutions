@@ -10,8 +10,8 @@ const dailyTemperatures = function(T) {
   //   if (T[i] < T[i + 1]) {
   //     res.push(1);
   //   } else {
-  //     const left = T.slice(i + 1);
-  //     const index = left.findIndex(item => item > T[i]);
+  //     const right = T.slice(i + 1);
+  //     const index = right.findIndex(item => item > T[i]);
   //     res.push(index === -1 ? 0 : index + 1);
   //   }
   // }
@@ -21,6 +21,7 @@ const dailyTemperatures = function(T) {
   const len = T.length;
   const res = new Array(len).fill(0);
 
+  // 从右向左遍历，利用后面计算过的位置，减少遍历次数
   for (let i = len - 1; i >= 0; i -= 1) {
     let j = i + 1;
     while (j < len) {
@@ -33,6 +34,23 @@ const dailyTemperatures = function(T) {
         j += res[j];
       }
     }
+  }
+  return res;
+};
+
+const dailyTemperatures2 = function(T) {
+  const len = T.length;
+  const res = new Array(len).fill(0);
+
+  // 单调栈
+  const stack = [];
+
+  for (let i = 0; i < len; i += 1) {
+    while (stack.length && T[stack[stack.length - 1]] < T[i]) {
+      const val = stack.pop();
+      res[val] = i - val;
+    }
+    stack.push(i);
   }
   return res;
 };

@@ -4,6 +4,8 @@
  */
 const nextGreaterElements = function(nums) {
   const n = nums.length;
+
+  // 单调栈
   const stack = [];
   const res = [];
 

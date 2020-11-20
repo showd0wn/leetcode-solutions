@@ -10,8 +10,12 @@ const canPartitionKSubsets = function(nums, k) {
   return backtrace(nums, sums, 0, k, sum / k);
 };
 
+// 回溯
 const backtrace = function(nums, sums, i, k, average) {
-  if (i === nums.length) return true;
+  if (i === nums.length) {
+    return true;
+  }
+
   for (let j = 0; j < k; j += 1) {
     if (sums[j] > average || sums[j] + nums[i] > average) continue;
     sums[j] += nums[i];

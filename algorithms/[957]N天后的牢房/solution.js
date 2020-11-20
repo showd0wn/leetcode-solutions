@@ -19,6 +19,7 @@ const prisonAfterNDays = function(cells, N) {
       const r = last[i + 1];
       return (l === 0 && r === 0) || (l === 1 && r === 1) ? 1 : 0;
     });
+    // 判断是否循环
     loopIndex = res.findIndex(v => v.join('') === temp.join(''));
     if (loopIndex !== -1) break;
     res[++count] = temp;

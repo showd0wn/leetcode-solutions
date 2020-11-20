@@ -3,24 +3,32 @@
  * @return {number}
  */
 var maxEvents = function(events) {
-  events.sort((a, b) => {
-    if (a[1] === b[1]) {
-      return a[0] - b[0];
-    }
-    return a[1] - b[1];
-  });
+  // 按会议结束时间升序排序
+  events.sort((a, b) => a[1] - b[1]);
 
-  const startDay = Math.min(...events.flat());
-  const endDay = Math.max(...events.flat());
-  let result = 0;
-  for (let day = startDay; day <= endDay; day += 1) {
-    const index = events.findIndex(([start, end]) => start <= day && day <= end);
-    if (index >= 0) {
-      result += 1;
-      events.splice(index, 1);
-      if (!events.length) break;
+  // 提前判断是否有全部可以参加会议的情况
+  let flag = true;
+  for (let i = 1; i < events.length; i += 1) {
+    if (events[i][1] == events[i - 1][1]) {
+      flag = false;
+      break;
     }
   }
 
-  return result;
+  if (flag) {
+    return events.length;
+  }
+
+  // 贪心
+  const set = new Set();
+  for (let event of events) {
+    for (let i = event[0]; i <= event[1]; i += 1) {
+      if (!set.has(i)) {
+        set.add(i)
+        break;
+      }
+    }
+  }
+
+  return set.size;
 };

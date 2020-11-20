@@ -5,6 +5,9 @@
 const permute = function(nums) {
   if (!nums || !nums.length) return [];
   const len = nums.length;
+
+  // 动态规划
+  // dp[i] 表示前 i 个数的全排列
   const dp = [];
 
   dp[0] = [[nums[0]]];
@@ -20,10 +23,11 @@ const permute = function(nums) {
   return dp[len - 1];
 };
 
-// backtrack
 const permute2 = function(nums) {
   const len = nums.length;
   const res = [];
+
+  // 回溯
   const backtrack = function(f = 0) {
     if (f === len) {
       res.push([...nums]);
@@ -38,4 +42,4 @@ const permute2 = function(nums) {
 
   backtrack();
   return res;
-}
+};

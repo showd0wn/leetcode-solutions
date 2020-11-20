@@ -7,6 +7,7 @@ const findCircleNum = function(M) {
   const visited = new Array(n).fill(0);
   let res = 0;
 
+  // 深度优先搜索 DFS
   const dfs = function(i) {
     visited[i] = 1;
     for (let j = 0; j < n; j += 1) {

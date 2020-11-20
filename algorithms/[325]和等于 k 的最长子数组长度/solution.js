@@ -9,6 +9,7 @@ const maxSubArrayLen = function(nums, k) {
   map.set(0, 0);
   let res = 0;
 
+  // 前缀和
   let preSum = 0;
   for (let i = 0; i < len; i += 1) {
     preSum += nums[i];
