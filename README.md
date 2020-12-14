@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|45|58|2|105|
+|**Accept**|46|58|2|106|
 |**Total**|390|824|351|1565|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | &nbsp;&nbsp;Java&nbsp;&nbsp; | JavaScript | Python |
@@ -43,7 +43,7 @@
 |32|[Longest Valid Parentheses](https://leetcode-cn.com/problems/Longest-Valid-Parentheses/)|Hard|To Do|To Do|To Do|
 |33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/Search-in-Rotated-Sorted-Array/)|Medium|To Do|To Do|To Do|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/Find-First-and-Last-Position-of-Element-in-Sorted-Array/)|Medium|To Do|To Do|To Do|
-|35|[Search Insert Position](https://leetcode-cn.com/problems/Search-Insert-Position/)|Easy|To Do|To Do|To Do|
+|35|[Search Insert Position](https://leetcode-cn.com/problems/Search-Insert-Position/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[35]搜索插入位置/solution.js)|To Do|
 |36|[Valid Sudoku](https://leetcode-cn.com/problems/Valid-Sudoku/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.py)|
 |37|[Sudoku Solver](https://leetcode-cn.com/problems/Sudoku-Solver/)|Hard|To Do|To Do|To Do|
 |38|[Count and Say](https://leetcode-cn.com/problems/Count-and-Say/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]报数/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]报数/solution.py)|
