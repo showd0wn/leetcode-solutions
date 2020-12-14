@@ -90,7 +90,7 @@ class Readme:
                 }
                 f.write('|{id}|{title}|{level}|{java}|{js}|{py}|\n'.format(**data))
 
-        print('\n------------------\n')
+        print('\n--------------------\n')
         print('README.md was created!')
 
     def generateTableTitle(self, title, lock):
