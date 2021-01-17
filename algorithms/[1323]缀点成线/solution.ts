@@ -1,0 +1,23 @@
+/*
+ * @lc app=leetcode.cn id=1232 lang=typescript
+ *
+ * [1232] 缀点成线
+ */
+
+// @lc code=start
+function checkStraightLine(coordinates: number[][]): boolean {
+  const [x0, y0] = coordinates[0];
+  const [x1, y1] = coordinates[1];
+
+  // 判断是否斜率为 0
+  if (coordinates.every(([x, _]) => x === x1)) {
+    return true;
+  }
+
+  const a = (y1 - y0) / (x1 - x0);
+  const b = y0 - a * x0;
+
+  return coordinates.every(([x, y]) => y === a * x + b);
+};
+
+// @lc code=end
