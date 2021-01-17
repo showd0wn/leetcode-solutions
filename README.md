@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|30|9|0|39|
+|**Accept**|31|9|0|40|
 |**Total**|399|839|361|1599|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | TypeScript | Python |
@@ -1259,7 +1259,7 @@
 |1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode-cn.com/problems/Number-of-Sub-arrays-of-Size-K-and-Average-Greater-than-or-Equal-to-Threshold/)|Medium|To Do|To Do|
 |1344|[Angle Between Hands of a Clock](https://leetcode-cn.com/problems/Angle-Between-Hands-of-a-Clock/)|Medium|To Do|To Do|
 |1345|[Jump Game IV](https://leetcode-cn.com/problems/Jump-Game-IV/)|Hard|To Do|To Do|
-|1323|[Maximum 69 Number](https://leetcode-cn.com/problems/Maximum-69-Number/)|Easy|To Do|To Do|
+|1323|[Maximum 69 Number](https://leetcode-cn.com/problems/Maximum-69-Number/)|Easy|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1323]缀点成线/solution.ts)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1323]缀点成线/solution.py)|
 |1324|[Print Words Vertically](https://leetcode-cn.com/problems/Print-Words-Vertically/)|Medium|To Do|To Do|
 |1325|[Delete Leaves With a Given Value](https://leetcode-cn.com/problems/Delete-Leaves-With-a-Given-Value/)|Medium|To Do|To Do|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode-cn.com/problems/Minimum-Number-of-Taps-to-Open-to-Water-a-Garden/)|Hard|To Do|To Do|
