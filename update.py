@@ -30,8 +30,8 @@ class Readme:
             solutions = self.solutions[num] = {}
             for file in files:
                 file_type = file.split('.')[1]
-                file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
-                if file_path in ('ts', 'py'):
+                if file_type in ('ts', 'py'):
+                    file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
                     solutions[file_type] = file_path
 
     def __get_algorithms(self):
