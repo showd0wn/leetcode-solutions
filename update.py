@@ -68,8 +68,8 @@ class Readme:
                     '|**Accept**|{}|{}|{}|{}|\n'
                     '|**Total**|{}|{}|{}|{}|\n'
                     '### 题解\n'
-                    '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | &nbsp;&nbsp;Java&nbsp;&nbsp; | JavaScript | Python |\n'
-                    '|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
+                    '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | TypeScript | Python |\n'
+                    '|:---:|:---:|:---:|:---:|:---:|\n'.format(
                         self.stats['Easy']['accept'],
                         self.stats['Medium']['accept'],
                         self.stats['Hard']['accept'],
@@ -84,11 +84,10 @@ class Readme:
                     'id': problem['id'],
                     'level': self.__level_map[problem['level']],
                     'title': self.generateTableTitle(problem['title'], problem['lock']),
-                    'java': self.generateTableSolution('java', problem['id']),
-                    'js': self.generateTableSolution('js', problem['id']),
+                    'ts': self.generateTableSolution('ts', problem['id']),
                     'py': self.generateTableSolution('py', problem['id']),
                 }
-                f.write('|{id}|{title}|{level}|{java}|{js}|{py}|\n'.format(**data))
+                f.write('|{id}|{title}|{level}|{ts}|{py}|\n'.format(**data))
 
         print('\n--------------------\n')
         print('README.md was created!')
@@ -103,8 +102,7 @@ class Readme:
         if id not in self.solutions or type not in self.solutions[id]:
             return 'To Do'
         return '[{}]({})'.format({
-            'java': 'Java',
-            'js': 'JavaScript',
+            'ts': 'TypeScript',
             'py': 'Python',
         }[type], os.path.join(self.__target, self.solutions[id][type]))
 
