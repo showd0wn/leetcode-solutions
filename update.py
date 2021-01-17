@@ -31,7 +31,8 @@ class Readme:
             for file in files:
                 file_type = file.split('.')[1]
                 file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
-                solutions[file_type] = file_path
+                if file_path in ('ts', 'py'):
+                    solutions[file_type] = file_path
 
     def __get_algorithms(self):
         response = requests.get(self.__url, verify=False).json()
