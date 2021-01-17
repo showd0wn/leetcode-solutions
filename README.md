@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|31|9|0|40|
+|**Accept**|31|8|0|39|
 |**Total**|399|839|361|1599|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | TypeScript | Python |
@@ -375,7 +375,7 @@
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode-cn.com/problems/Insert-Delete-GetRandom-O1---Duplicates-allowed/)|Hard|To Do|To Do|
 |382|[Linked List Random Node](https://leetcode-cn.com/problems/Linked-List-Random-Node/)|Medium|To Do|To Do|
 |383|[Ransom Note](https://leetcode-cn.com/problems/Ransom-Note/)|Easy|To Do|To Do|
-|384|[Shuffle an Array](https://leetcode-cn.com/problems/Shuffle-an-Array/)|Medium|To Do|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[384]打乱数组/solution.py)|
+|384|[Shuffle an Array](https://leetcode-cn.com/problems/Shuffle-an-Array/)|Medium|To Do|To Do|
 |385|[Mini Parser](https://leetcode-cn.com/problems/Mini-Parser/)|Medium|To Do|To Do|
 |386|[Lexicographical Numbers](https://leetcode-cn.com/problems/Lexicographical-Numbers/)|Medium|To Do|To Do|
 |387|[First Unique Character in a String](https://leetcode-cn.com/problems/First-Unique-Character-in-a-String/)|Easy|To Do|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|
