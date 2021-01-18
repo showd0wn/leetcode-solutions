@@ -37,6 +37,7 @@ class UnionFind {
  * @return {string[][]}
  */
 function accountsMerge(accounts: string[][]): string[][] {
+  // 哈希表 & 并查集
   const emailToIndex = new Map<string, number>();
   const emailToName = new Map<string, string>();
   let emailsCount: number = 0;
@@ -59,7 +60,7 @@ function accountsMerge(accounts: string[][]): string[][] {
     const firstEmail = account[1];
     const firstIndex = emailToIndex.get(firstEmail)!;
     const size = account.length;
-    for (let i = 2; i < size; i++) {
+    for (let i = 2; i < size; i += 1) {
       const nextEmail = account[i];
       const nextIndex = emailToIndex.get(nextEmail)!;
       uf.union(firstIndex, nextIndex);
@@ -74,13 +75,9 @@ function accountsMerge(accounts: string[][]): string[][] {
     indexToEmails.set(index, account);
   }
 
-  const merged = [];
-  for (const emails of indexToEmails.values()) {
+  return [...indexToEmails.values()].map(emails => {
     emails.sort();
-    const name = emailToName.get(emails[0]);
-    const account = [name, ...emails];
-    merged.push(account);
-  }
-
-  return merged;
+    const name = emailToName.get(emails[0])!;
+    return [name, ...emails];
+  });
 };
