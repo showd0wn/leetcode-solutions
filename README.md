@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|31|8|0|39|
-|**Total**|399|839|361|1599|
+|**Accept**|31|10|0|41|
+|**Total**|398|839|361|1598|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | TypeScript | Python |
 |:---:|:---:|:---:|:---:|:---:|
@@ -525,7 +525,7 @@
 |544|[Output Contest Matches :lock:](https://leetcode-cn.com/problems/Output-Contest-Matches/)|Medium|To Do|To Do|
 |545|[Boundary of Binary Tree :lock:](https://leetcode-cn.com/problems/Boundary-of-Binary-Tree/)|Medium|To Do|To Do|
 |546|[Remove Boxes](https://leetcode-cn.com/problems/Remove-Boxes/)|Hard|To Do|To Do|
-|547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|To Do|To Do|
+|547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|To Do|
 |548|[Split Array with Equal Sum :lock:](https://leetcode-cn.com/problems/Split-Array-with-Equal-Sum/)|Medium|To Do|To Do|
 |549|[Binary Tree Longest Consecutive Sequence II :lock:](https://leetcode-cn.com/problems/Binary-Tree-Longest-Consecutive-Sequence-II/)|Medium|To Do|To Do|
 |551|[Student Attendance Record I](https://leetcode-cn.com/problems/Student-Attendance-Record-I/)|Easy|To Do|To Do|
@@ -652,7 +652,7 @@
 |718|[Maximum Length of Repeated Subarray](https://leetcode-cn.com/problems/Maximum-Length-of-Repeated-Subarray/)|Medium|To Do|To Do|
 |719|[Find K-th Smallest Pair Distance](https://leetcode-cn.com/problems/Find-K-th-Smallest-Pair-Distance/)|Hard|To Do|To Do|
 |720|[Longest Word in Dictionary](https://leetcode-cn.com/problems/Longest-Word-in-Dictionary/)|Easy|To Do|To Do|
-|721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|To Do|To Do|
+|721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|To Do|
 |722|[Remove Comments](https://leetcode-cn.com/problems/Remove-Comments/)|Medium|To Do|To Do|
 |723|[Candy Crush :lock:](https://leetcode-cn.com/problems/Candy-Crush/)|Medium|To Do|To Do|
 |724|[Find Pivot Index](https://leetcode-cn.com/problems/Find-Pivot-Index/)|Easy|To Do|To Do|
@@ -1481,7 +1481,7 @@
 |1601|[Maximum Number of Achievable Transfer Requests](https://leetcode-cn.com/problems/Maximum-Number-of-Achievable-Transfer-Requests/)|Hard|To Do|To Do|
 |1621|[Number of Sets of K Non-Overlapping Line Segments](https://leetcode-cn.com/problems/Number-of-Sets-of-K-Non-Overlapping-Line-Segments/)|Medium|To Do|To Do|
 |1620|[Coordinate With Maximum Network Quality](https://leetcode-cn.com/problems/Coordinate-With-Maximum-Network-Quality/)|Medium|To Do|To Do|
-|5529|[Cat and Mouse II](https://leetcode-cn.com/problems/Cat-and-Mouse-II/)|Hard|To Do|To Do|
+|1728|[Cat and Mouse II](https://leetcode-cn.com/problems/Cat-and-Mouse-II/)|Hard|To Do|To Do|
 |1622|[Fancy Sequence](https://leetcode-cn.com/problems/Fancy-Sequence/)|Hard|To Do|To Do|
 |1586|[Binary Search Tree Iterator II :lock:](https://leetcode-cn.com/problems/Binary-Search-Tree-Iterator-II/)|Medium|To Do|To Do|
 |1608|[Special Array With X Elements Greater Than or Equal X](https://leetcode-cn.com/problems/Special-Array-With-X-Elements-Greater-Than-or-Equal-X/)|Easy|To Do|To Do|
@@ -1576,8 +1576,8 @@
 |1698|[Number of Distinct Substrings in a String :lock:](https://leetcode-cn.com/problems/Number-of-Distinct-Substrings-in-a-String/)|Medium|To Do|To Do|
 |1720|[Decode XORed Array](https://leetcode-cn.com/problems/Decode-XORed-Array/)|Easy|To Do|To Do|
 |1722|[Minimize Hamming Distance After Swap Operations](https://leetcode-cn.com/problems/Minimize-Hamming-Distance-After-Swap-Operations/)|Medium|To Do|To Do|
-|5653|[Number Of Rectangles That Can Form The Largest Square](https://leetcode-cn.com/problems/Number-Of-Rectangles-That-Can-Form-The-Largest-Square/)|Easy|To Do|To Do|
-|5655|[Largest Submatrix With Rearrangements](https://leetcode-cn.com/problems/Largest-Submatrix-With-Rearrangements/)|Medium|To Do|To Do|
+|1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode-cn.com/problems/Number-Of-Rectangles-That-Can-Form-The-Largest-Square/)|Easy|To Do|To Do|
+|1727|[Largest Submatrix With Rearrangements](https://leetcode-cn.com/problems/Largest-Submatrix-With-Rearrangements/)|Medium|To Do|To Do|
 |1708|[Largest Subarray Length K :lock:](https://leetcode-cn.com/problems/Largest-Subarray-Length-K/)|Easy|To Do|To Do|
 |1724|[Checking Existence of Edge Length Limited Paths II :lock:](https://leetcode-cn.com/problems/Checking-Existence-of-Edge-Length-Limited-Paths-II/)|Hard|To Do|To Do|
 |LCP 02|[Deep Dark Fraction](https://leetcode-cn.com/problems/Deep-Dark-Fraction/)|Easy|To Do|To Do|
@@ -1607,4 +1607,3 @@
 |LCP 22|[黑白方格画](https://leetcode-cn.com/problems/黑白方格画/)|Easy|To Do|To Do|
 |LCP 18|[早餐组合](https://leetcode-cn.com/problems/早餐组合/)|Easy|To Do|To Do|
 |LCP 27|[黑盒光线反射](https://leetcode-cn.com/problems/黑盒光线反射/)|Hard|To Do|To Do|
-|DD-2020006|[简单游戏](https://leetcode-cn.com/problems/简单游戏/)|Easy|To Do|To Do|
