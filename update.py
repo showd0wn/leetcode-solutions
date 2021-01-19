@@ -30,7 +30,7 @@ class Readme:
             solutions = self.solutions[num] = {}
             for file in files:
                 file_type = file.split('.')[1]
-                if file_type in ('ts', 'py'):
+                if file_type in ('py', 'ts'):
                     file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
                     solutions[file_type] = file_path
 
@@ -69,7 +69,7 @@ class Readme:
                     '|**Accept**|{}|{}|{}|{}|\n'
                     '|**Total**|{}|{}|{}|{}|\n'
                     '### 题解\n'
-                    '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | TypeScript | Python |\n'
+                    '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |\n'
                     '|:---:|:---:|:---:|:---:|:---:|\n'.format(
                         self.stats['Easy']['accept'],
                         self.stats['Medium']['accept'],
@@ -85,10 +85,11 @@ class Readme:
                     'id': problem['id'],
                     'level': self.__level_map[problem['level']],
                     'title': self.generateTableTitle(problem['title'], problem['lock']),
-                    'ts': self.generateTableSolution('ts', problem['id']),
                     'py': self.generateTableSolution('py', problem['id']),
+                    'ts': self.generateTableSolution('ts', problem['id']),
                 }
-                f.write('|{id}|{title}|{level}|{ts}|{py}|\n'.format(**data))
+                if data['py'] != 'To Do' or data['ts'] != 'To Do':
+                    f.write('|{id}|{title}|{level}|{py}|{ts}|\n'.format(**data))
 
         print('\n--------------------\n')
         print('README.md was created!')
