@@ -14,7 +14,6 @@ jobs:
 
       - name: Update
         run: |
-          pip install requests
           python ./update.py
 
       - name: Commit
