@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-import requests
 import re
 import os
+import ssl
+import json
+from urllib import request
 
-requests.packages.urllib3.disable_warnings()
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 class Readme:
@@ -15,9 +17,18 @@ class Readme:
 
     def __init__(self):
         self.stats = {
-            'Easy': {'total': 0, 'accept': 0},
-            'Medium': {'total': 0, 'accept': 0},
-            'Hard': {'total': 0, 'accept': 0},
+            'Easy': {
+                'total': 0,
+                'accept': 0
+            },
+            'Medium': {
+                'total': 0,
+                'accept': 0
+            },
+            'Hard': {
+                'total': 0,
+                'accept': 0
+            },
         }
         self.solutions = {}
         self.problems = []
@@ -35,7 +46,7 @@ class Readme:
                     solutions[file_type] = file_path
 
     def __get_algorithms(self):
-        response = requests.get(self.__url, verify=False).json()
+        response = self.fetch_data(self.__url)
 
         algorithms = response['stat_status_pairs']
 
@@ -61,25 +72,26 @@ class Readme:
         self.__get_algorithms()
 
         with open(self.__readme_path, 'w', encoding='utf-8') as f:
-            f.write('# LeetCode\n'
-                    '### 进度\n'
-                    '> 统计规则： 算法题\n\n'
-                    '|     |Easy|Medium|Hard|Total|\n'
-                    '|:---:|:---:|:---:|:---:|:---:|\n'
-                    '|**Accept**|{}|{}|{}|{}|\n'
-                    '|**Total**|{}|{}|{}|{}|\n'
-                    '### 题解\n'
-                    '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |\n'
-                    '|:---:|:---:|:---:|:---:|:---:|\n'.format(
-                        self.stats['Easy']['accept'],
-                        self.stats['Medium']['accept'],
-                        self.stats['Hard']['accept'],
-                        self.stats['Easy']['accept'] + self.stats['Medium']['accept'] + self.stats['Hard']['accept'],
-                        self.stats['Easy']['total'],
-                        self.stats['Medium']['total'],
-                        self.stats['Hard']['total'],
-                        self.stats['Easy']['total'] + self.stats['Medium']['total'] + self.stats['Hard']['total'],
-                    ))
+            f.write(
+                '# LeetCode\n'
+                '### 进度\n'
+                '> 统计规则： 算法题\n\n'
+                '|     |Easy|Medium|Hard|Total|\n'
+                '|:---:|:---:|:---:|:---:|:---:|\n'
+                '|**Accept**|{}|{}|{}|{}|\n'
+                '|**Total**|{}|{}|{}|{}|\n'
+                '### 题解\n'
+                '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |\n'
+                '|:---:|:---:|:---:|:---:|:---:|\n'.format(
+                    self.stats['Easy']['accept'],
+                    self.stats['Medium']['accept'],
+                    self.stats['Hard']['accept'],
+                    self.stats['Easy']['accept'] + self.stats['Medium']['accept'] + self.stats['Hard']['accept'],
+                    self.stats['Easy']['total'],
+                    self.stats['Medium']['total'],
+                    self.stats['Hard']['total'],
+                    self.stats['Easy']['total'] + self.stats['Medium']['total'] + self.stats['Hard']['total'],
+                ))
             for problem in self.problems:
                 data = {
                     'id': problem['id'],
@@ -97,8 +109,7 @@ class Readme:
     def generateTableTitle(self, title, lock):
         return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
             title + ' :lock:' if lock else title,
-            title.replace(' ', '-').replace('(', '').replace(')', '')
-        )
+            title.replace(' ', '-').replace('(', '').replace(')', ''))
 
     def generateTableSolution(self, type, id):
         if id not in self.solutions or type not in self.solutions[id]:
@@ -107,6 +118,11 @@ class Readme:
             'ts': 'TypeScript',
             'py': 'Python',
         }[type], os.path.join(self.__target, self.solutions[id][type]))
+
+    def fetch_data(self, url):
+        req = request.Request(url)
+        with request.urlopen(req) as f:
+            return json.loads(f.read().decode('utf-8'))
 
 
 def main():
