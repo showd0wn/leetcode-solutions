@@ -20,7 +20,7 @@ jobs:
         run: |
           git config --global user.name showd0wn
           git config --global user.email showd0wn@163.com
-          git add .
+          git add README.md
           git commit -m "docs: 更新进度"
 
       - name: Push
