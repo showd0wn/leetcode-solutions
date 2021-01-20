@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v2
 
       - name: Set up Python
@@ -17,18 +17,14 @@ jobs:
         with:
           python-version: 3.8
         
-      - name: Update
+      - name: Update readme
         run: |
           python ./update.py
 
-      - name: Commit
-        run: |
-          git config --global user.name showd0wn
-          git config --global user.email showd0wn@163.com
-          git add README.md
-          git commit -m "docs: 更新进度"
-
-      - name: Push
-        uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          author_name: showd0wn
+          author_email: showd0wn@163.com
+          message: 'update by GitHub Actions'
+          add: 'README.md'
