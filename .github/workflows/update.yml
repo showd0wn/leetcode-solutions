@@ -1,0 +1,33 @@
+name: Update Readme
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push event but only for the master branch
+  push:
+    branches: [ master ]
+
+jobs:
+  # This workflow contains a single job called "update"
+  update:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Update
+        run: python ./update.py
+
+      - name: Commit
+        run: |
+          git config --global user.name showd0wn
+          git config --global user.email showd0wn@163.com
+          git add .
+          git commit -m "docs: 更新进度"
+
+      - name: Push
+        uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6
+        with:
+        github_token: ${{ secrets.GITHUB_ACTION_TOKEN }}
