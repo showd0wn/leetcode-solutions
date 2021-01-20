@@ -30,4 +30,4 @@ jobs:
       - name: Push
         uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6
         with:
-        github_token: ${{ secrets.GITHUB_ACTION_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}
