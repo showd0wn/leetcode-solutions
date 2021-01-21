@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|32|11|0|43|
-|**Total**|397|841|360|1598|
+|**Accept**|32|11|1|44|
+|**Total**|397|842|360|1599|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
 |:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,5 @@
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.py)|To Do|
+|1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode-cn.com/problems/Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree/)|Hard|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/Min-Cost-to-Connect-All-Points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|
