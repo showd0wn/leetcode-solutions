@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|32|11|1|44|
+|**Accept**|33|12|1|46|
 |**Total**|397|842|360|1599|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -38,6 +38,7 @@
 |217|[Contains Duplicate](https://leetcode-cn.com/problems/Contains-Duplicate/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.py)|To Do|
 |234|[Palindrome Linked List](https://leetcode-cn.com/problems/Palindrome-Linked-List/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.py)|To Do|
 |237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/Delete-Node-in-a-Linked-List/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.py)|To Do|
+|240|[Search a 2D Matrix II](https://leetcode-cn.com/problems/Search-a-2D-Matrix-II/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[240]搜索二维矩阵%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[240]搜索二维矩阵%20II/solution.ts)|
 |242|[Valid Anagram](https://leetcode-cn.com/problems/Valid-Anagram/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[242]有效的字母异位词/solution.py)|To Do|
 |278|[First Bad Version](https://leetcode-cn.com/problems/First-Bad-Version/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[278]第一个错误的版本/solution.py)|To Do|
 |283|[Move Zeroes](https://leetcode-cn.com/problems/Move-Zeroes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[283]移动零/solution.py)|To Do|
@@ -49,6 +50,7 @@
 |547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/Maximum-Product-of-Three-Numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
+|989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.py)|To Do|
 |1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode-cn.com/problems/Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree/)|Hard|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|
