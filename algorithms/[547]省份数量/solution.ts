@@ -1,7 +1,3 @@
-/**
- * @param {number[][]} isConnected
- * @return {number}
- */
 // 已知无向图的邻接矩阵，求连通分量
 function findCircleNum(isConnected: number[][]): number {
   // dfs

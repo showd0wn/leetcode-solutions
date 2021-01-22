@@ -30,10 +30,7 @@ export class UnionFind {
   }
 }
 
-/**
- * @param {number[][]} points
- * @return {number}
- */
+
 function minCostConnectPoints(points: number[][]): number {
   // 【最小生成树问题】 Kruskal 算法
   // 图解 https://blog.csdn.net/luoshixian099/article/details/51908175

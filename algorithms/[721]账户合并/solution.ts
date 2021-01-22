@@ -31,11 +31,6 @@ class UnionFind {
   }
 }
 
-
-/**
- * @param {string[][]} accounts
- * @return {string[][]}
- */
 function accountsMerge(accounts: string[][]): string[][] {
   // 哈希表 & 并查集
   const emailToIndex = new Map<string, number>();

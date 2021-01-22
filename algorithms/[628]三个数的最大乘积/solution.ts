@@ -1,7 +1,3 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
 function maximumProduct(nums: number[]): number {
   // 若数组中的数皆同符号，最大乘积即最大三个数乘积
   // 若数组中的数不同符号，最大乘积为最大三个正数乘积，或最小两个负数和最大正数乘积

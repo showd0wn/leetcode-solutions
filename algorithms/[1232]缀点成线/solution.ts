@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode.cn id=1232 lang=typescript
- *
- * [1232] 缀点成线
- */
-
-// @lc code=start
 function checkStraightLine(coordinates: number[][]): boolean {
   const [x0, y0] = coordinates[0];
   const [x1, y1] = coordinates[1];
@@ -19,5 +12,3 @@ function checkStraightLine(coordinates: number[][]): boolean {
 
   return coordinates.every(([x, y]) => y === a * x + b);
 };
-
-// @lc code=end
