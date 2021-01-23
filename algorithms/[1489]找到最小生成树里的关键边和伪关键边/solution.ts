@@ -11,7 +11,7 @@ export class UnionFind {
     const x = this.find(i);
     const y = this.find(j);
 
-    if (this.rank[x] < this.rank[y]) {
+    if (this.rank[x] <= this.rank[y]) {
       this.parent[x] = y;
     } else {
       this.parent[y] = x;
@@ -27,7 +27,7 @@ export class UnionFind {
     }
     return this.parent[x];
   }
-  reset() {
+  reset(): void {
     this.parent = Array.from({ length: this.length }, (_, i) => i);
     this.rank = Array.from({ length: this.length }, () => 1);
   }

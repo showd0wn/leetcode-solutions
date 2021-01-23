@@ -10,7 +10,7 @@ class UnionFind {
     const x = find(i);
     const y = find(j);
 
-    if (rank[x] < rank[y]) {
+    if (rank[x] <= rank[y]) {
       parent[x] = y;
     } else {
       parent[y] = x;

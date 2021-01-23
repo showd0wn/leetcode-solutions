@@ -1,12 +1,12 @@
-from typing import List
+from typing import List, NoReturn
 
 
 class UnionFind:
-    def __init__(self, n):
+    def __init__(self, n: int):
         self.parent = [i for i in range(n)]
         self.rank = [1] * n
 
-    def union(self, i, j):
+    def union(self, i: int, j: int) -> NoReturn:
         x, y = self.find(i), self.find(j)
 
         if self.rank[x] <= self.rank[y]:
@@ -18,7 +18,7 @@ class UnionFind:
         if self.rank[x] == self.rank[y] and x is not y:
             self.rank[y] += 1
 
-    def find(self, x):
+    def find(self, x: int) -> int:
         if self.parent[x] is not x:
             self.parent[x] = self.find(self.parent[x])
 

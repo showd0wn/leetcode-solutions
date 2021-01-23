@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Tuple
 
 
 class Solution:
@@ -26,13 +26,13 @@ class Solution:
         return min_cost
 
     # 求两点之间的哈曼顿距离
-    def get_hamanton_dis(self, p1, p2):
+    def get_hamanton_dis(self, p1: List[int], p2: List[int]) -> int:
         x1, y1 = p1
         x2, y2 = p2
         return abs(x1 - x2) + abs(y1 - y2)
 
     # 求数组中的最小非 0 值及索引
-    def get_min(self, list):
+    def get_min(self, list: List[int]) -> Tuple[int, int]:
         min_val = min([val for val in list if val])
         min_idx = list.index(min_val)
         return (min_val, min_idx)

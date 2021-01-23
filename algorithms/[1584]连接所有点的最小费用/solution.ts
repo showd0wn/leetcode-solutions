@@ -12,7 +12,7 @@ export class UnionFind {
     const x = this.find(i);
     const y = this.find(j);
 
-    if (this.rank[x] < this.rank[y]) {
+    if (this.rank[x] <= this.rank[y]) {
       this.parent[x] = y;
     } else {
       this.parent[y] = x;
