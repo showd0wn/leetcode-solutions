@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|33|12|1|46|
-|**Total**|397|842|360|1599|
+|**Accept**|33|13|1|47|
+|**Total**|398|844|361|1603|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
 |:---:|:---:|:---:|:---:|:---:|
@@ -52,6 +52,7 @@
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
+|1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/Number-of-Operations-to-Make-Network-Connected/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.ts)|
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.ts)|
 |1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode-cn.com/problems/Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree/)|Hard|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/Min-Cost-to-Connect-All-Points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|
