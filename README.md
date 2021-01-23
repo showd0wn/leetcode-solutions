@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|33|13|1|47|
+|**Accept**|33|14|1|48|
 |**Total**|398|844|361|1603|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -49,6 +49,7 @@
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
 |547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/Maximum-Product-of-Three-Numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
+|647|[Palindromic Substrings](https://leetcode-cn.com/problems/Palindromic-Substrings/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[647]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[647]最长连续递增序列/solution.ts)|
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
