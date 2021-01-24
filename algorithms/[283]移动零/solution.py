@@ -7,6 +7,5 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         for i in range(len(nums))[::-1]:
-            if (nums[i]):
-                continue
-            nums.append(nums.pop(i))
+            if not nums[i]:
+                nums.append(nums.pop(i))
