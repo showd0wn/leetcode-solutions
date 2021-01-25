@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|34|13|1|48|
+|**Accept**|34|14|1|49|
 |**Total**|399|846|362|1607|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -30,9 +30,9 @@
 |122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-II/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|To Do|
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/Valid-Palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|To Do|
 |136|[Single Number](https://leetcode-cn.com/problems/Single-Number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|To Do|
-|141|[Linked List Cycle](https://leetcode-cn.com/problems/Linked-List-Cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|To Do|
-|155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|To Do|
-|189|[Rotate Array](https://leetcode-cn.com/problems/Rotate-Array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|To Do|
+|141|[Linked List Cycle](https://leetcode-cn.com/problems/Linked-List-Cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|
+|155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.ts)|
+|189|[Rotate Array](https://leetcode-cn.com/problems/Rotate-Array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.ts)|
 |204|[Count Primes](https://leetcode-cn.com/problems/Count-Primes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.ts)|
 |206|[Reverse Linked List](https://leetcode-cn.com/problems/Reverse-Linked-List/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.ts)|
 |217|[Contains Duplicate](https://leetcode-cn.com/problems/Contains-Duplicate/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.ts)|
@@ -51,6 +51,7 @@
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/Maximum-Product-of-Three-Numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/Longest-Continuous-Increasing-Subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
+|959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/Regions-Cut-By-Slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/Number-of-Operations-to-Make-Network-Connected/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.ts)|
