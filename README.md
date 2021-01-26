@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|34|14|1|49|
+|**Accept**|35|14|1|50|
 |**Total**|399|846|362|1607|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -25,11 +25,11 @@
 |98|[Validate Binary Search Tree](https://leetcode-cn.com/problems/Validate-Binary-Search-Tree/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[98]验证二叉搜索树/solution.py)|To Do|
 |101|[Symmetric Tree](https://leetcode-cn.com/problems/Symmetric-Tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[101]对称二叉树/solution.py)|To Do|
 |102|[Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/Binary-Tree-Level-Order-Traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[102]二叉树的层次遍历/solution.py)|To Do|
-|104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/Maximum-Depth-of-Binary-Tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.py)|To Do|
-|108|[Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/Convert-Sorted-Array-to-Binary-Search-Tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.py)|To Do|
-|122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-II/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|To Do|
-|125|[Valid Palindrome](https://leetcode-cn.com/problems/Valid-Palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|To Do|
-|136|[Single Number](https://leetcode-cn.com/problems/Single-Number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|To Do|
+|104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/Maximum-Depth-of-Binary-Tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.ts)|
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/Convert-Sorted-Array-to-Binary-Search-Tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.ts)|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-II/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.ts)|
+|125|[Valid Palindrome](https://leetcode-cn.com/problems/Valid-Palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.ts)|
+|136|[Single Number](https://leetcode-cn.com/problems/Single-Number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.ts)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/Linked-List-Cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|
 |155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.ts)|
 |189|[Rotate Array](https://leetcode-cn.com/problems/Rotate-Array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.ts)|
@@ -53,6 +53,7 @@
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/Regions-Cut-By-Slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
+|1128|[Number of Equivalent Domino Pairs](https://leetcode-cn.com/problems/Number-of-Equivalent-Domino-Pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/Number-of-Operations-to-Make-Network-Connected/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.ts)|
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.ts)|
