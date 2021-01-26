@@ -4,7 +4,7 @@ class Solution:
             return '1'
         return self.say(self.countAndSay(n - 1))
 
-    def say(self, num):
+    def say(self, num) -> str:
         i, j, count, res = 0, 0, 0, ""
         while j < len(num):
             if not num[i] == num[j]:
