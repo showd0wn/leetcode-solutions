@@ -1,4 +1,4 @@
-from typing import List, NoReturn
+from typing import List
 
 
 class UnionFind:
@@ -6,7 +6,7 @@ class UnionFind:
         self.parent = [i for i in range(n)]
         self.rank = [1] * n
 
-    def union(self, i: int, j: int) -> NoReturn:
+    def union(self, i: int, j: int) -> None:
         x, y = self.find(i), self.find(j)
 
         if self.rank[x] <= self.rank[y]:

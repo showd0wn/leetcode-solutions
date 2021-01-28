@@ -1,5 +1,5 @@
 from collections import deque
-from typing import List, Set, NoReturn
+from typing import List, Set
 
 
 class Solution:
@@ -14,7 +14,7 @@ class Solution:
         return graph
 
     # 广度优先搜索
-    def bfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> NoReturn:
+    def bfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
         visited[idx] = 1
         queue = deque(graph[idx])
 
@@ -25,7 +25,7 @@ class Solution:
                 queue.extend(graph[cur])
 
     # 深度优先搜索
-    def dfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> NoReturn:
+    def dfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
         visited[idx] = 1
         for node in graph[idx]:
             if not visited[node]:

@@ -1,4 +1,4 @@
-from typing import List, NoReturn
+from typing import List
 
 
 class UnionFind:
@@ -7,7 +7,7 @@ class UnionFind:
         self.rank = [1] * n
         self.set_num = n
 
-    def union(self, i: int, j: int) -> NoReturn:
+    def union(self, i: int, j: int) -> None:
         x, y = self.find(i), self.find(j)
 
         if x is y:

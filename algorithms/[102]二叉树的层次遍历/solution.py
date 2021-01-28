@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-from typing import List, NoReturn
+from typing import List
 
 
 class Solution:
@@ -14,7 +14,7 @@ class Solution:
         self.helper(result, root, 0)
         return result
 
-    def helper(self, result, node, level) -> NoReturn:
+    def helper(self, result, node, level) -> None:
         if not node:
             return
         if len(result) <= level:
