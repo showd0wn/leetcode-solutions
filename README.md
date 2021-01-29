@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|36|15|2|53|
-|**Total**|399|848|361|1608|
+|**Accept**|36|17|2|55|
+|**Total**|398|849|361|1608|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
 |:---:|:---:|:---:|:---:|:---:|
@@ -50,6 +50,7 @@
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
 |547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/Maximum-Product-of-Three-Numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
+|648|[Replace Words](https://leetcode-cn.com/problems/Replace-Words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.ts)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/Longest-Continuous-Increasing-Subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |724|[Find Pivot Index](https://leetcode-cn.com/problems/Find-Pivot-Index/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.ts)|
@@ -62,3 +63,4 @@
 |1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode-cn.com/problems/Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree/)|Hard|To Do|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|
 |1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode-cn.com/problems/Remove-Max-Number-of-Edges-to-Keep-Graph-Fully-Traversable/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.ts)|
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/Min-Cost-to-Connect-All-Points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|
+|1631|[Path With Minimum Effort](https://leetcode-cn.com/problems/Path-With-Minimum-Effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|
