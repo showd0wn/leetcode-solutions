@@ -3,7 +3,9 @@ from functools import reduce
 
 
 class Solution(object):
-    # 参考 https://leetcode-cn.com/problems/replace-words/solution/dan-ci-ti-huan-by-leetcode/
+    # 参考1 https://leetcode-cn.com/problems/replace-words/solution/dan-ci-ti-huan-by-leetcode/
+    # 参考2 https://blog.csdn.net/qq_38619744/article/details/80457573
+
     def replaceWords(self, roots, sentence):
         Trie = lambda: defaultdict(Trie)
         trie = Trie()

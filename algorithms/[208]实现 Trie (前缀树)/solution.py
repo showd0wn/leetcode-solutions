@@ -1,13 +1,10 @@
-from typing import Dict, Union
-
-
 class Trie:
     def __init__(self):
         """
         Initialize your data structure here.
         """
         # 使用字典结构
-        self.root: Dict[str, Union[Dict, str]] = {}
+        self.root = {}
         # 标记该结点处是否构成一个单词
         self.end_of_word = '#'
 
