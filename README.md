@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|36|17|2|55|
-|**Total**|398|849|361|1608|
+|**Accept**|36|18|3|57|
+|**Total**|398|848|362|1608|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
 |:---:|:---:|:---:|:---:|:---:|
@@ -36,6 +36,7 @@
 |204|[Count Primes](https://leetcode-cn.com/problems/Count-Primes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.ts)|
 |206|[Reverse Linked List](https://leetcode-cn.com/problems/Reverse-Linked-List/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.ts)|
 |208|[Implement Trie (Prefix Tree)](https://leetcode-cn.com/problems/Implement-Trie-Prefix-Tree/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[208]实现%20Trie%20(前缀树)/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[208]实现%20Trie%20(前缀树)/solution.ts)|
+|211|[Design Add and Search Words Data Structure](https://leetcode-cn.com/problems/Design-Add-and-Search-Words-Data-Structure/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[211]添加与搜索单词%20-%20数据结构设计/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[211]添加与搜索单词%20-%20数据结构设计/solution.ts)|
 |217|[Contains Duplicate](https://leetcode-cn.com/problems/Contains-Duplicate/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.ts)|
 |234|[Palindrome Linked List](https://leetcode-cn.com/problems/Palindrome-Linked-List/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.ts)|
 |237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/Delete-Node-in-a-Linked-List/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.ts)|
@@ -54,6 +55,7 @@
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/Longest-Continuous-Increasing-Subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
 |721|[Accounts Merge](https://leetcode-cn.com/problems/Accounts-Merge/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |724|[Find Pivot Index](https://leetcode-cn.com/problems/Find-Pivot-Index/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.ts)|
+|778|[Swim in Rising Water](https://leetcode-cn.com/problems/Swim-in-Rising-Water/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/Regions-Cut-By-Slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode-cn.com/problems/Number-of-Equivalent-Domino-Pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|
