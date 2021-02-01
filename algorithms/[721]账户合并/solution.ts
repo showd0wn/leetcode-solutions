@@ -1,4 +1,4 @@
-class UnionFind {
+export class UnionFind {
   parent: number[];
   rank: number[];
   constructor(n: number) {
