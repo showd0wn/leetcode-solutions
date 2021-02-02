@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|37|20|4|61|
+|**Accept**|37|22|4|63|
 |**Total**|399|850|363|1612|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -32,6 +32,7 @@
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/Valid-Palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.ts)|
 |136|[Single Number](https://leetcode-cn.com/problems/Single-Number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.ts)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/Linked-List-Cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|
+|151|[Reverse Words in a String](https://leetcode-cn.com/problems/Reverse-Words-in-a-String/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.ts)|
 |155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.ts)|
 |189|[Rotate Array](https://leetcode-cn.com/problems/Rotate-Array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.ts)|
 |204|[Count Primes](https://leetcode-cn.com/problems/Count-Primes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.ts)|
@@ -50,6 +51,7 @@
 |350|[Intersection of Two Arrays II](https://leetcode-cn.com/problems/Intersection-of-Two-Arrays-II/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.ts)|
 |387|[First Unique Character in a String](https://leetcode-cn.com/problems/First-Unique-Character-in-a-String/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.ts)|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
+|424|[Longest Repeating Character Replacement](https://leetcode-cn.com/problems/Longest-Repeating-Character-Replacement/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.ts)|
 |547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/Maximum-Product-of-Three-Numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
 |648|[Replace Words](https://leetcode-cn.com/problems/Replace-Words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.ts)|
