@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|37|22|4|63|
+|**Accept**|37|23|5|65|
 |**Total**|399|850|363|1612|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -52,6 +52,7 @@
 |387|[First Unique Character in a String](https://leetcode-cn.com/problems/First-Unique-Character-in-a-String/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.ts)|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
 |424|[Longest Repeating Character Replacement](https://leetcode-cn.com/problems/Longest-Repeating-Character-Replacement/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.ts)|
+|480|[Sliding Window Median](https://leetcode-cn.com/problems/Sliding-Window-Median/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.ts)|
 |547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/Maximum-Product-of-Three-Numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
 |648|[Replace Words](https://leetcode-cn.com/problems/Replace-Words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.ts)|
@@ -63,6 +64,7 @@
 |888|[Fair Candy Swap](https://leetcode-cn.com/problems/Fair-Candy-Swap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/Regions-Cut-By-Slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
+|1004|[Max Consecutive Ones III](https://leetcode-cn.com/problems/Max-Consecutive-Ones-III/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.ts)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode-cn.com/problems/Number-of-Equivalent-Domino-Pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/Number-of-Operations-to-Make-Network-Connected/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.ts)|
