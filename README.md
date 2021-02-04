@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|38|24|7|69|
+|**Accept**|38|25|7|70|
 |**Total**|398|852|363|1613|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -70,6 +70,7 @@
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
 |1004|[Max Consecutive Ones III](https://leetcode-cn.com/problems/Max-Consecutive-Ones-III/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.ts)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode-cn.com/problems/Number-of-Equivalent-Domino-Pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|
+|1208|[Get Equal Substrings Within Budget](https://leetcode-cn.com/problems/Get-Equal-Substrings-Within-Budget/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/Number-of-Operations-to-Make-Network-Connected/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.ts)|
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]最多可以参加的会议数目/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]最多可以参加的会议数目/solution.ts)|
