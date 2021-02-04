@@ -6,7 +6,7 @@ class MedianFinder {
 
   addNum(num: number): void {
     if (this.list.length == 0) {
-      this.list.push(num)
+      this.list.push(num);
     } else {
       this.list.splice(this.binarySearch(num), 0, num);
     }
@@ -34,7 +34,7 @@ class MedianFinder {
 
     // [left, right] 里一定存在插入元素的位置
     // 且退出循环的时候一定有 left == right 成立，因此返回 left 或者 right 均可
-    return left
+    return left;
   }
 }
 
