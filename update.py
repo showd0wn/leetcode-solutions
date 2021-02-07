@@ -5,75 +5,68 @@ import ssl
 import json
 from urllib import request
 
-ssl._create_default_https_context = ssl._create_unverified_context
+ssl._create_default_https_context = ssl._create_unverified_context  # type: ignore
 
 
-class Readme:
-    __target = 'https://github.com/showd0wn/leetcode/tree/master/'
-    __url = 'https://leetcode-cn.com/api/problems/algorithms/'
-    __dir = './algorithms/'
-    __readme_path = './README.md'
-    __level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
+class Update:
+    _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
 
     def __init__(self):
-        self.stats = {
-            'Easy': {
-                'total': 0,
-                'accept': 0
-            },
-            'Medium': {
-                'total': 0,
-                'accept': 0
-            },
-            'Hard': {
-                'total': 0,
-                'accept': 0
-            },
-        }
         self.solutions = {}
         self.problems = []
+        self.stats = {
+            'Easy': {'total': 0, 'accept': 0},
+            'Medium': {'total': 0, 'accept': 0},
+            'Hard': {'total': 0, 'accept': 0},
+        }
 
-    def __get_localfiles(self) -> None:
-        for root, _, files in os.walk(self.__dir):
-            if not len(files):
-                continue
-            search_obj = re.search(r'\[.+\]', root)
-            assert search_obj is not None
-            num = search_obj.group()[1:-1]
-            solutions = self.solutions[num] = {}
-            for file in files:
-                file_type = file.split('.')[1]
-                if file_type in ('py', 'ts'):
-                    file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
-                    solutions[file_type] = file_path
+        self._handle_localfiles()
+        self._handle_algorithms()
 
-    def __get_algorithms(self) -> None:
-        response = self.fetch_data(self.__url)
+    def _handle_localfiles(self) -> None:
+        for root, _, files in os.walk('./algorithms/'):
+            if files:
+                search_obj = re.search(r'\[.+\]', root)
+                assert search_obj is not None
+                id = search_obj.group()[1:-1]
+                solutions = self.solutions[id] = {}
+                for file in files:
+                    file_type = file.split('.')[1]
+                    if file_type in ('py', 'ts'):
+                        file_path = os.path.join(root, file).replace('\\', '/')
+                        solutions[file_type] = file_path
+
+    def _handle_algorithms(self) -> None:
+        response = self._fetch_data('https://leetcode-cn.com/api/problems/algorithms/')
 
         algorithms = response['stat_status_pairs']
 
         for algo in algorithms[::-1]:
             num = algo['stat']['frontend_question_id']
             level = algo['difficulty']['level']
-            level_desc = self.__level_map[level]
-
-            self.problems.append({
-                'id': num,
-                'level': level,
-                'title': algo['stat']['question__title'],
-                'lock': algo['paid_only'],
-            })
+            level_desc = self._level_map[level]
 
             self.stats[level_desc]['total'] += 1
 
-            if num in self.solutions and len(self.solutions[num]):
+            if num in self.solutions and self.solutions[num]:
                 self.stats[level_desc]['accept'] += 1
+                self.problems.append(
+                    {
+                        'id': num,
+                        'level': level,
+                        'title': algo['stat']['question__title'],
+                        'title_slug': algo['stat']['question__title_slug'],
+                        'lock': algo['paid_only'],
+                    }
+                )
 
-    def update(self) -> None:
-        self.__get_localfiles()
-        self.__get_algorithms()
+    def update_pages(self) -> None:
+        pass
 
-        with open(self.__readme_path, 'w', encoding='utf-8') as f:
+    def update_readme(self) -> None:
+        stats_easy, stats_medium, stats_hard = self.stats.values()
+
+        with open('./README.md', 'w', encoding='utf-8') as f:
             f.write(
                 '# LeetCode\n'
                 '### 进度\n'
@@ -85,51 +78,58 @@ class Readme:
                 '### 题解\n'
                 '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |\n'
                 '|:---:|:---:|:---:|:---:|:---:|\n'.format(
-                    self.stats['Easy']['accept'],
-                    self.stats['Medium']['accept'],
-                    self.stats['Hard']['accept'],
-                    self.stats['Easy']['accept'] + self.stats['Medium']['accept'] + self.stats['Hard']['accept'],
-                    self.stats['Easy']['total'],
-                    self.stats['Medium']['total'],
-                    self.stats['Hard']['total'],
-                    self.stats['Easy']['total'] + self.stats['Medium']['total'] + self.stats['Hard']['total'],
-                ))
+                    stats_easy['accept'],
+                    stats_medium['accept'],
+                    stats_hard['accept'],
+                    stats_easy['accept'] + stats_medium['accept'] + stats_hard['accept'],
+                    stats_easy['total'],
+                    stats_medium['total'],
+                    stats_hard['total'],
+                    stats_easy['total'] + stats_medium['total'] + stats_hard['total'],
+                )
+            )
             for problem in self.problems:
+                id, level, title, title_slug, lock = problem.values()
                 data = {
-                    'id': problem['id'],
-                    'level': self.__level_map[problem['level']],
-                    'title': self.generateTableTitle(problem['title'], problem['lock']),
-                    'py': self.generateTableSolution('py', problem['id']),
-                    'ts': self.generateTableSolution('ts', problem['id']),
+                    'id': id,
+                    'level': self._level_map[level],
+                    'title': self._generate_Title(title, title_slug, lock),
+                    'py': self._generate_solution('py', id),
+                    'ts': self._generate_solution('ts', id),
                 }
-                if data['py'] != 'To Do' or data['ts'] != 'To Do':
-                    f.write('|{id}|{title}|{level}|{py}|{ts}|\n'.format(**data))
+                f.write('|{id}|{title}|{level}|{py}|{ts}|\n'.format(**data))
 
         print('\n--------------------\n')
         print('README.md was created!')
 
-    def generateTableTitle(self, title: str, lock: bool) -> str:
+    def _generate_Title(self, title: str, title_slug: str, lock: bool) -> str:
         return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
             title + ' :lock:' if lock else title,
-            title.replace(' ', '-').replace('(', '').replace(')', ''))
+            title_slug,
+        )
 
-    def generateTableSolution(self, type: str, id: str) -> str:
-        if id not in self.solutions or type not in self.solutions[id]:
-            return 'To Do'
-        return '[{}]({})'.format({
-            'ts': 'TypeScript',
-            'py': 'Python',
-        }[type], os.path.join(self.__target, self.solutions[id][type]))
+    def _generate_solution(self, type: str, id: str) -> str:
+        return '[{}]({})'.format(
+            {
+                'ts': 'TypeScript',
+                'py': 'Python',
+            }[type],
+            os.path.join(
+                'https://github.com/showd0wn/leetcode/tree/master/',
+                self.solutions[id][type],
+            ),
+        )
 
-    def fetch_data(self, url: str):
+    def _fetch_data(self, url: str):
         req = request.Request(url)
         with request.urlopen(req) as f:
             return json.loads(f.read().decode('utf-8'))
 
 
 def main():
-    readme = Readme()
-    readme.update()
+    update = Update()
+    update.update_pages()
+    update.update_readme()
 
 
 if __name__ == '__main__':
