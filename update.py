@@ -33,7 +33,7 @@ class Update:
                 for file in files:
                     file_type = file.split('.')[1]
                     if file_type in ('py', 'ts'):
-                        file_path = os.path.join(root, file).replace('\\', '/')
+                        file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
                         solutions[file_type] = file_path
 
     def _handle_algorithms(self) -> None:
