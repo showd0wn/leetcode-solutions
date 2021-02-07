@@ -33,11 +33,13 @@ class Readme:
         self.solutions = {}
         self.problems = []
 
-    def __get_localfiles(self):
+    def __get_localfiles(self) -> None:
         for root, _, files in os.walk(self.__dir):
             if not len(files):
                 continue
-            num = re.search(r'\[.+\]', root).group()[1:-1]
+            search_obj = re.search(r'\[.+\]', root)
+            assert search_obj is not None
+            num = search_obj.group()[1:-1]
             solutions = self.solutions[num] = {}
             for file in files:
                 file_type = file.split('.')[1]
@@ -45,7 +47,7 @@ class Readme:
                     file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
                     solutions[file_type] = file_path
 
-    def __get_algorithms(self):
+    def __get_algorithms(self) -> None:
         response = self.fetch_data(self.__url)
 
         algorithms = response['stat_status_pairs']
@@ -67,7 +69,7 @@ class Readme:
             if num in self.solutions and len(self.solutions[num]):
                 self.stats[level_desc]['accept'] += 1
 
-    def update(self):
+    def update(self) -> None:
         self.__get_localfiles()
         self.__get_algorithms()
 
@@ -106,12 +108,12 @@ class Readme:
         print('\n--------------------\n')
         print('README.md was created!')
 
-    def generateTableTitle(self, title, lock):
+    def generateTableTitle(self, title: str, lock: bool) -> str:
         return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
             title + ' :lock:' if lock else title,
             title.replace(' ', '-').replace('(', '').replace(')', ''))
 
-    def generateTableSolution(self, type, id):
+    def generateTableSolution(self, type: str, id: str) -> str:
         if id not in self.solutions or type not in self.solutions[id]:
             return 'To Do'
         return '[{}]({})'.format({
@@ -119,7 +121,7 @@ class Readme:
             'py': 'Python',
         }[type], os.path.join(self.__target, self.solutions[id][type]))
 
-    def fetch_data(self, url):
+    def fetch_data(self, url: str):
         req = request.Request(url)
         with request.urlopen(req) as f:
             return json.loads(f.read().decode('utf-8'))
