@@ -1,3 +1,5 @@
+// topics = ["树", "深度优先搜索", "栈"]
+
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -38,4 +40,4 @@ function isValidBST(root: TreeNode | null): boolean {
   }
 
   return true;
-};
+}

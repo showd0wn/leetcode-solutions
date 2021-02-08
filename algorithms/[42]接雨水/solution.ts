@@ -1,3 +1,5 @@
+// topics = ["双指针", "栈"]
+
 function trap(height: number[]): number {
   const n = height.length;
 

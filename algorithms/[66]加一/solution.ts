@@ -1,6 +1,8 @@
+// topics = ["数学"]
+
 function plusOne(digits: number[]): number[] {
   // 不改变原数组
-  const res: number[] = []
+  const res: number[] = [];
 
   let n = digits.length;
   let carry = 1;
@@ -15,5 +17,5 @@ function plusOne(digits: number[]): number[] {
     res.unshift(carry);
   }
 
-   return res;
-};
+  return res;
+}

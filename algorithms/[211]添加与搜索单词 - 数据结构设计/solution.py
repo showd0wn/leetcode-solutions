@@ -1,3 +1,5 @@
+# topics = ["字典树", "深度优先搜索"]
+
 from collections import defaultdict
 from functools import reduce
 
@@ -19,7 +21,9 @@ class WordDictionary:
         def dfs(node: WordDictionary, s: str) -> bool:
             for idx, char in enumerate(s):
                 if char == '.':
-                    return any(dfs(node[key], s[idx + 1:]) for key in node if key != 'end')
+                    return any(
+                        dfs(node[key], s[idx + 1 :]) for key in node if key != 'end'
+                    )
                 if char not in node:
                     return False
                 node = node[char]

@@ -1,3 +1,5 @@
+// topics = ["链表", "双指针"]
+
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -11,16 +13,16 @@
  */
 
 function hasCycle(head: ListNode | null): boolean {
-    let fast: ListNode | null = head;
-    let slow: ListNode | null = head;
+  let fast: ListNode | null = head;
+  let slow: ListNode | null = head;
 
-    while (fast && fast.next) {
-      fast = fast.next.next;
-      slow = slow!.next;
-      if (fast === slow) {
-        return true;
-      }
+  while (fast && fast.next) {
+    fast = fast.next.next;
+    slow = slow!.next;
+    if (fast === slow) {
+      return true;
     }
+  }
 
-    return false;
-};
+  return false;
+}

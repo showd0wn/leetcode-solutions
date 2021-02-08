@@ -7,4 +7,4 @@ function maxProfit(prices: number[]): number {
     }
   }
   return res;
-};
+}

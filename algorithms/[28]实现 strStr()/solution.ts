@@ -1,3 +1,5 @@
+// topics = ["滑动窗口", "KMP"]
+
 function strStr(haystack: string, needle: string): number {
   const l = haystack.length;
   const n = needle.length;
@@ -5,7 +7,7 @@ function strStr(haystack: string, needle: string): number {
   if (n === 0) return 0;
 
   // 滑动窗口，只有第一个字符相同再进行比较
-  for (let i = 0; i < l - n + 1;) {
+  for (let i = 0; i < l - n + 1; ) {
     if (haystack[i] !== needle[0]) {
       i += 1;
       continue;
@@ -24,8 +26,7 @@ function strStr(haystack: string, needle: string): number {
   }
 
   return -1;
-};
-
+}
 
 // 解法二 KMP
 function strStr2(haystack: string, needle: string): number {

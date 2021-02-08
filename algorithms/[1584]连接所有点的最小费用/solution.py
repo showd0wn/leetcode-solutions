@@ -1,3 +1,5 @@
+# topics = ["最小生成树", "贪心算法"]
+
 from typing import List, Tuple
 
 

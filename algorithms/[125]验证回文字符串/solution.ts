@@ -1,3 +1,5 @@
+// topics = ["字符串", "双指针"]
+
 function isPalindrome(s: string): boolean {
   s = s.replace(/[^0-9A-Za-z]/g, '').toLowerCase();
   if (!s) return true;
@@ -15,4 +17,4 @@ function isPalindrome(s: string): boolean {
   }
 
   return true;
-};
+}

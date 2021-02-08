@@ -28,4 +28,4 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   i.next = i.next?.next!;
 
   return start.next;
-};
+}

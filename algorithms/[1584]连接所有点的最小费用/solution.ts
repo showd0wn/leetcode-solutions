@@ -1,3 +1,6 @@
+// topics = ["最小生成树", "并查集"]
+
+
 // [顶点1索引, 顶点2索引, 权重]
 export type edge = [number, number, number];
 

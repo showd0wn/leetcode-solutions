@@ -1,3 +1,5 @@
+// topics = ["数学"]
+
 function reverse(x: number): number {
   const limit = 2 ** 31;
 
@@ -5,7 +7,7 @@ function reverse(x: number): number {
   let now = 0;
 
   while (ord > 0) {
-    now = now * 10 + ord % 10;
+    now = now * 10 + (ord % 10);
     ord = Math.floor(ord / 10);
   }
 
@@ -13,4 +15,4 @@ function reverse(x: number): number {
     return now < limit ? now : 0;
   }
   return now <= limit ? 0 - now : 0;
-};
+}

@@ -1,3 +1,5 @@
+# topics = ["双指针"]
+
 from typing import List
 
 
@@ -7,7 +9,6 @@ class Solution:
         res = 0
         left_max = right_max = 0
 
-        # 双指针
         # 参考 https://leetcode-cn.com/leetbook/read/learning-algorithms-with-leetcode/x18bji/
         left, right = 0, n - 1
         while left < right:

@@ -37,7 +37,7 @@ class WordDictionary {
       const char = word[i];
       if (char == '.') {
         // 递归判断
-        return [...node.next.values()].some(node => this.find(word.slice(i + 1), node));
+        return [...node.next.values()].some((node) => this.find(word.slice(i + 1), node));
       }
       if (!node.next.has(char)) {
         return false;
@@ -50,8 +50,8 @@ class WordDictionary {
 }
 
 /**
-* Your WordDictionary object will be instantiated and called as such:
-* var obj = new WordDictionary()
-* obj.addWord(word)
-* var param_2 = obj.search(word)
-*/
+ * Your WordDictionary object will be instantiated and called as such:
+ * var obj = new WordDictionary()
+ * obj.addWord(word)
+ * var param_2 = obj.search(word)
+ */

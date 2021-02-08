@@ -1,3 +1,5 @@
+# topics = ["树", "深度优先搜索"]
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -14,7 +16,7 @@ class Solution:
         self.helper(result, root, 0)
         return result
 
-    def helper(self, result, node, level) -> None:
+    def helper(self, result: List[List[int]], node: TreeNode, level: int) -> None:
         if not node:
             return
         if len(result) <= level:

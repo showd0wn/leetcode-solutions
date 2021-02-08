@@ -1,6 +1,7 @@
+// topics = ["字符串", "状态机"]
+
 // 解法一 parseInt
 function myAtoi(s: string): number {
-
   const num = parseInt(s, 10);
 
   if (isNaN(num)) {
@@ -16,7 +17,7 @@ function myAtoi(s: string): number {
   }
 
   return num;
-};
+}
 
 export enum State {
   Start = 'START',
@@ -56,7 +57,7 @@ class Automaton {
       [State.Start, [State.Start, State.Signed, State.In_number, State.End]],
       [State.Signed, [State.End, State.End, State.In_number, State.End]],
       [State.In_number, [State.End, State.End, State.In_number, State.End]],
-      [State.End, [State.End, State.End, State.End, State.End]]
+      [State.End, [State.End, State.End, State.End, State.End]],
     ]);
   }
 
@@ -87,9 +88,10 @@ class Automaton {
         break;
       case State.In_number:
         this.answer = this.answer * 10 + Number(char);
-        this.answer = this.sign === Sign.Positive
-          ? Math.min(this.answer, Math.pow(2, 31) - 1)
-          : Math.min(this.answer, -Math.pow(-2, 31));
+        this.answer =
+          this.sign === Sign.Positive
+            ? Math.min(this.answer, Math.pow(2, 31) - 1)
+            : Math.min(this.answer, -Math.pow(-2, 31));
         break;
       default:
         break;
@@ -105,4 +107,4 @@ function myAtoi2(s: string): number {
   }
 
   return automaton.sign * automaton.answer;
-};
+}

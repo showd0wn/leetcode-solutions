@@ -16,4 +16,4 @@ function countAndSay(n: number): string {
   }
 
   return res[n];
-};
+}

@@ -1,3 +1,5 @@
+# topics = ["双指针"]
+
 from typing import List
 
 
@@ -6,6 +8,7 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
+        # 相似题 21
         len = m + n
         m -= 1
         n -= 1

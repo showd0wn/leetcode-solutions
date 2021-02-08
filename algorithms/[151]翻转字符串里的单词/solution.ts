@@ -1,3 +1,5 @@
+// topics = ["字符串"]
+
 function reverseWords(s: string): string {
   // 对于字符串不可变语言，不存在常数空间复杂度的解法
   const n = s.length;
@@ -21,4 +23,4 @@ function reverseWords(s: string): string {
   }
 
   return res.join(' ');
-};
+}

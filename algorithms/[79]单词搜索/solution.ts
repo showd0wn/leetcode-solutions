@@ -13,7 +13,7 @@ function exist(board: string[][], word: string): boolean {
   }
 
   return false;
-};
+}
 
 function dfs(k: number, i: number, j: number, word: string, board: string[][], visited: boolean[][]): boolean {
   if (word[k] != board[i][j]) {

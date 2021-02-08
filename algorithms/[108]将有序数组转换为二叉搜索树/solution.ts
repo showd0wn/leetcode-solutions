@@ -21,4 +21,4 @@ function sortedArrayToBST(nums: number[]): TreeNode | null {
   root.left = sortedArrayToBST(nums.slice(0, mid));
   root.right = sortedArrayToBST(nums.slice(mid + 1));
   return root;
-};
+}

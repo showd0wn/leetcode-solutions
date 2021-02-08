@@ -15,7 +15,7 @@ function longestCommonPrefix(strs: string[]): string {
   }
 
   return prefix;
-};
+}
 
 function lcp(str1: string, str2: string): string {
   let i = 0;

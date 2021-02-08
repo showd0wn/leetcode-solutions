@@ -28,4 +28,4 @@ function mergeTwoLists(l1: ListNode | null, l2: ListNode | null): ListNode | nul
   p.next = l1 ?? l2;
 
   return root.next;
-};
+}

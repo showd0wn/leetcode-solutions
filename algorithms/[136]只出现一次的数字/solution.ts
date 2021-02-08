@@ -5,4 +5,4 @@ function singleNumber(nums: number[]): number {
    * 3. 异或运算满足交换律和结合律
    */
   return nums.reduce((acc, cur) => acc ^ cur);
-};
+}

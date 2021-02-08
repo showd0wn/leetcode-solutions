@@ -1,3 +1,5 @@
+# topics = ["树", "深度优先搜索"]
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -15,5 +17,5 @@ class Solution:
         mid = len(nums) // 2
         root = TreeNode(nums[mid])
         root.left = self.sortedArrayToBST(nums[0:mid])
-        root.right = self.sortedArrayToBST(nums[mid + 1:])
+        root.right = self.sortedArrayToBST(nums[mid + 1 :])
         return root

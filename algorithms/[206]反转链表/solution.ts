@@ -1,3 +1,5 @@
+// topics = ["链表"]
+
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -29,4 +31,4 @@ function reverseList(head: ListNode | null): ListNode | null {
   head!.next!.next = head;
   head!.next = null;
   return newHead;
-};
+}
