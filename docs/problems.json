@@ -154,7 +154,7 @@
         "lock": false,
         "topics": [
             "深度优先搜索",
-            "回溯"
+            "回溯法"
         ]
     },
     {
@@ -346,7 +346,9 @@
         "title": "Contains Duplicate",
         "title_slug": "contains-duplicate",
         "lock": false,
-        "topics": []
+        "topics": [
+            "哈希表"
+        ]
     },
     {
         "id": "234",
@@ -354,7 +356,10 @@
         "title": "Palindrome Linked List",
         "title_slug": "palindrome-linked-list",
         "lock": false,
-        "topics": []
+        "topics": [
+            "链表",
+            "双指针"
+        ]
     },
     {
         "id": "237",
@@ -362,7 +367,9 @@
         "title": "Delete Node in a Linked List",
         "title_slug": "delete-node-in-a-linked-list",
         "lock": false,
-        "topics": []
+        "topics": [
+            "链表"
+        ]
     },
     {
         "id": "240",
@@ -370,7 +377,9 @@
         "title": "Search a 2D Matrix II",
         "title_slug": "search-a-2d-matrix-ii",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数组"
+        ]
     },
     {
         "id": "242",
@@ -378,7 +387,9 @@
         "title": "Valid Anagram",
         "title_slug": "valid-anagram",
         "lock": false,
-        "topics": []
+        "topics": [
+            "哈希表"
+        ]
     },
     {
         "id": "278",
@@ -386,7 +397,9 @@
         "title": "First Bad Version",
         "title_slug": "first-bad-version",
         "lock": false,
-        "topics": []
+        "topics": [
+            "二分查找"
+        ]
     },
     {
         "id": "283",
@@ -394,7 +407,9 @@
         "title": "Move Zeroes",
         "title_slug": "move-zeroes",
         "lock": false,
-        "topics": []
+        "topics": [
+            "双指针"
+        ]
     },
     {
         "id": "295",
@@ -402,7 +417,10 @@
         "title": "Find Median from Data Stream",
         "title_slug": "find-median-from-data-stream",
         "lock": false,
-        "topics": []
+        "topics": [
+            "二分查找",
+            "堆"
+        ]
     },
     {
         "id": "326",
