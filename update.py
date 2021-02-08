@@ -13,28 +13,34 @@ class Update:
 
     def __init__(self):
         self.solutions = {}
-        self.problems = []
         self.stats = {
             'Easy': {'total': 0, 'accept': 0},
             'Medium': {'total': 0, 'accept': 0},
             'Hard': {'total': 0, 'accept': 0},
         }
+        self.problems = []
 
         self._handle_localfiles()
         self._handle_algorithms()
 
     def _handle_localfiles(self) -> None:
         for root, _, files in os.walk('./algorithms/'):
-            if files:
-                search_obj = re.search(r'\[.+\]', root)
-                assert search_obj is not None
-                id = search_obj.group()[1:-1]
+            if not files:
+                continue
+            if id_search_obj := re.search(r'(?<=\[)\d+(?=\])', root):
+                id = id_search_obj.group()
                 solutions = self.solutions[id] = {}
+                path = solutions['path'] = {}
+                topics = solutions['topics'] = []
                 for file in files:
                     file_type = file.split('.')[1]
-                    if file_type in ('py', 'ts'):
-                        file_path = os.path.join(root, file).replace('\\', '/').replace(' ', '%20')
-                        solutions[file_type] = file_path
+                    file_path = os.path.join(root, file)
+                    path[file_type] = file_path.replace('\\', '/').replace(' ', '%20')
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        line = f.readline()
+                        if topics_search_obj := re.search(r'(?<=topics).+', line):
+                            keys = re.findall(r'\w+', topics_search_obj.group())
+                            topics.extend(keys)
 
     def _handle_algorithms(self) -> None:
         response = self._fetch_data('https://leetcode-cn.com/api/problems/algorithms/')
@@ -42,26 +48,32 @@ class Update:
         algorithms = response['stat_status_pairs']
 
         for algo in algorithms[::-1]:
-            num = algo['stat']['frontend_question_id']
+            id = algo['stat']['frontend_question_id']
             level = algo['difficulty']['level']
             level_desc = self._level_map[level]
 
             self.stats[level_desc]['total'] += 1
 
-            if num in self.solutions and self.solutions[num]:
+            if id in self.solutions and self.solutions[id]:
+                all_topics = self.solutions[id]['topics']
+                topics = list(set(all_topics))
+                topics.sort(key=all_topics.index)
+
                 self.stats[level_desc]['accept'] += 1
                 self.problems.append(
                     {
-                        'id': num,
+                        'id': id,
                         'level': level,
                         'title': algo['stat']['question__title'],
                         'title_slug': algo['stat']['question__title_slug'],
                         'lock': algo['paid_only'],
+                        'topics': topics,
                     }
                 )
 
     def update_pages(self) -> None:
-        pass
+        with open('./docs/problems.json', 'w', encoding='utf-8') as f:
+            f.write(json.dumps(self.problems, indent=4, ensure_ascii=False))
 
     def update_readme(self) -> None:
         stats_easy, stats_medium, stats_hard = self.stats.values()
@@ -89,7 +101,7 @@ class Update:
                 )
             )
             for problem in self.problems:
-                id, level, title, title_slug, lock = problem.values()
+                id, level, title, title_slug, lock, _ = problem.values()
                 data = {
                     'id': id,
                     'level': self._level_map[level],
@@ -98,9 +110,6 @@ class Update:
                     'ts': self._generate_solution('ts', id),
                 }
                 f.write('|{id}|{title}|{level}|{py}|{ts}|\n'.format(**data))
-
-        print('\n--------------------\n')
-        print('README.md was created!')
 
     def _generate_Title(self, title: str, title_slug: str, lock: bool) -> str:
         return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
@@ -116,7 +125,7 @@ class Update:
             }[type],
             os.path.join(
                 'https://github.com/showd0wn/leetcode/tree/master/',
-                self.solutions[id][type],
+                self.solutions[id]['path'][type],
             ),
         )
 
