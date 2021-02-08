@@ -27,4 +27,3 @@ jobs:
           author_name: showd0wn
           author_email: showd0wn@163.com
           message: 'update by GitHub Actions'
-          add: 'README.md'
