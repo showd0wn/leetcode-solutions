@@ -1,3 +1,5 @@
+# topics = ["链表", "双指针"]
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

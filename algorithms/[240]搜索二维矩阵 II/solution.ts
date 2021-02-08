@@ -1,7 +1,9 @@
+// topics = ["数组"]
+
 function searchMatrix(matrix: number[][], target: number): boolean {
   const n = matrix.length;
   const m = matrix[0]?.length ?? 0;
-  
+
   // 利用排序矩阵的特性，选取左下为遍历起点
   let i = n - 1;
   let j = 0;
@@ -18,4 +20,4 @@ function searchMatrix(matrix: number[][], target: number): boolean {
   }
 
   return false;
-};
+}

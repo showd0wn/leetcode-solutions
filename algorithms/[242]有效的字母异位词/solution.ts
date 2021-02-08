@@ -1,9 +1,22 @@
+// topics = ["哈希表"]
+
 function isAnagram(s: string, t: string): boolean {
-  const sortStr = function(s: string): string {
-    const arr = s.split('');
-    arr.sort();
-    return arr.join('');
+  if (s.length !== t.length) {
+    return false;
+  }
+  const map: Map<string, number> = new Map();
+
+  for (const c of s) {
+    map.set(c, (map.get(c) ?? 0) + 1);
   }
 
-  return sortStr(s) === sortStr(t);
-};
+  for (const c of t) {
+    const count = map.get(c) ?? 0;
+    if (count < 1) {
+      return false;
+    }
+    map.set(c, count - 1);
+  }
+
+  return true;
+}

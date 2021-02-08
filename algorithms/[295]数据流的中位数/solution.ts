@@ -1,3 +1,5 @@
+// topics = ["二分查找"]
+
 class MedianFinder {
   list: number[];
   constructor() {
