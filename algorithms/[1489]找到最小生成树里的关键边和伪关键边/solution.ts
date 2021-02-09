@@ -1,3 +1,5 @@
+// topics = ["图", "最小生成树", "并查集"]
+
 export class UnionFind {
   length: number;
   parent: number[];
@@ -33,7 +35,6 @@ export class UnionFind {
   }
 }
 
-
 function findCriticalAndPseudoCriticalEdges(n: number, edges: number[][]): number[][] {
   // Kruskal 算法求最小生成树的关键边和伪关键边
   // 参考 https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/solution/python3-kruskalbing-cha-ji-by-smiletm-jt9y/
@@ -60,7 +61,7 @@ function findCriticalAndPseudoCriticalEdges(n: number, edges: number[][]): numbe
   }
 
   // 关键边列表
-  const keyEdges:number[] = [];
+  const keyEdges: number[] = [];
   // 非关键边列表
   const nonKeyEdges: number[] = [];
 
@@ -101,4 +102,4 @@ function findCriticalAndPseudoCriticalEdges(n: number, edges: number[][]): numbe
   }
 
   return [keyEdges, nonKeyEdges];
-};
+}

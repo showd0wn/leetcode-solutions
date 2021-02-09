@@ -1,3 +1,5 @@
+// topics = ["数学"]
+
 function checkStraightLine(coordinates: number[][]): boolean {
   const [x0, y0] = coordinates[0];
   const [x1, y1] = coordinates[1];
@@ -11,4 +13,4 @@ function checkStraightLine(coordinates: number[][]): boolean {
   const b = y0 - a * x0;
 
   return coordinates.every(([x, y]) => y === a * x + b);
-};
+}

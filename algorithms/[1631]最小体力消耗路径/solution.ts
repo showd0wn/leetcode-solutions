@@ -1,6 +1,8 @@
+// topics = ["图", "并查集", "二分查找", "深度优先搜索", "广度优先搜索", "最短路径", "堆"]
+
 export class UnionFind {
   parent: number[];
-  rank: number[]
+  rank: number[];
   constructor(n: number) {
     this.parent = Array.from({ length: n }, (_, i) => i);
     this.rank = Array.from({ length: n }, () => 1);
@@ -39,12 +41,12 @@ function minimumEffortPath(heights: number[][]): number {
       if (i + 1 < row) {
         const to = (i + 1) * col + j;
         const height = Math.abs(heights[i + 1][j] - heights[i][j]);
-        edges.push([from, to, height])
+        edges.push([from, to, height]);
       }
       if (j + 1 < col) {
         const to = i * col + j + 1;
         const height = Math.abs(heights[i][j + 1] - heights[i][j]);
-        edges.push([from, to, height])
+        edges.push([from, to, height]);
       }
     }
   }
@@ -64,4 +66,4 @@ function minimumEffortPath(heights: number[][]): number {
 
   // 没有边的情况，即只有一个顶点
   return 0;
-};
+}

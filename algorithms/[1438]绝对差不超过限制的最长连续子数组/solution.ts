@@ -1,3 +1,5 @@
+// topics = ["滑动窗口"]
+
 function longestSubarray(nums: number[], limit: number): number {
   const n = nums.length;
   let res = 0;
@@ -19,4 +21,4 @@ function longestSubarray(nums: number[], limit: number): number {
   }
 
   return res;
-};
+}

@@ -1,3 +1,5 @@
+// topics = ["并查集"]
+
 export class UnionFind {
   parent: number[];
   rank: number[];
@@ -48,7 +50,7 @@ function numSimilarGroups(strs: string[]): number {
   }
 
   return uf.setCount;
-};
+}
 
 function isSimilar(str1: string, str2: string): boolean {
   if (str1 == str2) {

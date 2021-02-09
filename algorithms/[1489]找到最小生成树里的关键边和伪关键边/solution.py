@@ -1,15 +1,20 @@
+# topics = ["图", "最小生成树", "并查集"]
+
 from typing import List
 
 
 class Solution:
-    def findCriticalAndPseudoCriticalEdges(self, n: int, edges: List[List[int]]) -> List[List[int]]:
-        def Kruskal(edges):
+    def findCriticalAndPseudoCriticalEdges(
+        self, n: int, edges: List[List[int]]
+    ) -> List[List[int]]:
+        def Kruskal(edges: List[List[int]]) -> int:
             father = list(range(n))
 
-            def find(x):
+            def find(x: int) -> int:
                 if x != father[x]:
                     father[x] = find(father[x])
                 return father[x]
+
             n_edges = 0
             cost = 0
             edges = sorted(edges, key=lambda x: x[-1])
@@ -24,11 +29,12 @@ class Solution:
                     break
             return cost
 
-        def Kruskal_tmp(edges, accepted_edges):
-            def find(x):
+        def Kruskal_tmp(edges: List[List[int]], accepted_edges: List[int]):
+            def find(x: int) -> int:
                 if x != father[x]:
                     father[x] = find(father[x])
                 return father[x]
+
             n_edges = len(accepted_edges)
             cost = 0
             father = list(range(n))
@@ -51,12 +57,13 @@ class Solution:
                 if n_edges == n - 1:
                     break
             return cost
+
         mst = Kruskal(edges)
         critical = []
         non_critical = []
 
         for i in range(len(edges)):
-            ans = Kruskal(edges[:i] + edges[i + 1:])
+            ans = Kruskal(edges[:i] + edges[i + 1 :])
 
             if ans != mst:
                 critical.append(i)

@@ -1,3 +1,5 @@
+// topics = ["图", "深度优先搜索", "广度优先搜索", "并查集"]
+
 // 已知无向图的邻接矩阵，求连通分量
 function findCircleNum(isConnected: number[][]): number {
   // dfs
@@ -22,8 +24,7 @@ function findCircleNum(isConnected: number[][]): number {
   }
 
   return res;
-};
-
+}
 
 function findCircleNum2(isConnected: number[][]): number {
   // bfs
@@ -50,8 +51,7 @@ function findCircleNum2(isConnected: number[][]): number {
   }
 
   return res;
-};
-
+}
 
 function findCircleNum3(isConnected: number[][]): number {
   // Union-Find
@@ -83,8 +83,7 @@ function findCircleNum3(isConnected: number[][]): number {
   }
 
   return parent.filter((ele, index) => ele === index).length;
-};
-
+}
 
 function findCircleNum4(isConnected: number[][]): number {
   // Union-Find & 按秩合并
@@ -125,4 +124,4 @@ function findCircleNum4(isConnected: number[][]): number {
   }
 
   return parent.filter((ele, index) => ele === index).length;
-};
+}

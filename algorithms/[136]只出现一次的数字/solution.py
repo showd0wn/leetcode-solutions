@@ -1,4 +1,4 @@
-# topics = ["位运算", "哈希表"]
+# topics = ["位运算"]
 
 from typing import List
 from functools import reduce

@@ -1,3 +1,5 @@
+// topics = ["数组", "双指针"]
+
 function maxArea(height: number[]): number {
   // 双指针法，近似题 42
   let left = 0;

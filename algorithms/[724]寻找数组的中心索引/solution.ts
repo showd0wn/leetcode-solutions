@@ -1,3 +1,5 @@
+// topics = ["数组"]
+
 function pivotIndex(nums: number[]): number {
   const total = nums.reduce((a, b) => a + b, 0);
   let sum = 0;
@@ -10,4 +12,4 @@ function pivotIndex(nums: number[]): number {
   }
 
   return -1;
-};
+}

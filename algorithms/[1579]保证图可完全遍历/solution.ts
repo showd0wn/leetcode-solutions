@@ -1,3 +1,5 @@
+// topics = ["图", "并查集"]
+
 export class UnionFind {
   parent: number[];
 
@@ -38,7 +40,6 @@ export class UnionFind {
   }
 }
 
-
 function maxNumEdgesToRemove(n: number, edges: number[][]): number {
   let result = 0;
 
@@ -76,7 +77,8 @@ function maxNumEdgesToRemove(n: number, edges: number[][]): number {
       } else {
         ufb.union(i, j);
       }
-    } else {}
+    } else {
+    }
   }
 
   // 联通分量不为 1，即无法遍历
@@ -85,4 +87,4 @@ function maxNumEdgesToRemove(n: number, edges: number[][]): number {
   }
 
   return result;
-};
+}

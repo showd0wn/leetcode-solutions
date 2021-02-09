@@ -1,3 +1,5 @@
+// topics = ["字符串", "哈希表"]
+
 function firstUniqChar(s: string): number {
   /**
    * 解法一
@@ -13,7 +15,7 @@ function firstUniqChar(s: string): number {
     }
   }
 
-  const res = [...map.values()].filter(list => list.length === 1);
+  const res = [...map.values()].filter((list) => list.length === 1);
   return res[0]?.[0] ?? -1;
 
   /**
@@ -24,4 +26,4 @@ function firstUniqChar(s: string): number {
   //   if (s.lastIndexOf(s[i]) === s.indexOf(s[i])) return i;
   // }
   // return -1;
-};
+}

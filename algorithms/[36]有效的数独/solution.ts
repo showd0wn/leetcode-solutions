@@ -1,3 +1,5 @@
+// topics = ["哈希表"]
+
 function isValidSudoku(board: string[][]): boolean {
   let ch: string;
 

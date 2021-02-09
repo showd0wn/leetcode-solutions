@@ -1,3 +1,5 @@
+// topics = ["数组"]
+
 function findLengthOfLCIS(nums: number[]): number {
   const len = nums.length;
 
@@ -16,4 +18,4 @@ function findLengthOfLCIS(nums: number[]): number {
   }
 
   return Math.max(res, len - start);
-};
+}

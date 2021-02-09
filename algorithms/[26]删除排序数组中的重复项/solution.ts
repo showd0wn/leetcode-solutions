@@ -1,4 +1,4 @@
-// topics = ["双指针"]
+// topics = ["数组", "双指针"]
 
 function removeDuplicates(nums: number[]): number {
   if (nums.length == 0) return 0;

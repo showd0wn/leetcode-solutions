@@ -1,3 +1,6 @@
+// topics = ["字典树", "哈希表"]
+
+
 export class TrieNode {
   endOfWord: boolean;
   next: Map<string, TrieNode>;
@@ -48,24 +51,23 @@ function replaceWords(dictionary: string[], sentence: string): string {
   const trie = new Trie();
 
   // 将词根加入前缀树
-  dictionary.forEach(pre => trie.insert(pre));
+  dictionary.forEach((pre) => trie.insert(pre));
 
   const list = sentence.split(' ');
-  const res = list.map(word => trie.findPrefix(word));
+  const res = list.map((word) => trie.findPrefix(word));
 
   return res.join(' ');
-};
-
+}
 
 // 解法二 暴力匹配
 function replaceWords2(dictionary: string[], sentence: string): string {
   dictionary.sort((a, b) => a.length - b.length);
 
   const list = sentence.split(' ');
-  const res = list.map(word => {
-    const prefix = dictionary.find(pre => word.startsWith(pre));
+  const res = list.map((word) => {
+    const prefix = dictionary.find((pre) => word.startsWith(pre));
     return prefix ?? word;
   });
 
   return res.join(' ');
-};
+}

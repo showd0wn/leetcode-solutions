@@ -1,3 +1,5 @@
+// topics = ["图", "并查集", "二分查找", "深度优先搜索", "广度优先搜索", "最短路径", "堆"]
+
 export class UnionFind {
   parent: number[];
   rank: number[];
@@ -59,4 +61,4 @@ function swimInWater(grid: number[][]): number {
   }
 
   return 0;
-};
+}

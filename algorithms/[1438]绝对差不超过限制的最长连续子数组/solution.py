@@ -1,3 +1,5 @@
+# topics = ["滑动窗口"]
+
 from typing import List, Deque
 from collections import deque
 
@@ -8,7 +10,7 @@ class Solution:
         q: Deque[int] = deque()
         res = 0
 
-        for idx, ele in enumerate(nums):
+        for ele in nums:
             q.append(ele)
             while max(q) - min(q) > limit:
                 q.popleft()

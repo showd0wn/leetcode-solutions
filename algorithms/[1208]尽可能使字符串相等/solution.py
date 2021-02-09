@@ -1,3 +1,6 @@
+# topics = ["滑动窗口"]
+
+
 class Solution:
     def equalSubstring(self, s: str, t: str, maxCost: int) -> int:
         n = len(s)

@@ -1,3 +1,5 @@
+// topics = ["字符串"]
+
 function countAndSay(n: number): string {
   const res: string[] = [];
   res[1] = '1';

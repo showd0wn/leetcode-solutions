@@ -1,3 +1,5 @@
+// topics = ["字典树", "深度优先搜索"]
+
 export class TrieNode {
   endOfWord: boolean;
   next: Map<string, TrieNode>;

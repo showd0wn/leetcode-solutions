@@ -1,3 +1,5 @@
+// topics = ["并查集", "哈希表"]
+
 export class UnionFind {
   parent: number[];
   rank: number[];
@@ -70,9 +72,9 @@ function accountsMerge(accounts: string[][]): string[][] {
     indexToEmails.set(index, account);
   }
 
-  return [...indexToEmails.values()].map(emails => {
+  return [...indexToEmails.values()].map((emails) => {
     emails.sort();
     const name = emailToName.get(emails[0])!;
     return [name, ...emails];
   });
-};
+}

@@ -1,3 +1,5 @@
+// topics = ["二分查找"]
+
 /**
  * The knows API is defined in the parent class Relation.
  * isBadVersion(version: number): boolean {

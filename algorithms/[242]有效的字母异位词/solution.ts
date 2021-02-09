@@ -1,4 +1,4 @@
-// topics = ["哈希表"]
+// topics = ["字符串", "哈希表"]
 
 function isAnagram(s: string, t: string): boolean {
   if (s.length !== t.length) {

@@ -1,3 +1,5 @@
+// topics = ["数组"]
+
 function numEquivDominoPairs(dominoes: number[][]): number {
   const list = dominoes.map((item): string => {
     item.sort();
@@ -17,4 +19,4 @@ function numEquivDominoPairs(dominoes: number[][]): number {
   }
 
   return res;
-};
+}

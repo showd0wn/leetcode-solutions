@@ -1,3 +1,5 @@
+// topics = ["贪心算法"]
+
 function maxEvents(events: number[][]): number {
   // Greedy
 
@@ -64,4 +66,4 @@ function maxEvents(events: number[][]): number {
     }
   }
   return res;
-};
+}

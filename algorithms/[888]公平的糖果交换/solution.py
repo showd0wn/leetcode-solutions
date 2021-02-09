@@ -1,3 +1,5 @@
+# topics = ["哈希表"]
+
 from typing import List, Dict
 
 
@@ -15,3 +17,5 @@ class Solution:
         for ele in B:
             if ele in d:
                 return [d[ele], ele]
+
+        return []

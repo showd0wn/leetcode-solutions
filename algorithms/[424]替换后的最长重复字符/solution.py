@@ -1,3 +1,6 @@
+# topics = ["滑动窗口"]
+
+
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         n = len(s)

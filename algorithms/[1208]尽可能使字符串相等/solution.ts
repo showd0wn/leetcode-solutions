@@ -1,3 +1,5 @@
+// topics = ["滑动窗口"]
+
 function equalSubstring(s: string, t: string, maxCost: number): number {
   const n = s.length;
   const record: number[] = [];

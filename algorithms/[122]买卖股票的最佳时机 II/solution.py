@@ -1,4 +1,4 @@
-# topics = ["贪心"]
+# topics = ["贪心算法"]
 
 from typing import List
 

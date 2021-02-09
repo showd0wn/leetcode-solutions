@@ -1,3 +1,6 @@
+// topics = ["数组", "哈希表"]
+
+
 function intersect(nums1: number[], nums2: number[]): number[] {
   const map = new Map<number, number>();
   for (const ele of nums1) {
@@ -20,4 +23,4 @@ function intersect(nums1: number[], nums2: number[]): number[] {
     }
   }
   return res;
-};
+}

@@ -1,3 +1,5 @@
+// topics = ["栈"]
+
 // 辅助栈，和元素栈同步插入和删除
 class MinStack {
   stack: number[];

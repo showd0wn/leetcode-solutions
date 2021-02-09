@@ -1,3 +1,5 @@
+// topics = ["字符串"]
+
 function longestCommonPrefix(strs: string[]): string {
   if (strs.length === 0) return '';
   let prefix = '';

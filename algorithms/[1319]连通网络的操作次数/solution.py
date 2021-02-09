@@ -1,3 +1,5 @@
+# topics = ["图", "广度优先搜索, "深度优先搜索"]
+
 from collections import deque
 from typing import List, Set
 
@@ -5,7 +7,7 @@ from typing import List, Set
 class Solution:
     # 邻接表
     def buildGraph(self, n: int, edges: List[List[int]]) -> List[Set[int]]:
-        graph = [set() for i in range(n)]
+        graph = [set()] * n
 
         for i, j in edges:
             graph[i].add(j)

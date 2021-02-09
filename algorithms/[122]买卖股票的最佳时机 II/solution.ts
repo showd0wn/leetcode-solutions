@@ -1,3 +1,5 @@
+// topics = ["贪心算法"]
+
 function maxProfit(prices: number[]): number {
   // 求连续递增序列和
   let res = 0;

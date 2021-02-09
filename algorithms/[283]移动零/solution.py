@@ -1,3 +1,5 @@
+# topics = ["数组"]
+
 from typing import List
 
 
@@ -8,4 +10,5 @@ class Solution:
         """
         for i in range(len(nums))[::-1]:
             if not nums[i]:
+                # pop(i) 的时间复杂度为 0(n)
                 nums.append(nums.pop(i))

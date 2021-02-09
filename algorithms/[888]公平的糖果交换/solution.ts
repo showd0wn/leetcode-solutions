@@ -1,3 +1,5 @@
+// topics = ["哈希表"]
+
 function fairCandySwap(A: number[], B: number[]): number[] {
   const t1 = A.reduce((a, b) => a + b, 0);
   const t2 = B.reduce((a, b) => a + b, 0);
@@ -13,4 +15,4 @@ function fairCandySwap(A: number[], B: number[]): number[] {
   }
 
   return [];
-};
+}

@@ -1,16 +1,18 @@
+# topics = ["数学"]
+
 from typing import List
 
 
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
-        K = [int(n) for n in str(K)]
+        KL = [int(n) for n in str(K)]
 
         res = []
-        i, j, carry = len(A) - 1, len(K) - 1, 0
+        i, j, carry = len(A) - 1, len(KL) - 1, 0
 
         # 逐位相加
         while i >= 0 and j >= 0:
-            sum = A[i] + K[j] + carry
+            sum = A[i] + KL[j] + carry
             res.append(sum % 10)
             carry = sum // 10
             i -= 1
@@ -21,7 +23,7 @@ class Solution:
             carry = sum // 10
             i -= 1
         while j >= 0:
-            sum = K[j] + carry
+            sum = KL[j] + carry
             res.append(sum % 10)
             carry = sum // 10
             j -= 1

@@ -1,6 +1,8 @@
+// topics = ["图", "并查集"]
+
 export class UnionFind {
-  parent: number[]
-  rank: number[]
+  parent: number[];
+  rank: number[];
   setCount: number;
   constructor(n: number) {
     this.parent = Array.from({ length: n }, (_, i) => i);
@@ -34,7 +36,6 @@ export class UnionFind {
   }
 }
 
-
 function makeConnected(n: number, connections: number[][]): number {
   const len = connections.length;
 
@@ -46,4 +47,4 @@ function makeConnected(n: number, connections: number[][]): number {
   const uf = new UnionFind(n);
   connections.forEach(([i, j]) => uf.union(i, j));
   return uf.setCount - 1;
-};
+}

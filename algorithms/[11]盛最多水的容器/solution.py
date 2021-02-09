@@ -1,4 +1,4 @@
-# topics = ["双指针"]
+# topics = ["数组", "双指针"]
 
 from typing import List
 

@@ -1,3 +1,5 @@
+// topics = ["并查集"]
+
 export class UnionFind {
   parent: number[];
   rank: number[];
@@ -10,9 +12,9 @@ export class UnionFind {
   union(i: number, j: number): void {
     const x = this.find(i);
     const y = this.find(j);
-    
+
     if (x === y) return;
-    
+
     if (this.rank[x] <= this.rank[y]) {
       this.parent[x] = y;
     } else {
@@ -38,7 +40,7 @@ function regionsBySlashes(grid: string[]): number {
   const n = grid.length;
   // 把一个单元格分割成逻辑上的左右 2 个部分
   const uf = new UnionFind(n ** 2 * 2);
-  
+
   for (let i = 0; i < n; i += 1) {
     for (let j = 0; j < n; j += 1) {
       const char = grid[i][j];
@@ -71,4 +73,4 @@ function regionsBySlashes(grid: string[]): number {
   }
 
   return uf.setCount;
-};
+}
