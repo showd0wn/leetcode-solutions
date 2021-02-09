@@ -38,6 +38,7 @@
         "title_slug": "container-with-most-water",
         "lock": false,
         "topics": [
+            "数组",
             "双指针"
         ]
     },
@@ -80,6 +81,7 @@
         "title_slug": "remove-duplicates-from-sorted-array",
         "lock": false,
         "topics": [
+            "数组",
             "双指针"
         ]
     },
@@ -164,6 +166,7 @@
         "title_slug": "merge-sorted-array",
         "lock": false,
         "topics": [
+            "数组",
             "双指针"
         ]
     },
@@ -233,7 +236,7 @@
         "title_slug": "best-time-to-buy-and-sell-stock-ii",
         "lock": false,
         "topics": [
-            "贪心"
+            "贪心算法"
         ]
     },
     {
@@ -254,8 +257,7 @@
         "title_slug": "single-number",
         "lock": false,
         "topics": [
-            "位运算",
-            "哈希表"
+            "位运算"
         ]
     },
     {
@@ -347,6 +349,7 @@
         "title_slug": "contains-duplicate",
         "lock": false,
         "topics": [
+            "数组",
             "哈希表"
         ]
     },
@@ -388,6 +391,7 @@
         "title_slug": "valid-anagram",
         "lock": false,
         "topics": [
+            "字符串",
             "哈希表"
         ]
     },
@@ -408,6 +412,7 @@
         "title_slug": "move-zeroes",
         "lock": false,
         "topics": [
+            "数组",
             "双指针"
         ]
     },
@@ -428,7 +433,9 @@
         "title": "Power of Three",
         "title_slug": "power-of-three",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数学"
+        ]
     },
     {
         "id": "344",
@@ -436,7 +443,10 @@
         "title": "Reverse String",
         "title_slug": "reverse-string",
         "lock": false,
-        "topics": []
+        "topics": [
+            "字符串",
+            "双指针"
+        ]
     },
     {
         "id": "350",
@@ -444,7 +454,10 @@
         "title": "Intersection of Two Arrays II",
         "title_slug": "intersection-of-two-arrays-ii",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数组",
+            "哈希表"
+        ]
     },
     {
         "id": "387",
@@ -452,7 +465,10 @@
         "title": "First Unique Character in a String",
         "title_slug": "first-unique-character-in-a-string",
         "lock": false,
-        "topics": []
+        "topics": [
+            "字符串",
+            "哈希表"
+        ]
     },
     {
         "id": "412",
@@ -468,7 +484,9 @@
         "title": "Longest Repeating Character Replacement",
         "title_slug": "longest-repeating-character-replacement",
         "lock": false,
-        "topics": []
+        "topics": [
+            "滑动窗口"
+        ]
     },
     {
         "id": "480",
@@ -476,7 +494,11 @@
         "title": "Sliding Window Median",
         "title_slug": "sliding-window-median",
         "lock": false,
-        "topics": []
+        "topics": [
+            "滑动窗口",
+            "二分查找",
+            "堆"
+        ]
     },
     {
         "id": "547",
@@ -484,7 +506,12 @@
         "title": "Number of Provinces",
         "title_slug": "number-of-provinces",
         "lock": false,
-        "topics": []
+        "topics": [
+            "图",
+            "深度优先搜索",
+            "广度优先搜索",
+            "并查集"
+        ]
     },
     {
         "id": "628",
@@ -492,7 +519,9 @@
         "title": "Maximum Product of Three Numbers",
         "title_slug": "maximum-product-of-three-numbers",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数学"
+        ]
     },
     {
         "id": "643",
@@ -500,7 +529,9 @@
         "title": "Maximum Average Subarray I",
         "title_slug": "maximum-average-subarray-i",
         "lock": false,
-        "topics": []
+        "topics": [
+            "滑动窗口"
+        ]
     },
     {
         "id": "648",
@@ -508,7 +539,10 @@
         "title": "Replace Words",
         "title_slug": "replace-words",
         "lock": false,
-        "topics": []
+        "topics": [
+            "字典树",
+            "哈希表"
+        ]
     },
     {
         "id": "674",
@@ -516,7 +550,9 @@
         "title": "Longest Continuous Increasing Subsequence",
         "title_slug": "longest-continuous-increasing-subsequence",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数组"
+        ]
     },
     {
         "id": "721",
@@ -524,7 +560,10 @@
         "title": "Accounts Merge",
         "title_slug": "accounts-merge",
         "lock": false,
-        "topics": []
+        "topics": [
+            "并查集",
+            "哈希表"
+        ]
     },
     {
         "id": "724",
@@ -532,7 +571,9 @@
         "title": "Find Pivot Index",
         "title_slug": "find-pivot-index",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数组"
+        ]
     },
     {
         "id": "778",
@@ -540,7 +581,15 @@
         "title": "Swim in Rising Water",
         "title_slug": "swim-in-rising-water",
         "lock": false,
-        "topics": []
+        "topics": [
+            "图",
+            "并查集",
+            "二分查找",
+            "深度优先搜索",
+            "广度优先搜索",
+            "最短路径",
+            "堆"
+        ]
     },
     {
         "id": "839",
@@ -548,7 +597,9 @@
         "title": "Similar String Groups",
         "title_slug": "similar-string-groups",
         "lock": false,
-        "topics": []
+        "topics": [
+            "并查集"
+        ]
     },
     {
         "id": "888",
@@ -556,7 +607,9 @@
         "title": "Fair Candy Swap",
         "title_slug": "fair-candy-swap",
         "lock": false,
-        "topics": []
+        "topics": [
+            "哈希表"
+        ]
     },
     {
         "id": "959",
@@ -564,7 +617,9 @@
         "title": "Regions Cut By Slashes",
         "title_slug": "regions-cut-by-slashes",
         "lock": false,
-        "topics": []
+        "topics": [
+            "并查集"
+        ]
     },
     {
         "id": "989",
@@ -572,7 +627,9 @@
         "title": "Add to Array-Form of Integer",
         "title_slug": "add-to-array-form-of-integer",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数学"
+        ]
     },
     {
         "id": "1004",
@@ -580,7 +637,9 @@
         "title": "Max Consecutive Ones III",
         "title_slug": "max-consecutive-ones-iii",
         "lock": false,
-        "topics": []
+        "topics": [
+            "滑动窗口"
+        ]
     },
     {
         "id": "1128",
@@ -588,7 +647,9 @@
         "title": "Number of Equivalent Domino Pairs",
         "title_slug": "number-of-equivalent-domino-pairs",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数组"
+        ]
     },
     {
         "id": "1208",
@@ -596,7 +657,9 @@
         "title": "Get Equal Substrings Within Budget",
         "title_slug": "get-equal-substrings-within-budget",
         "lock": false,
-        "topics": []
+        "topics": [
+            "滑动窗口"
+        ]
     },
     {
         "id": "1232",
@@ -604,7 +667,9 @@
         "title": "Check If It Is a Straight Line",
         "title_slug": "check-if-it-is-a-straight-line",
         "lock": false,
-        "topics": []
+        "topics": [
+            "数学"
+        ]
     },
     {
         "id": "1319",
@@ -612,7 +677,12 @@
         "title": "Number of Operations to Make Network Connected",
         "title_slug": "number-of-operations-to-make-network-connected",
         "lock": false,
-        "topics": []
+        "topics": [
+            "图",
+            "并查集",
+            "广度优先搜索",
+            "深度优先搜索"
+        ]
     },
     {
         "id": "1353",
@@ -620,7 +690,10 @@
         "title": "Maximum Number of Events That Can Be Attended",
         "title_slug": "maximum-number-of-events-that-can-be-attended",
         "lock": false,
-        "topics": []
+        "topics": [
+            "贪心算法",
+            "堆"
+        ]
     },
     {
         "id": "1438",
@@ -628,7 +701,9 @@
         "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
         "title_slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
         "lock": false,
-        "topics": []
+        "topics": [
+            "滑动窗口"
+        ]
     },
     {
         "id": "1489",
@@ -636,7 +711,11 @@
         "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
         "title_slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
         "lock": false,
-        "topics": []
+        "topics": [
+            "图",
+            "最小生成树",
+            "并查集"
+        ]
     },
     {
         "id": "1579",
@@ -644,7 +723,10 @@
         "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
         "title_slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
         "lock": false,
-        "topics": []
+        "topics": [
+            "图",
+            "并查集"
+        ]
     },
     {
         "id": "1584",
@@ -653,9 +735,11 @@
         "title_slug": "min-cost-to-connect-all-points",
         "lock": false,
         "topics": [
+            "图",
             "最小生成树",
+            "贪心算法",
             "并查集",
-            "贪心算法"
+            "堆"
         ]
     },
     {
@@ -664,6 +748,14 @@
         "title": "Path With Minimum Effort",
         "title_slug": "path-with-minimum-effort",
         "lock": false,
-        "topics": []
+        "topics": [
+            "图",
+            "并查集",
+            "二分查找",
+            "深度优先搜索",
+            "广度优先搜索",
+            "最短路径",
+            "堆"
+        ]
     }
 ]
