@@ -29,9 +29,11 @@ class Update:
                 continue
             if id_search_obj := re.search(r'(?<=\[)\d+(?=\])', root):
                 id = id_search_obj.group()
+                caption = root.split('/')[-1].replace('[' + id + ']', '')
                 solutions = self.solutions[id] = {}
                 path = solutions['path'] = {}
                 topics = solutions['topics'] = []
+                solutions['caption'] = caption
                 for file in files:
                     file_type = file.split('.')[1]
                     file_path = os.path.join(root, file)
@@ -55,6 +57,7 @@ class Update:
             self.stats[level_desc]['total'] += 1
 
             if id in self.solutions and self.solutions[id]:
+                caption = self.solutions[id]['caption']
                 all_topics = self.solutions[id]['topics']
                 topics = list(set(all_topics))
                 topics.sort(key=all_topics.index)
@@ -67,6 +70,7 @@ class Update:
                         'title': algo['stat']['question__title'],
                         'title_slug': algo['stat']['question__title_slug'],
                         'lock': algo['paid_only'],
+                        'caption': caption,
                         'topics': topics,
                     }
                 )
@@ -101,7 +105,7 @@ class Update:
                 )
             )
             for problem in self.problems:
-                id, level, title, title_slug, lock, _ = problem.values()
+                id, level, title, title_slug, lock, _, _ = problem.values()
                 data = {
                     'id': id,
                     'level': self._level_map[level],
