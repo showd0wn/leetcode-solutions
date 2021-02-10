@@ -5,6 +5,7 @@
         "title": "Two Sum",
         "title_slug": "two-sum",
         "lock": false,
+        "caption": "两数之和",
         "topics": [
             "数组",
             "哈希表"
@@ -16,6 +17,7 @@
         "title": "Reverse Integer",
         "title_slug": "reverse-integer",
         "lock": false,
+        "caption": "整数反转",
         "topics": [
             "数学"
         ]
@@ -26,6 +28,7 @@
         "title": "String to Integer (atoi)",
         "title_slug": "string-to-integer-atoi",
         "lock": false,
+        "caption": "字符串转换整数 (atoi)",
         "topics": [
             "字符串",
             "状态机"
@@ -37,6 +40,7 @@
         "title": "Container With Most Water",
         "title_slug": "container-with-most-water",
         "lock": false,
+        "caption": "盛最多水的容器",
         "topics": [
             "数组",
             "双指针"
@@ -48,6 +52,7 @@
         "title": "Longest Common Prefix",
         "title_slug": "longest-common-prefix",
         "lock": false,
+        "caption": "最长公共前缀",
         "topics": [
             "字符串"
         ]
@@ -58,6 +63,7 @@
         "title": "Remove Nth Node From End of List",
         "title_slug": "remove-nth-node-from-end-of-list",
         "lock": false,
+        "caption": "删除链表的倒数第N个节点",
         "topics": [
             "链表",
             "双指针"
@@ -69,6 +75,7 @@
         "title": "Merge Two Sorted Lists",
         "title_slug": "merge-two-sorted-lists",
         "lock": false,
+        "caption": "合并两个有序链表",
         "topics": [
             "链表",
             "递归"
@@ -80,6 +87,7 @@
         "title": "Remove Duplicates from Sorted Array",
         "title_slug": "remove-duplicates-from-sorted-array",
         "lock": false,
+        "caption": "删除排序数组中的重复项",
         "topics": [
             "数组",
             "双指针"
@@ -91,6 +99,7 @@
         "title": "Implement strStr()",
         "title_slug": "implement-strstr",
         "lock": false,
+        "caption": "实现 strStr()",
         "topics": [
             "滑动窗口",
             "KMP"
@@ -102,6 +111,7 @@
         "title": "Valid Sudoku",
         "title_slug": "valid-sudoku",
         "lock": false,
+        "caption": "有效的数独",
         "topics": [
             "哈希表"
         ]
@@ -112,6 +122,7 @@
         "title": "Count and Say",
         "title_slug": "count-and-say",
         "lock": false,
+        "caption": "外观数列",
         "topics": [
             "字符串",
             "递归"
@@ -123,6 +134,7 @@
         "title": "Trapping Rain Water",
         "title_slug": "trapping-rain-water",
         "lock": false,
+        "caption": "接雨水",
         "topics": [
             "双指针",
             "栈"
@@ -134,6 +146,7 @@
         "title": "Rotate Image",
         "title_slug": "rotate-image",
         "lock": false,
+        "caption": "旋转图像",
         "topics": [
             "数组"
         ]
@@ -144,6 +157,7 @@
         "title": "Plus One",
         "title_slug": "plus-one",
         "lock": false,
+        "caption": "加一",
         "topics": [
             "数学"
         ]
@@ -154,6 +168,7 @@
         "title": "Word Search",
         "title_slug": "word-search",
         "lock": false,
+        "caption": "单词搜索",
         "topics": [
             "深度优先搜索",
             "回溯法"
@@ -165,6 +180,7 @@
         "title": "Merge Sorted Array",
         "title_slug": "merge-sorted-array",
         "lock": false,
+        "caption": "合并两个有序数组",
         "topics": [
             "数组",
             "双指针"
@@ -176,6 +192,7 @@
         "title": "Validate Binary Search Tree",
         "title_slug": "validate-binary-search-tree",
         "lock": false,
+        "caption": "验证二叉搜索树",
         "topics": [
             "树",
             "深度优先搜索",
@@ -188,6 +205,7 @@
         "title": "Symmetric Tree",
         "title_slug": "symmetric-tree",
         "lock": false,
+        "caption": "对称二叉树",
         "topics": [
             "树",
             "广度优先搜索",
@@ -200,6 +218,7 @@
         "title": "Binary Tree Level Order Traversal",
         "title_slug": "binary-tree-level-order-traversal",
         "lock": false,
+        "caption": "二叉树的层次遍历",
         "topics": [
             "树",
             "广度优先搜索",
@@ -212,6 +231,7 @@
         "title": "Maximum Depth of Binary Tree",
         "title_slug": "maximum-depth-of-binary-tree",
         "lock": false,
+        "caption": "二叉树的最大深度",
         "topics": [
             "树",
             "广度优先搜索",
@@ -224,6 +244,7 @@
         "title": "Convert Sorted Array to Binary Search Tree",
         "title_slug": "convert-sorted-array-to-binary-search-tree",
         "lock": false,
+        "caption": "将有序数组转换为二叉搜索树",
         "topics": [
             "树",
             "深度优先搜索"
@@ -235,6 +256,7 @@
         "title": "Best Time to Buy and Sell Stock II",
         "title_slug": "best-time-to-buy-and-sell-stock-ii",
         "lock": false,
+        "caption": "买卖股票的最佳时机 II",
         "topics": [
             "贪心算法"
         ]
@@ -245,6 +267,7 @@
         "title": "Valid Palindrome",
         "title_slug": "valid-palindrome",
         "lock": false,
+        "caption": "验证回文字符串",
         "topics": [
             "字符串",
             "双指针"
@@ -256,6 +279,7 @@
         "title": "Single Number",
         "title_slug": "single-number",
         "lock": false,
+        "caption": "只出现一次的数字",
         "topics": [
             "位运算"
         ]
@@ -266,6 +290,7 @@
         "title": "Linked List Cycle",
         "title_slug": "linked-list-cycle",
         "lock": false,
+        "caption": "环形链表",
         "topics": [
             "链表",
             "双指针"
@@ -277,6 +302,7 @@
         "title": "Reverse Words in a String",
         "title_slug": "reverse-words-in-a-string",
         "lock": false,
+        "caption": "翻转字符串里的单词",
         "topics": [
             "字符串"
         ]
@@ -287,6 +313,7 @@
         "title": "Min Stack",
         "title_slug": "min-stack",
         "lock": false,
+        "caption": "最小栈",
         "topics": [
             "栈"
         ]
@@ -297,6 +324,7 @@
         "title": "Rotate Array",
         "title_slug": "rotate-array",
         "lock": false,
+        "caption": "旋转数组",
         "topics": [
             "数组"
         ]
@@ -307,6 +335,7 @@
         "title": "Count Primes",
         "title_slug": "count-primes",
         "lock": false,
+        "caption": "计数质数",
         "topics": [
             "数学"
         ]
@@ -317,6 +346,7 @@
         "title": "Reverse Linked List",
         "title_slug": "reverse-linked-list",
         "lock": false,
+        "caption": "反转链表",
         "topics": [
             "链表"
         ]
@@ -327,6 +357,7 @@
         "title": "Implement Trie (Prefix Tree)",
         "title_slug": "implement-trie-prefix-tree",
         "lock": false,
+        "caption": "实现 Trie (前缀树)",
         "topics": [
             "字典树"
         ]
@@ -337,6 +368,7 @@
         "title": "Design Add and Search Words Data Structure",
         "title_slug": "design-add-and-search-words-data-structure",
         "lock": false,
+        "caption": "添加与搜索单词 - 数据结构设计",
         "topics": [
             "字典树",
             "深度优先搜索"
@@ -348,6 +380,7 @@
         "title": "Contains Duplicate",
         "title_slug": "contains-duplicate",
         "lock": false,
+        "caption": "存在重复元素",
         "topics": [
             "数组",
             "哈希表"
@@ -359,6 +392,7 @@
         "title": "Palindrome Linked List",
         "title_slug": "palindrome-linked-list",
         "lock": false,
+        "caption": "回文链表",
         "topics": [
             "链表",
             "双指针"
@@ -370,6 +404,7 @@
         "title": "Delete Node in a Linked List",
         "title_slug": "delete-node-in-a-linked-list",
         "lock": false,
+        "caption": "删除链表中的节点",
         "topics": [
             "链表"
         ]
@@ -380,6 +415,7 @@
         "title": "Search a 2D Matrix II",
         "title_slug": "search-a-2d-matrix-ii",
         "lock": false,
+        "caption": "搜索二维矩阵 II",
         "topics": [
             "数组"
         ]
@@ -390,6 +426,7 @@
         "title": "Valid Anagram",
         "title_slug": "valid-anagram",
         "lock": false,
+        "caption": "有效的字母异位词",
         "topics": [
             "字符串",
             "哈希表"
@@ -401,6 +438,7 @@
         "title": "First Bad Version",
         "title_slug": "first-bad-version",
         "lock": false,
+        "caption": "第一个错误的版本",
         "topics": [
             "二分查找"
         ]
@@ -411,6 +449,7 @@
         "title": "Move Zeroes",
         "title_slug": "move-zeroes",
         "lock": false,
+        "caption": "移动零",
         "topics": [
             "数组",
             "双指针"
@@ -422,9 +461,11 @@
         "title": "Find Median from Data Stream",
         "title_slug": "find-median-from-data-stream",
         "lock": false,
+        "caption": "数据流的中位数",
         "topics": [
             "二分查找",
-            "堆"
+            "堆",
+            "平衡二叉树"
         ]
     },
     {
@@ -433,6 +474,7 @@
         "title": "Power of Three",
         "title_slug": "power-of-three",
         "lock": false,
+        "caption": "3的幂",
         "topics": [
             "数学"
         ]
@@ -443,6 +485,7 @@
         "title": "Reverse String",
         "title_slug": "reverse-string",
         "lock": false,
+        "caption": "反转字符串",
         "topics": [
             "字符串",
             "双指针"
@@ -454,6 +497,7 @@
         "title": "Intersection of Two Arrays II",
         "title_slug": "intersection-of-two-arrays-ii",
         "lock": false,
+        "caption": "两个数组的交集 II",
         "topics": [
             "数组",
             "哈希表"
@@ -465,6 +509,7 @@
         "title": "First Unique Character in a String",
         "title_slug": "first-unique-character-in-a-string",
         "lock": false,
+        "caption": "字符串中的第一个唯一字符",
         "topics": [
             "字符串",
             "哈希表"
@@ -476,6 +521,7 @@
         "title": "Fizz Buzz",
         "title_slug": "fizz-buzz",
         "lock": false,
+        "caption": "Fizz Buzz",
         "topics": []
     },
     {
@@ -484,6 +530,7 @@
         "title": "Longest Repeating Character Replacement",
         "title_slug": "longest-repeating-character-replacement",
         "lock": false,
+        "caption": "替换后的最长重复字符",
         "topics": [
             "滑动窗口"
         ]
@@ -494,10 +541,12 @@
         "title": "Sliding Window Median",
         "title_slug": "sliding-window-median",
         "lock": false,
+        "caption": "滑动窗口中位数",
         "topics": [
             "滑动窗口",
             "二分查找",
-            "堆"
+            "堆",
+            "平衡二叉树"
         ]
     },
     {
@@ -506,6 +555,7 @@
         "title": "Number of Provinces",
         "title_slug": "number-of-provinces",
         "lock": false,
+        "caption": "省份数量",
         "topics": [
             "图",
             "深度优先搜索",
@@ -519,6 +569,7 @@
         "title": "Maximum Product of Three Numbers",
         "title_slug": "maximum-product-of-three-numbers",
         "lock": false,
+        "caption": "三个数的最大乘积",
         "topics": [
             "数学"
         ]
@@ -529,6 +580,7 @@
         "title": "Maximum Average Subarray I",
         "title_slug": "maximum-average-subarray-i",
         "lock": false,
+        "caption": "子数组最大平均数 I",
         "topics": [
             "滑动窗口"
         ]
@@ -539,6 +591,7 @@
         "title": "Replace Words",
         "title_slug": "replace-words",
         "lock": false,
+        "caption": "单词替换",
         "topics": [
             "字典树",
             "哈希表"
@@ -550,6 +603,7 @@
         "title": "Longest Continuous Increasing Subsequence",
         "title_slug": "longest-continuous-increasing-subsequence",
         "lock": false,
+        "caption": "最长连续递增序列",
         "topics": [
             "数组"
         ]
@@ -560,6 +614,7 @@
         "title": "Accounts Merge",
         "title_slug": "accounts-merge",
         "lock": false,
+        "caption": "账户合并",
         "topics": [
             "并查集",
             "哈希表"
@@ -571,6 +626,7 @@
         "title": "Find Pivot Index",
         "title_slug": "find-pivot-index",
         "lock": false,
+        "caption": "寻找数组的中心索引",
         "topics": [
             "数组"
         ]
@@ -581,6 +637,7 @@
         "title": "Swim in Rising Water",
         "title_slug": "swim-in-rising-water",
         "lock": false,
+        "caption": "水位上升的泳池中游泳",
         "topics": [
             "图",
             "并查集",
@@ -597,6 +654,7 @@
         "title": "Similar String Groups",
         "title_slug": "similar-string-groups",
         "lock": false,
+        "caption": "相似字符串组",
         "topics": [
             "并查集"
         ]
@@ -607,6 +665,7 @@
         "title": "Fair Candy Swap",
         "title_slug": "fair-candy-swap",
         "lock": false,
+        "caption": "公平的糖果交换",
         "topics": [
             "哈希表"
         ]
@@ -617,6 +676,7 @@
         "title": "Regions Cut By Slashes",
         "title_slug": "regions-cut-by-slashes",
         "lock": false,
+        "caption": "由斜杠划分区域",
         "topics": [
             "并查集"
         ]
@@ -627,6 +687,7 @@
         "title": "Add to Array-Form of Integer",
         "title_slug": "add-to-array-form-of-integer",
         "lock": false,
+        "caption": "数组形式的整数加法",
         "topics": [
             "数学"
         ]
@@ -637,6 +698,7 @@
         "title": "Max Consecutive Ones III",
         "title_slug": "max-consecutive-ones-iii",
         "lock": false,
+        "caption": "最大连续1的个数 III",
         "topics": [
             "滑动窗口"
         ]
@@ -647,6 +709,7 @@
         "title": "Number of Equivalent Domino Pairs",
         "title_slug": "number-of-equivalent-domino-pairs",
         "lock": false,
+        "caption": "等价多米诺骨牌对的数量",
         "topics": [
             "数组"
         ]
@@ -657,6 +720,7 @@
         "title": "Get Equal Substrings Within Budget",
         "title_slug": "get-equal-substrings-within-budget",
         "lock": false,
+        "caption": "尽可能使字符串相等",
         "topics": [
             "滑动窗口"
         ]
@@ -667,6 +731,7 @@
         "title": "Check If It Is a Straight Line",
         "title_slug": "check-if-it-is-a-straight-line",
         "lock": false,
+        "caption": "缀点成线",
         "topics": [
             "数学"
         ]
@@ -677,6 +742,7 @@
         "title": "Number of Operations to Make Network Connected",
         "title_slug": "number-of-operations-to-make-network-connected",
         "lock": false,
+        "caption": "连通网络的操作次数",
         "topics": [
             "图",
             "并查集",
@@ -690,6 +756,7 @@
         "title": "Maximum Number of Events That Can Be Attended",
         "title_slug": "maximum-number-of-events-that-can-be-attended",
         "lock": false,
+        "caption": "最多可以参加的会议数目",
         "topics": [
             "贪心算法",
             "堆"
@@ -701,6 +768,7 @@
         "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
         "title_slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
         "lock": false,
+        "caption": "绝对差不超过限制的最长连续子数组",
         "topics": [
             "滑动窗口"
         ]
@@ -711,6 +779,7 @@
         "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
         "title_slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
         "lock": false,
+        "caption": "找到最小生成树里的关键边和伪关键边",
         "topics": [
             "图",
             "最小生成树",
@@ -723,6 +792,7 @@
         "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
         "title_slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
         "lock": false,
+        "caption": "保证图可完全遍历",
         "topics": [
             "图",
             "并查集"
@@ -734,6 +804,7 @@
         "title": "Min Cost to Connect All Points",
         "title_slug": "min-cost-to-connect-all-points",
         "lock": false,
+        "caption": "连接所有点的最小费用",
         "topics": [
             "图",
             "最小生成树",
@@ -748,6 +819,7 @@
         "title": "Path With Minimum Effort",
         "title_slug": "path-with-minimum-effort",
         "lock": false,
+        "caption": "最小体力消耗路径",
         "topics": [
             "图",
             "并查集",
