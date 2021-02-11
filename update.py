@@ -29,11 +29,11 @@ class Update:
                 continue
             if id_search_obj := re.search(r'(?<=\[)\d+(?=\])', root):
                 id = id_search_obj.group()
-                caption = root.split('/')[-1].replace('[' + id + ']', '')
                 solutions = self.solutions[id] = {}
+                solutions['caption'] = os.path.split(root)[1].replace('[' + id + ']', '')
                 path = solutions['path'] = {}
                 topics = solutions['topics'] = []
-                solutions['caption'] = caption
+
                 for file in files:
                     file_type = file.split('.')[1]
                     file_path = os.path.join(root, file)
@@ -46,7 +46,6 @@ class Update:
 
     def _handle_algorithms(self) -> None:
         response = self._fetch_data('https://leetcode-cn.com/api/problems/algorithms/')
-
         algorithms = response['stat_status_pairs']
 
         for algo in algorithms[::-1]:
@@ -105,15 +104,16 @@ class Update:
                 )
             )
             for problem in self.problems:
-                id, level, title, title_slug, lock, _, _ = problem.values()
-                data = {
-                    'id': id,
-                    'level': self._level_map[level],
-                    'title': self._generate_Title(title, title_slug, lock),
-                    'py': self._generate_solution('py', id),
-                    'ts': self._generate_solution('ts', id),
-                }
-                f.write('|{id}|{title}|{level}|{py}|{ts}|\n'.format(**data))
+                id, level, title, title_slug, lock, *_ = problem.values()
+                f.write(
+                    '|{id}|{title}|{level}|{py}|{ts}|\n'.format(
+                        id=id,
+                        level=self._level_map[level],
+                        title=self._generate_Title(title, title_slug, lock),
+                        py=self._generate_solution('py', id),
+                        ts=self._generate_solution('ts', id),
+                    )
+                )
 
     def _generate_Title(self, title: str, title_slug: str, lock: bool) -> str:
         return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
