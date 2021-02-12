@@ -75,7 +75,7 @@ class Update:
                 )
 
     def update_pages(self) -> None:
-        with open('./docs/problems.json', 'w', encoding='utf-8') as f:
+        with open('./docs/data/problems.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(self.problems, indent=4, ensure_ascii=False))
 
     def update_readme(self) -> None:
