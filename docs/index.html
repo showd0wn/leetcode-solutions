@@ -5,30 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LeetCode 刷题记录</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-      // TODO 实现 MVVM
-      const myLeetCode = {
-        problems: [],
-        tags: [],
-        tagsSelected: new Set(),
-        init() {
-          this.initData();
-          this.renderFilter();
-          this.renderList();
-        },
-        initData() {
-          $.ajax('./problems.json').then((resp) => {});
-        },
-        renderFilter: function () {},
-        renderList: function () {},
-      };
-
-      myLeetCode.init();
-    </script>
+    <script src="./js/miniVue.js"></script>
   </body>
 </html>
