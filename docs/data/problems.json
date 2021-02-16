@@ -298,6 +298,18 @@
             ]
         },
         {
+            "id": "146",
+            "level": 2,
+            "title": "LRU Cache",
+            "title_slug": "lru-cache",
+            "lock": false,
+            "caption": "LRU 缓存机制",
+            "topics": [
+                "哈希表",
+                "链表"
+            ]
+        },
+        {
             "id": "151",
             "level": 2,
             "title": "Reverse Words in a String",
@@ -839,7 +851,7 @@
         },
         "Medium": {
             "total": 858,
-            "accept": 25
+            "accept": 26
         },
         "Hard": {
             "total": 366,

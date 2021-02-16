@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|38|25|7|70|
+|**Accept**|38|26|7|71|
 |**Total**|401|858|366|1625|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -34,6 +34,7 @@
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.ts)|
 |136|[Single Number](https://leetcode-cn.com/problems/single-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.ts)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|
+|146|[LRU Cache](https://leetcode-cn.com/problems/lru-cache/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[146]LRU%20缓存机制/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[146]LRU%20缓存机制/solution.ts)|
 |151|[Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.ts)|
 |155|[Min Stack](https://leetcode-cn.com/problems/min-stack/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.ts)|
 |189|[Rotate Array](https://leetcode-cn.com/problems/rotate-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.ts)|
