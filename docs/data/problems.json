@@ -142,6 +142,17 @@
             ]
         },
         {
+            "id": "46",
+            "level": 2,
+            "title": "Permutations",
+            "title_slug": "permutations",
+            "lock": false,
+            "caption": "全排列",
+            "topics": [
+                "回溯法"
+            ]
+        },
+        {
             "id": "48",
             "level": 2,
             "title": "Rotate Image",
@@ -577,6 +588,17 @@
             ]
         },
         {
+            "id": "566",
+            "level": 1,
+            "title": "Reshape the Matrix",
+            "title_slug": "reshape-the-matrix",
+            "lock": false,
+            "caption": "重塑矩阵",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "628",
             "level": 1,
             "title": "Maximum Product of Three Numbers",
@@ -847,11 +869,11 @@
     "stats": {
         "Easy": {
             "total": 401,
-            "accept": 38
+            "accept": 39
         },
         "Medium": {
             "total": 858,
-            "accept": 26
+            "accept": 27
         },
         "Hard": {
             "total": 366,

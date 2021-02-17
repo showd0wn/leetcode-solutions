@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|38|26|7|71|
+|**Accept**|39|27|7|73|
 |**Total**|401|858|366|1625|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
@@ -21,6 +21,7 @@
 |36|[Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.ts)|
 |38|[Count and Say](https://leetcode-cn.com/problems/count-and-say/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]外观数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]外观数列/solution.ts)|
 |42|[Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[42]接雨水/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[42]接雨水/solution.ts)|
+|46|[Permutations](https://leetcode-cn.com/problems/permutations/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[46]全排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[46]全排列/solution.ts)|
 |48|[Rotate Image](https://leetcode-cn.com/problems/rotate-image/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[48]旋转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[48]旋转图像/solution.ts)|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.ts)|
 |79|[Word Search](https://leetcode-cn.com/problems/word-search/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[79]单词搜索/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[79]单词搜索/solution.ts)|
@@ -58,6 +59,7 @@
 |424|[Longest Repeating Character Replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.ts)|
 |480|[Sliding Window Median](https://leetcode-cn.com/problems/sliding-window-median/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.ts)|
 |547|[Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
+|566|[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[566]重塑矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[566]重塑矩阵/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
 |643|[Maximum Average Subarray I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.ts)|
 |648|[Replace Words](https://leetcode-cn.com/problems/replace-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.ts)|
