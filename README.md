@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|39|27|7|73|
+|**Accept**|39|27|8|74|
 |**Total**|401|860|366|1627|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -16,6 +16,7 @@
 |14|[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.ts)|
 |19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.ts)|
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.ts)|
+|25|[Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.ts)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.ts)|
 |28|[Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.ts)|
 |36|[Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.ts)|

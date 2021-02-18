@@ -83,6 +83,17 @@
             ]
         },
         {
+            "id": "25",
+            "level": 3,
+            "title": "Reverse Nodes in k-Group",
+            "title_slug": "reverse-nodes-in-k-group",
+            "lock": false,
+            "caption": "K 个一组翻转链表",
+            "topics": [
+                "链表"
+            ]
+        },
+        {
             "id": "26",
             "level": 1,
             "title": "Remove Duplicates from Sorted Array",
@@ -372,7 +383,8 @@
             "lock": false,
             "caption": "反转链表",
             "topics": [
-                "链表"
+                "链表",
+                "递归"
             ]
         },
         {
@@ -877,7 +889,7 @@
         },
         "Hard": {
             "total": 366,
-            "accept": 7
+            "accept": 8
         }
     }
 }
