@@ -94,7 +94,7 @@ class Update:
                 '|**Accept**|{}|{}|{}|{}|\n'
                 '|**Total**|{}|{}|{}|{}|\n'
                 '### 题解\n'
-                '| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |\n'
+                '| ID | Title | Difficulty | Python | JavaScript(TS) |\n'
                 '|:---:|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
