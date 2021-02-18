@@ -5,9 +5,9 @@
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |**Accept**|39|27|7|73|
-|**Total**|401|858|366|1625|
+|**Total**|401|860|366|1627|
 ### 题解
-| &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | Python | TypeScript |
+| ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
 |1|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.ts)|
 |7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.ts)|
