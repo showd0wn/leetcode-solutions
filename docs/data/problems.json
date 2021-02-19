@@ -297,6 +297,19 @@
             ]
         },
         {
+            "id": "119",
+            "level": 1,
+            "title": "Pascal's Triangle II",
+            "title_slug": "pascals-triangle-ii",
+            "lock": false,
+            "caption": "杨辉三角 II",
+            "topics": [
+                "数组",
+                "数学",
+                "动态规划"
+            ]
+        },
+        {
             "id": "122",
             "level": 1,
             "title": "Best Time to Buy and Sell Stock II",
@@ -939,7 +952,7 @@
     "stats": {
         "Easy": {
             "total": 401,
-            "accept": 43
+            "accept": 44
         },
         "Medium": {
             "total": 860,

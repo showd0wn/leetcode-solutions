@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|43|28|8|79|
+|**Accept**|44|28|8|80|
 |**Total**|401|860|366|1627|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -34,6 +34,7 @@
 |102|[Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[102]二叉树的层次遍历/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[102]二叉树的层次遍历/solution.ts)|
 |104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.ts)|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.ts)|
+|119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[119]杨辉三角%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[119]杨辉三角%20II/solution.ts)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.ts)|
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.ts)|
 |136|[Single Number](https://leetcode-cn.com/problems/single-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.ts)|
