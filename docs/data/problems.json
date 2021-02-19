@@ -59,6 +59,18 @@
             ]
         },
         {
+            "id": "16",
+            "level": 2,
+            "title": "3Sum Closest",
+            "title_slug": "3sum-closest",
+            "lock": false,
+            "caption": "数组拆分 I",
+            "topics": [
+                "数组",
+                "贪心算法"
+            ]
+        },
+        {
             "id": "19",
             "level": 2,
             "title": "Remove Nth Node From End of List",
@@ -195,6 +207,17 @@
             "topics": [
                 "深度优先搜索",
                 "回溯法"
+            ]
+        },
+        {
+            "id": "83",
+            "level": 1,
+            "title": "Remove Duplicates from Sorted List",
+            "title_slug": "remove-duplicates-from-sorted-list",
+            "lock": false,
+            "caption": "删除排序链表中的重复元素",
+            "topics": [
+                "链表"
             ]
         },
         {
@@ -586,6 +609,17 @@
             ]
         },
         {
+            "id": "485",
+            "level": 1,
+            "title": "Max Consecutive Ones",
+            "title_slug": "max-consecutive-ones",
+            "lock": false,
+            "caption": "最大连续 1 的个数",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "547",
             "level": 2,
             "title": "Number of Provinces",
@@ -645,6 +679,18 @@
             ]
         },
         {
+            "id": "665",
+            "level": 1,
+            "title": "Non-decreasing Array",
+            "title_slug": "non-decreasing-array",
+            "lock": false,
+            "caption": "非递减数列",
+            "topics": [
+                "数组",
+                "贪心算法"
+            ]
+        },
+        {
             "id": "674",
             "level": 1,
             "title": "Longest Continuous Increasing Subsequence",
@@ -676,6 +722,18 @@
             "caption": "寻找数组的中心索引",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "703",
+            "level": 1,
+            "title": "Kth Largest Element in a Stream",
+            "title_slug": "kth-largest-element-in-a-stream",
+            "lock": false,
+            "caption": "数据流中的第 K 大元素",
+            "topics": [
+                "堆",
+                "二分查找"
             ]
         },
         {
@@ -881,11 +939,11 @@
     "stats": {
         "Easy": {
             "total": 401,
-            "accept": 39
+            "accept": 43
         },
         "Medium": {
             "total": 860,
-            "accept": 27
+            "accept": 28
         },
         "Hard": {
             "total": 366,
