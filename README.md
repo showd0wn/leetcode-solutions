@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|44|28|8|80|
-|**Total**|401|860|366|1627|
+|**Accept**|46|29|8|83|
+|**Total**|400|861|366|1627|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -61,15 +61,18 @@
 |387|[First Unique Character in a String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.ts)|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
 |424|[Longest Repeating Character Replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.ts)|
+|448|[Find All Numbers Disappeared in an Array](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[448]找到所有数组中消失的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[448]找到所有数组中消失的数字/solution.ts)|
 |480|[Sliding Window Median](https://leetcode-cn.com/problems/sliding-window-median/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.ts)|
 |485|[Max Consecutive Ones](https://leetcode-cn.com/problems/max-consecutive-ones/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[485]最大连续%201%20的个数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[485]最大连续%201%20的个数/solution.ts)|
 |547|[Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
 |566|[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[566]重塑矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[566]重塑矩阵/solution.ts)|
+|567|[Permutation in String](https://leetcode-cn.com/problems/permutation-in-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[567]字符串的排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[567]字符串的排列/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
 |643|[Maximum Average Subarray I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.ts)|
 |648|[Replace Words](https://leetcode-cn.com/problems/replace-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.ts)|
 |665|[Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.ts)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
+|697|[Degree of an Array](https://leetcode-cn.com/problems/degree-of-an-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[697]数组的度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[697]数组的度/solution.ts)|
 |721|[Accounts Merge](https://leetcode-cn.com/problems/accounts-merge/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |724|[Find Pivot Index](https://leetcode-cn.com/problems/find-pivot-index/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.ts)|
 |703|[Kth Largest Element in a Stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.ts)|

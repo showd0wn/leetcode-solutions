@@ -608,6 +608,17 @@
             ]
         },
         {
+            "id": "448",
+            "level": 1,
+            "title": "Find All Numbers Disappeared in an Array",
+            "title_slug": "find-all-numbers-disappeared-in-an-array",
+            "lock": false,
+            "caption": "找到所有数组中消失的数字",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "480",
             "level": 3,
             "title": "Sliding Window Median",
@@ -655,6 +666,18 @@
             "caption": "重塑矩阵",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "567",
+            "level": 2,
+            "title": "Permutation in String",
+            "title_slug": "permutation-in-string",
+            "lock": false,
+            "caption": "字符串的排列",
+            "topics": [
+                "双指针",
+                "滑动窗口"
             ]
         },
         {
@@ -712,6 +735,18 @@
             "caption": "最长连续递增序列",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "697",
+            "level": 1,
+            "title": "Degree of an Array",
+            "title_slug": "degree-of-an-array",
+            "lock": false,
+            "caption": "数组的度",
+            "topics": [
+                "数组",
+                "哈希表"
             ]
         },
         {
@@ -951,12 +986,12 @@
     ],
     "stats": {
         "Easy": {
-            "total": 401,
-            "accept": 44
+            "total": 400,
+            "accept": 46
         },
         "Medium": {
-            "total": 860,
-            "accept": 28
+            "total": 861,
+            "accept": 29
         },
         "Hard": {
             "total": 366,
