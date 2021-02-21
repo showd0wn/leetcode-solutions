@@ -1,4 +1,4 @@
-# topics = ["二分查找", "堆", "平衡二叉树"]
+# topics = ["二分查找", "堆", "平衡二叉搜索树"]
 
 from typing import List
 import math
