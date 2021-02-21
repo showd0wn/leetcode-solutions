@@ -1,7 +1,8 @@
 # topics = ["滑动窗口"]
 
-from typing import List, Deque
+from sortedcontainers import SortedList
 from collections import deque
+from typing import List, Deque
 
 
 class Solution:
@@ -45,4 +46,21 @@ class Solution:
 
             res = max(res, right - left + 1)
 
+        return res
+
+    # sortedcontainers
+    # 参考 https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/solution/jue-dui-chai-bu-chao-guo-xian-zhi-de-zui-5bki/
+    def longestSubarray3(self, nums: List[int], limit: int) -> int:
+        s = SortedList()
+        n = len(nums)
+        left = right = res = 0
+
+        while right < n:
+            s.add(nums[right])
+            while s[-1] - s[0] > limit:
+                s.remove(nums[left])
+                left += 1
+            res = max(res, right - left + 1)
+            right += 1
+        
         return res
