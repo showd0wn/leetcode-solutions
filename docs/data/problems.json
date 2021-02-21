@@ -986,15 +986,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 400,
+            "total": 402,
             "accept": 46
         },
         "Medium": {
-            "total": 861,
+            "total": 865,
             "accept": 29
         },
         "Hard": {
-            "total": 366,
+            "total": 368,
             "accept": 8
         }
     }
