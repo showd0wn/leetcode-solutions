@@ -773,6 +773,17 @@
             ]
         },
         {
+            "id": "766",
+            "level": 1,
+            "title": "Toeplitz Matrix",
+            "title_slug": "toeplitz-matrix",
+            "lock": false,
+            "caption": "托普利茨矩阵",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "703",
             "level": 1,
             "title": "Kth Largest Element in a Stream",
@@ -832,6 +843,19 @@
             "caption": "由斜杠划分区域",
             "topics": [
                 "并查集"
+            ]
+        },
+        {
+            "id": "978",
+            "level": 2,
+            "title": "Longest Turbulent Subarray",
+            "title_slug": "longest-turbulent-subarray",
+            "lock": false,
+            "caption": "最长湍流子数组",
+            "topics": [
+                "数组",
+                "滑动窗口",
+                "动态规划"
             ]
         },
         {
@@ -916,6 +940,18 @@
             ]
         },
         {
+            "id": "1423",
+            "level": 2,
+            "title": "Maximum Points You Can Obtain from Cards",
+            "title_slug": "maximum-points-you-can-obtain-from-cards",
+            "lock": false,
+            "caption": "可获得的最大点数",
+            "topics": [
+                "数组",
+                "滑动窗口"
+            ]
+        },
+        {
             "id": "1438",
             "level": 2,
             "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
@@ -989,11 +1025,11 @@
     "stats": {
         "Easy": {
             "total": 402,
-            "accept": 46
+            "accept": 47
         },
         "Medium": {
             "total": 865,
-            "accept": 29
+            "accept": 31
         },
         "Hard": {
             "total": 368,
