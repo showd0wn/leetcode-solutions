@@ -1,4 +1,4 @@
-// topics = ["滑动窗口"]
+// topics = ["数组", "滑动窗口"]
 
 function findMaxAverage(nums: number[], k: number): number {
   const n = nums.length;

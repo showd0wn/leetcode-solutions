@@ -1,4 +1,4 @@
-// topics = ["滑动窗口"]
+// topics = ["双指针", "滑动窗口"]
 
 function longestOnes(A: number[], K: number): number {
   // 同 424
