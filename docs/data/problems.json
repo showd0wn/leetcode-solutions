@@ -36,6 +36,17 @@
             ]
         },
         {
+            "id": "9",
+            "level": 1,
+            "title": "Palindrome Number",
+            "title_slug": "palindrome-number",
+            "lock": false,
+            "caption": "回文数",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
             "id": "11",
             "level": 2,
             "title": "Container With Most Water",
@@ -83,6 +94,18 @@
             ]
         },
         {
+            "id": "20",
+            "level": 1,
+            "title": "Valid Parentheses",
+            "title_slug": "valid-parentheses",
+            "lock": false,
+            "caption": "有效的括号",
+            "topics": [
+                "字符串",
+                "栈"
+            ]
+        },
+        {
             "id": "21",
             "level": 1,
             "title": "Merge Two Sorted Lists",
@@ -127,6 +150,18 @@
             "topics": [
                 "滑动窗口",
                 "KMP"
+            ]
+        },
+        {
+            "id": "35",
+            "level": 1,
+            "title": "Search Insert Position",
+            "title_slug": "search-insert-position",
+            "lock": false,
+            "caption": "搜索插入位置",
+            "topics": [
+                "数组",
+                "二分查找"
             ]
         },
         {
@@ -306,6 +341,19 @@
             "topics": [
                 "数组",
                 "数学",
+                "动态规划"
+            ]
+        },
+        {
+            "id": "121",
+            "level": 1,
+            "title": "Best Time to Buy and Sell Stock",
+            "title_slug": "best-time-to-buy-and-sell-stock",
+            "lock": false,
+            "caption": "买卖股票的最佳时机",
+            "topics": [
+                "数组",
+                "栈",
                 "动态规划"
             ]
         },
@@ -604,6 +652,7 @@
             "lock": false,
             "caption": "替换后的最长重复字符",
             "topics": [
+                "双指针",
                 "滑动窗口"
             ]
         },
@@ -699,6 +748,7 @@
             "lock": false,
             "caption": "子数组最大平均数 I",
             "topics": [
+                "数组",
                 "滑动窗口"
             ]
         },
@@ -796,6 +846,17 @@
             ]
         },
         {
+            "id": "704",
+            "level": 1,
+            "title": "Binary Search",
+            "title_slug": "binary-search",
+            "lock": false,
+            "caption": "二分查找",
+            "topics": [
+                "二分查找"
+            ]
+        },
+        {
             "id": "778",
             "level": 3,
             "title": "Swim in Rising Water",
@@ -877,6 +938,32 @@
             "lock": false,
             "caption": "最大连续1的个数 III",
             "topics": [
+                "双指针",
+                "滑动窗口"
+            ]
+        },
+        {
+            "id": "1008",
+            "level": 2,
+            "title": "Construct Binary Search Tree from Preorder Traversal",
+            "title_slug": "construct-binary-search-tree-from-preorder-traversal",
+            "lock": false,
+            "caption": "前序遍历构造二叉搜索树",
+            "topics": [
+                "树",
+                "栈",
+                "递归"
+            ]
+        },
+        {
+            "id": "1052",
+            "level": 2,
+            "title": "Grumpy Bookstore Owner",
+            "title_slug": "grumpy-bookstore-owner",
+            "lock": false,
+            "caption": "爱生气的书店老板",
+            "topics": [
+                "数组",
                 "滑动窗口"
             ]
         },
@@ -899,6 +986,7 @@
             "lock": false,
             "caption": "尽可能使字符串相等",
             "topics": [
+                "数组",
                 "滑动窗口"
             ]
         },
@@ -1025,11 +1113,11 @@
     "stats": {
         "Easy": {
             "total": 402,
-            "accept": 47
+            "accept": 52
         },
         "Medium": {
             "total": 865,
-            "accept": 31
+            "accept": 33
         },
         "Hard": {
             "total": 368,
