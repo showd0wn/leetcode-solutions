@@ -6,10 +6,6 @@ function searchInsert(nums: number[], target: number): number {
 
   while (i < j) {
     const mid = Math.floor((i + j) / 2);
-    if (target == nums[mid]) {
-      return mid;
-    }
-
     if (nums[mid] < target) {
       i = mid + 1;
     } else {
