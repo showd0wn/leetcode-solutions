@@ -118,6 +118,19 @@
             ]
         },
         {
+            "id": "23",
+            "level": 3,
+            "title": "Merge k Sorted Lists",
+            "title_slug": "merge-k-sorted-lists",
+            "lock": false,
+            "caption": "合并K个升序链表",
+            "topics": [
+                "链表",
+                "堆",
+                "分治算法"
+            ]
+        },
+        {
             "id": "25",
             "level": 3,
             "title": "Reverse Nodes in k-Group",
@@ -222,6 +235,15 @@
             ]
         },
         {
+            "id": "53",
+            "level": 1,
+            "title": "Maximum Subarray",
+            "title_slug": "maximum-subarray",
+            "lock": false,
+            "caption": "最大子序和",
+            "topics": []
+        },
+        {
             "id": "66",
             "level": 1,
             "title": "Plus One",
@@ -230,6 +252,18 @@
             "caption": "加一",
             "topics": [
                 "数学"
+            ]
+        },
+        {
+            "id": "69",
+            "level": 1,
+            "title": "Sqrt(x)",
+            "title_slug": "sqrtx",
+            "lock": false,
+            "caption": "x 的平方根",
+            "topics": [
+                "数学",
+                "二分查找"
             ]
         },
         {
@@ -874,6 +908,17 @@
             ]
         },
         {
+            "id": "832",
+            "level": 1,
+            "title": "Flipping an Image",
+            "title_slug": "flipping-an-image",
+            "lock": false,
+            "caption": "翻转图像",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "839",
             "level": 3,
             "title": "Similar String Groups",
@@ -1113,7 +1158,7 @@
     "stats": {
         "Easy": {
             "total": 402,
-            "accept": 52
+            "accept": 55
         },
         "Medium": {
             "total": 865,
@@ -1121,7 +1166,7 @@
         },
         "Hard": {
             "total": 368,
-            "accept": 8
+            "accept": 9
         }
     }
 }

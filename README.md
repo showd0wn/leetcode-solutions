@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|52|33|8|93|
+|**Accept**|55|33|9|97|
 |**Total**|402|865|368|1635|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -19,6 +19,7 @@
 |19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.ts)|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.ts)|
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.ts)|
+|23|[Merge k Sorted Lists](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[23]合并K个升序链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[23]合并K个升序链表/solution.ts)|
 |25|[Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.ts)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.ts)|
 |28|[Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.ts)|
@@ -28,7 +29,9 @@
 |42|[Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[42]接雨水/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[42]接雨水/solution.ts)|
 |46|[Permutations](https://leetcode-cn.com/problems/permutations/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[46]全排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[46]全排列/solution.ts)|
 |48|[Rotate Image](https://leetcode-cn.com/problems/rotate-image/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[48]旋转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[48]旋转图像/solution.ts)|
+|53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[53]最大子序和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[53]最大子序和/solution.ts)|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.ts)|
+|69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.ts)|
 |79|[Word Search](https://leetcode-cn.com/problems/word-search/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[79]单词搜索/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[79]单词搜索/solution.ts)|
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[83]删除排序链表中的重复元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[83]删除排序链表中的重复元素/solution.ts)|
 |88|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.ts)|
@@ -83,6 +86,7 @@
 |703|[Kth Largest Element in a Stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.ts)|
 |704|[Binary Search](https://leetcode-cn.com/problems/binary-search/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[704]二分查找/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[704]二分查找/solution.ts)|
 |778|[Swim in Rising Water](https://leetcode-cn.com/problems/swim-in-rising-water/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.ts)|
+|832|[Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.ts)|
 |839|[Similar String Groups](https://leetcode-cn.com/problems/similar-string-groups/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.ts)|
 |888|[Fair Candy Swap](https://leetcode-cn.com/problems/fair-candy-swap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/regions-cut-by-slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
