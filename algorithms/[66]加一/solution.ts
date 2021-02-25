@@ -1,4 +1,4 @@
-// topics = ["数学"]
+// topics = ["数组"]
 
 function plusOne(digits: number[]): number[] {
   // 不改变原数组

@@ -1,4 +1,4 @@
-# topics = ["数学"]
+# topics = ["数组"]
 
 from typing import List
 
