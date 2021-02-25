@@ -70,18 +70,6 @@
             ]
         },
         {
-            "id": "16",
-            "level": 2,
-            "title": "3Sum Closest",
-            "title_slug": "3sum-closest",
-            "lock": false,
-            "caption": "数组拆分 I",
-            "topics": [
-                "数组",
-                "贪心算法"
-            ]
-        },
-        {
             "id": "19",
             "level": 2,
             "title": "Remove Nth Node From End of List",
@@ -373,6 +361,19 @@
             "caption": "将有序数组转换为二叉搜索树",
             "topics": [
                 "树",
+                "深度优先搜索"
+            ]
+        },
+        {
+            "id": "111",
+            "level": 1,
+            "title": "Minimum Depth of Binary Tree",
+            "title_slug": "minimum-depth-of-binary-tree",
+            "lock": false,
+            "caption": "二叉树的最小深度",
+            "topics": [
+                "树",
+                "广度优先搜索",
                 "深度优先搜索"
             ]
         },
@@ -799,6 +800,29 @@
             ]
         },
         {
+            "id": "557",
+            "level": 1,
+            "title": "Reverse Words in a String III",
+            "title_slug": "reverse-words-in-a-string-iii",
+            "lock": false,
+            "caption": "反转字符串中的单词 III",
+            "topics": [
+                "字符串"
+            ]
+        },
+        {
+            "id": "561",
+            "level": 1,
+            "title": "Array Partition I",
+            "title_slug": "array-partition-i",
+            "lock": false,
+            "caption": "数组拆分 I",
+            "topics": [
+                "数组",
+                "贪心算法"
+            ]
+        },
+        {
             "id": "566",
             "level": 1,
             "title": "Reshape the Matrix",
@@ -1013,6 +1037,18 @@
             ]
         },
         {
+            "id": "844",
+            "level": 1,
+            "title": "Backspace String Compare",
+            "title_slug": "backspace-string-compare",
+            "lock": false,
+            "caption": "比较含退格的字符串",
+            "topics": [
+                "双指针",
+                "栈"
+            ]
+        },
+        {
             "id": "867",
             "level": 1,
             "title": "Transpose Matrix",
@@ -1032,6 +1068,17 @@
             "caption": "公平的糖果交换",
             "topics": [
                 "哈希表"
+            ]
+        },
+        {
+            "id": "933",
+            "level": 1,
+            "title": "Number of Recent Calls",
+            "title_slug": "number-of-recent-calls",
+            "lock": false,
+            "caption": "最近的请求次数",
+            "topics": [
+                "队列"
             ]
         },
         {
@@ -1252,11 +1299,11 @@
     "stats": {
         "Easy": {
             "total": 401,
-            "accept": 63
+            "accept": 68
         },
         "Medium": {
             "total": 868,
-            "accept": 33
+            "accept": 32
         },
         "Hard": {
             "total": 367,
