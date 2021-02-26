@@ -1,4 +1,4 @@
-# topics = ["回溯法"]
+# topics = ["回溯算法"]
 from typing import List
 
 

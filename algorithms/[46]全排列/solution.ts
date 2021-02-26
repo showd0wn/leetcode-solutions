@@ -1,4 +1,4 @@
-// topics = ["回溯法"]
+// topics = ["回溯算法"]
 
 function permute(nums: number[]): number[][] {
   const n = nums.length;

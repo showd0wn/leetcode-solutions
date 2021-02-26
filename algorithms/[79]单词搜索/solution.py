@@ -1,4 +1,4 @@
-# topics = ["深度优先搜索", "回溯法"]
+# topics = ["深度优先搜索", "回溯算法"]
 
 from typing import List
 

@@ -1,4 +1,4 @@
-# topics = ["滑动窗口", "队列", "平衡二叉搜索树"]
+# topics = ["滑动窗口", "队列", "二叉搜索树"]
 
 from sortedcontainers import SortedList
 from collections import deque
@@ -62,5 +62,5 @@ class Solution:
                 left += 1
             res = max(res, right - left + 1)
             right += 1
-        
+
         return res
