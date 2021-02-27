@@ -6,8 +6,8 @@ import bisect
 import heapq
 
 
-# 解法一 二分搜索 + 直接插入
 class MedianFinder:
+    """解法一 二分搜索 + 直接插入"""
     def __init__(self):
         """
         initialize your data structure here.
@@ -23,8 +23,8 @@ class MedianFinder:
         return (self.nums[math.floor((n - 1) / 2)] + self.nums[math.ceil((n - 1) / 2)]) / 2
 
 
-# 解法二 优先队列
 class MedianFinder2:
+    """解法二 优先队列"""
     def __init__(self):
         """
         initialize your data structure here.
@@ -35,8 +35,10 @@ class MedianFinder2:
         self.min_heap: List[int] = []
 
     def addNum(self, num: int) -> None:
-        # python 默认最小堆，所以构建最大堆时，将元素值取负
-        # https://leetcode-cn.com/problems/find-median-from-data-stream/solution/you-xian-dui-lie-python-dai-ma-java-dai-ma-by-liwe/
+        """
+        【技巧】python 默认最小堆，所以构建最大堆时，将元素值取负
+        参考 https://leetcode-cn.com/problems/find-median-from-data-stream/solution/you-xian-dui-lie-python-dai-ma-java-dai-ma-by-liwe/
+        """
         heapq.heappush(self.min_heap, -heapq.heappushpop(self.max_heap, -num))
 
         if len(self.min_heap) > len(self.max_heap):

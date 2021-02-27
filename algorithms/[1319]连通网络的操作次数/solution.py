@@ -5,8 +5,10 @@ from typing import List, Set
 
 
 class Solution:
-    # 邻接表
     def buildGraph(self, n: int, edges: List[List[int]]) -> List[Set[int]]:
+        """
+        邻接表
+        """
         graph = [set()] * n
 
         for i, j in edges:
@@ -15,8 +17,10 @@ class Solution:
 
         return graph
 
-    # 广度优先搜索
     def bfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
+        """
+        广度优先搜索
+        """
         visited[idx] = 1
         queue = deque(graph[idx])
 
@@ -26,8 +30,10 @@ class Solution:
                 visited[cur] = 1
                 queue.extend(graph[cur])
 
-    # 深度优先搜索
     def dfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
+        """
+        深度优先搜索
+        """
         visited[idx] = 1
         for node in graph[idx]:
             if not visited[node]:

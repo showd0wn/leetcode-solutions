@@ -5,7 +5,6 @@ import heapq
 
 
 class Solution:
-    # 利用最小堆 heapq，思路同 ./solution.ts 解法二
     def maxEvents(self, events: List[List[int]]) -> int:
         events.sort(reverse=True)
         h = []

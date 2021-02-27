@@ -5,8 +5,8 @@ from typing import Dict, List
 
 
 class Solution:
-    # 暴力 超时
     def findNumOfValidWords(self, words: List[str], puzzles: List[str]) -> List[int]:
+        # 暴力 超时
         ans: List[int] = []
 
         for puzzle in puzzles:
@@ -20,9 +20,11 @@ class Solution:
 
         return ans
 
-    # 二进制压缩状态
-    # 参考 https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/solution/cai-zi-mi-by-leetcode-solution-345u/
     def findNumOfValidWords2(self, words: List[str], puzzles: List[str]) -> List[int]:
+        """
+        二进制压缩状态
+        参考 https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/solution/cai-zi-mi-by-leetcode-solution-345u/
+        """
         frequency: Dict[int, int] = Counter()
 
         # 计算出每一个 word 对应的二进制数，存入计数字典

@@ -4,8 +4,11 @@ from typing import List
 
 
 class Solution:
-    # 参考 https://leetcode-cn.com/problems/maximum-subarray/solution/bao-li-qiu-jie-by-pandawakaka/
     def maxSubArray(self, nums: List[int]) -> int:
+        """
+        分治法
+        参考 https://leetcode-cn.com/problems/maximum-subarray/solution/bao-li-qiu-jie-by-pandawakaka/
+        """
         n = len(nums)
         m = n // 2
 

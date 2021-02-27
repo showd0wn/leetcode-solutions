@@ -4,8 +4,10 @@ from typing import List, Tuple
 
 
 class Solution:
-    # 【最小生成树问题】 Prim 算法
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
+        """
+        【最小生成树】 Prim 算法
+        """
         # 所有顶点数
         n = len(points)
         # 最小总费用
@@ -27,14 +29,18 @@ class Solution:
 
         return min_cost
 
-    # 求两点之间的哈曼顿距离
     def get_hamanton_dis(self, p1: List[int], p2: List[int]) -> int:
+        """
+        求两点之间的哈曼顿距离
+        """
         x1, y1 = p1
         x2, y2 = p2
         return abs(x1 - x2) + abs(y1 - y2)
 
-    # 求数组中的最小非 0 值及索引
     def get_min(self, list: List[int]) -> Tuple[int, int]:
+        """
+        求数组中的最小非 0 值及索引
+        """
         min_val = min([val for val in list if val])
         min_idx = list.index(min_val)
         return (min_val, min_idx)

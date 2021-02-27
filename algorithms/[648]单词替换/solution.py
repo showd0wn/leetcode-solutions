@@ -6,8 +6,10 @@ from typing import List
 
 
 class Solution(object):
-    # 参考1 https://leetcode-cn.com/problems/replace-words/solution/dan-ci-ti-huan-by-leetcode/
-    # 参考2 https://blog.csdn.net/qq_38619744/article/details/80457573
+    """
+    参考1 https://leetcode-cn.com/problems/replace-words/solution/dan-ci-ti-huan-by-leetcode/
+    参考2 https://blog.csdn.net/qq_38619744/article/details/80457573
+    """
 
     def replaceWords(self, dictionary: List[str], sentence: str) -> str:
         Trie = lambda: defaultdict(Trie)

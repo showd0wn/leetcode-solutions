@@ -17,12 +17,15 @@ class Solution:
 
         return max_profit
 
-    # 单调栈，参考 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/c-li-yong-shao-bing-wei-hu-yi-ge-dan-diao-zhan-tu-/
     def maxProfit2(self, prices: List[int]) -> int:
+        """
+        单调栈
+        参考 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/c-li-yong-shao-bing-wei-hu-yi-ge-dan-diao-zhan-tu-/
+        """
         stack: List[int] = []
         max_profit = 0
 
-        # 技巧：prices 数组的末尾加上一个【哨兵】，确保单调栈中的每个元素都被进行判定
+        # 【技巧】prices 数组的末尾加上一个【哨兵】，确保单调栈中的每个元素都被进行判定
         for val in prices + [0]:
             while stack and val < stack[-1]:
                 max_profit = max(max_profit, stack[-1] - stack[0])

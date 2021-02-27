@@ -1,13 +1,16 @@
 # topics = ["滑动窗口", "队列", "二叉搜索树"]
 
-from sortedcontainers import SortedList
 from collections import deque
 from typing import List, Deque
 
+from sortedcontainers import SortedList
+
 
 class Solution:
-    # 超时
     def longestSubarray(self, nums: List[int], limit: int) -> int:
+        """
+        暴力 超时
+        """
         q: Deque[int] = deque()
         res = 0
 
@@ -19,8 +22,10 @@ class Solution:
 
         return res
 
-    # 队列维护滑动窗口 [l, r] 内的最大最小值
     def longestSubarray2(self, nums: List[int], limit: int) -> int:
+        """
+        队列维护滑动窗口 [l, r] 内的最大最小值
+        """
         max_q: Deque[int] = deque()
         min_q: Deque[int] = deque()
         left = 0
@@ -48,9 +53,11 @@ class Solution:
 
         return res
 
-    # sortedcontainers
-    # 参考 https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/solution/jue-dui-chai-bu-chao-guo-xian-zhi-de-zui-5bki/
     def longestSubarray3(self, nums: List[int], limit: int) -> int:
+        """
+        排序容器 sortedcontainers
+        参考 https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/solution/jue-dui-chai-bu-chao-guo-xian-zhi-de-zui-5bki/
+        """
         s = SortedList()
         n = len(nums)
         left = right = res = 0
