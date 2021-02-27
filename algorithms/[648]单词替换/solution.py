@@ -1,30 +1,35 @@
 # topics = ["字典树"]
 
-from collections import defaultdict
-from functools import reduce
 from typing import List
 
 
+class Trie:
+    def __init__(self):
+        self.root = {}
+        self.end = '#'
+
+    def insert(self, word: str) -> None:
+        node = self.root
+        for char in word:
+            node = node.setdefault(char, {})
+        node[self.end] = word
+
+    def find_prefix(self, word: str):
+        node = self.root
+        for char in word:
+            if char not in node or self.end in node:
+                break
+            node = node[char]
+
+        # 如果存在前缀则返回，否则返回自身
+        return node.get(self.end, word)
+
+
 class Solution(object):
-    """
-    参考1 https://leetcode-cn.com/problems/replace-words/solution/dan-ci-ti-huan-by-leetcode/
-    参考2 https://blog.csdn.net/qq_38619744/article/details/80457573
-    """
-
     def replaceWords(self, dictionary: List[str], sentence: str) -> str:
-        Trie = lambda: defaultdict(Trie)
         trie = Trie()
-        END = True
 
-        for root in dictionary:
-            reduce(dict.__getitem__, root, trie)[END] = root
+        for pre in dictionary:
+            trie.insert(pre)
 
-        def replace(word: str) -> str:
-            cur = trie
-            for letter in word:
-                if letter not in cur or END in cur:
-                    break
-                cur = cur[letter]
-            return cur.get(END, word)
-
-        return " ".join(map(replace, sentence.split()))
+        return " ".join(map(trie.find_prefix, sentence.split()))

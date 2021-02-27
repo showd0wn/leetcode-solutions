@@ -7,7 +7,16 @@
 #         self.left = left
 #         self.right = right
 
+from __future__ import annotations
 from collections import deque
+from typing import Optional
+
+
+class TreeNode:
+    def __init__(self, x: int = 0, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):
+        self.val = x
+        self.left = left
+        self.right = right
 
 
 class Solution:

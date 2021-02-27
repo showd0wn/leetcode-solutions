@@ -45,8 +45,6 @@ class Solution:
             edge[1] -= 1
             edge[2] -= 1
 
-        print(edges)
-
         for t, i, j in edges:
             if t == 3:
                 if not ufa.union(i, j):

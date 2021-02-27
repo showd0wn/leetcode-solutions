@@ -7,7 +7,15 @@
 #         self.left = None
 #         self.right = None
 
-from typing import List
+from __future__ import annotations
+from typing import Optional, List, Union
+
+
+class TreeNode:
+    def __init__(self, x: int = 0, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):
+        self.val = x
+        self.left = left
+        self.right = right
 
 
 class Solution:
@@ -16,7 +24,7 @@ class Solution:
         self.helper(result, root, 0)
         return result
 
-    def helper(self, result: List[List[int]], node: TreeNode, level: int) -> None:
+    def helper(self, result: List[List[int]], node: Union[TreeNode, None], level: int) -> None:
         if not node:
             return
         if len(result) <= level:

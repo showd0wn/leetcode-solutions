@@ -7,11 +7,19 @@
 #         self.left = None
 #         self.right = None
 
-from typing import List
+from __future__ import annotations
+from typing import Optional, List, Union
+
+
+class TreeNode:
+    def __init__(self, x: int = 0, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):
+        self.val = x
+        self.left = left
+        self.right = right
 
 
 class Solution:
-    def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
+    def sortedArrayToBST(self, nums: List[int]) -> Union[TreeNode, None]:
         if not len(nums):
             return None
         mid = len(nums) // 2

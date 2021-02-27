@@ -7,10 +7,14 @@
 #         self.next = None
 
 
+from __future__ import annotations
+from typing import Union
+
+
 class ListNode:
-    def __init__(self, x: int):
+    def __init__(self, x: int = 0):
         self.val = x
-        self.next = None
+        self.next: Union[ListNode, None] = None
 
 
 class Solution:
@@ -26,4 +30,4 @@ class Solution:
                 return headB
             headB = headB.next
 
-        return None
+        return ListNode()

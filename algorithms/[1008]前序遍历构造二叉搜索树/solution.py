@@ -7,15 +7,20 @@
 #         self.left = left
 #         self.right = right
 
-from typing import List
+from __future__ import annotations
+from typing import Optional, List
+
+
+class TreeNode:
+    def __init__(self, x: int = 0, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):
+        self.val = x
+        self.left = left
+        self.right = right
 
 
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
         n = len(preorder)
-        if not n:
-            return None
-
         root = TreeNode(preorder[0])
         stack = [root]
 
