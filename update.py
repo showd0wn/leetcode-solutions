@@ -10,6 +10,10 @@ ssl._create_default_https_context = ssl._create_unverified_context  # type: igno
 
 class Update:
     _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
+    _type_map = {
+        'ts': 'TypeScript',
+        'py': 'Python',
+    }
 
     def __init__(self):
         self.solutions = {}
@@ -51,7 +55,7 @@ class Update:
         for algo in algorithms[::-1]:
             id = algo['stat']['frontend_question_id']
             level = algo['difficulty']['level']
-            level_desc = self._level_map[level]
+            level_desc = Update._level_map[level]
 
             self.stats[level_desc]['total'] += 1
 
@@ -111,7 +115,7 @@ class Update:
                 f.write(
                     '|{id}|{title}|{level}|{py}|{ts}|\n'.format(
                         id=id,
-                        level=self._level_map[level],
+                        level=Update._level_map[level],
                         title=self._generate_Title(title, title_slug, lock),
                         py=self._generate_solution('py', id),
                         ts=self._generate_solution('ts', id),
@@ -119,22 +123,11 @@ class Update:
                 )
 
     def _generate_Title(self, title: str, title_slug: str, lock: bool) -> str:
-        return '[{}](https://leetcode-cn.com/problems/{}/)'.format(
-            title + ' :lock:' if lock else title,
-            title_slug,
-        )
+        return f'[{title + ":lock" if lock else title}](https://leetcode-cn.com/problems/{title_slug}/)'
 
     def _generate_solution(self, type: str, id: str) -> str:
-        return '[{}]({})'.format(
-            {
-                'ts': 'TypeScript',
-                'py': 'Python',
-            }[type],
-            os.path.join(
-                'https://github.com/showd0wn/leetcode/tree/master/',
-                self.solutions[id]['path'][type],
-            ),
-        )
+        path = os.path.join('https://github.com/showd0wn/leetcode/tree/master/', self.solutions[id]['path'][type])
+        return f'[{Update._type_map[type]}]({path})'
 
     def _fetch_data(self, url: str):
         req = request.Request(url)
