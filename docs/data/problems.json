@@ -208,7 +208,7 @@
             "lock": false,
             "caption": "全排列",
             "topics": [
-                "回溯法"
+                "回溯算法"
             ]
         },
         {
@@ -274,7 +274,7 @@
             "caption": "单词搜索",
             "topics": [
                 "深度优先搜索",
-                "回溯法"
+                "回溯算法"
             ]
         },
         {
@@ -656,7 +656,7 @@
             "topics": [
                 "二分查找",
                 "堆",
-                "平衡二叉搜索树"
+                "二叉搜索树"
             ]
         },
         {
@@ -771,7 +771,7 @@
                 "滑动窗口",
                 "二分查找",
                 "堆",
-                "平衡二叉搜索树"
+                "二叉搜索树"
             ]
         },
         {
@@ -1165,6 +1165,18 @@
             ]
         },
         {
+            "id": "1178",
+            "level": 3,
+            "title": "Number of Valid Words for Each Puzzle",
+            "title_slug": "number-of-valid-words-for-each-puzzle",
+            "lock": false,
+            "caption": "猜字谜",
+            "topics": [
+                "位运算",
+                "哈希表"
+            ]
+        },
+        {
             "id": "1208",
             "level": 2,
             "title": "Get Equal Substrings Within Budget",
@@ -1235,7 +1247,7 @@
             "topics": [
                 "滑动窗口",
                 "队列",
-                "平衡二叉搜索树"
+                "二叉搜索树"
             ]
         },
         {
@@ -1307,7 +1319,7 @@
         },
         "Hard": {
             "total": 367,
-            "accept": 9
+            "accept": 10
         }
     }
 }

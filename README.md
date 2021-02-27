@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|68|32|9|109|
+|**Accept**|68|32|10|110|
 |**Total**|401|868|367|1636|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -108,6 +108,7 @@
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.ts)|
 |1052|[Grumpy Bookstore Owner](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.ts)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|
+|1178|[Number of Valid Words for Each Puzzle](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.ts)|
 |1208|[Get Equal Substrings Within Budget](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.ts)|
