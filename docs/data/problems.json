@@ -566,6 +566,18 @@
             ]
         },
         {
+            "id": "212",
+            "level": 3,
+            "title": "Word Search II",
+            "title_slug": "word-search-ii",
+            "lock": false,
+            "caption": "单词搜索 II",
+            "topics": [
+                "字典树",
+                "深度优先搜索"
+            ]
+        },
+        {
             "id": "217",
             "level": 1,
             "title": "Contains Duplicate",
@@ -657,6 +669,28 @@
                 "二分查找",
                 "堆",
                 "二叉搜索树"
+            ]
+        },
+        {
+            "id": "303",
+            "level": 1,
+            "title": "Range Sum Query - Immutable",
+            "title_slug": "range-sum-query-immutable",
+            "lock": false,
+            "caption": "区域和检索 - 数组不可变",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
+            "id": "304",
+            "level": 2,
+            "title": "Range Sum Query 2D - Immutable",
+            "title_slug": "range-sum-query-2d-immutable",
+            "lock": false,
+            "caption": "二维区域和检索 - 矩阵不可变",
+            "topics": [
+                "动态规划"
             ]
         },
         {
@@ -1071,6 +1105,17 @@
             ]
         },
         {
+            "id": "896",
+            "level": 1,
+            "title": "Monotonic Array",
+            "title_slug": "monotonic-array",
+            "lock": false,
+            "caption": "单调数列",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "933",
             "level": 1,
             "title": "Number of Recent Calls",
@@ -1162,6 +1207,17 @@
             "caption": "等价多米诺骨牌对的数量",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "1137",
+            "level": 1,
+            "title": "N-th Tribonacci Number",
+            "title_slug": "n-th-tribonacci-number",
+            "lock": false,
+            "caption": "第 N 个泰波那契数",
+            "topics": [
+                "递归"
             ]
         },
         {
@@ -1310,16 +1366,16 @@
     ],
     "stats": {
         "Easy": {
-            "total": 401,
-            "accept": 68
+            "total": 402,
+            "accept": 71
         },
         "Medium": {
-            "total": 868,
-            "accept": 32
+            "total": 870,
+            "accept": 33
         },
         "Hard": {
-            "total": 367,
-            "accept": 10
+            "total": 368,
+            "accept": 11
         }
     }
 }
