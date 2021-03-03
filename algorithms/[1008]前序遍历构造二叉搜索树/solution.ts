@@ -14,6 +14,17 @@
  * }
  */
 
+export class TreeNode {
+  val: number;
+  left: TreeNode | null;
+  right: TreeNode | null;
+  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+  }
+}
+
 function bstFromPreorder(preorder: number[]): TreeNode | null {
   const helper = (list: number[]): TreeNode | null => {
     const n = list.length;
@@ -23,7 +34,7 @@ function bstFromPreorder(preorder: number[]): TreeNode | null {
     }
 
     const root = new TreeNode(list[0]);
-    const index = list.findIndex((i) => i > list[0]);
+    const index = list.findIndex(i => i > list[0]);
 
     if (index == -1) {
       root.left = helper(list.slice(1));

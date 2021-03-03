@@ -12,6 +12,15 @@
  * }
  */
 
+export class ListNode {
+  val: number;
+  next: ListNode | null;
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.next = next === undefined ? null : next;
+  }
+}
+
 function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
   // 要求 O(1) 的空间复杂度，不能使用递归
   // 参考 https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/tu-jie-kge-yi-zu-fan-zhuan-lian-biao-by-user7208t/
