@@ -694,6 +694,17 @@
             ]
         },
         {
+            "id": "322",
+            "level": 2,
+            "title": "Coin Change",
+            "title_slug": "coin-change",
+            "lock": false,
+            "caption": "零钱兑换",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "326",
             "level": 1,
             "title": "Power of Three",
@@ -702,6 +713,18 @@
             "caption": "3的幂",
             "topics": [
                 "数学"
+            ]
+        },
+        {
+            "id": "338",
+            "level": 2,
+            "title": "Counting Bits",
+            "title_slug": "counting-bits",
+            "lock": false,
+            "caption": "比特位计数",
+            "topics": [
+                "动态规划",
+                "位运算"
             ]
         },
         {
@@ -817,6 +840,17 @@
             "caption": "最大连续 1 的个数",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "518",
+            "level": 2,
+            "title": "Coin Change 2",
+            "title_slug": "coin-change-2",
+            "lock": false,
+            "caption": "零钱兑换 II",
+            "topics": [
+                "动态规划"
             ]
         },
         {
@@ -995,6 +1029,18 @@
             "caption": "寻找数组的中心索引",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "765",
+            "level": 3,
+            "title": "Couples Holding Hands",
+            "title_slug": "couples-holding-hands",
+            "lock": false,
+            "caption": "情侣牵手",
+            "topics": [
+                "并查集",
+                "贪心算法"
             ]
         },
         {
@@ -1371,11 +1417,11 @@
         },
         "Medium": {
             "total": 870,
-            "accept": 33
+            "accept": 36
         },
         "Hard": {
             "total": 368,
-            "accept": 11
+            "accept": 12
         }
     }
 }
