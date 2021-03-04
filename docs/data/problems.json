@@ -438,6 +438,17 @@
             ]
         },
         {
+            "id": "137",
+            "level": 2,
+            "title": "Single Number II",
+            "title_slug": "single-number-ii",
+            "lock": false,
+            "caption": "只出现一次的数字 II",
+            "topics": [
+                "位运算"
+            ]
+        },
+        {
             "id": "141",
             "level": 1,
             "title": "Linked List Cycle",
@@ -1412,12 +1423,12 @@
     ],
     "stats": {
         "Easy": {
-            "total": 402,
+            "total": 401,
             "accept": 71
         },
         "Medium": {
-            "total": 870,
-            "accept": 36
+            "total": 871,
+            "accept": 37
         },
         "Hard": {
             "total": 368,

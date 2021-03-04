@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|71|36|12|119|
-|**Total**|402|870|368|1640|
+|**Accept**|71|37|12|120|
+|**Total**|401|871|368|1640|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -46,6 +46,7 @@
 |122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.ts)|
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.ts)|
 |136|[Single Number](https://leetcode-cn.com/problems/single-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.ts)|
+|137|[Single Number II](https://leetcode-cn.com/problems/single-number-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.ts)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|
 |146|[LRU Cache](https://leetcode-cn.com/problems/lru-cache/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[146]LRU%20缓存机制/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[146]LRU%20缓存机制/solution.ts)|
 |151|[Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.ts)|
