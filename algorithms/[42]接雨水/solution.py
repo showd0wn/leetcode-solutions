@@ -9,7 +9,7 @@ class Solution:
         res = 0
         left_max = right_max = 0
 
-        # 参考 https://leetcode-cn.com/leetbook/read/learning-algorithms-with-leetcode/x18bji/
+        # 参考 https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/
         left, right = 0, n - 1
         while left < right:
             if height[left] < height[right]:

@@ -1,13 +1,15 @@
 # topics = ["栈"]
 
+from typing import List
+
 
 class MinStack:
     def __init__(self):
         """
         initialize your data structure here.
         """
-        self.stack = []
-        self.min = []
+        self.stack: List[int] = []
+        self.min: List[int] = []
 
     def push(self, x: int) -> None:
         self.stack.append(x)
