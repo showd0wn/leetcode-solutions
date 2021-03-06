@@ -223,6 +223,17 @@
             ]
         },
         {
+            "id": "50",
+            "level": 2,
+            "title": "Pow(x, n)",
+            "title_slug": "powx-n",
+            "lock": false,
+            "caption": "Pow(x, n)",
+            "topics": [
+                "分治算法"
+            ]
+        },
+        {
             "id": "53",
             "level": 1,
             "title": "Maximum Subarray",
@@ -891,6 +902,17 @@
             ]
         },
         {
+            "id": "503",
+            "level": 2,
+            "title": "Next Greater Element II",
+            "title_slug": "next-greater-element-ii",
+            "lock": false,
+            "caption": "下一个更大元素 II",
+            "topics": [
+                "栈"
+            ]
+        },
+        {
             "id": "518",
             "level": 2,
             "title": "Coin Change 2",
@@ -1080,6 +1102,17 @@
             ]
         },
         {
+            "id": "739",
+            "level": 2,
+            "title": "Daily Temperatures",
+            "title_slug": "daily-temperatures",
+            "lock": false,
+            "caption": "每日温度",
+            "topics": [
+                "栈"
+            ]
+        },
+        {
             "id": "765",
             "level": 3,
             "title": "Couples Holding Hands",
@@ -1210,6 +1243,18 @@
             ]
         },
         {
+            "id": "904",
+            "level": 2,
+            "title": "Fruit Into Baskets",
+            "title_slug": "fruit-into-baskets",
+            "lock": false,
+            "caption": "水果成篮",
+            "topics": [
+                "滑动窗口",
+                "哈希表"
+            ]
+        },
+        {
             "id": "933",
             "level": 1,
             "title": "Number of Recent Calls",
@@ -1290,6 +1335,18 @@
             "topics": [
                 "数组",
                 "滑动窗口"
+            ]
+        },
+        {
+            "id": "1109",
+            "level": 2,
+            "title": "Corporate Flight Bookings",
+            "title_slug": "corporate-flight-bookings",
+            "lock": false,
+            "caption": "航班预订统计",
+            "topics": [
+                "数组",
+                "数学"
             ]
         },
         {
@@ -1465,7 +1522,7 @@
         },
         "Medium": {
             "total": 872,
-            "accept": 38
+            "accept": 43
         },
         "Hard": {
             "total": 368,
