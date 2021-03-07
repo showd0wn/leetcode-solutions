@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|72|43|13|128|
-|**Total**|401|872|368|1641|
+|**Accept**|72|44|13|129|
+|**Total**|403|876|370|1649|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -46,6 +46,7 @@
 |121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[121]买卖股票的最佳时机/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[121]买卖股票的最佳时机/solution.ts)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.ts)|
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.ts)|
+|131|[Palindrome Partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[131]分割回文串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[131]分割回文串/solution.ts)|
 |136|[Single Number](https://leetcode-cn.com/problems/single-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.ts)|
 |137|[Single Number II](https://leetcode-cn.com/problems/single-number-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.ts)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|

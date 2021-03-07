@@ -438,6 +438,18 @@
             ]
         },
         {
+            "id": "131",
+            "level": 2,
+            "title": "Palindrome Partitioning",
+            "title_slug": "palindrome-partitioning",
+            "lock": false,
+            "caption": "分割回文串",
+            "topics": [
+                "回溯算法",
+                "动态规划"
+            ]
+        },
+        {
             "id": "136",
             "level": 1,
             "title": "Single Number",
@@ -1517,15 +1529,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 401,
+            "total": 403,
             "accept": 72
         },
         "Medium": {
-            "total": 872,
-            "accept": 43
+            "total": 876,
+            "accept": 44
         },
         "Hard": {
-            "total": 368,
+            "total": 370,
             "accept": 13
         }
     }
