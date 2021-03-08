@@ -450,6 +450,17 @@
             ]
         },
         {
+            "id": "132",
+            "level": 3,
+            "title": "Palindrome Partitioning II",
+            "title_slug": "palindrome-partitioning-ii",
+            "lock": false,
+            "caption": "分割回文串 II",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "136",
             "level": 1,
             "title": "Single Number",
@@ -621,6 +632,18 @@
             "topics": [
                 "数组",
                 "哈希表"
+            ]
+        },
+        {
+            "id": "224",
+            "level": 3,
+            "title": "Basic Calculator",
+            "title_slug": "basic-calculator",
+            "lock": false,
+            "caption": "基本计算器",
+            "topics": [
+                "栈",
+                "数学"
             ]
         },
         {
@@ -1313,6 +1336,30 @@
             ]
         },
         {
+            "id": "992",
+            "level": 3,
+            "title": "Subarrays with K Different Integers",
+            "title_slug": "subarrays-with-k-different-integers",
+            "lock": false,
+            "caption": "K 个不同整数的子数组",
+            "topics": [
+                "滑动窗口",
+                "哈希表"
+            ]
+        },
+        {
+            "id": "995",
+            "level": 3,
+            "title": "Minimum Number of K Consecutive Bit Flips",
+            "title_slug": "minimum-number-of-k-consecutive-bit-flips",
+            "lock": false,
+            "caption": "K 连续位的最小翻转次数",
+            "topics": [
+                "贪心算法",
+                "滑动窗口"
+            ]
+        },
+        {
             "id": "1004",
             "level": 2,
             "title": "Max Consecutive Ones III",
@@ -1347,6 +1394,18 @@
             "topics": [
                 "数组",
                 "滑动窗口"
+            ]
+        },
+        {
+            "id": "1094",
+            "level": 2,
+            "title": "Car Pooling",
+            "title_slug": "car-pooling",
+            "lock": false,
+            "caption": "拼车",
+            "topics": [
+                "数组",
+                "贪心算法"
             ]
         },
         {
@@ -1534,11 +1593,11 @@
         },
         "Medium": {
             "total": 876,
-            "accept": 44
+            "accept": 45
         },
         "Hard": {
             "total": 370,
-            "accept": 13
+            "accept": 17
         }
     }
 }
