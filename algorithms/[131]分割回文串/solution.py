@@ -14,17 +14,19 @@ class Solution:
             for j in range(i + 1, n):
                 dp[i][j] = (s[i] == s[j]) and dp[i + 1][j - 1]
 
+        # 回文子数组全排序
         res: List[List[str]] = []
+        # 记录当前分割的回文子数组
         ans: List[str] = []
 
-        def backtrack(i: int):
+        def backtrack(i: int) -> None:
             if i == n:
                 res.append(ans[:])
                 return
 
             for j in range(i, n):
                 if dp[i][j]:
-                    ans.append(s[i:j + 1])
+                    ans.append(s[i : j + 1])
                     backtrack(j + 1)
                     ans.pop()
 

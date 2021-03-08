@@ -1,7 +1,6 @@
 // topics = ["数组", "数学"]
 
-// 差分数组
-// 参考 https://leetcode-cn.com/problems/corporate-flight-bookings/solution/chai-fen-shu-zu-by-cuile-vjf4/
+// 差分数组，区间两端进行操作以代替区间内操作
 function corpFlightBookings(bookings: number[][], n: number): number[] {
   const res: number[] = new Array(n).fill(0);
 

@@ -6,7 +6,7 @@ from typing import List
 class Solution:
     def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:
         """
-        差分数组
+        差分数组，区间两端进行操作以代替区间内操作
         """
         res = [0] * n
         for i, j, cnt in bookings:
