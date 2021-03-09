@@ -7,7 +7,7 @@ from typing import List, Dict
 class Solution:
     def subarraysWithKDistinct(self, A: List[int], K: int) -> int:
         """
-        近似 904.水果成篮
+        近似题 904.水果成篮
         恰好包含 K 种不同整数 = 最多包含 k 种不同整数 - 最多包含 k - 1 种不同整数
         """
         return self.atMostK(A, K) - self.atMostK(A, K - 1)

@@ -29,7 +29,7 @@ export class UnionFind {
   }
 }
 
-// 同 1631 题
+// 同 1631.最小体力消耗路径
 function swimInWater(grid: number[][]): number {
   const n = grid.length;
   const edges: number[][] = [];

@@ -1,7 +1,7 @@
 // topics = ["数组", "双指针"]
 
 function maxArea(height: number[]): number {
-  // 双指针法，近似题 42
+  // 双指针法，近似题 42.接雨水
   let left = 0;
   let right = height.length - 1;
 
@@ -13,6 +13,7 @@ function maxArea(height: number[]): number {
     res = Math.max(res, (right - left) * Math.min(rightHeight, leftHeight));
 
     // 每次较小高度的指针
+    // 参考 https://leetcode-cn.com/problems/container-with-most-water/solution/sheng-zui-duo-shui-de-rong-qi-by-leetcode-solution/
     if (leftHeight < rightHeight) {
       left += 1;
     } else {
