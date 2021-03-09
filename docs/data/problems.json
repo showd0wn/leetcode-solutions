@@ -196,8 +196,8 @@
             "lock": false,
             "caption": "接雨水",
             "topics": [
-                "双指针",
-                "栈"
+                "栈",
+                "双指针"
             ]
         },
         {
@@ -297,6 +297,18 @@
             "caption": "删除排序链表中的重复元素",
             "topics": [
                 "链表"
+            ]
+        },
+        {
+            "id": "84",
+            "level": 3,
+            "title": "Largest Rectangle in Histogram",
+            "title_slug": "largest-rectangle-in-histogram",
+            "lock": false,
+            "caption": "柱状图中最大的矩形",
+            "topics": [
+                "数组",
+                "栈"
             ]
         },
         {
@@ -1385,6 +1397,18 @@
             ]
         },
         {
+            "id": "1047",
+            "level": 1,
+            "title": "Remove All Adjacent Duplicates In String",
+            "title_slug": "remove-all-adjacent-duplicates-in-string",
+            "lock": false,
+            "caption": "删除字符串中的所有相邻重复项",
+            "topics": [
+                "字符串",
+                "栈"
+            ]
+        },
+        {
             "id": "1052",
             "level": 2,
             "title": "Grumpy Bookstore Owner",
@@ -1589,7 +1613,7 @@
     "stats": {
         "Easy": {
             "total": 403,
-            "accept": 72
+            "accept": 73
         },
         "Medium": {
             "total": 876,
@@ -1597,7 +1621,7 @@
         },
         "Hard": {
             "total": 370,
-            "accept": 17
+            "accept": 18
         }
     }
 }
