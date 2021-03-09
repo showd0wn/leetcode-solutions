@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|73|45|18|136|
+|**Accept**|73|46|18|137|
 |**Total**|403|876|370|1649|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -139,6 +139,7 @@
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1319|[Number of Operations to Make Network Connected](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1319]连通网络的操作次数/solution.ts)|
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]最多可以参加的会议数目/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]最多可以参加的会议数目/solution.ts)|
+|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode-cn.com/problems/max-difference-you-can-get-from-changing-an-integer/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1432]改变一个整数能得到的最大差值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1432]改变一个整数能得到的最大差值/solution.ts)|
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1423]可获得的最大点数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1423]可获得的最大点数/solution.ts)|
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1438]绝对差不超过限制的最长连续子数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1438]绝对差不超过限制的最长连续子数组/solution.ts)|
 |1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|
