@@ -1,4 +1,4 @@
-# topics = ["图", "最小生成树", "贪心算法"]
+# topics = ["图", "最小生成树"]
 
 from typing import List, Tuple
 
@@ -6,7 +6,7 @@ from typing import List, Tuple
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
         """
-        【最小生成树】 Prim 算法（贪心算法）
+        【最小生成树】 Prim 算法（贪心）
         """
         # 所有顶点数
         n = len(points)

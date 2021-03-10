@@ -1,54 +1,40 @@
-# topics = ["图", "并查集"]
+# topics = ["图", "最短路径", "广度优先搜索"]
 
-from typing import List
-
-
-class UnionFind:
-    def __init__(self, n: int):
-        self.parent = [i for i in range(n)]
-        self.rank = [1] * n
-
-    def union(self, i: int, j: int) -> None:
-        x, y = self.find(i), self.find(j)
-
-        if self.rank[x] <= self.rank[y]:
-            self.parent[x] = y
-        else:
-            self.parent[y] = x
-
-        if self.rank[x] == self.rank[y] and x != y:
-            self.rank[y] += 1
-
-    def find(self, x: int) -> int:
-        if self.parent[x] != x:
-            self.parent[x] = self.find(self.parent[x])
-
-        return self.parent[x]
+import sys
+import heapq
+from typing import List, Set, Tuple
 
 
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
-        n, m = len(heights), len(heights[0])
-        edges: List[List[int]] = []
+        """
+        类似 Dijkstra 算法求单源最短路径，这里「最短路径」的定义是其经过的所有边权的最大值
+        广度优先搜索 + 优先队列
+        """
+        m, n = len(heights), len(heights[0])
+        # 记录左上角到各点的最短路径
+        dist = [0] + [sys.maxsize] * (m * n - 1)
+        pq: List[Tuple[int, int, int]] = [(0, 0, 0)]
+        visited: Set[int] = set()
 
-        for i in range(n):
-            for j in range(m):
-                start = i * m + j
-                if i + 1 < n:
-                    end = (i + 1) * m + j
-                    height = abs(heights[i + 1][j] - heights[i][j])
-                    edges.append([start, end, height])
-                if j + 1 < m:
-                    end = i * m + j + 1
-                    height = abs(heights[i][j + 1] - heights[i][j])
-                    edges.append([start, end, height])
+        while pq:
+            d, x, y = heapq.heappop(pq)
+            iden = x * n + y
+            # 排除已遍历的点
+            if iden in visited:
+                continue
+            # 遍历到右下角，退出循环
+            if (x, y) == (m - 1, n - 1):
+                break
+            visited.add(iden)
+            for nx, ny in [(x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)]:
+                if (
+                    0 <= nx < m
+                    and 0 <= ny < n
+                    and max(d, abs(heights[x][y] - heights[nx][ny])) <= dist[nx * n + ny]
+                ):
+                    # 松弛
+                    dist[nx * n + ny] = max(d, abs(heights[x][y] - heights[nx][ny]))
+                    heapq.heappush(pq, (dist[nx * n + ny], nx, ny))
 
-        edges.sort(key=lambda ele: ele[2])
-
-        uf = UnionFind(n * m)
-        for start, end, height in edges:
-            uf.union(start, end)
-            if uf.find(0) == uf.find(n * m - 1):
-                return height
-
-        return 0
+        return dist[m * n - 1]

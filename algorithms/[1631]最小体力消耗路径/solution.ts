@@ -57,6 +57,7 @@ function minimumEffortPath(heights: number[][]): number {
   const uf = new UnionFind(row * col);
   const start = 0;
   const end = row * col - 1;
+  // 类似 Kruskal 算法构建最小生成树
   for (const [from, to, height] of edges) {
     uf.union(from, to);
     if (uf.find(start) == uf.find(end)) {

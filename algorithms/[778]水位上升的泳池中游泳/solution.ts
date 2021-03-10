@@ -34,6 +34,7 @@ function swimInWater(grid: number[][]): number {
   const n = grid.length;
   const edges: number[][] = [];
 
+  // 求边的集合
   for (let i = 0; i < n; i += 1) {
     for (let j = 0; j < n; j += 1) {
       const start = i * n + j;
@@ -50,9 +51,11 @@ function swimInWater(grid: number[][]): number {
     }
   }
 
+  // 按 value 升序排序
   edges.sort((a, b) => a[2] - b[2]);
 
   const uf = new UnionFind(n * n);
+  // 类似 Kruskal 算法构建最小生成树
   for (const [i, j, v] of edges) {
     uf.union(i, j);
     if (uf.find(0) == uf.find(n * n - 1)) {
@@ -60,5 +63,6 @@ function swimInWater(grid: number[][]): number {
     }
   }
 
+  // 没有边的情况，即只有一个顶点
   return 0;
 }
