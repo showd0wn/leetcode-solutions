@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|73|46|18|137|
+|**Accept**|73|47|18|138|
 |**Total**|403|877|369|1649|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -128,6 +128,7 @@
 |995|[Minimum Number of K Consecutive Bit Flips](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[995]K%20连续位的最小翻转次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[995]K%20连续位的最小翻转次数/solution.ts)|
 |1004|[Max Consecutive Ones III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.ts)|
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.ts)|
+|1162|[As Far from Land as Possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.ts)|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.ts)|
 |1052|[Grumpy Bookstore Owner](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.ts)|
 |1094|[Car Pooling](https://leetcode-cn.com/problems/car-pooling/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.ts)|
