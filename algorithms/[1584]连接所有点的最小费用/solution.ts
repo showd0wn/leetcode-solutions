@@ -1,4 +1,4 @@
-// topics = ["图", "最小生成树", "贪心算法", "并查集", "堆"]
+// topics = ["图", "最小生成树", "贪心算法", "并查集"]
 
 // [顶点1索引, 顶点2索引, 权重]
 export type edge = [number, number, number];
@@ -34,7 +34,7 @@ export class UnionFind {
 
 
 function minCostConnectPoints(points: number[][]): number {
-  // 【最小生成树问题】 Kruskal 算法
+  // 【最小生成树问题】 Kruskal 算法（贪心算法）
   // 图解 https://blog.csdn.net/luoshixian099/article/details/51908175
   const n = points.length;
   const uf = new UnionFind(n);
