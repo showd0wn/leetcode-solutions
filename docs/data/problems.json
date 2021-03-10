@@ -1321,6 +1321,17 @@
             ]
         },
         {
+            "id": "973",
+            "level": 2,
+            "title": "K Closest Points to Origin",
+            "title_slug": "k-closest-points-to-origin",
+            "lock": false,
+            "caption": "最接近原点的 K 个点",
+            "topics": [
+                "堆"
+            ]
+        },
+        {
             "id": "978",
             "level": 2,
             "title": "Longest Turbulent Subarray",
@@ -1635,7 +1646,7 @@
         },
         "Medium": {
             "total": 877,
-            "accept": 47
+            "accept": 48
         },
         "Hard": {
             "total": 369,

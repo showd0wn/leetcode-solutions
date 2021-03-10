@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|73|47|18|138|
+|**Accept**|73|48|18|139|
 |**Total**|403|877|369|1649|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -122,6 +122,7 @@
 |904|[Fruit Into Baskets](https://leetcode-cn.com/problems/fruit-into-baskets/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.ts)|
 |933|[Number of Recent Calls](https://leetcode-cn.com/problems/number-of-recent-calls/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/regions-cut-by-slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
+|973|[K Closest Points to Origin](https://leetcode-cn.com/problems/k-closest-points-to-origin/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[973]最接近原点的%20K%20个点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[973]最接近原点的%20K%20个点/solution.ts)|
 |978|[Longest Turbulent Subarray](https://leetcode-cn.com/problems/longest-turbulent-subarray/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[978]最长湍流子数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[978]最长湍流子数组/solution.ts)|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/add-to-array-form-of-integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[989]数组形式的整数加法/solution.ts)|
 |992|[Subarrays with K Different Integers](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[992]K%20个不同整数的子数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[992]K%20个不同整数的子数组/solution.ts)|
