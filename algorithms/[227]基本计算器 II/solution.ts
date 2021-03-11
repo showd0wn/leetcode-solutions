@@ -14,11 +14,16 @@ function calculate(s: string): number {
       stack.push(Number(c));
     } else if (c == '+') {
       stack.push(stack.pop()! + stack.pop()!);
+    } else if (c == '*') {
+      stack.push(stack.pop()! * stack.pop()!);
     } else if (c == '-') {
       const b = stack.pop()!;
-      // 方式负号（-）开头的情况
       const a = stack.length ? stack.pop()! : 0;
       stack.push(a - b);
+    } else if (c == '/') {
+      const b = stack.pop()!;
+      const a = stack.pop()!;
+      stack.push(Math.floor(a / b));
     }
   }
 
@@ -36,21 +41,18 @@ function toRPN(str: string): string[] {
     if (/[0-9]/.test(ch)) {
       operand += ch;
     }
-    if (i == n - 1 || ['+', '-', '(', ')'].includes(ch)) {
+    if (i == n - 1 || ['+', '-', '*', '/'].includes(ch)) {
       if (operand) {
         q.push(operand);
         operand = '';
       }
-      if (ch == '(') {
-        s.push(ch);
-      } else if (ch == ')') {
-        while (s[s.length - 1] != '(') {
+      if (ch == '*' || ch == '/') {
+        while (s[s.length - 1] == '*' || s[s.length - 1] == '/') {
           q.push(s.pop()!);
         }
-        // 不输出括号
-        s.pop();
+        s.push(ch);
       } else if (ch == '+' || ch == '-') {
-        while (s[s.length - 1] == '+' || s[s.length - 1] == '-') {
+        while (s.length) {
           q.push(s.pop()!);
         }
         s.push(ch);
