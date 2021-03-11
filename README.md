@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|73|48|18|139|
-|**Total**|403|877|369|1649|
+|**Accept**|74|50|18|142|
+|**Total**|403|877|370|1650|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -56,6 +56,7 @@
 |151|[Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.ts)|
 |155|[Min Stack](https://leetcode-cn.com/problems/min-stack/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.ts)|
 |160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[160]相交链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[160]相交链表/solution.ts)|
+|169|[Majority Element](https://leetcode-cn.com/problems/majority-element/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[169]多数元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[169]多数元素/solution.ts)|
 |189|[Rotate Array](https://leetcode-cn.com/problems/rotate-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.ts)|
 |202|[Happy Number](https://leetcode-cn.com/problems/happy-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.ts)|
 |204|[Count Primes](https://leetcode-cn.com/problems/count-primes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.ts)|
@@ -65,6 +66,7 @@
 |212|[Word Search II](https://leetcode-cn.com/problems/word-search-ii/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[212]单词搜索%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[212]单词搜索%20II/solution.ts)|
 |217|[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.ts)|
 |224|[Basic Calculator](https://leetcode-cn.com/problems/basic-calculator/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[224]基本计算器/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[224]基本计算器/solution.ts)|
+|227|[Basic Calculator II](https://leetcode-cn.com/problems/basic-calculator-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[227]基本计算器%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[227]基本计算器%20II/solution.ts)|
 |232|[Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[232]用栈实现队列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[232]用栈实现队列/solution.ts)|
 |234|[Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.ts)|
 |237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.ts)|
@@ -120,6 +122,7 @@
 |888|[Fair Candy Swap](https://leetcode-cn.com/problems/fair-candy-swap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.ts)|
 |896|[Monotonic Array](https://leetcode-cn.com/problems/monotonic-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.ts)|
 |904|[Fruit Into Baskets](https://leetcode-cn.com/problems/fruit-into-baskets/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.ts)|
+|912|[Sort an Array](https://leetcode-cn.com/problems/sort-an-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.ts)|
 |933|[Number of Recent Calls](https://leetcode-cn.com/problems/number-of-recent-calls/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/regions-cut-by-slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
 |973|[K Closest Points to Origin](https://leetcode-cn.com/problems/k-closest-points-to-origin/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[973]最接近原点的%20K%20个点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[973]最接近原点的%20K%20个点/solution.ts)|

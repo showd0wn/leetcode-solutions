@@ -554,6 +554,17 @@
             ]
         },
         {
+            "id": "169",
+            "level": 1,
+            "title": "Majority Element",
+            "title_slug": "majority-element",
+            "lock": false,
+            "caption": "多数元素",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "189",
             "level": 2,
             "title": "Rotate Array",
@@ -653,6 +664,18 @@
             "title_slug": "basic-calculator",
             "lock": false,
             "caption": "基本计算器",
+            "topics": [
+                "栈",
+                "数学"
+            ]
+        },
+        {
+            "id": "227",
+            "level": 2,
+            "title": "Basic Calculator II",
+            "title_slug": "basic-calculator-ii",
+            "lock": false,
+            "caption": "基本计算器 II",
             "topics": [
                 "栈",
                 "数学"
@@ -1299,6 +1322,18 @@
             ]
         },
         {
+            "id": "912",
+            "level": 2,
+            "title": "Sort an Array",
+            "title_slug": "sort-an-array",
+            "lock": false,
+            "caption": "排序数组",
+            "topics": [
+                "数组",
+                "分治算法"
+            ]
+        },
+        {
             "id": "933",
             "level": 1,
             "title": "Number of Recent Calls",
@@ -1642,14 +1677,14 @@
     "stats": {
         "Easy": {
             "total": 403,
-            "accept": 73
+            "accept": 74
         },
         "Medium": {
             "total": 877,
-            "accept": 48
+            "accept": 50
         },
         "Hard": {
-            "total": 369,
+            "total": 370,
             "accept": 18
         }
     }
