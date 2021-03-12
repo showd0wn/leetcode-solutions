@@ -519,6 +519,17 @@
             ]
         },
         {
+            "id": "147",
+            "level": 2,
+            "title": "Insertion Sort List",
+            "title_slug": "insertion-sort-list",
+            "lock": false,
+            "caption": "对链表进行插入排序",
+            "topics": [
+                "链表"
+            ]
+        },
+        {
             "id": "151",
             "level": 2,
             "title": "Reverse Words in a String",
@@ -829,6 +840,18 @@
             "caption": "3的幂",
             "topics": [
                 "数学"
+            ]
+        },
+        {
+            "id": "331",
+            "level": 2,
+            "title": "Verify Preorder Serialization of a Binary Tree",
+            "title_slug": "verify-preorder-serialization-of-a-binary-tree",
+            "lock": false,
+            "caption": "验证二叉树的前序序列化",
+            "topics": [
+                "树",
+                "栈"
             ]
         },
         {
@@ -1681,7 +1704,7 @@
         },
         "Medium": {
             "total": 877,
-            "accept": 50
+            "accept": 52
         },
         "Hard": {
             "total": 370,

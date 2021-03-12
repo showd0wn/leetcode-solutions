@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|74|50|18|142|
+|**Accept**|74|52|18|144|
 |**Total**|403|877|370|1650|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -53,6 +53,7 @@
 |137|[Single Number II](https://leetcode-cn.com/problems/single-number-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.ts)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|
 |146|[LRU Cache](https://leetcode-cn.com/problems/lru-cache/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[146]LRU%20缓存机制/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[146]LRU%20缓存机制/solution.ts)|
+|147|[Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[147]对链表进行插入排序/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[147]对链表进行插入排序/solution.ts)|
 |151|[Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[151]翻转字符串里的单词/solution.ts)|
 |155|[Min Stack](https://leetcode-cn.com/problems/min-stack/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.ts)|
 |160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[160]相交链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[160]相交链表/solution.ts)|
@@ -80,6 +81,7 @@
 |304|[Range Sum Query 2D - Immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[304]二维区域和检索%20-%20矩阵不可变/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[304]二维区域和检索%20-%20矩阵不可变/solution.ts)|
 |322|[Coin Change](https://leetcode-cn.com/problems/coin-change/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[322]零钱兑换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[322]零钱兑换/solution.ts)|
 |326|[Power of Three](https://leetcode-cn.com/problems/power-of-three/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[326]3的幂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[326]3的幂/solution.ts)|
+|331|[Verify Preorder Serialization of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[331]验证二叉树的前序序列化/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[331]验证二叉树的前序序列化/solution.ts)|
 |338|[Counting Bits](https://leetcode-cn.com/problems/counting-bits/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[338]比特位计数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[338]比特位计数/solution.ts)|
 |344|[Reverse String](https://leetcode-cn.com/problems/reverse-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[344]反转字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[344]反转字符串/solution.ts)|
 |350|[Intersection of Two Arrays II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.ts)|
