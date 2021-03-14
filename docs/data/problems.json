@@ -1266,6 +1266,17 @@
             ]
         },
         {
+            "id": "705",
+            "level": 1,
+            "title": "Design HashSet",
+            "title_slug": "design-hashset",
+            "lock": false,
+            "caption": "设计哈希集合",
+            "topics": [
+                "哈希表"
+            ]
+        },
+        {
             "id": "832",
             "level": 1,
             "title": "Flipping an Image",
@@ -1699,15 +1710,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 403,
-            "accept": 74
+            "total": 404,
+            "accept": 75
         },
         "Medium": {
-            "total": 877,
+            "total": 879,
             "accept": 52
         },
         "Hard": {
-            "total": 370,
+            "total": 371,
             "accept": 18
         }
     }

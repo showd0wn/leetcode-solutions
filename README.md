@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|74|52|18|144|
-|**Total**|403|877|370|1650|
+|**Accept**|75|52|18|145|
+|**Total**|404|879|371|1654|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -117,6 +117,7 @@
 |703|[Kth Largest Element in a Stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.ts)|
 |704|[Binary Search](https://leetcode-cn.com/problems/binary-search/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[704]二分查找/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[704]二分查找/solution.ts)|
 |778|[Swim in Rising Water](https://leetcode-cn.com/problems/swim-in-rising-water/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.ts)|
+|705|[Design HashSet](https://leetcode-cn.com/problems/design-hashset/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.ts)|
 |832|[Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.ts)|
 |839|[Similar String Groups](https://leetcode-cn.com/problems/similar-string-groups/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.ts)|
 |844|[Backspace String Compare](https://leetcode-cn.com/problems/backspace-string-compare/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.ts)|
