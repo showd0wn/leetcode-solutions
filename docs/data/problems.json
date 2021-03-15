@@ -243,6 +243,17 @@
             "topics": []
         },
         {
+            "id": "54",
+            "level": 2,
+            "title": "Spiral Matrix",
+            "title_slug": "spiral-matrix",
+            "lock": false,
+            "caption": "螺旋矩阵",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "66",
             "level": 1,
             "title": "Plus One",
@@ -904,6 +915,18 @@
             ]
         },
         {
+            "id": "380",
+            "level": 2,
+            "title": "Insert Delete GetRandom O(1)",
+            "title_slug": "insert-delete-getrandom-o1",
+            "lock": false,
+            "caption": "常数时间插入、删除和获取随机元素",
+            "topics": [
+                "数组",
+                "哈希表"
+            ]
+        },
+        {
             "id": "387",
             "level": 1,
             "title": "First Unique Character in a String",
@@ -1277,6 +1300,17 @@
             ]
         },
         {
+            "id": "706",
+            "level": 1,
+            "title": "Design HashMap",
+            "title_slug": "design-hashmap",
+            "lock": false,
+            "caption": "设计哈希映射",
+            "topics": [
+                "哈希表"
+            ]
+        },
+        {
             "id": "832",
             "level": 1,
             "title": "Flipping an Image",
@@ -1376,6 +1410,17 @@
             "caption": "最近的请求次数",
             "topics": [
                 "队列"
+            ]
+        },
+        {
+            "id": "957",
+            "level": 2,
+            "title": "Prison Cells After N Days",
+            "title_slug": "prison-cells-after-n-days",
+            "lock": false,
+            "caption": "N 天后的牢房",
+            "topics": [
+                "哈希表"
             ]
         },
         {
@@ -1711,11 +1756,11 @@
     "stats": {
         "Easy": {
             "total": 404,
-            "accept": 75
+            "accept": 76
         },
         "Medium": {
             "total": 879,
-            "accept": 52
+            "accept": 55
         },
         "Hard": {
             "total": 371,
