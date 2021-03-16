@@ -4,17 +4,21 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|76|55|18|149|
+|**Accept**|76|59|18|153|
 |**Total**|404|879|371|1654|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
 |1|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.ts)|
+|2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.ts)|
+|3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.ts)|
+|5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/solution.ts)|
 |7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.ts)|
 |8|[String to Integer (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[8]字符串转换整数%20(atoi)/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[8]字符串转换整数%20(atoi)/solution.ts)|
 |9|[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[9]回文数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[9]回文数/solution.ts)|
 |11|[Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[11]盛最多水的容器/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[11]盛最多水的容器/solution.ts)|
 |14|[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.ts)|
+|15|[3Sum](https://leetcode-cn.com/problems/3sum/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[15]三数之和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[15]三数之和/solution.ts)|
 |19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.ts)|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.ts)|
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.ts)|

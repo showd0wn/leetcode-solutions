@@ -13,6 +13,43 @@
             ]
         },
         {
+            "id": "2",
+            "level": 2,
+            "title": "Add Two Numbers",
+            "title_slug": "add-two-numbers",
+            "lock": false,
+            "caption": "两数相加",
+            "topics": [
+                "链表",
+                "数学"
+            ]
+        },
+        {
+            "id": "3",
+            "level": 2,
+            "title": "Longest Substring Without Repeating Characters",
+            "title_slug": "longest-substring-without-repeating-characters",
+            "lock": false,
+            "caption": "无重复字符的最长子串",
+            "topics": [
+                "字符串",
+                "哈希表",
+                "滑动窗口"
+            ]
+        },
+        {
+            "id": "5",
+            "level": 2,
+            "title": "Longest Palindromic Substring",
+            "title_slug": "longest-palindromic-substring",
+            "lock": false,
+            "caption": "最长回文子串",
+            "topics": [
+                "字符串",
+                "动态规划"
+            ]
+        },
+        {
             "id": "7",
             "level": 1,
             "title": "Reverse Integer",
@@ -67,6 +104,18 @@
             "caption": "最长公共前缀",
             "topics": [
                 "字符串"
+            ]
+        },
+        {
+            "id": "15",
+            "level": 2,
+            "title": "3Sum",
+            "title_slug": "3sum",
+            "lock": false,
+            "caption": "三数之和",
+            "topics": [
+                "数组",
+                "双指针"
             ]
         },
         {
@@ -1760,7 +1809,7 @@
         },
         "Medium": {
             "total": 879,
-            "accept": 55
+            "accept": 59
         },
         "Hard": {
             "total": 371,
