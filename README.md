@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|76|59|18|153|
+|**Accept**|76|61|19|156|
 |**Total**|404|879|371|1654|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -35,6 +35,7 @@
 |50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[50]Pow(x,%20n)/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[50]Pow(x,%20n)/solution.ts)|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[53]最大子序和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[53]最大子序和/solution.ts)|
 |54|[Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[54]螺旋矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[54]螺旋矩阵/solution.ts)|
+|59|[Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[59]螺旋矩阵%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[59]螺旋矩阵%20II/solution.ts)|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.ts)|
 |69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.ts)|
 |70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[70]爬楼梯/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[70]爬楼梯/solution.ts)|
@@ -48,6 +49,7 @@
 |104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.ts)|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.ts)|
 |111|[Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[111]二叉树的最小深度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[111]二叉树的最小深度/solution.ts)|
+|115|[Distinct Subsequences](https://leetcode-cn.com/problems/distinct-subsequences/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[115]不同的子序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[115]不同的子序列/solution.ts)|
 |119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[119]杨辉三角%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[119]杨辉三角%20II/solution.ts)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[121]买卖股票的最佳时机/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[121]买卖股票的最佳时机/solution.ts)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.ts)|
@@ -125,6 +127,7 @@
 |778|[Swim in Rising Water](https://leetcode-cn.com/problems/swim-in-rising-water/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.ts)|
 |705|[Design HashSet](https://leetcode-cn.com/problems/design-hashset/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.ts)|
 |706|[Design HashMap](https://leetcode-cn.com/problems/design-hashmap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[706]设计哈希映射/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[706]设计哈希映射/solution.ts)|
+|622|[Design Circular Queue](https://leetcode-cn.com/problems/design-circular-queue/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[622]设计循环队列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[622]设计循环队列/solution.ts)|
 |832|[Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.ts)|
 |839|[Similar String Groups](https://leetcode-cn.com/problems/similar-string-groups/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.ts)|
 |844|[Backspace String Compare](https://leetcode-cn.com/problems/backspace-string-compare/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.ts)|

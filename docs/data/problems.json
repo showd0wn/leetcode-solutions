@@ -303,6 +303,17 @@
             ]
         },
         {
+            "id": "59",
+            "level": 2,
+            "title": "Spiral Matrix II",
+            "title_slug": "spiral-matrix-ii",
+            "lock": false,
+            "caption": "螺旋矩阵 II",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "66",
             "level": 1,
             "title": "Plus One",
@@ -458,6 +469,18 @@
                 "树",
                 "广度优先搜索",
                 "深度优先搜索"
+            ]
+        },
+        {
+            "id": "115",
+            "level": 3,
+            "title": "Distinct Subsequences",
+            "title_slug": "distinct-subsequences",
+            "lock": false,
+            "caption": "不同的子序列",
+            "topics": [
+                "字符串",
+                "动态规划"
             ]
         },
         {
@@ -1360,6 +1383,17 @@
             ]
         },
         {
+            "id": "622",
+            "level": 2,
+            "title": "Design Circular Queue",
+            "title_slug": "design-circular-queue",
+            "lock": false,
+            "caption": "设计循环队列",
+            "topics": [
+                "队列"
+            ]
+        },
+        {
             "id": "832",
             "level": 1,
             "title": "Flipping an Image",
@@ -1809,11 +1843,11 @@
         },
         "Medium": {
             "total": 879,
-            "accept": 59
+            "accept": 61
         },
         "Hard": {
             "total": 371,
-            "accept": 18
+            "accept": 19
         }
     }
 }
