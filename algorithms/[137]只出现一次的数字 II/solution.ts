@@ -1,6 +1,6 @@
 // topics = ["位运算"]
 
-// 此题要求 time o(n); space o(1)。故使用位运算。
+// 此题要求 time O(n); space O(1)。故使用位运算。
 function singleNumber(nums: number[]): number {
   let res = 0;
 
