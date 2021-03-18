@@ -395,6 +395,17 @@
             ]
         },
         {
+            "id": "92",
+            "level": 2,
+            "title": "Reverse Linked List II",
+            "title_slug": "reverse-linked-list-ii",
+            "lock": false,
+            "caption": "反转链表 II",
+            "topics": [
+                "链表"
+            ]
+        },
+        {
             "id": "98",
             "level": 2,
             "title": "Validate Binary Search Tree",
@@ -1172,6 +1183,17 @@
             ]
         },
         {
+            "id": "621",
+            "level": 2,
+            "title": "Task Scheduler",
+            "title_slug": "task-scheduler",
+            "lock": false,
+            "caption": "任务调度器",
+            "topics": [
+                "贪心算法"
+            ]
+        },
+        {
             "id": "628",
             "level": 1,
             "title": "Maximum Product of Three Numbers",
@@ -1252,6 +1274,18 @@
                 "哈希表",
                 "深度优先搜索",
                 "广度优先搜索"
+            ]
+        },
+        {
+            "id": "695",
+            "level": 2,
+            "title": "Max Area of Island",
+            "title_slug": "max-area-of-island",
+            "lock": false,
+            "caption": "岛屿的最大面积",
+            "topics": [
+                "广度优先搜索",
+                "深度优先搜索"
             ]
         },
         {
@@ -1482,6 +1516,17 @@
             "topics": [
                 "数组",
                 "分治算法"
+            ]
+        },
+        {
+            "id": "921",
+            "level": 2,
+            "title": "Minimum Add to Make Parentheses Valid",
+            "title_slug": "minimum-add-to-make-parentheses-valid",
+            "lock": false,
+            "caption": "使括号有效的最少添加",
+            "topics": [
+                "栈"
             ]
         },
         {
@@ -1842,8 +1887,8 @@
             "accept": 76
         },
         "Medium": {
-            "total": 879,
-            "accept": 61
+            "total": 880,
+            "accept": 65
         },
         "Hard": {
             "total": 371,

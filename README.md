@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|76|61|19|156|
-|**Total**|404|879|371|1654|
+|**Accept**|76|65|19|160|
+|**Total**|404|880|371|1655|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -43,6 +43,7 @@
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[83]删除排序链表中的重复元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[83]删除排序链表中的重复元素/solution.ts)|
 |84|[Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[84]柱状图中最大的矩形/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[84]柱状图中最大的矩形/solution.ts)|
 |88|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.ts)|
+|92|[Reverse Linked List II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[92]反转链表%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[92]反转链表%20II/solution.ts)|
 |98|[Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[98]验证二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[98]验证二叉搜索树/solution.ts)|
 |101|[Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[101]对称二叉树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[101]对称二叉树/solution.ts)|
 |102|[Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[102]二叉树的层次遍历/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[102]二叉树的层次遍历/solution.ts)|
@@ -109,6 +110,7 @@
 |561|[Array Partition I](https://leetcode-cn.com/problems/array-partition-i/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[561]数组拆分%20I/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[561]数组拆分%20I/solution.ts)|
 |566|[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[566]重塑矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[566]重塑矩阵/solution.ts)|
 |567|[Permutation in String](https://leetcode-cn.com/problems/permutation-in-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[567]字符串的排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[567]字符串的排列/solution.ts)|
+|621|[Task Scheduler](https://leetcode-cn.com/problems/task-scheduler/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[621]任务调度器/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[621]任务调度器/solution.ts)|
 |628|[Maximum Product of Three Numbers](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[628]三个数的最大乘积/solution.ts)|
 |643|[Maximum Average Subarray I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.ts)|
 |645|[Set Mismatch](https://leetcode-cn.com/problems/set-mismatch/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[645]错误的集合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[645]错误的集合/solution.ts)|
@@ -116,6 +118,7 @@
 |665|[Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.ts)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
 |690|[Employee Importance](https://leetcode-cn.com/problems/employee-importance/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.ts)|
+|695|[Max Area of Island](https://leetcode-cn.com/problems/max-area-of-island/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[695]岛屿的最大面积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[695]岛屿的最大面积/solution.ts)|
 |697|[Degree of an Array](https://leetcode-cn.com/problems/degree-of-an-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[697]数组的度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[697]数组的度/solution.ts)|
 |721|[Accounts Merge](https://leetcode-cn.com/problems/accounts-merge/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |724|[Find Pivot Index](https://leetcode-cn.com/problems/find-pivot-index/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.ts)|
@@ -136,6 +139,7 @@
 |896|[Monotonic Array](https://leetcode-cn.com/problems/monotonic-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.ts)|
 |904|[Fruit Into Baskets](https://leetcode-cn.com/problems/fruit-into-baskets/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.ts)|
 |912|[Sort an Array](https://leetcode-cn.com/problems/sort-an-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.ts)|
+|921|[Minimum Add to Make Parentheses Valid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[921]使括号有效的最少添加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[921]使括号有效的最少添加/solution.ts)|
 |933|[Number of Recent Calls](https://leetcode-cn.com/problems/number-of-recent-calls/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.ts)|
 |957|[Prison Cells After N Days](https://leetcode-cn.com/problems/prison-cells-after-n-days/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[957]N%20天后的牢房/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[957]N%20天后的牢房/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/regions-cut-by-slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
