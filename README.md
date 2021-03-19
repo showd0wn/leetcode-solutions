@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|77|65|19|161|
+|**Accept**|77|69|19|165|
 |**Total**|404|880|371|1655|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -57,6 +57,7 @@
 |125|[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.ts)|
 |131|[Palindrome Partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[131]分割回文串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[131]分割回文串/solution.ts)|
 |132|[Palindrome Partitioning II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[132]分割回文串%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[132]分割回文串%20II/solution.ts)|
+|134|[Gas Station](https://leetcode-cn.com/problems/gas-station/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[134]加油站/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[134]加油站/solution.ts)|
 |136|[Single Number](https://leetcode-cn.com/problems/single-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.ts)|
 |137|[Single Number II](https://leetcode-cn.com/problems/single-number-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[137]只出现一次的数字%20II/solution.ts)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.ts)|
@@ -70,7 +71,9 @@
 |202|[Happy Number](https://leetcode-cn.com/problems/happy-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.ts)|
 |204|[Count Primes](https://leetcode-cn.com/problems/count-primes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.ts)|
 |206|[Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.ts)|
+|207|[Course Schedule](https://leetcode-cn.com/problems/course-schedule/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[207]课程表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[207]课程表/solution.ts)|
 |208|[Implement Trie (Prefix Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[208]实现%20Trie%20(前缀树)/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[208]实现%20Trie%20(前缀树)/solution.ts)|
+|210|[Course Schedule II](https://leetcode-cn.com/problems/course-schedule-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[210]课程表%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[210]课程表%20II/solution.ts)|
 |211|[Design Add and Search Words Data Structure](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[211]添加与搜索单词%20-%20数据结构设计/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[211]添加与搜索单词%20-%20数据结构设计/solution.ts)|
 |212|[Word Search II](https://leetcode-cn.com/problems/word-search-ii/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[212]单词搜索%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[212]单词搜索%20II/solution.ts)|
 |217|[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.ts)|
@@ -130,6 +133,7 @@
 |778|[Swim in Rising Water](https://leetcode-cn.com/problems/swim-in-rising-water/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[778]水位上升的泳池中游泳/solution.ts)|
 |705|[Design HashSet](https://leetcode-cn.com/problems/design-hashset/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.ts)|
 |706|[Design HashMap](https://leetcode-cn.com/problems/design-hashmap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[706]设计哈希映射/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[706]设计哈希映射/solution.ts)|
+|820|[Short Encoding of Words](https://leetcode-cn.com/problems/short-encoding-of-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[820]单词的压缩编码/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[820]单词的压缩编码/solution.ts)|
 |622|[Design Circular Queue](https://leetcode-cn.com/problems/design-circular-queue/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[622]设计循环队列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[622]设计循环队列/solution.ts)|
 |832|[Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.ts)|
 |839|[Similar String Groups](https://leetcode-cn.com/problems/similar-string-groups/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.ts)|

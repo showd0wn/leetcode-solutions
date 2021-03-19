@@ -567,6 +567,17 @@
             ]
         },
         {
+            "id": "134",
+            "level": 2,
+            "title": "Gas Station",
+            "title_slug": "gas-station",
+            "lock": false,
+            "caption": "加油站",
+            "topics": [
+                "贪心算法"
+            ]
+        },
+        {
             "id": "136",
             "level": 1,
             "title": "Single Number",
@@ -718,6 +729,20 @@
             ]
         },
         {
+            "id": "207",
+            "level": 2,
+            "title": "Course Schedule",
+            "title_slug": "course-schedule",
+            "lock": false,
+            "caption": "课程表",
+            "topics": [
+                "图",
+                "拓扑排序",
+                "广度优先搜索",
+                "深度优先搜索"
+            ]
+        },
+        {
             "id": "208",
             "level": 2,
             "title": "Implement Trie (Prefix Tree)",
@@ -727,6 +752,20 @@
             "topics": [
                 "设计",
                 "字典树"
+            ]
+        },
+        {
+            "id": "210",
+            "level": 2,
+            "title": "Course Schedule II",
+            "title_slug": "course-schedule-ii",
+            "lock": false,
+            "caption": "课程表 II",
+            "topics": [
+                "图",
+                "拓扑排序",
+                "广度优先搜索",
+                "深度优先搜索"
             ]
         },
         {
@@ -1427,6 +1466,17 @@
             ]
         },
         {
+            "id": "820",
+            "level": 2,
+            "title": "Short Encoding of Words",
+            "title_slug": "short-encoding-of-words",
+            "lock": false,
+            "caption": "单词的压缩编码",
+            "topics": [
+                "字典树"
+            ]
+        },
+        {
             "id": "622",
             "level": 2,
             "title": "Design Circular Queue",
@@ -1910,7 +1960,7 @@
         },
         "Medium": {
             "total": 880,
-            "accept": 65
+            "accept": 69
         },
         "Hard": {
             "total": 371,
