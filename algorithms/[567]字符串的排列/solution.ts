@@ -4,8 +4,8 @@ function checkInclusion(s1: string, s2: string): boolean {
   const m = s1.length;
   const n = s2.length;
 
-  const cnt1: number[] = new Array(26).fill(0);
-  const cnt2: number[] = new Array(26).fill(0);
+  const cnt1 = new Array<number>(26).fill(0);
+  const cnt2 = new Array<number>(26).fill(0);
   const offset = 'a'.codePointAt(0)!;
 
   for (let i = 0; i < m; i += 1) {
@@ -35,7 +35,7 @@ function checkInclusion2(s1: string, s2: string): boolean {
   const m = s1.length;
   const n = s2.length;
 
-  const cnt: number[] = new Array(26).fill(0);
+  const cnt = new Array<number>(26).fill(0);
   const offset = 'a'.codePointAt(0)!;
 
   for (let i = 0; i < m; i += 1) {

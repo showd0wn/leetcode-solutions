@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 function coinChange(coins: number[], amount: number): number {
-  const dp: number[] = new Array(amount + 1).fill(amount + 1);
+  const dp = new Array<number>(amount + 1).fill(amount + 1);
   dp[0] = 0;
 
   for (let i = 1; i < amount + 1; i += 1) {

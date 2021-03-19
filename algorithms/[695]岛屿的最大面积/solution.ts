@@ -5,7 +5,7 @@ function maxAreaOfIsland(grid: number[][]): number {
   if (!grid.length) return 0;
   const m = grid.length;
   const n = grid[0].length;
-  const visited = Array.from({ length: m }, () => new Array(n).fill(false));
+  const visited = Array.from({ length: m }, () => new Array<boolean>(n).fill(false));
   let res = 0;
 
   const dfs = (x: number, y: number): number => {
@@ -39,7 +39,7 @@ function maxAreaOfIsland2(grid: number[][]): number {
   if (!grid.length) return 0;
   const m = grid.length;
   const n = grid[0].length;
-  const visited = Array.from({ length: m }, () => new Array(n).fill(false));
+  const visited = Array.from({ length: m }, () => new Array<boolean>(n).fill(false));
   const stack: [number, number][] = [];
   let res = 0;
 

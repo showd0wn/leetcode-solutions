@@ -4,7 +4,7 @@ function transpose(matrix: number[][]): number[][] {
   const m = matrix.length;
   const n = matrix[0].length;
 
-  const res: number[][] = Array.from({ length: n }, () => new Array(m));
+  const res = Array.from({ length: n }, () => new Array<number>(m));
 
   for (let i = 0; i < m; i += 1) {
     for (let j = 0; j < n; j += 1) {

@@ -3,7 +3,7 @@
 // 同 1109.航班预订统计。差分统计。
 function carPooling(trips: number[][], capacity: number): boolean {
   const n = Math.max(...trips.map(item => item[2]));
-  const arr: number[] = new Array(n + 1).fill(0);
+  const arr = new Array<number>(n + 1).fill(0);
 
   for (const [cnt, start, end] of trips) {
     arr[start] += cnt;

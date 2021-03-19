@@ -2,7 +2,7 @@
 
 function nextGreaterElements(nums: number[]): number[] {
   const n = nums.length;
-  const res: number[] = new Array(n).fill(-1);
+  const res: number[] = new Array<number>(n).fill(-1);
   const stack: number[] = [];
 
   for (let j = 0; j < 2 * n - 1; j += 1) {

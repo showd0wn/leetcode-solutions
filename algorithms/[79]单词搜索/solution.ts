@@ -3,7 +3,7 @@
 function exist(board: string[][], word: string): boolean {
   const n = board.length;
   const m = board[0].length;
-  const visited: boolean[][] = Array.from({ length: n }, () => new Array(m).fill(false));
+  const visited = Array.from({ length: n }, () => new Array<boolean>(m).fill(false));
 
   for (let i = 0; i < n; i += 1) {
     for (let j = 0; j < m; j += 1) {

@@ -5,7 +5,7 @@ class NumMatrix {
   constructor(matrix: number[][]) {
     const m = matrix.length;
     const n = matrix[0]?.length ?? 0;
-    const dp = Array.from({ length: m }, () => new Array(n));
+    const dp = Array.from({ length: m }, () => new Array<number>(n));
 
     for (let i = 0; i < m; i += 1) {
       for (let j = 0; j < n; j += 1) {

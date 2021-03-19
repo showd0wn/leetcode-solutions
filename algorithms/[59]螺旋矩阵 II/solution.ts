@@ -1,7 +1,7 @@
 // topics = ["数组"]
 
 function generateMatrix(n: number): number[][] {
-  const res: number[][] = Array.from({ length: n }, () => new Array(n).fill(n * n));
+  const res = Array.from({ length: n }, () => new Array<number>(n).fill(n * n));
   let num = 1;
   let top = 0;
   let right = n - 1;

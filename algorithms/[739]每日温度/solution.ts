@@ -2,7 +2,7 @@
 
 function dailyTemperatures(T: number[]): number[] {
   const n = T.length;
-  const res: number[] = new Array(n).fill(0);
+  const res = new Array<number>(n).fill(0);
   const stack: number[] = [];
 
   for (let j = 0; j < n; j += 1) {

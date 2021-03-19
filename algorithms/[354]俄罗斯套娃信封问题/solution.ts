@@ -37,7 +37,7 @@ function maxEnvelopes2(envelopes: number[][]): number {
 
   // 忽略 w 维度，只看 h 维度，转换为求最长递增子序列问题
   const n = envelopes.length;
-  const dp: number[] = new Array(n).fill(1);
+  const dp = new Array<number>(n).fill(1);
 
   for (let i = 1; i < n; i += 1) {
     for (let j = 0; j < i; j += 1) {

@@ -13,7 +13,7 @@ function findNumOfValidWords(words: string[], puzzles: string[]): number[] {
   }
 
   const len = puzzles.length;
-  const res = new Array(len).fill(0);
+  const res = new Array<number>(len).fill(0);
   for (let i = 0; i < len; i += 1) {
     const puzzle = puzzles[i];
     const puzzleBit = getBits(puzzle);
@@ -23,7 +23,7 @@ function findNumOfValidWords(words: string[], puzzles: string[]): number[] {
     let n = puzzleBit;
     while (n > 0) {
       if ((n & first) != 0 && map.has(n)) {
-        res[i] += map.get(n);
+        res[i] += map.get(n)!;
       }
       n = (n - 1) & puzzleBit;
     }

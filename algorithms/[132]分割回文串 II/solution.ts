@@ -4,7 +4,7 @@ function minCut(s: string): number {
   const n = s.length;
 
   // dp[i][j] 表示 s[i..j] (闭区间)是否为回文，空串视为回文
-  const dp = new Array(n).fill(0).map(() => new Array(n).fill(true));
+  const dp = new Array(n).fill(0).map(() => new Array<boolean>(n).fill(true));
 
   for (let i = n - 1; i >= 0; i -= 1) {
     for (let j = i + 1; j < n; j += 1) {
@@ -13,7 +13,7 @@ function minCut(s: string): number {
   }
 
   // res[i] 表示前缀 s[0..i] 的最少分割次数
-  const res = new Array(n).fill(Number.MAX_SAFE_INTEGER);
+  const res = new Array<number>(n).fill(Number.MAX_SAFE_INTEGER);
 
   for (let i = 0; i < n; i += 1) {
     if (dp[0][i]) {

@@ -2,7 +2,7 @@
 
 function longestPalindrome(s: string): string {
   const n = s.length;
-  const dp = new Array(n).fill(0).map(() => new Array(n).fill(false));
+  const dp = new Array(n).fill(0).map(() => new Array<boolean>(n).fill(false));
   let res = '';
 
   for (let i = n - 1; i >= 0; i -= 1) {

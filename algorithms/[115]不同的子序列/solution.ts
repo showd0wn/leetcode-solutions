@@ -9,7 +9,7 @@ function numDistinct(s: string, t: string): number {
   }
 
   // dp[i][j] 表示在 s[i:] 的子序列中 t[j:] 出现的个数
-  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  const dp = Array.from({ length: m + 1 }, () => new Array<number>(n + 1).fill(0));
 
   for (let i = 0; i <= m; i += 1) {
     dp[i][n] = 1;

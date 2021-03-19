@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 function change(amount: number, coins: number[]): number {
-  const dp = new Array(amount + 1).fill(0);
+  const dp = new Array<number>(amount + 1).fill(0);
   dp[0] = 1;
 
   // 这里是求组合数，必须注意遍历顺序

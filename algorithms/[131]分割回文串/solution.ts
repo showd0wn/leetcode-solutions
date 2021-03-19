@@ -2,7 +2,7 @@
 
 function partition(s: string): string[][] {
   const n = s.length;
-  const dp: boolean[][] = new Array(n).fill(0).map(() => new Array(n).fill(true));
+  const dp = new Array(n).fill(0).map(() => new Array<boolean>(n).fill(true));
 
   for (let i = n - 1; i >= 0; i -= 1) {
     for (let j = i + 1; j < n; j += 1) {

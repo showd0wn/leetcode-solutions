@@ -5,7 +5,7 @@ function maxTurbulenceSize(arr: number[]): number {
 
   // dp[i][0] 为以 arr[i] 结尾，且 arr[i-1] > arr[i] 的「湍流子数组」的最大长度
   // dp[i][1] 为以 arr[i] 结尾，且 arr[i-1] < arr[i] 的「湍流子数组」的最大长度
-  const dp = new Array(n).fill(0).map(() => new Array(2).fill(0));
+  const dp = new Array(n).fill(0).map(() => new Array<number>(2).fill(0));
   dp[0][0] = dp[0][1] = 1;
 
   for (let i = 1; i < n; i += 1) {

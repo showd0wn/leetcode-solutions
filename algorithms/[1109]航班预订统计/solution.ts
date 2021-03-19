@@ -2,7 +2,7 @@
 
 // 差分数组，区间两端进行操作以代替区间内操作
 function corpFlightBookings(bookings: number[][], n: number): number[] {
-  const res: number[] = new Array(n).fill(0);
+  const res = new Array<number>(n).fill(0);
 
   for (const [i, j, cnt] of bookings) {
     res[i - 1] += cnt;

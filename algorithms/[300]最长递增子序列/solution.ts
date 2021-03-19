@@ -2,7 +2,7 @@
 
 function lengthOfLIS(nums: number[]): number {
   const n = nums.length;
-  const dp: number[] = new Array(n).fill(1);
+  const dp = new Array<number>(n).fill(1);
 
   let res = dp[0];
   for (let i = 1; i < n; i += 1) {

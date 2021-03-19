@@ -2,7 +2,7 @@
 
 function characterReplacement(s: string, k: number): number {
   const n = s.length;
-  const num = new Array(26).fill(0);
+  const num = new Array<number>(26).fill(0);
   let maxn = 0,
     left = 0,
     right = 0;
