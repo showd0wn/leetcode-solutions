@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|76|65|19|160|
+|**Accept**|77|65|19|161|
 |**Total**|404|880|371|1655|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -168,4 +168,5 @@
 |1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|
 |1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.ts)|
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|
+|1603|[Design Parking System](https://leetcode-cn.com/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|
 |1631|[Path With Minimum Effort](https://leetcode-cn.com/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|
