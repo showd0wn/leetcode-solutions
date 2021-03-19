@@ -608,6 +608,7 @@
             "lock": false,
             "caption": "LRU 缓存机制",
             "topics": [
+                "设计",
                 "哈希表",
                 "链表"
             ]
@@ -642,6 +643,7 @@
             "lock": false,
             "caption": "最小栈",
             "topics": [
+                "设计",
                 "栈"
             ]
         },
@@ -723,6 +725,7 @@
             "lock": false,
             "caption": "实现 Trie (前缀树)",
             "topics": [
+                "设计",
                 "字典树"
             ]
         },
@@ -734,6 +737,7 @@
             "lock": false,
             "caption": "添加与搜索单词 - 数据结构设计",
             "topics": [
+                "设计",
                 "字典树",
                 "深度优先搜索"
             ]
@@ -794,6 +798,7 @@
             "lock": false,
             "caption": "用栈实现队列",
             "topics": [
+                "设计",
                 "栈"
             ]
         },
@@ -874,6 +879,7 @@
             "lock": false,
             "caption": "数据流的中位数",
             "topics": [
+                "设计",
                 "二分查找",
                 "堆",
                 "二叉搜索树"
@@ -1005,6 +1011,7 @@
             "lock": false,
             "caption": "常数时间插入、删除和获取随机元素",
             "topics": [
+                "设计",
                 "数组",
                 "哈希表"
             ]
@@ -1365,6 +1372,7 @@
             "lock": false,
             "caption": "数据流中的第 K 大元素",
             "topics": [
+                "设计",
                 "堆",
                 "二分查找"
             ]
@@ -1402,6 +1410,7 @@
             "lock": false,
             "caption": "设计哈希集合",
             "topics": [
+                "设计",
                 "哈希表"
             ]
         },
@@ -1413,6 +1422,7 @@
             "lock": false,
             "caption": "设计哈希映射",
             "topics": [
+                "设计",
                 "哈希表"
             ]
         },
@@ -1424,6 +1434,7 @@
             "lock": false,
             "caption": "设计循环队列",
             "topics": [
+                "设计",
                 "队列"
             ]
         },
@@ -1867,6 +1878,17 @@
             ]
         },
         {
+            "id": "1603",
+            "level": 1,
+            "title": "Design Parking System",
+            "title_slug": "design-parking-system",
+            "lock": false,
+            "caption": "设计停车系统",
+            "topics": [
+                "设计"
+            ]
+        },
+        {
             "id": "1631",
             "level": 2,
             "title": "Path With Minimum Effort",
@@ -1884,7 +1906,7 @@
     "stats": {
         "Easy": {
             "total": 404,
-            "accept": 76
+            "accept": 77
         },
         "Medium": {
             "total": 880,
