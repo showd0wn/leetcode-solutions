@@ -1,4 +1,4 @@
-// topics = ["栈"]
+// topics = ["设计", "栈"]
 
 class MyQueue {
   inStack: number[];

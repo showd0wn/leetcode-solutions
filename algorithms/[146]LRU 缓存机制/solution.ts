@@ -1,4 +1,4 @@
-// topics = ["哈希表", "链表"]
+// topics = ["设计", "哈希表", "链表"]
 
 class linkedListNode {
   key: number;
@@ -9,7 +9,7 @@ class linkedListNode {
     key: number = 0,
     val: number = 0,
     prev: linkedListNode | null = null,
-    next: linkedListNode | null = null
+    next: linkedListNode | null = null,
   ) {
     this.key = key;
     this.val = val;

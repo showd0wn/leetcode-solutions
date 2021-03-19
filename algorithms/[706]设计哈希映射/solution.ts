@@ -1,4 +1,4 @@
-// topics = ["哈希表"]
+// topics = ["设计", "哈希表"]
 
 class MyHashMap {
   base: number;

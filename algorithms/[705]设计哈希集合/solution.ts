@@ -1,4 +1,4 @@
-// topics = ["哈希表"]
+// topics = ["设计", "哈希表"]
 
 // 链地址法
 class MyHashSet {

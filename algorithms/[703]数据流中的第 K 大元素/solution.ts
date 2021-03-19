@@ -1,4 +1,4 @@
-// topics = ["二分查找"]
+// topics = ["设计", "二分查找"]
 
 class KthLargest {
   k: number;

@@ -1,4 +1,4 @@
-// topics = ["队列"]
+// topics = ["设计", "队列"]
 
 // time O(1)
 class MyCircularQueue {

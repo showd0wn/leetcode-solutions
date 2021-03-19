@@ -1,4 +1,4 @@
-// topics = ["字典树"]
+// topics = ["设计", "字典树"]
 
 class TrieNode {
   endOfWord: boolean;

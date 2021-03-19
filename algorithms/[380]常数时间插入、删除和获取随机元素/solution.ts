@@ -1,4 +1,4 @@
-// topics = ["数组", "哈希表"]
+// topics = ["设计", "数组", "哈希表"]
 
 class RandomizedSet {
   list: number[];
