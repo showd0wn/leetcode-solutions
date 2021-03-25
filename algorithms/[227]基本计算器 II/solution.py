@@ -25,7 +25,7 @@ class Solution:
                 elif preSign == '*':
                     stack.append(stack.pop() * operand)
                 elif preSign == '/':
-                    # 负数向上取整，正数向下取整
+                    # 浮点数取整
                     stack.append(int(stack.pop() / operand))
                 preSign = s[i]
                 operand = 0
