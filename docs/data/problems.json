@@ -377,7 +377,9 @@
             "title_slug": "remove-duplicates-from-sorted-list-ii",
             "lock": false,
             "caption": "删除排序链表中的重复元素 II",
-            "topics": []
+            "topics": [
+                "链表"
+            ]
         },
         {
             "id": "83",
@@ -1048,6 +1050,19 @@
             ]
         },
         {
+            "id": "341",
+            "level": 2,
+            "title": "Flatten Nested List Iterator",
+            "title_slug": "flatten-nested-list-iterator",
+            "lock": false,
+            "caption": "扁平化嵌套列表迭代器",
+            "topics": [
+                "设计",
+                "递归",
+                "栈"
+            ]
+        },
+        {
             "id": "344",
             "level": 1,
             "title": "Reverse String",
@@ -1213,6 +1228,17 @@
             ]
         },
         {
+            "id": "486",
+            "level": 2,
+            "title": "Predict the Winner",
+            "title_slug": "predict-the-winner",
+            "lock": false,
+            "caption": "预测赢家",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "503",
             "level": 2,
             "title": "Next Greater Element II",
@@ -1221,6 +1247,18 @@
             "caption": "下一个更大元素 II",
             "topics": [
                 "栈"
+            ]
+        },
+        {
+            "id": "516",
+            "level": 2,
+            "title": "Longest Palindromic Subsequence",
+            "title_slug": "longest-palindromic-subsequence",
+            "lock": false,
+            "caption": "最长回文子序列",
+            "topics": [
+                "字符串",
+                "动态规划"
             ]
         },
         {
@@ -1246,6 +1284,17 @@
                 "深度优先搜索",
                 "广度优先搜索",
                 "并查集"
+            ]
+        },
+        {
+            "id": "554",
+            "level": 2,
+            "title": "Brick Wall",
+            "title_slug": "brick-wall",
+            "lock": false,
+            "caption": "砖墙",
+            "topics": [
+                "哈希表"
             ]
         },
         {
@@ -1597,6 +1646,18 @@
             "caption": "转置矩阵",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "877",
+            "level": 2,
+            "title": "Stone Game",
+            "title_slug": "stone-game",
+            "lock": false,
+            "caption": "石子游戏",
+            "topics": [
+                "数学",
+                "动态规划"
             ]
         },
         {
@@ -2026,7 +2087,7 @@
         },
         "Medium": {
             "total": 886,
-            "accept": 74
+            "accept": 79
         },
         "Hard": {
             "total": 372,
