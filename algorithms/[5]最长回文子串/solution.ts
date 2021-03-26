@@ -2,6 +2,7 @@
 
 function longestPalindrome(s: string): string {
   const n = s.length;
+  // dp[i][j] 表示区间 [i, j] 间的最长回文子串
   const dp = new Array(n).fill(0).map(() => new Array<boolean>(n).fill(false));
   let res = '';
 

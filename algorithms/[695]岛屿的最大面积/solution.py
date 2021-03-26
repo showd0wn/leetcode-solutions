@@ -40,6 +40,5 @@ class Solution:
             for j in range(n):
                 if grid[i][j] and not visited[i][j]:
                     res = max(res, bfs(i, j))
-                    print(i, j, res)
 
         return res

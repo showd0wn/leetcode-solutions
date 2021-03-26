@@ -22,7 +22,6 @@ class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         def dfs(i: int, j: int, root: Dict[str, Any]) -> None:
             c = board[i][j]
-            print(c, root[c])
 
             last = root[c].pop('end', False)
 
@@ -53,17 +52,3 @@ class Solution:
                     dfs(i, j, trie.root)
 
         return res
-
-
-s = Solution()
-print(
-    s.findWords(
-        [
-            ['o', 'a', 'a', 'n'],
-            ['e', 't', 'a', 'e'],
-            ['i', 'h', 'k', 'r'],
-            ['i', 'f', 'l', 'v'],
-        ],
-        ['oath', 'pea', 'eat', 'rain'],
-    )
-)
