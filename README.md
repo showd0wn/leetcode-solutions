@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|78|79|19|176|
+|**Accept**|78|82|19|179|
 |**Total**|406|886|372|1664|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -107,13 +107,16 @@
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.ts)|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
 |415|[Add Strings](https://leetcode-cn.com/problems/add-strings/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[415]字符串相加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[415]字符串相加/solution.ts)|
+|416|[Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[416]分割等和子集/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[416]分割等和子集/solution.ts)|
 |424|[Longest Repeating Character Replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[424]替换后的最长重复字符/solution.ts)|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[448]找到所有数组中消失的数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[448]找到所有数组中消失的数字/solution.ts)|
 |455|[Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[455]分发饼干/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[455]分发饼干/solution.ts)|
 |456|[132 Pattern](https://leetcode-cn.com/problems/132-pattern/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[456]132%20模式/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[456]132%20模式/solution.ts)|
+|474|[Ones and Zeroes](https://leetcode-cn.com/problems/ones-and-zeroes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[474]一和零/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[474]一和零/solution.ts)|
 |480|[Sliding Window Median](https://leetcode-cn.com/problems/sliding-window-median/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.ts)|
 |485|[Max Consecutive Ones](https://leetcode-cn.com/problems/max-consecutive-ones/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[485]最大连续%201%20的个数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[485]最大连续%201%20的个数/solution.ts)|
 |486|[Predict the Winner](https://leetcode-cn.com/problems/predict-the-winner/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[486]预测赢家/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[486]预测赢家/solution.ts)|
+|494|[Target Sum](https://leetcode-cn.com/problems/target-sum/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[494]目标和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[494]目标和/solution.ts)|
 |503|[Next Greater Element II](https://leetcode-cn.com/problems/next-greater-element-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[503]下一个更大元素%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[503]下一个更大元素%20II/solution.ts)|
 |516|[Longest Palindromic Subsequence](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[516]最长回文子序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[516]最长回文子序列/solution.ts)|
 |518|[Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[518]零钱兑换%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[518]零钱兑换%20II/solution.ts)|

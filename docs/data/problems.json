@@ -1157,6 +1157,17 @@
             ]
         },
         {
+            "id": "416",
+            "level": 2,
+            "title": "Partition Equal Subset Sum",
+            "title_slug": "partition-equal-subset-sum",
+            "lock": false,
+            "caption": "分割等和子集",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "424",
             "level": 2,
             "title": "Longest Repeating Character Replacement",
@@ -1203,6 +1214,15 @@
             ]
         },
         {
+            "id": "474",
+            "level": 2,
+            "title": "Ones and Zeroes",
+            "title_slug": "ones-and-zeroes",
+            "lock": false,
+            "caption": "一和零",
+            "topics": []
+        },
+        {
             "id": "480",
             "level": 3,
             "title": "Sliding Window Median",
@@ -1234,6 +1254,17 @@
             "title_slug": "predict-the-winner",
             "lock": false,
             "caption": "预测赢家",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
+            "id": "494",
+            "level": 2,
+            "title": "Target Sum",
+            "title_slug": "target-sum",
+            "lock": false,
+            "caption": "目标和",
             "topics": [
                 "动态规划"
             ]
@@ -2087,7 +2118,7 @@
         },
         "Medium": {
             "total": 886,
-            "accept": 79
+            "accept": 82
         },
         "Hard": {
             "total": 372,
