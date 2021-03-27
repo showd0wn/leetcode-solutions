@@ -1,6 +1,7 @@
 // topics = ["动态规划"]
 
 function change(amount: number, coins: number[]): number {
+  // dp[i] 表示组成金额 i 使用的硬币组合数
   const dp = new Array<number>(amount + 1).fill(0);
   dp[0] = 1;
 
