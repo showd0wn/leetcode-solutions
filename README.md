@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|78|82|19|179|
-|**Total**|406|886|372|1664|
+|**Accept**|79|83|19|181|
+|**Total**|407|888|373|1668|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -36,6 +36,7 @@
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[53]最大子序和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[53]最大子序和/solution.ts)|
 |54|[Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[54]螺旋矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[54]螺旋矩阵/solution.ts)|
 |59|[Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[59]螺旋矩阵%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[59]螺旋矩阵%20II/solution.ts)|
+|61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[61]旋转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[61]旋转链表/solution.ts)|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.ts)|
 |69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.ts)|
 |70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[70]爬楼梯/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[70]爬楼梯/solution.ts)|
@@ -71,6 +72,7 @@
 |160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[160]相交链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[160]相交链表/solution.ts)|
 |169|[Majority Element](https://leetcode-cn.com/problems/majority-element/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[169]多数元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[169]多数元素/solution.ts)|
 |189|[Rotate Array](https://leetcode-cn.com/problems/rotate-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.ts)|
+|190|[Reverse Bits](https://leetcode-cn.com/problems/reverse-bits/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[190]颠倒二进制位/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[190]颠倒二进制位/solution.ts)|
 |191|[Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[191]位1的个数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[191]位1的个数/solution.ts)|
 |202|[Happy Number](https://leetcode-cn.com/problems/happy-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.ts)|
 |204|[Count Primes](https://leetcode-cn.com/problems/count-primes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.ts)|

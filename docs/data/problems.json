@@ -314,6 +314,17 @@
             ]
         },
         {
+            "id": "61",
+            "level": 2,
+            "title": "Rotate List",
+            "title_slug": "rotate-list",
+            "lock": false,
+            "caption": "旋转链表",
+            "topics": [
+                "链表"
+            ]
+        },
+        {
             "id": "66",
             "level": 1,
             "title": "Plus One",
@@ -724,6 +735,17 @@
             "caption": "旋转数组",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "190",
+            "level": 1,
+            "title": "Reverse Bits",
+            "title_slug": "reverse-bits",
+            "lock": false,
+            "caption": "颠倒二进制位",
+            "topics": [
+                "位运算"
             ]
         },
         {
@@ -1220,7 +1242,9 @@
             "title_slug": "ones-and-zeroes",
             "lock": false,
             "caption": "一和零",
-            "topics": []
+            "topics": [
+                "动态规划"
+            ]
         },
         {
             "id": "480",
@@ -2113,15 +2137,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 406,
-            "accept": 78
+            "total": 407,
+            "accept": 79
         },
         "Medium": {
-            "total": 886,
-            "accept": 82
+            "total": 888,
+            "accept": 83
         },
         "Hard": {
-            "total": 372,
+            "total": 373,
             "accept": 19
         }
     }
