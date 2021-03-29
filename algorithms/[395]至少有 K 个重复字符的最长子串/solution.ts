@@ -1,4 +1,4 @@
-// topics = ["分治", "递归"]
+// topics = ["分治算法", "递归"]
 
 function longestSubstring(s: string, k: number): number {
   const n = s.length;

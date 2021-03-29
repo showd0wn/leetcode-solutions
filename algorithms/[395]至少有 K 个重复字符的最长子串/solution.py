@@ -1,4 +1,4 @@
-# topics = ["分治", "递归"]
+# topics = ["分治算法", "递归"]
 
 import sys
 from collections import Counter
