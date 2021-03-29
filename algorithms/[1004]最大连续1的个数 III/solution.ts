@@ -1,7 +1,7 @@
 // topics = ["双指针", "滑动窗口"]
 
 function longestOnes(A: number[], K: number): number {
-  // 同 424
+  // 同 424.替换后的最长重复字符
   const n = A.length;
   let count = 0,
     left = 0,
