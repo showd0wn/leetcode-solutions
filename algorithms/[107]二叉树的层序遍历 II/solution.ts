@@ -25,7 +25,7 @@ export class TreeNode {
   }
 }
 
-function levelOrder(root: TreeNode | null): number[][] {
+function levelOrderBottom(root: TreeNode | null): number[][] {
   if (!root) return [];
 
   const res: number[][] = [];
@@ -46,5 +46,5 @@ function levelOrder(root: TreeNode | null): number[][] {
     }
   }
 
-  return res;
+  return res.reverse();
 }

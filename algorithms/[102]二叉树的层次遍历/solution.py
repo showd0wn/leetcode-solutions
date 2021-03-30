@@ -1,4 +1,4 @@
-# topics = ["树", "深度优先搜索"]
+# topics = ["树", "递归"]
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -20,7 +20,7 @@ class TreeNode:
 
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        result = []
+        result: List[List[int]] = []
         self.helper(result, root, 0)
         return result
 

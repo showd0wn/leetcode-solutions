@@ -1,4 +1,4 @@
-// topics = ["树", "广度优先搜索"]
+// topics = ["树", "递归"]
 
 /**
  * Definition for a binary tree node.
@@ -25,26 +25,15 @@ export class TreeNode {
   }
 }
 
-function levelOrder(root: TreeNode | null): number[][] {
-  if (!root) return [];
+function postorderTraversal(root: TreeNode | null): number[] {
+  const res: number[] = [];
+  const helper = (node: TreeNode | null): void => {
+    if (!node) return;
+    helper(node.left);
+    helper(node.right);
+    res.push(node.val);
+  };
 
-  const res: number[][] = [];
-  const q: TreeNode[] = [root];
-
-  while (q.length) {
-    res.push([]);
-    // 区别于一般的 BFS，一次处理当前队列的全部元素
-    for (let i = 0, len = q.length; i < len; i += 1) {
-      const node = q.shift()!;
-      res[res.length - 1].push(node.val);
-      if (node.left) {
-        q.push(node.left);
-      }
-      if (node.right) {
-        q.push(node.right);
-      }
-    }
-  }
-
+  helper(root);
   return res;
 }

@@ -25,7 +25,7 @@ export class TreeNode {
   }
 }
 
-function levelOrder(root: TreeNode | null): number[][] {
+function zigzagLevelOrder(root: TreeNode | null): number[][] {
   if (!root) return [];
 
   const res: number[][] = [];
@@ -43,6 +43,9 @@ function levelOrder(root: TreeNode | null): number[][] {
       if (node.right) {
         q.push(node.right);
       }
+    }
+    if (res.length % 2 == 0) {
+      res[res.length - 1].reverse();
     }
   }
 
