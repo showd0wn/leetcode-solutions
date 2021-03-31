@@ -382,6 +382,18 @@
             ]
         },
         {
+            "id": "78",
+            "level": 2,
+            "title": "Subsets",
+            "title_slug": "subsets",
+            "lock": false,
+            "caption": "子集",
+            "topics": [
+                "数组",
+                "回溯算法"
+            ]
+        },
+        {
             "id": "79",
             "level": 2,
             "title": "Word Search",
@@ -437,6 +449,19 @@
             "topics": [
                 "数组",
                 "双指针"
+            ]
+        },
+        {
+            "id": "90",
+            "level": 2,
+            "title": "Subsets II",
+            "title_slug": "subsets-ii",
+            "lock": false,
+            "caption": "子集 II",
+            "topics": [
+                "数组",
+                "回溯算法",
+                "哈希表"
             ]
         },
         {
@@ -2231,7 +2256,7 @@
         },
         "Medium": {
             "total": 888,
-            "accept": 90
+            "accept": 92
         },
         "Hard": {
             "total": 373,
