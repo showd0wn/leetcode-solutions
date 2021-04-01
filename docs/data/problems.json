@@ -1991,6 +1991,18 @@
             ]
         },
         {
+            "id": "1006",
+            "level": 2,
+            "title": "Clumsy Factorial",
+            "title_slug": "clumsy-factorial",
+            "lock": false,
+            "caption": "笨阶乘",
+            "topics": [
+                "数学",
+                "栈"
+            ]
+        },
+        {
             "id": "1008",
             "level": 2,
             "title": "Construct Binary Search Tree from Preorder Traversal",
@@ -2255,8 +2267,8 @@
             "accept": 79
         },
         "Medium": {
-            "total": 888,
-            "accept": 92
+            "total": 889,
+            "accept": 93
         },
         "Hard": {
             "total": 373,

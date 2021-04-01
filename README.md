@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|79|92|19|190|
-|**Total**|407|888|373|1668|
+|**Accept**|79|93|19|191|
+|**Total**|407|889|373|1669|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -178,6 +178,7 @@
 |992|[Subarrays with K Different Integers](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[992]K%20个不同整数的子数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[992]K%20个不同整数的子数组/solution.ts)|
 |995|[Minimum Number of K Consecutive Bit Flips](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[995]K%20连续位的最小翻转次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[995]K%20连续位的最小翻转次数/solution.ts)|
 |1004|[Max Consecutive Ones III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.ts)|
+|1006|[Clumsy Factorial](https://leetcode-cn.com/problems/clumsy-factorial/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1006]笨阶乘/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1006]笨阶乘/solution.ts)|
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.ts)|
 |1162|[As Far from Land as Possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.ts)|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.ts)|
