@@ -20,6 +20,6 @@ function PredictTheWinner(nums: number[]): boolean {
     }
   }
 
-  const sum = nums.reduce((acc, cur) => (acc += cur), 0);
+  const sum = nums.reduce((acc, cur) => acc + cur, 0);
   return dp[0][n - 1] >= sum / 2;
 }

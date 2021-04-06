@@ -1,6 +1,6 @@
 // topics = ["数组", "回溯算法"]
 
-// 回溯法模板 https://leetcode-cn.com/problems/subsets-ii/solution/hui-su-fa-mo-ban-tao-lu-jian-hua-xie-fa-y4evs/
+// 回溯法搜索所有可行解模板 https://leetcode-cn.com/problems/subsets-ii/solution/hui-su-fa-mo-ban-tao-lu-jian-hua-xie-fa-y4evs/
 function subsets(nums: number[]): number[][] {
   const n = nums.length;
   const res: number[][] = [];

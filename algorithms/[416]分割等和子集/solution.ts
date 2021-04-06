@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 function canPartition(nums: number[]): boolean {
-  const sum = nums.reduce((acc, cur) => (acc += cur), 0);
+  const sum = nums.reduce((acc, cur) => acc + cur, 0);
   if (sum % 2 == 1) {
     return false;
   }
