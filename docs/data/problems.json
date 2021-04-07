@@ -406,6 +406,18 @@
             ]
         },
         {
+            "id": "80",
+            "level": 2,
+            "title": "Remove Duplicates from Sorted Array II",
+            "title_slug": "remove-duplicates-from-sorted-array-ii",
+            "lock": false,
+            "caption": "删除有序数组中的重复项 II",
+            "topics": [
+                "数组",
+                "双指针"
+            ]
+        },
+        {
             "id": "82",
             "level": 2,
             "title": "Remove Duplicates from Sorted List II",
@@ -473,6 +485,17 @@
             "caption": "反转链表 II",
             "topics": [
                 "链表"
+            ]
+        },
+        {
+            "id": "93",
+            "level": 2,
+            "title": "Restore IP Addresses",
+            "title_slug": "restore-ip-addresses",
+            "lock": false,
+            "caption": "复原 IP 地址",
+            "topics": [
+                "回溯算法"
             ]
         },
         {
@@ -1631,6 +1654,17 @@
             ]
         },
         {
+            "id": "698",
+            "level": 2,
+            "title": "Partition to K Equal Sum Subsets",
+            "title_slug": "partition-to-k-equal-sum-subsets",
+            "lock": false,
+            "caption": "划分为k个相等的子集",
+            "topics": [
+                "回溯算法"
+            ]
+        },
+        {
             "id": "721",
             "level": 2,
             "title": "Accounts Merge",
@@ -1723,6 +1757,17 @@
                 "并查集",
                 "最短路径",
                 "广度优先搜索"
+            ]
+        },
+        {
+            "id": "781",
+            "level": 2,
+            "title": "Rabbits in Forest",
+            "title_slug": "rabbits-in-forest",
+            "lock": false,
+            "caption": "森林中的兔子",
+            "topics": [
+                "哈希表"
             ]
         },
         {
@@ -2100,6 +2145,18 @@
             ]
         },
         {
+            "id": "1143",
+            "level": 2,
+            "title": "Longest Common Subsequence",
+            "title_slug": "longest-common-subsequence",
+            "lock": false,
+            "caption": "最长公共子序列",
+            "topics": [
+                "字符串",
+                "动态规划"
+            ]
+        },
+        {
             "id": "1178",
             "level": 3,
             "title": "Number of Valid Words for Each Puzzle",
@@ -2263,15 +2320,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 407,
+            "total": 411,
             "accept": 79
         },
         "Medium": {
-            "total": 889,
-            "accept": 93
+            "total": 894,
+            "accept": 98
         },
         "Hard": {
-            "total": 373,
+            "total": 377,
             "accept": 19
         }
     }
