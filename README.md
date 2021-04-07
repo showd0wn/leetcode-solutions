@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|79|98|19|196|
-|**Total**|411|894|377|1682|
+|**Accept**|79|100|19|198|
+|**Total**|410|895|377|1682|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -26,6 +26,7 @@
 |25|[Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.ts)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.ts)|
 |28|[Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.ts)|
+|33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[33]搜索旋转排序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[33]搜索旋转排序数组/solution.ts)|
 |35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[35]搜索插入位置/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[35]搜索插入位置/solution.ts)|
 |36|[Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.ts)|
 |38|[Count and Say](https://leetcode-cn.com/problems/count-and-say/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]外观数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]外观数列/solution.ts)|
@@ -45,6 +46,7 @@
 |78|[Subsets](https://leetcode-cn.com/problems/subsets/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[78]子集/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[78]子集/solution.ts)|
 |79|[Word Search](https://leetcode-cn.com/problems/word-search/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[79]单词搜索/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[79]单词搜索/solution.ts)|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[80]删除有序数组中的重复项%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[80]删除有序数组中的重复项%20II/solution.ts)|
+|81|[Search in Rotated Sorted Array II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[81]搜索旋转排序数组%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[81]搜索旋转排序数组%20II/solution.ts)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[82]删除排序链表中的重复元素%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[82]删除排序链表中的重复元素%20II/solution.ts)|
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[83]删除排序链表中的重复元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[83]删除排序链表中的重复元素/solution.ts)|
 |84|[Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[84]柱状图中最大的矩形/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[84]柱状图中最大的矩形/solution.ts)|

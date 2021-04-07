@@ -203,6 +203,17 @@
             ]
         },
         {
+            "id": "33",
+            "level": 2,
+            "title": "Search in Rotated Sorted Array",
+            "title_slug": "search-in-rotated-sorted-array",
+            "lock": false,
+            "caption": "搜索旋转排序数组",
+            "topics": [
+                "二分查找"
+            ]
+        },
+        {
             "id": "35",
             "level": 1,
             "title": "Search Insert Position",
@@ -415,6 +426,17 @@
             "topics": [
                 "数组",
                 "双指针"
+            ]
+        },
+        {
+            "id": "81",
+            "level": 2,
+            "title": "Search in Rotated Sorted Array II",
+            "title_slug": "search-in-rotated-sorted-array-ii",
+            "lock": false,
+            "caption": "搜索旋转排序数组 II",
+            "topics": [
+                "二分查找"
             ]
         },
         {
@@ -2320,12 +2342,12 @@
     ],
     "stats": {
         "Easy": {
-            "total": 411,
+            "total": 410,
             "accept": 79
         },
         "Medium": {
-            "total": 894,
-            "accept": 98
+            "total": 895,
+            "accept": 100
         },
         "Hard": {
             "total": 377,
