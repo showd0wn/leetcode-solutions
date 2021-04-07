@@ -10,19 +10,22 @@ class Solution:
         path: List[str] = [''] * 4
 
         def backtrack(idx: int = 0, seg: int = 0) -> None:
-            print(path, idx, seg)
-            if seg == 4:
-                if idx == n:
-                    res.append('.'.join(path))
+            # 搜索到可行解
+            if seg == 4 and idx == n:
+                res.append('.'.join(path))
                 return
 
-            if idx == n:
+            # 提前回溯
+            if seg == 4 or idx == n:
                 return
 
+            # 处理前导 0 情况
             if s[idx] == '0':
                 path[seg] = '0'
                 backtrack(idx + 1, seg + 1)
+                return
 
+            # 一般情况
             addr = ''
             for i in range(idx, n):
                 addr += s[i]

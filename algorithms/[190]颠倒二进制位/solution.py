@@ -11,6 +11,5 @@ class Solution:
             if t:
                 # 设置二进制的对称位
                 res |= t << (31 - i)
-                print(res, t << (31 - i))
 
         return res

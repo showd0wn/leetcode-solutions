@@ -16,7 +16,7 @@ class Solution:
         used: Set[int] = set()
 
         def backtrack(s: int = k, idx: int = 0, acc: int = 0) -> bool:
-            # k 个集合都构建完
+            # k 个集合都构建完，此时必有 len(used) == n
             if s == 0:
                 return True
             # 构建下一个集合
