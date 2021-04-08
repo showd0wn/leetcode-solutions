@@ -119,6 +119,17 @@
             ]
         },
         {
+            "id": "17",
+            "level": 2,
+            "title": "Letter Combinations of a Phone Number",
+            "title_slug": "letter-combinations-of-a-phone-number",
+            "lock": false,
+            "caption": "电话号码的字母组合",
+            "topics": [
+                "回溯算法"
+            ]
+        },
+        {
             "id": "19",
             "level": 2,
             "title": "Remove Nth Node From End of List",
@@ -835,6 +846,17 @@
             "caption": "翻转字符串里的单词",
             "topics": [
                 "字符串"
+            ]
+        },
+        {
+            "id": "153",
+            "level": 2,
+            "title": "Find Minimum in Rotated Sorted Array",
+            "title_slug": "find-minimum-in-rotated-sorted-array",
+            "lock": false,
+            "caption": "寻找旋转排序数组中的最小值",
+            "topics": [
+                "二分查找"
             ]
         },
         {
@@ -1687,6 +1709,18 @@
             ]
         },
         {
+            "id": "713",
+            "level": 2,
+            "title": "Subarray Product Less Than K",
+            "title_slug": "subarray-product-less-than-k",
+            "lock": false,
+            "caption": "乘积小于K的子数组",
+            "topics": [
+                "数组",
+                "滑动窗口"
+            ]
+        },
+        {
             "id": "721",
             "level": 2,
             "title": "Accounts Merge",
@@ -2346,8 +2380,8 @@
             "accept": 79
         },
         "Medium": {
-            "total": 895,
-            "accept": 100
+            "total": 896,
+            "accept": 103
         },
         "Hard": {
             "total": 377,
