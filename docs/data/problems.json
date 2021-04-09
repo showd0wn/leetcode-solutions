@@ -214,6 +214,17 @@
             ]
         },
         {
+            "id": "31",
+            "level": 2,
+            "title": "Next Permutation",
+            "title_slug": "next-permutation",
+            "lock": false,
+            "caption": "下一个排列",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "33",
             "level": 2,
             "title": "Search in Rotated Sorted Array",
@@ -302,6 +313,28 @@
             "caption": "Pow(x, n)",
             "topics": [
                 "分治算法"
+            ]
+        },
+        {
+            "id": "51",
+            "level": 3,
+            "title": "N-Queens",
+            "title_slug": "n-queens",
+            "lock": false,
+            "caption": "N 皇后",
+            "topics": [
+                "回溯算法"
+            ]
+        },
+        {
+            "id": "52",
+            "level": 3,
+            "title": "N-Queens II",
+            "title_slug": "n-queens-ii",
+            "lock": false,
+            "caption": "N 皇后 II",
+            "topics": [
+                "回溯算法"
             ]
         },
         {
@@ -860,6 +893,17 @@
             ]
         },
         {
+            "id": "154",
+            "level": 3,
+            "title": "Find Minimum in Rotated Sorted Array II",
+            "title_slug": "find-minimum-in-rotated-sorted-array-ii",
+            "lock": false,
+            "caption": "寻找旋转排序数组中的最小值 II",
+            "topics": [
+                "二分查找"
+            ]
+        },
+        {
             "id": "155",
             "level": 1,
             "title": "Min Stack",
@@ -1132,6 +1176,29 @@
             "topics": [
                 "字符串",
                 "哈希表"
+            ]
+        },
+        {
+            "id": "263",
+            "level": 1,
+            "title": "Ugly Number",
+            "title_slug": "ugly-number",
+            "lock": false,
+            "caption": "丑数",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
+            "id": "264",
+            "level": 2,
+            "title": "Ugly Number II",
+            "title_slug": "ugly-number-ii",
+            "lock": false,
+            "caption": "丑数 II",
+            "topics": [
+                "数学",
+                "动态规划"
             ]
         },
         {
@@ -2377,15 +2444,15 @@
     "stats": {
         "Easy": {
             "total": 410,
-            "accept": 79
+            "accept": 80
         },
         "Medium": {
             "total": 896,
-            "accept": 103
+            "accept": 105
         },
         "Hard": {
             "total": 377,
-            "accept": 19
+            "accept": 22
         }
     }
 }
