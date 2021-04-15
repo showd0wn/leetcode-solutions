@@ -283,6 +283,17 @@
             ]
         },
         {
+            "id": "45",
+            "level": 2,
+            "title": "Jump Game II",
+            "title_slug": "jump-game-ii",
+            "lock": false,
+            "caption": "跳跃游戏 II",
+            "topics": [
+                "贪心算法"
+            ]
+        },
+        {
             "id": "46",
             "level": 2,
             "title": "Permutations",
@@ -358,6 +369,28 @@
             ]
         },
         {
+            "id": "55",
+            "level": 2,
+            "title": "Jump Game",
+            "title_slug": "jump-game",
+            "lock": false,
+            "caption": "跳跃游戏",
+            "topics": [
+                "贪心算法"
+            ]
+        },
+        {
+            "id": "56",
+            "level": 2,
+            "title": "Merge Intervals",
+            "title_slug": "merge-intervals",
+            "lock": false,
+            "caption": "合并区间",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "59",
             "level": 2,
             "title": "Spiral Matrix II",
@@ -411,6 +444,17 @@
             "caption": "爬楼梯",
             "topics": [
                 "动态规划"
+            ]
+        },
+        {
+            "id": "71",
+            "level": 2,
+            "title": "Simplify Path",
+            "title_slug": "simplify-path",
+            "lock": false,
+            "caption": "简化路径",
+            "topics": [
+                "栈"
             ]
         },
         {
@@ -996,6 +1040,17 @@
             ]
         },
         {
+            "id": "198",
+            "level": 2,
+            "title": "House Robber",
+            "title_slug": "house-robber",
+            "lock": false,
+            "caption": "打家劫舍",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "202",
             "level": 1,
             "title": "Happy Number",
@@ -1093,6 +1148,17 @@
             "topics": [
                 "字典树",
                 "深度优先搜索"
+            ]
+        },
+        {
+            "id": "213",
+            "level": 2,
+            "title": "House Robber II",
+            "title_slug": "house-robber-ii",
+            "lock": false,
+            "caption": "打家劫舍 II",
+            "topics": [
+                "动态规划"
             ]
         },
         {
@@ -1316,6 +1382,18 @@
             "topics": [
                 "树",
                 "栈"
+            ]
+        },
+        {
+            "id": "337",
+            "level": 2,
+            "title": "House Robber III",
+            "title_slug": "house-robber-iii",
+            "lock": false,
+            "caption": "打家劫舍 III",
+            "topics": [
+                "动态规划",
+                "深度优先遍历"
             ]
         },
         {
@@ -2381,6 +2459,18 @@
             ]
         },
         {
+            "id": "1306",
+            "level": 2,
+            "title": "Jump Game III",
+            "title_slug": "jump-game-iii",
+            "lock": false,
+            "caption": "跳跃游戏 III",
+            "topics": [
+                "深度优先遍历",
+                "广度优先遍历"
+            ]
+        },
+        {
             "id": "1319",
             "level": 2,
             "title": "Number of Operations to Make Network Connected",
@@ -2509,12 +2599,12 @@
     ],
     "stats": {
         "Easy": {
-            "total": 412,
+            "total": 413,
             "accept": 82
         },
         "Medium": {
             "total": 899,
-            "accept": 109
+            "accept": 117
         },
         "Hard": {
             "total": 382,
