@@ -413,6 +413,28 @@
             ]
         },
         {
+            "id": "62",
+            "level": 2,
+            "title": "Unique Paths",
+            "title_slug": "unique-paths",
+            "lock": false,
+            "caption": "不同路径",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
+            "id": "63",
+            "level": 2,
+            "title": "Unique Paths II",
+            "title_slug": "unique-paths-ii",
+            "lock": false,
+            "caption": "不同路径 II",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "66",
             "level": 1,
             "title": "Plus One",
@@ -1051,6 +1073,15 @@
             ]
         },
         {
+            "id": "200",
+            "level": 2,
+            "title": "Number of Islands",
+            "title_slug": "number-of-islands",
+            "lock": false,
+            "caption": "岛屿数量",
+            "topics": []
+        },
+        {
             "id": "202",
             "level": 1,
             "title": "Happy Number",
@@ -1171,6 +1202,17 @@
             "topics": [
                 "数组",
                 "哈希表"
+            ]
+        },
+        {
+            "id": "221",
+            "level": 2,
+            "title": "Maximal Square",
+            "title_slug": "maximal-square",
+            "lock": false,
+            "caption": "最大正方形",
+            "topics": [
+                "动态规划"
             ]
         },
         {
@@ -1495,6 +1537,18 @@
             ]
         },
         {
+            "id": "394",
+            "level": 2,
+            "title": "Decode String",
+            "title_slug": "decode-string",
+            "lock": false,
+            "caption": "字符串解码",
+            "topics": [
+                "递归",
+                "栈"
+            ]
+        },
+        {
             "id": "395",
             "level": 2,
             "title": "Longest Substring with At Least K Repeating Characters",
@@ -1558,6 +1612,18 @@
             "caption": "无重叠区间",
             "topics": [
                 "贪心算法"
+            ]
+        },
+        {
+            "id": "443",
+            "level": 2,
+            "title": "String Compression",
+            "title_slug": "string-compression",
+            "lock": false,
+            "caption": "压缩字符串",
+            "topics": [
+                "字符串",
+                "双指针"
             ]
         },
         {
@@ -2459,6 +2525,17 @@
             ]
         },
         {
+            "id": "1277",
+            "level": 2,
+            "title": "Count Square Submatrices with All Ones",
+            "title_slug": "count-square-submatrices-with-all-ones",
+            "lock": false,
+            "caption": "统计全为 1 的正方形子矩阵",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "1306",
             "level": 2,
             "title": "Jump Game III",
@@ -2604,7 +2681,7 @@
         },
         "Medium": {
             "total": 899,
-            "accept": 117
+            "accept": 124
         },
         "Hard": {
             "total": 382,
