@@ -1344,6 +1344,17 @@
             ]
         },
         {
+            "id": "289",
+            "level": 2,
+            "title": "Game of Life",
+            "title_slug": "game-of-life",
+            "lock": false,
+            "caption": "生命游戏",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
             "id": "295",
             "level": 3,
             "title": "Find Median from Data Stream",
@@ -1558,6 +1569,17 @@
             "topics": [
                 "分治算法",
                 "递归"
+            ]
+        },
+        {
+            "id": "406",
+            "level": 2,
+            "title": "Queue Reconstruction by Height",
+            "title_slug": "queue-reconstruction-by-height",
+            "lock": false,
+            "caption": "根据身高重建队伍",
+            "topics": [
+                "贪心算法"
             ]
         },
         {
@@ -2681,7 +2703,7 @@
         },
         "Medium": {
             "total": 899,
-            "accept": 124
+            "accept": 126
         },
         "Hard": {
             "total": 382,

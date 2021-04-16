@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|82|124|22|228|
+|**Accept**|82|126|22|230|
 |**Total**|413|899|382|1694|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -124,6 +124,7 @@
 |264|[Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[264]丑数%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[264]丑数%20II/solution.ts)|
 |278|[First Bad Version](https://leetcode-cn.com/problems/first-bad-version/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[278]第一个错误的版本/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[278]第一个错误的版本/solution.ts)|
 |283|[Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[283]移动零/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[283]移动零/solution.ts)|
+|289|[Game of Life](https://leetcode-cn.com/problems/game-of-life/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[289]生命游戏/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[289]生命游戏/solution.ts)|
 |295|[Find Median from Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[295]数据流的中位数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[295]数据流的中位数/solution.ts)|
 |300|[Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[300]最长递增子序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[300]最长递增子序列/solution.ts)|
 |303|[Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[303]区域和检索%20-%20数组不可变/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[303]区域和检索%20-%20数组不可变/solution.ts)|
@@ -142,6 +143,7 @@
 |387|[First Unique Character in a String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.ts)|
 |394|[Decode String](https://leetcode-cn.com/problems/decode-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[394]字符串解码/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[394]字符串解码/solution.ts)|
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.ts)|
+|406|[Queue Reconstruction by Height](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[406]根据身高重建队伍/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[406]根据身高重建队伍/solution.ts)|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
 |415|[Add Strings](https://leetcode-cn.com/problems/add-strings/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[415]字符串相加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[415]字符串相加/solution.ts)|
 |416|[Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[416]分割等和子集/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[416]分割等和子集/solution.ts)|
