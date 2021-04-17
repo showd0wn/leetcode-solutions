@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|83|127|22|232|
+|**Accept**|83|128|22|233|
 |**Total**|413|899|382|1694|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -131,6 +131,7 @@
 |300|[Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[300]最长递增子序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[300]最长递增子序列/solution.ts)|
 |303|[Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[303]区域和检索%20-%20数组不可变/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[303]区域和检索%20-%20数组不可变/solution.ts)|
 |304|[Range Sum Query 2D - Immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[304]二维区域和检索%20-%20矩阵不可变/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[304]二维区域和检索%20-%20矩阵不可变/solution.ts)|
+|310|[Minimum Height Trees](https://leetcode-cn.com/problems/minimum-height-trees/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[310]最小高度树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[310]最小高度树/solution.ts)|
 |322|[Coin Change](https://leetcode-cn.com/problems/coin-change/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[322]零钱兑换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[322]零钱兑换/solution.ts)|
 |326|[Power of Three](https://leetcode-cn.com/problems/power-of-three/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[326]3的幂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[326]3的幂/solution.ts)|
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[331]验证二叉树的前序序列化/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[331]验证二叉树的前序序列化/solution.ts)|

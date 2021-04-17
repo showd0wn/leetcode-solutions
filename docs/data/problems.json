@@ -1428,6 +1428,18 @@
             ]
         },
         {
+            "id": "310",
+            "level": 2,
+            "title": "Minimum Height Trees",
+            "title_slug": "minimum-height-trees",
+            "lock": false,
+            "caption": "最小高度树",
+            "topics": [
+                "树",
+                "广度优先搜索"
+            ]
+        },
+        {
             "id": "322",
             "level": 2,
             "title": "Coin Change",
@@ -2727,7 +2739,7 @@
         },
         "Medium": {
             "total": 899,
-            "accept": 127
+            "accept": 128
         },
         "Hard": {
             "total": 382,
