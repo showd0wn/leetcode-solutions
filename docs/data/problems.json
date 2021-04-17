@@ -1205,6 +1205,30 @@
             ]
         },
         {
+            "id": "219",
+            "level": 1,
+            "title": "Contains Duplicate II",
+            "title_slug": "contains-duplicate-ii",
+            "lock": false,
+            "caption": "存在重复元素 II",
+            "topics": [
+                "哈希表"
+            ]
+        },
+        {
+            "id": "220",
+            "level": 2,
+            "title": "Contains Duplicate III",
+            "title_slug": "contains-duplicate-iii",
+            "lock": false,
+            "caption": "存在重复元素 III",
+            "topics": [
+                "桶排序",
+                "滑动窗口",
+                "二分查找"
+            ]
+        },
+        {
             "id": "221",
             "level": 2,
             "title": "Maximal Square",
@@ -2699,11 +2723,11 @@
     "stats": {
         "Easy": {
             "total": 413,
-            "accept": 82
+            "accept": 83
         },
         "Medium": {
             "total": 899,
-            "accept": 126
+            "accept": 127
         },
         "Hard": {
             "total": 382,
