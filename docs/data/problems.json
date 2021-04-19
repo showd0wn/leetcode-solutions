@@ -202,6 +202,18 @@
             ]
         },
         {
+            "id": "27",
+            "level": 1,
+            "title": "Remove Element",
+            "title_slug": "remove-element",
+            "lock": false,
+            "caption": "移除元素",
+            "topics": [
+                "数组",
+                "双指针"
+            ]
+        },
+        {
             "id": "28",
             "level": 1,
             "title": "Implement strStr()",
@@ -581,6 +593,18 @@
             "topics": [
                 "数组",
                 "栈"
+            ]
+        },
+        {
+            "id": "87",
+            "level": 3,
+            "title": "Scramble String",
+            "title_slug": "scramble-string",
+            "lock": false,
+            "caption": "扰乱字符串",
+            "topics": [
+                "动态规划",
+                "递归"
             ]
         },
         {
@@ -2151,6 +2175,18 @@
             ]
         },
         {
+            "id": "785",
+            "level": 2,
+            "title": "Is Graph Bipartite?",
+            "title_slug": "is-graph-bipartite",
+            "lock": false,
+            "caption": "判断二分图",
+            "topics": [
+                "深度优先搜索",
+                "广度优先搜索"
+            ]
+        },
+        {
             "id": "794",
             "level": 2,
             "title": "Valid Tic-Tac-Toe State",
@@ -2734,16 +2770,16 @@
     ],
     "stats": {
         "Easy": {
-            "total": 413,
-            "accept": 83
+            "total": 415,
+            "accept": 84
         },
         "Medium": {
-            "total": 899,
-            "accept": 128
+            "total": 903,
+            "accept": 129
         },
         "Hard": {
-            "total": 382,
-            "accept": 22
+            "total": 384,
+            "accept": 23
         }
     }
 }
