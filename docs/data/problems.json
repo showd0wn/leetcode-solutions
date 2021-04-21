@@ -633,6 +633,17 @@
             ]
         },
         {
+            "id": "91",
+            "level": 2,
+            "title": "Decode Ways",
+            "title_slug": "decode-ways",
+            "lock": false,
+            "caption": "解码方法",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "92",
             "level": 2,
             "title": "Reverse Linked List II",
@@ -2775,7 +2786,7 @@
         },
         "Medium": {
             "total": 903,
-            "accept": 129
+            "accept": 130
         },
         "Hard": {
             "total": 384,
