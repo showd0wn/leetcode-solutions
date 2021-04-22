@@ -1583,6 +1583,18 @@
             ]
         },
         {
+            "id": "363",
+            "level": 3,
+            "title": "Max Sum of Rectangle No Larger Than K",
+            "title_slug": "max-sum-of-rectangle-no-larger-than-k",
+            "lock": false,
+            "caption": "矩形区域不超过 K 的最大数值和",
+            "topics": [
+                "动态规划",
+                "二分搜索"
+            ]
+        },
+        {
             "id": "380",
             "level": 2,
             "title": "Insert Delete GetRandom O(1)",
@@ -2790,7 +2802,7 @@
         },
         "Hard": {
             "total": 384,
-            "accept": 23
+            "accept": 24
         }
     }
 }
