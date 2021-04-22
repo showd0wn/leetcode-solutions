@@ -3,4 +3,6 @@
 .idea
 .vscode
 
+node_modules
+
 *.py[cod]
