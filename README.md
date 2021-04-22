@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|84|129|23|236|
+|**Accept**|84|130|23|237|
 |**Total**|415|903|384|1702|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -64,6 +64,7 @@
 |87|[Scramble String](https://leetcode-cn.com/problems/scramble-string/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[87]扰乱字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[87]扰乱字符串/solution.ts)|
 |88|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.ts)|
 |90|[Subsets II](https://leetcode-cn.com/problems/subsets-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[90]子集%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[90]子集%20II/solution.ts)|
+|91|[Decode Ways](https://leetcode-cn.com/problems/decode-ways/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[91]解码方法/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[91]解码方法/solution.ts)|
 |92|[Reverse Linked List II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[92]反转链表%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[92]反转链表%20II/solution.ts)|
 |93|[Restore IP Addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[93]复原%20IP%20地址/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[93]复原%20IP%20地址/solution.ts)|
 |94|[Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[94]二叉树的中序遍历/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[94]二叉树的中序遍历/solution.ts)|
