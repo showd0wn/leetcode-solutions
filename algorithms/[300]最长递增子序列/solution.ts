@@ -2,6 +2,7 @@
 
 function lengthOfLIS(nums: number[]): number {
   const n = nums.length;
+  // dp[i] 为考虑前 i 个元素，以第 i 个数字结尾的最长上升子序列的长度（nums[i] 必须被选取）。
   const dp = new Array<number>(n).fill(1);
 
   let res = dp[0];
