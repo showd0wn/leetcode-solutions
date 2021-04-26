@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|85|136|24|245|
+|**Accept**|85|138|24|247|
 |**Total**|416|906|385|1707|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -213,6 +213,7 @@
 |839|[Similar String Groups](https://leetcode-cn.com/problems/similar-string-groups/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.ts)|
 |844|[Backspace String Compare](https://leetcode-cn.com/problems/backspace-string-compare/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.ts)|
 |867|[Transpose Matrix](https://leetcode-cn.com/problems/transpose-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[867]转置矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[867]转置矩阵/solution.ts)|
+|875|[Koko Eating Bananas](https://leetcode-cn.com/problems/koko-eating-bananas/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.ts)|
 |877|[Stone Game](https://leetcode-cn.com/problems/stone-game/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[877]石子游戏/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[877]石子游戏/solution.ts)|
 |888|[Fair Candy Swap](https://leetcode-cn.com/problems/fair-candy-swap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.ts)|
 |896|[Monotonic Array](https://leetcode-cn.com/problems/monotonic-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.ts)|
@@ -231,6 +232,7 @@
 |1004|[Max Consecutive Ones III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1004]最大连续1的个数%20III/solution.ts)|
 |1006|[Clumsy Factorial](https://leetcode-cn.com/problems/clumsy-factorial/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1006]笨阶乘/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1006]笨阶乘/solution.ts)|
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1008]前序遍历构造二叉搜索树/solution.ts)|
+|1011|[Capacity To Ship Packages Within D Days](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1011]在%20D%20天内送达包裹的能力/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1011]在%20D%20天内送达包裹的能力/solution.ts)|
 |1162|[As Far from Land as Possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.ts)|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.ts)|
 |1052|[Grumpy Bookstore Owner](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.ts)|
