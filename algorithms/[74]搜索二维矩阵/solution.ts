@@ -1,5 +1,6 @@
 // topics = ["数组", "二分查找"]
 
+// 二分查找标准写法 69.x 的平方根
 function searchMatrix(matrix: number[][], target: number): boolean {
   const m = matrix.length;
   const n = matrix[0].length;

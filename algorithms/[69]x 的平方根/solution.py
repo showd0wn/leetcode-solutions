@@ -5,7 +5,6 @@ class Solution:
     def mySqrt(self, x: int) -> int:
         left, right = 0, x
 
-        # 闭区间写法
         while left <= right:
             mid = (left + right) // 2
             square = mid ** 2
