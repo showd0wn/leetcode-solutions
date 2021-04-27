@@ -25,8 +25,6 @@ export class TreeNode {
   }
 }
 
-let pre = Number.MIN_SAFE_INTEGER;
-
 function isValidBST(root: TreeNode | null): boolean {
   // 二叉搜索树的中序遍历的值序列为递增序列
   // 使用栈模拟中序遍历

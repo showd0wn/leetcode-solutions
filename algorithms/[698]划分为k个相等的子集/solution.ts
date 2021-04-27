@@ -11,7 +11,7 @@ function canPartitionKSubsets(nums: number[], k: number): boolean {
   const target = total / k;
   const used = new Set<number>();
 
-  const backtrack = (s: number = k, idx: number = 0, acc: number = 0): boolean => {
+  const backtrack = (s: number = k, idx = 0, acc = 0): boolean => {
     if (s == 0) {
       return true;
     }

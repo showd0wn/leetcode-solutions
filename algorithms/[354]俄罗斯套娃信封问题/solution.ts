@@ -14,7 +14,7 @@ function maxEnvelopes(envelopes: number[][]): number {
 
   let res = 0;
 
-  const dfs = (i: number, size: number = 1): void => {
+  const dfs = (i: number, size = 1): void => {
     const larger = map.get(i)!;
 
     if (larger.length == 0) {

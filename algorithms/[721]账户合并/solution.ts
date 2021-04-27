@@ -37,7 +37,7 @@ function accountsMerge(accounts: string[][]): string[][] {
   // 哈希表 & 并查集
   const emailToIndex = new Map<string, number>();
   const emailToName = new Map<string, string>();
-  let emailsCount: number = 0;
+  let emailsCount = 0;
 
   for (const account of accounts) {
     const name = account[0];

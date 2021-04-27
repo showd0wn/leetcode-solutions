@@ -6,7 +6,7 @@ function restoreIpAddresses(s: string): string[] {
   const segments = new Array<number>(SEG_COUNT);
   const res: string[] = [];
 
-  const backtrack = (segId: number = 0, segStart: number = 0): void => {
+  const backtrack = (segId = 0, segStart = 0): void => {
     // 如果找到了 4 段 IP 地址并且遍历完了字符串，那么就是一种答案
     if (segId === SEG_COUNT) {
       if (segStart === n) {

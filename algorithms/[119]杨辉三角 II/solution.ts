@@ -32,7 +32,7 @@ function getRow2(rowIndex: number): number[] {
 
 // 进一步优化：从右向左遍历，仅用一个长度为 k 的一维数组
 function getRow3(rowIndex: number): number[] {
-  let res = new Array<number>(rowIndex + 1).fill(0);
+  const res = new Array<number>(rowIndex + 1).fill(0);
   res[0] = 1;
   for (let i = 0; i <= rowIndex; i += 1) {
     for (let j = i; j >= 1; j -= 1) {

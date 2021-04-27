@@ -6,8 +6,8 @@ class linkedListNode {
   prev: linkedListNode | null;
   next: linkedListNode | null;
   constructor(
-    key: number = 0,
-    val: number = 0,
+    key = 0,
+    val = 0,
     prev: linkedListNode | null = null,
     next: linkedListNode | null = null,
   ) {

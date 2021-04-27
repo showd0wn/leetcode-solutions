@@ -23,7 +23,7 @@ function letterCombinations(digits: string): string[] {
       return;
     }
     const d = digits[f];
-    for (let letter of phoneMap[d]) {
+    for (const letter of phoneMap[d]) {
       path.push(letter);
       backtrack(f + 1);
       path.pop();

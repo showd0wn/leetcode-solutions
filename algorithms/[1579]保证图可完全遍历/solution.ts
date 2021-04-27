@@ -47,7 +47,7 @@ function maxNumEdgesToRemove(n: number, edges: number[][]): number {
   const ufb = new UnionFind(n);
 
   // 节点编号改为从 0 开始
-  for (let edge of edges) {
+  for (const edge of edges) {
     edge[1] -= 1;
     edge[2] -= 1;
   }
@@ -77,7 +77,6 @@ function maxNumEdgesToRemove(n: number, edges: number[][]): number {
       } else {
         ufb.union(i, j);
       }
-    } else {
     }
   }
 

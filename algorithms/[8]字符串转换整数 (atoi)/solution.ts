@@ -100,9 +100,9 @@ class Automaton {
 }
 
 function myAtoi2(s: string): number {
-  let automaton = new Automaton();
+  const automaton = new Automaton();
 
-  for (let char of s) {
+  for (const char of s) {
     automaton.get(char);
   }
 

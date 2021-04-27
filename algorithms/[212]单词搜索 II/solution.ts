@@ -33,7 +33,7 @@ function findWords(board: string[][], words: string[]): string[] {
   const n = board[0].length;
 
   const trie = new Trie();
-  for (let word of words) {
+  for (const word of words) {
     trie.insert(word);
   }
 

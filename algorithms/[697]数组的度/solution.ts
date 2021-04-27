@@ -2,7 +2,7 @@
 
 function findShortestSubArray(nums: number[]): number {
   const map = new Map<number, number[]>();
-  for (let [key, val] of nums.entries()) {
+  for (const [key, val] of nums.entries()) {
     if (map.has(val)) {
       map.get(val)?.push(key);
     } else {

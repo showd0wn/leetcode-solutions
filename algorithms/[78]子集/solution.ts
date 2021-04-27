@@ -6,7 +6,7 @@ function subsets(nums: number[]): number[][] {
   const res: number[][] = [];
   const path: number[] = [];
 
-  const backtrack = (idx: number = 0): void => {
+  const backtrack = (idx = 0): void => {
     res.push([...path]);
     for (let i = idx; i < n; i += 1) {
       path.push(nums[i]);

@@ -8,7 +8,7 @@ function findErrorNums(nums: number[]): number[] {
     map.set(i, 0);
   }
 
-  for (let num of nums) {
+  for (const num of nums) {
     map.set(num, map.get(num)! + 1);
   }
 

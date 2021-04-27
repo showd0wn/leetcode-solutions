@@ -3,7 +3,7 @@
 function minSwapsCouples(row: number[]): number {
   // 记录每个位置的情侣的位置
   const map = new Map<number, number>();
-  for (let [idx, ele] of row.entries()) {
+  for (const [idx, ele] of row.entries()) {
     map.set(ele ^ 1, idx); // 【技巧】异或运算 偶数 += 1; 奇数 -= 1;
   }
 

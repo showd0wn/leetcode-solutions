@@ -6,7 +6,7 @@ function permute(nums: number[]): number[][] {
 
   // 如果给定的数字中存在重复，则考虑剪枝
   // 参考 剑指 Offer 38. 字符串的排列
-  const backtrack = (x: number = 0): void => {
+  const backtrack = (x = 0): void => {
     if (x == n) {
       res.push([...nums]);
       return;

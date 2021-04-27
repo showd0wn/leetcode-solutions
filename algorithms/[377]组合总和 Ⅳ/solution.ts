@@ -5,7 +5,7 @@ function combinationSum4(nums: number[], target: number): number {
   dp[0] = 1;
 
   for (let i = 1; i < target + 1; i += 1) {
-    for (let num of nums) {
+    for (const num of nums) {
       if (i >= num) {
         dp[i] += dp[i - num];
       }

@@ -3,7 +3,7 @@
 function findDisappearedNumbers(nums: number[]): number[] {
   const res = Array.from({ length: nums.length }, (_, i) => i + 1);
 
-  for (let num of nums) {
+  for (const num of nums) {
     res[num - 1] = 0;
   }
 

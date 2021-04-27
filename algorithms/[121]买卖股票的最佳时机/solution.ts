@@ -10,7 +10,7 @@ function maxProfit(prices: number[]): number {
   }
 
   let res = 0;
-  for (let num of dp) {
+  for (const num of dp) {
     res = Math.max(res, num);
   }
 

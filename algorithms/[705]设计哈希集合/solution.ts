@@ -8,7 +8,7 @@ class MyHashSet {
     // 哈希表的大小，素数可以减少规律数据源的影响
     this.base = 769;
     // 数组的每个位置是一个链表，相同哈希值的元素都放入这一链表当中
-    this.data = new Array(this.base).fill(0).map(() => new Array());
+    this.data = new Array(this.base).fill(0).map(() => new Array<number>());
   }
 
   // 哈希函数,将集合中任意可能的元素映射到一个固定范围的整数值

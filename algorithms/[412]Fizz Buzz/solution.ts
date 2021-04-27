@@ -14,4 +14,4 @@ function fizzBuzz(n: number): string[] {
       }
       return String(i + 1);
     })
-};
+}

@@ -6,7 +6,7 @@ class MyHashMap {
   constructor() {
     // 哈希表的大小，素数可以减少规律数据源的影响
     this.base = 769;
-    this.data = new Array(this.base).fill(0).map(() => new Array());
+    this.data = new Array(this.base).fill(0).map(() => new Array<number[]>());
   }
 
   // 哈希函数,将集合中任意可能的元素映射到一个固定范围的整数值

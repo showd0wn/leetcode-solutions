@@ -5,7 +5,7 @@ function majorityElement(nums: number[]): number {
   let major = nums[0];
   let cnt = 0;
 
-  for (let num of nums) {
+  for (const num of nums) {
     if (cnt == 0) {
       major = num;
       cnt = 1;

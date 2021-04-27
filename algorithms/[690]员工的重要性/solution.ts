@@ -27,7 +27,7 @@ class Employee {
 
 function getImportance(employees: Employee[], id: number): number {
   const map = new Map<number, Employee>();
-  for (let employee of employees) {
+  for (const employee of employees) {
     map.set(employee.id, employee);
   }
 
@@ -35,7 +35,7 @@ function getImportance(employees: Employee[], id: number): number {
   if (!curr) return 0;
 
   let res = curr.importance;
-  let queue = curr.subordinates;
+  const queue = curr.subordinates;
   while (queue.length) {
     const nextId = queue.shift()!;
     const nextEmploy = map.get(nextId)!;

@@ -4,6 +4,7 @@ function prisonAfterNDays(cells: number[], n: number): number[] {
   const m = cells.length;
   const dp: number[][] = [];
 
+  // eslint-disable-next-line no-constant-condition
   while (true) {
     const last = dp.length ? dp[dp.length - 1] : cells;
     const next = [...cells];

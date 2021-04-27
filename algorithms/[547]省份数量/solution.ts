@@ -5,7 +5,7 @@ function findCircleNum(isConnected: number[][]): number {
   // dfs
   const n = isConnected.length;
   const visited = new Set<number>();
-  let res: number = 0;
+  let res = 0;
 
   const dfs = function (i: number): void {
     visited.add(i);
@@ -30,8 +30,8 @@ function findCircleNum2(isConnected: number[][]): number {
   // bfs
   const n = isConnected.length;
   const visited = new Set<number>();
-  let queue: number[] = [];
-  let res: number = 0;
+  const queue: number[] = [];
+  let res = 0;
 
   for (let i = 0; i < n; i += 1) {
     if (visited.has(i)) continue;

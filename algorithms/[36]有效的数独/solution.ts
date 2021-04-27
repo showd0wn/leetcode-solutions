@@ -21,8 +21,8 @@ function isValidSudoku(board: string[][]): boolean {
         colNums.add(ch);
       }
 
-      let row = Math.floor(i / 3) * 3 + Math.floor(j / 3);
-      let col = (i % 3) * 3 + (j % 3);
+      const row = Math.floor(i / 3) * 3 + Math.floor(j / 3);
+      const col = (i % 3) * 3 + (j % 3);
       ch = board[row][col];
       if (ch !== '.') {
         if (cubeNums.has(ch)) return false;

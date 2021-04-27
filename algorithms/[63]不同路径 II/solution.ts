@@ -14,9 +14,7 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
         dp[j] = 1;
       } else if (i == 0) {
         dp[j] = dp[j - 1];
-      } else if (j == 0) {
-        dp[j] = dp[j];
-      } else {
+      } else if (j != 0) {
         dp[j] = dp[j] + dp[j - 1];
       }
     }

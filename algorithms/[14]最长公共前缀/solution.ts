@@ -20,8 +20,8 @@ function longestCommonPrefix(strs: string[]): string {
 }
 
 function lcp(str1: string, str2: string): string {
+  const len = Math.min(str1.length, str2.length);
   let i = 0;
-  let len = Math.min(str1.length, str2.length);
   while (i < len && str1[i] === str2[i]) {
     i += 1;
   }

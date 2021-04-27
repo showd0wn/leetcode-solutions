@@ -25,7 +25,7 @@ function findTargetSumWays2(nums: number[], S: number): number {
   let dp: number[] = [];
 
   for (let i = 0; i < n; i += 1) {
-    let next: number[] = [];
+    const next: number[] = [];
     for (let j = -sum; j <= sum; j += 1) {
       if (i == 0) {
         next[j] = Number(nums[i] == j) + Number(-nums[i] == j);
