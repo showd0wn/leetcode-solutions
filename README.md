@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|85|138|24|247|
+|**Accept**|86|138|24|248|
 |**Total**|416|906|385|1707|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -222,6 +222,7 @@
 |912|[Sort an Array](https://leetcode-cn.com/problems/sort-an-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.ts)|
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[921]使括号有效的最少添加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[921]使括号有效的最少添加/solution.ts)|
 |933|[Number of Recent Calls](https://leetcode-cn.com/problems/number-of-recent-calls/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.ts)|
+|938|[Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[938]二叉搜索树的范围和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[938]二叉搜索树的范围和/solution.ts)|
 |957|[Prison Cells After N Days](https://leetcode-cn.com/problems/prison-cells-after-n-days/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[957]N%20天后的牢房/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[957]N%20天后的牢房/solution.ts)|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/regions-cut-by-slashes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[959]由斜杠划分区域/solution.ts)|
 |973|[K Closest Points to Origin](https://leetcode-cn.com/problems/k-closest-points-to-origin/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[973]最接近原点的%20K%20个点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[973]最接近原点的%20K%20个点/solution.ts)|
