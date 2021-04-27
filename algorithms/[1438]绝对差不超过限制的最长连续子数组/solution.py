@@ -1,4 +1,4 @@
-# topics = ["滑动窗口", "队列", "二叉搜索树"]
+# topics = ["滑动窗口", "队列", "平衡二叉搜索树"]
 
 from collections import deque
 from typing import List, Deque
