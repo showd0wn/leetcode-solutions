@@ -2029,6 +2029,17 @@
             ]
         },
         {
+            "id": "633",
+            "level": 2,
+            "title": "Sum of Square Numbers",
+            "title_slug": "sum-of-square-numbers",
+            "lock": false,
+            "caption": "平方数之和",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
             "id": "643",
             "level": 1,
             "title": "Maximum Average Subarray I",
@@ -2910,7 +2921,7 @@
         },
         "Medium": {
             "total": 906,
-            "accept": 138
+            "accept": 139
         },
         "Hard": {
             "total": 385,
