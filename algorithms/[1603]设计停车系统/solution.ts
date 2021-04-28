@@ -7,6 +7,9 @@ class ParkingSystem {
     this.park = [big, medium, small];
   }
 
+  /**
+   * time O(1), space O(1)
+   */
   addCar(carType: number): boolean {
     if (this.park[carType - 1] == 0) {
       return false;

@@ -10,6 +10,7 @@ class Solution:
         """
         类似 Dijkstra 算法求单源最短路径，这里「最短路径」的定义是其经过的所有边权的最大值
         广度优先搜索 + 优先队列
+        time O(mnlog(mn)), space O(mn)
         """
         m, n = len(heights), len(heights[0])
         # 记录左上角到各点的最短路径

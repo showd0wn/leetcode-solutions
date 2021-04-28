@@ -29,6 +29,9 @@ export class UnionFind {
   }
 }
 
+/**
+ * time O(mnlog(mn)), space O(mn)
+ */
 function minimumEffortPath(heights: number[][]): number {
   const row = heights.length;
   const col = heights[0].length;

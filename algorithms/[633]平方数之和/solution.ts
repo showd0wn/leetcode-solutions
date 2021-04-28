@@ -1,8 +1,8 @@
 // topics = ["数学"]
 
 /**
- * time O(sqrt(c))
- * space O(1)
+ * sqrt 函数
+ * time O(sqrt(c)), space O(1)
  */
 function judgeSquareSum(c: number): boolean {
   for (let a = 0; a * a <= c; a += 1) {
@@ -17,8 +17,7 @@ function judgeSquareSum(c: number): boolean {
 
 /**
  * 双指针
- * time O(sqrt(c))
- * space O(1)
+ * time O(sqrt(c)), space O(1)
  */
 function judgeSquareSum2(c: number): boolean {
   let left = 0;

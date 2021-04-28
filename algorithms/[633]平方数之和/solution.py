@@ -6,10 +6,8 @@ from typing import Set
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
         """
-        time O(sqrt(c))
-        space O(sqrt(c))
+        time O(sqrt(c)), space O(sqrt(c))
         """
-
         # 这里使用哈希表没有太大意义
         s: Set[int] = set()
 
