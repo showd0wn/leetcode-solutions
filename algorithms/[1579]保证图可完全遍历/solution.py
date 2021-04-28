@@ -36,6 +36,9 @@ class UnionFind:
 
 class Solution:
     def maxNumEdgesToRemove(self, n: int, edges: List[List[int]]) -> int:
+        """
+        time O(m⋅α(n)), space O(n), m 是数组 edges 的长度, α 是阿克曼函数的反函数
+        """
         res = 0
 
         ufa = UnionFind(n)

@@ -30,7 +30,8 @@ export class UnionFind {
 }
 
 /**
- * time O(mnlog(mn)), space O(mn)
+ * 并查集判断连通性
+ * time O(mnlog(mn)), space O(mn), m 和 n 分别是图的行数和列数
  */
 function minimumEffortPath(heights: number[][]): number {
   const row = heights.length;

@@ -7,6 +7,8 @@ class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
         """
         【最小生成树】 Prim 算法（贪心）
+        【参考】 https://blog.csdn.net/luoshixian099/article/details/51908175
+        time O(n²), space O(n²), n 为节点数
         """
         # 所有顶点数
         n = len(points)

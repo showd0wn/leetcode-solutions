@@ -40,6 +40,9 @@ export class UnionFind {
   }
 }
 
+/**
+ * time O(m⋅α(n)), space O(n), m 是数组 edges 的长度，α 是阿克曼函数的反函数
+ */
 function maxNumEdgesToRemove(n: number, edges: number[][]): number {
   let result = 0;
 
