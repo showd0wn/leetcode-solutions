@@ -4,6 +4,7 @@
 class Solution:
     def maxDiff(self, num: int) -> int:
         """
+        Greedy
         time O(log(num)), space O(log(num))
         """
         return self.get_max_num(num) - self.get_min_num(num)

@@ -1,6 +1,7 @@
 // topics = ["字符串", "贪心算法"]
 
 /**
+ * Greedy
  * time O(log(num)), space O(log(num))
  */
 function maxDiff(num: number): number {

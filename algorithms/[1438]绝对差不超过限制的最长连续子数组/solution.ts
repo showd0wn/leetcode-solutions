@@ -1,6 +1,7 @@
 // topics = ["滑动窗口"]
 
 /**
+ * 暴力
  * time O(n^2), space O(1), n 为数组长度
  */
 function longestSubarray(nums: number[], limit: number): number {

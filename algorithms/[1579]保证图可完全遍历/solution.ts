@@ -41,6 +41,7 @@ export class UnionFind {
 }
 
 /**
+ * 并查集求连通分量
  * time O(m·α(n)), space O(n), m 是数组 edges 的长度, α 是阿克曼函数的反函数
  */
 function maxNumEdgesToRemove(n: number, edges: number[][]): number {
@@ -83,7 +84,7 @@ function maxNumEdgesToRemove(n: number, edges: number[][]): number {
     }
   }
 
-  // 联通分量不为 1，即无法遍历
+  // 连通分量不为 1，即无法遍历
   if (ufa.setCount !== 1 || ufb.setCount !== 1) {
     return -1;
   }

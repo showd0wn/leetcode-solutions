@@ -8,6 +8,7 @@ from sortedcontainers import SortedList
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
         """
+        滑动窗口 + max/min 函数
         超时 time O(n^2), space O(n), n 为数组长度
         """
         q: Deque[int] = deque()
@@ -23,7 +24,7 @@ class Solution:
 
     def longestSubarray2(self, nums: List[int], limit: int) -> int:
         """
-        【队列】维护滑动窗口 [l, r] 内的最大最小值
+        【滑动窗口 + 队列】维护滑动窗口 [l, r] 内的最大最小值
         time O(n), space O(n), n 为数组长度
         """
         max_q: Deque[int] = deque()
@@ -55,7 +56,7 @@ class Solution:
 
     def longestSubarray3(self, nums: List[int], limit: int) -> int:
         """
-        【排序容器】 sortedcontainers
+        【滑动窗口 + 排序容器】 sortedcontainers
         time O(nlogn), space O(n), n 为数组长度
         """
         s = SortedList()

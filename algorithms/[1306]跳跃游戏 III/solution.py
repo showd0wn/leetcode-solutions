@@ -7,6 +7,7 @@ from collections import deque
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         """
+        BFS
         time O(n), space O(n), n 为数组长度
         """
         n = len(arr)
