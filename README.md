@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|86|139|24|249|
-|**Total**|416|906|385|1707|
+|**Accept**|86|139|25|250|
+|**Total**|416|906|386|1708|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -156,6 +156,7 @@
 |387|[First Unique Character in a String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.ts)|
 |394|[Decode String](https://leetcode-cn.com/problems/decode-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[394]字符串解码/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[394]字符串解码/solution.ts)|
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.ts)|
+|403|[Frog Jump](https://leetcode-cn.com/problems/frog-jump/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[403]青蛙过河/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[403]青蛙过河/solution.ts)|
 |406|[Queue Reconstruction by Height](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[406]根据身高重建队伍/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[406]根据身高重建队伍/solution.ts)|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
 |415|[Add Strings](https://leetcode-cn.com/problems/add-strings/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[415]字符串相加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[415]字符串相加/solution.ts)|

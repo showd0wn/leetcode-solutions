@@ -1722,6 +1722,17 @@
             ]
         },
         {
+            "id": "403",
+            "level": 3,
+            "title": "Frog Jump",
+            "title_slug": "frog-jump",
+            "lock": false,
+            "caption": "青蛙过河",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "406",
             "level": 2,
             "title": "Queue Reconstruction by Height",
@@ -2924,8 +2935,8 @@
             "accept": 139
         },
         "Hard": {
-            "total": 385,
-            "accept": 24
+            "total": 386,
+            "accept": 25
         }
     }
 }
