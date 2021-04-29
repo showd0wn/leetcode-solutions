@@ -2,7 +2,7 @@
 
 /**
  * 枚举所有可能的组合
- * time O(n), space O(n), n 为数组 cardPoints 的长度
+ * time O(k), space O(k)
  */
 function maxScore(cardPoints: number[], k: number): number {
   const n = cardPoints.length;

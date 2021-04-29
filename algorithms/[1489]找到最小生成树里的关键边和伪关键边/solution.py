@@ -4,9 +4,7 @@ from typing import List
 
 
 class Solution:
-    def findCriticalAndPseudoCriticalEdges(
-        self, n: int, edges: List[List[int]]
-    ) -> List[List[int]]:
+    def findCriticalAndPseudoCriticalEdges(self, n: int, edges: List[List[int]]) -> List[List[int]]:
         def Kruskal(edges: List[List[int]]) -> int:
             father = list(range(n))
 

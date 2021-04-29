@@ -1,5 +1,8 @@
 // topics = ["深度优先遍历"]
 
+/**
+ * time O(n), space O(n), n 为数组长度
+ */
 function canReach(arr: number[], start: number): boolean {
   const n = arr.length;
   const visited = new Set<number>();

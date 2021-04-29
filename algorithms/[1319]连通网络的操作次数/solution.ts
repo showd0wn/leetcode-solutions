@@ -36,6 +36,9 @@ export class UnionFind {
   }
 }
 
+/**
+ * time O(m·α(n)), space O(n), m 为数组长度, α 是阿克曼函数的反函数
+ */
 function makeConnected(n: number, connections: number[][]): number {
   const len = connections.length;
 

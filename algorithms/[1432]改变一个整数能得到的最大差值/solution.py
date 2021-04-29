@@ -3,6 +3,9 @@
 
 class Solution:
     def maxDiff(self, num: int) -> int:
+        """
+        time O(log(num)), space O(log(num))
+        """
         return self.get_max_num(num) - self.get_min_num(num)
 
     def get_max_num(self, num: int) -> int:

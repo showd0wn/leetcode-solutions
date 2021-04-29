@@ -9,7 +9,7 @@ class Solution:
         """
         邻接表
         """
-        graph = [set()] * n
+        graph: List[Set[int]] = [set()] * n
 
         for i, j in edges:
             graph[i].add(j)
@@ -20,6 +20,7 @@ class Solution:
     def bfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
         """
         广度优先搜索
+        time O(m + n), space O(m + n), m 为数组长度
         """
         visited[idx] = 1
         queue = deque(graph[idx])
@@ -33,6 +34,7 @@ class Solution:
     def dfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
         """
         深度优先搜索
+        time O(m + n), space O(m + n), m 为数组长度
         """
         visited[idx] = 1
         for node in graph[idx]:

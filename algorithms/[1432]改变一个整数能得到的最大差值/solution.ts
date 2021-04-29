@@ -1,5 +1,8 @@
 // topics = ["字符串", "贪心算法"]
 
+/**
+ * time O(log(num)), space O(log(num))
+ */
 function maxDiff(num: number): number {
   const nums = String(num).split('');
 
