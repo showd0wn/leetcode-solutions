@@ -6,7 +6,8 @@ from typing import List
 class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
         """
-        近似题 221. 最大正方形
+        动态规划, 近似题 221. 最大正方形
+        time O(mn), space O(mn), m 和 n 为矩阵行列数
         """
         m, n = len(matrix), len(matrix[0])
         # dp[i][j] 表示以 (i, j) 为右下角，且只包含 1 的正方形的边长最大值

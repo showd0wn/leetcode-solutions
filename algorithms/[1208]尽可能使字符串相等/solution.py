@@ -3,6 +3,10 @@
 
 class Solution:
     def equalSubstring(self, s: str, t: str, maxCost: int) -> int:
+        """
+        Sliding Window
+        time O(n), space O(n), n 为字符串长度
+        """
         n = len(s)
         record = [abs(ord(t[i]) - ord(s[i])) for i in range(n)]
 

@@ -1,5 +1,9 @@
 // topics = ["数学"]
 
+/**
+ * 判断斜率
+ * time O(n), space O(1), n 为数组长度
+ */
 function checkStraightLine(coordinates: number[][]): boolean {
   const [x0, y0] = coordinates[0];
   const [x1, y1] = coordinates[1];

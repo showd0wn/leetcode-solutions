@@ -1,5 +1,9 @@
 // topics = ["数组", "滑动窗口"]
 
+/**
+ * Sliding Window
+ * time O(n), space O(n), n 为字符串长度
+ */
 function equalSubstring(s: string, t: string, maxCost: number): number {
   const n = s.length;
   const record: number[] = [];
