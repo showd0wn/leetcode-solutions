@@ -2,7 +2,7 @@
 
 /**
  * 差分数组，区间两端进行操作以代替区间内操作
- * time O(m) + O(n), space O(n), m 为航班预定表长度
+ * time O(m + n), space O(n), m 为航班预定表长度
  */
 function corpFlightBookings(bookings: number[][], n: number): number[] {
   const res = new Array<number>(n).fill(0);

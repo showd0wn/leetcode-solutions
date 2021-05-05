@@ -2,7 +2,7 @@
 
 /**
  * 同 1109.航班预订统计。差分统计。
- * time O(m) + O(n), space O(n), m 和 n 分别为数组 capacity 和数组 trips 的长度
+ * time O(m + n), space O(n), m 和 n 分别为数组 capacity 和数组 trips 的长度
  */
 function carPooling(trips: number[][], capacity: number): boolean {
   const n = Math.max(...trips.map(item => item[2]));
