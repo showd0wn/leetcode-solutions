@@ -1,5 +1,9 @@
 // topics = ["数学"]
 
+/**
+ * Math
+ * time O(log|x|), space O(1), log|x| 即 x 十进制的位数
+ */
 function reverse(x: number): number {
   const limit = 2 ** 31;
 

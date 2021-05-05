@@ -1,5 +1,9 @@
 // topics = ["动态规划"]
 
+/**
+ * DP
+ * time O(n^2), space O(n^2), n 为网格宽/高
+ */
 function maxDistance(grid: number[][]): number {
   const n = grid.length;
   const dp: number[][] = [];

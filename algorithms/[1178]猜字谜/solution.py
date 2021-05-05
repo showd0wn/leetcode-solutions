@@ -23,7 +23,8 @@ class Solution:
     def findNumOfValidWords2(self, words: List[str], puzzles: List[str]) -> List[int]:
         """
         二进制压缩状态
-        参考 https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/solution/cai-zi-mi-by-leetcode-solution-345u/
+        time O(m|w| + n^(2|p|)), space O(m)
+        m 和 n 分别为数组 words 和 puzzles 的长度, |w| 是 word 的最大长度 50, |p| 是 puzzle 的最大长度 7
         """
         frequency: Dict[int, int] = Counter()
 

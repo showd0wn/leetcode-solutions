@@ -1,5 +1,10 @@
 // topics = ["数学"]
 
+/**
+ * Math
+ * time O(1), space O(1)
+ * 参考 https://leetcode-cn.com/problems/clumsy-factorial/solution/ben-jie-cheng-by-leetcode-solution-deh2/
+ */
 function clumsy(N: number): number {
   if (N == 1) {
     return 1;

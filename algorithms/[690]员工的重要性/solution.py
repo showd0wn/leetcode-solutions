@@ -21,6 +21,10 @@ class Employee:
 
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
+        """
+        DFS
+        time O(n), space O(n), n 为员工数量
+        """
         employees_dict = {e.id: e for e in employees}
 
         res = 0

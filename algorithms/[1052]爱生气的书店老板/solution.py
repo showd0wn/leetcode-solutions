@@ -5,6 +5,10 @@ from typing import List
 
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], X: int) -> int:
+        """
+        Sliding Window
+        time O(n), space O(1), n 为数组长度
+        """
         #  X 分钟内最多生气的客户数
         max_value = last = sum([customers[i] for i in range(0, X) if grumpy[i] == 1])
 

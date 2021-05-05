@@ -1,5 +1,9 @@
 // topics = ["字符串", "动态规划"]
 
+/**
+ * DP
+ * time O(mn), space O(mn), m 和 n 分别为 text1 和 text2 的长度
+ */
 function longestCommonSubsequence(text1: string, text2: string): number {
   const m = text1.length;
   const n = text2.length;

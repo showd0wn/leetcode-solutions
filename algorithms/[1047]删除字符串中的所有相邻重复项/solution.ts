@@ -1,5 +1,8 @@
 // topics = ["字符串"]
 
+/**
+ * time O(n^2), space O(n), n 为字符串长度
+ */
 function removeDuplicates(S: string): string {
   const n = S.length;
   const arr = S.split('');

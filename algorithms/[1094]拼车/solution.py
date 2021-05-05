@@ -5,6 +5,10 @@ from typing import List, Tuple
 
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
+        """
+        差分统计
+        time O(m) + O(n), space O(n), m 和 n 分别为数组 capacity 和数组 trips 的长度
+        """
         stop: List[Tuple[int, int]] = []
         for n, s, e in trips:
             stop.append((s, n))

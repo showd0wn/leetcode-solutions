@@ -6,6 +6,10 @@ from math import ceil
 
 class Solution:
     def shipWithinDays(self, weights: List[int], D: int) -> int:
+        """
+        Binary Search
+        time O(nlog(Σw)), space O(1), n 为数组长度, Σw 是数组中元素的和
+        """
         w = max(max(weights), ceil(sum(weights) / D))
 
         # 判断运载能力为 w 时，能否在 D 天内运输完成

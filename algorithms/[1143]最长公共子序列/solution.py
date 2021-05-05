@@ -5,6 +5,10 @@ from typing import List
 
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+        """
+        DP
+        time O(mn), space O(mn), m 和 n 分别为 text1 和 text2 的长度
+        """
         m, n = len(text1), len(text2)
 
         # dp[i][j] 表示 text1 [0, i] 区间和 text2 [0, j] 区间的最长公共子序列

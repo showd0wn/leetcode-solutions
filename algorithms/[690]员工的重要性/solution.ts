@@ -25,6 +25,10 @@ class Employee {
   }
 }
 
+/**
+ * BFS
+ * time O(n), space O(n), n 为员工数量
+ */
 function getImportance(employees: Employee[], id: number): number {
   const map = new Map<number, Employee>();
   for (const employee of employees) {

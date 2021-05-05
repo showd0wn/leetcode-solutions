@@ -11,7 +11,10 @@ class Tri:
 
 
 class Solution:
-    # 性能优化
+    """
+    递归 + 记忆化
+    time O(1), space O(1)
+    """
     t = Tri()
 
     def tribonacci(self, n: int) -> int:

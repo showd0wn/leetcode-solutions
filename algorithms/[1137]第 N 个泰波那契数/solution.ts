@@ -1,5 +1,9 @@
 // topics = ["递归"]
 
+/**
+ * 递归 + 空间优化
+ * time O(n), space O(1)
+ */
 function tribonacci(n: number): number {
   if (n == 0) {
     return 0;
@@ -8,7 +12,6 @@ function tribonacci(n: number): number {
     return 1;
   }
 
-  // 空间优化
   let r = 0;
   let s = 1;
   let t = 1;

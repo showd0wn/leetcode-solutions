@@ -1,5 +1,9 @@
 // topics = ["哈希表"]
 
+/**
+ * Hash
+ * time O(mn), space O(mn), m 和 n 分别为砖墙的高和平均宽
+ */
 function leastBricks(wall: number[][]): number {
   const m = wall.length;
   const cnt = new Map<number, number>();

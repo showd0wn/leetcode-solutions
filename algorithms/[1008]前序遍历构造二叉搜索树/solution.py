@@ -12,7 +12,12 @@ from typing import Optional, List
 
 
 class TreeNode:
-    def __init__(self, x: int = 0, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):
+    def __init__(
+        self,
+        x: int = 0,
+        left: Optional[TreeNode] = None,
+        right: Optional[TreeNode] = None,
+    ):
         self.val = x
         self.left = left
         self.right = right
@@ -20,6 +25,10 @@ class TreeNode:
 
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
+        """
+        Iterate
+        time O(n), space O(n), n 为前序遍历的长度
+        """
         n = len(preorder)
         root = TreeNode(preorder[0])
         stack = [root]

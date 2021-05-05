@@ -5,6 +5,7 @@ class Solution:
     def clumsy(self, N: int) -> int:
         """
         栈模拟
+        time O(N), space O(N)
         """
         # 当前计算结果
         curr: int = N

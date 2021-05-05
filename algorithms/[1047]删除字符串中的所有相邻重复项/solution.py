@@ -6,6 +6,10 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, S: str) -> str:
+        """
+        Stack
+        time O(n), space O(n), n 为字符串长度
+        """
         stack: List[str] = []
 
         for ch in S:

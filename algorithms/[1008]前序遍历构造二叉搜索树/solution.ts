@@ -25,6 +25,10 @@ export class TreeNode {
   }
 }
 
+/**
+ * Recursion
+ * time O(n^2), space O(n), n 为前序遍历的长度
+ */
 function bstFromPreorder(preorder: number[]): TreeNode | null {
   const helper = (list: number[]): TreeNode | null => {
     const n = list.length;

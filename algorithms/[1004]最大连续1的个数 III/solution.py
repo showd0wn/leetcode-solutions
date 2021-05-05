@@ -5,6 +5,10 @@ from typing import List
 
 class Solution:
     def longestOnes(self, A: List[int], K: int) -> int:
+        """
+        Sliding Window
+        time O(n), space O(1), n 为数组长度
+        """
         n = len(A)
         count = left = right = 0
 

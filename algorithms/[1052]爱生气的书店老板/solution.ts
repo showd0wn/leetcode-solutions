@@ -1,5 +1,9 @@
 // topics = ["数组", "滑动窗口"]
 
+/**
+ * Sliding Window
+ * time O(n), space O(1), n 为数组长度
+ */
 function maxSatisfied(customers: number[], grumpy: number[], X: number): number {
   const n = customers.length;
 

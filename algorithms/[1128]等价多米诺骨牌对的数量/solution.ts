@@ -1,5 +1,8 @@
 // topics = ["数组"]
 
+/**
+ * time O(n), space O(n), n 为多米诺骨牌的数量
+ */
 function numEquivDominoPairs(dominoes: number[][]): number {
   const list = dominoes.map((item): string => {
     item.sort();
