@@ -5,7 +5,7 @@
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |**Accept**|86|139|25|250|
-|**Total**|416|906|386|1708|
+|**Total**|418|910|388|1716|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|

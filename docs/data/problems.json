@@ -2927,15 +2927,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 416,
+            "total": 418,
             "accept": 86
         },
         "Medium": {
-            "total": 906,
+            "total": 910,
             "accept": 139
         },
         "Hard": {
-            "total": 386,
+            "total": 388,
             "accept": 25
         }
     }
