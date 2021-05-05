@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|86|139|25|250|
+|**Accept**|86|140|26|252|
 |**Total**|418|910|388|1716|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -198,6 +198,7 @@
 |721|[Accounts Merge](https://leetcode-cn.com/problems/accounts-merge/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[721]账户合并/solution.ts)|
 |724|[Find Pivot Index](https://leetcode-cn.com/problems/find-pivot-index/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.ts)|
 |739|[Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[739]每日温度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[739]每日温度/solution.ts)|
+|740|[Delete and Earn](https://leetcode-cn.com/problems/delete-and-earn/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[740]删除并获得点数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[740]删除并获得点数/solution.ts)|
 |765|[Couples Holding Hands](https://leetcode-cn.com/problems/couples-holding-hands/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[765]情侣牵手/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[765]情侣牵手/solution.ts)|
 |766|[Toeplitz Matrix](https://leetcode-cn.com/problems/toeplitz-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[766]托普利茨矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[766]托普利茨矩阵/solution.ts)|
 |703|[Kth Largest Element in a Stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.ts)|
@@ -254,6 +255,7 @@
 |1432|[Max Difference You Can Get From Changing an Integer](https://leetcode-cn.com/problems/max-difference-you-can-get-from-changing-an-integer/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1432]改变一个整数能得到的最大差值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1432]改变一个整数能得到的最大差值/solution.ts)|
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1423]可获得的最大点数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1423]可获得的最大点数/solution.ts)|
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1438]绝对差不超过限制的最长连续子数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1438]绝对差不超过限制的最长连续子数组/solution.ts)|
+|1473|[Paint House III](https://leetcode-cn.com/problems/paint-house-iii/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1473]粉刷房子%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1473]粉刷房子%20III/solution.ts)|
 |1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|
 |1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.ts)|
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|

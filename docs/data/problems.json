@@ -2204,6 +2204,17 @@
             ]
         },
         {
+            "id": "740",
+            "level": 2,
+            "title": "Delete and Earn",
+            "title_slug": "delete-and-earn",
+            "lock": false,
+            "caption": "删除并获得点数",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "765",
             "level": 3,
             "title": "Couples Holding Hands",
@@ -2862,6 +2873,17 @@
             ]
         },
         {
+            "id": "1473",
+            "level": 3,
+            "title": "Paint House III",
+            "title_slug": "paint-house-iii",
+            "lock": false,
+            "caption": "粉刷房子 III",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "1489",
             "level": 3,
             "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
@@ -2932,11 +2954,11 @@
         },
         "Medium": {
             "total": 910,
-            "accept": 139
+            "accept": 140
         },
         "Hard": {
             "total": 388,
-            "accept": 25
+            "accept": 26
         }
     }
 }
