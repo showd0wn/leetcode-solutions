@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|86|140|26|252|
+|**Accept**|87|140|26|253|
 |**Total**|418|910|388|1716|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -261,3 +261,4 @@
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|
 |1603|[Design Parking System](https://leetcode-cn.com/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|
 |1631|[Path With Minimum Effort](https://leetcode-cn.com/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|
+|1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|

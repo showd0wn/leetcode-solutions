@@ -2945,12 +2945,23 @@
                 "广度优先搜索",
                 "并查集"
             ]
+        },
+        {
+            "id": "1720",
+            "level": 1,
+            "title": "Decode XORed Array",
+            "title_slug": "decode-xored-array",
+            "lock": false,
+            "caption": "解码异或后的数组",
+            "topics": [
+                "位运算"
+            ]
         }
     ],
     "stats": {
         "Easy": {
             "total": 418,
-            "accept": 86
+            "accept": 87
         },
         "Medium": {
             "total": 910,
