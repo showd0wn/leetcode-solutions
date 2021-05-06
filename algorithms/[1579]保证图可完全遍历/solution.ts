@@ -41,7 +41,7 @@ export class UnionFind {
 }
 
 /**
- * 并查集求连通分量
+ * Union Find
  * time O(m·α(n)), space O(n), m 是数组 edges 的长度, α 是阿克曼函数的反函数
  */
 function maxNumEdgesToRemove(n: number, edges: number[][]): number {

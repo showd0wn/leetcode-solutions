@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 /**
- * DP
+ * Dynamic Programming
  * time O(n^2), space O(n^2), n 为 grid 长度
  */
 function maxDistance(grid: number[][]): number {

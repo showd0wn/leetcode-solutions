@@ -1,5 +1,9 @@
 // topics = ["哈希表"]
 
+/**
+ * Hash Table
+ * time O(n + m), space O(n), n 和 m 分别为 A 和 B 的长度
+ */
 function fairCandySwap(A: number[], B: number[]): number[] {
   const t1 = A.reduce((a, b) => a + b, 0);
   const t2 = B.reduce((a, b) => a + b, 0);

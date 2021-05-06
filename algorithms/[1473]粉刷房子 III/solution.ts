@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 /**
- * DP
+ * Dynamic Programming
  * time O(m·n^2 ·target), space O(m·n·target)
  */
 function minCost(houses: number[], cost: number[][], m: number, n: number, target: number): number {

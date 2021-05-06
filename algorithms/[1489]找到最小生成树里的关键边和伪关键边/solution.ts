@@ -47,7 +47,6 @@ function findCriticalAndPseudoCriticalEdges(n: number, edges: number[][]): numbe
     edge.push(i);
   }
 
-  // 实例化并查集
   const m = edges.length;
   const uf = new UnionFind(m);
 

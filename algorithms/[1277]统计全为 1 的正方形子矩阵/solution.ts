@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 /**
- * DP
+ * Dynamic Programming
  * time O(mn), space O(mn), m 和 n 为矩阵行列数
  */
 function countSquares(matrix: number[][]): number {

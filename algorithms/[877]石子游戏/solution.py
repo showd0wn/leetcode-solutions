@@ -7,7 +7,8 @@ class Solution:
     def stoneGame(self, piles: List[int]) -> bool:
         """
         同 486.预测赢家
-        动态规划
+        Dynamic Programming
+        time O(n^2), space O(n^2), n 为石子堆数量
         """
         n = len(piles)
         # dp[i][j] 表示先手玩家在区间 [i, j] 能拿到的最大分数

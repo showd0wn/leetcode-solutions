@@ -37,6 +37,10 @@ export class UnionFind {
   }
 }
 
+/**
+ * Union Find
+ * time O(n^2·m + nlogn)), space O(n), n 为字符串的数量, m 为单个字符串的长度
+ */
 function numSimilarGroups(strs: string[]): number {
   const n = strs.length;
   const uf = new UnionFind(n);

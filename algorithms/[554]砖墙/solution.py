@@ -7,7 +7,7 @@ from typing import List, Counter
 class Solution:
     def leastBricks(self, wall: List[List[int]]) -> int:
         """
-        Hash
+        Hash Table
         time O(mn), space O(mn), m 和 n 分别为砖墙的高和平均宽
         """
         m = len(wall)

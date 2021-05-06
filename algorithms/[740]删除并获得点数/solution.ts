@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 /**
- * DP
+ * Dynamic Programming
  * time O(n + m), space O(m), n 为数组长度, m 为元素的最大值
  */
 function deleteAndEarn(nums: number[]): number {

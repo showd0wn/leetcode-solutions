@@ -1,7 +1,7 @@
 // topics = ["数组", "动态规划"]
 
 /**
- * DP
+ * Dynamic Programming
  * time O(n), space O(n), n 为数组长度
  */
 function maxTurbulenceSize(arr: number[]): number {
@@ -31,7 +31,7 @@ function maxTurbulenceSize(arr: number[]): number {
 }
 
 /**
- * DP + 空间复杂度优化
+ * 动态规划 + 空间复杂度优化
  * time O(n), space O(1), n 为数组长度
  */
 function maxTurbulenceSize2(arr: number[]): number {

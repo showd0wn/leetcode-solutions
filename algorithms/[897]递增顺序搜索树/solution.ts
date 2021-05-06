@@ -25,7 +25,10 @@ export class TreeNode {
   }
 }
 
-// 中序遍历 - 递归
+/**
+ * 中序遍历 - 递归
+ * time O(n), space O(n), n 为二叉搜索树的节点总数
+ */
 function increasingBST(root: TreeNode | null): TreeNode | null {
   const dummy = new TreeNode();
   let curr = dummy;
@@ -42,7 +45,10 @@ function increasingBST(root: TreeNode | null): TreeNode | null {
   return dummy.right;
 }
 
-// 中序遍历 - 栈
+/**
+ * 中序遍历 - 栈
+ * time O(n), space O(n), n 为二叉搜索树的节点总数
+ */
 function increasingBST2(root: TreeNode | null): TreeNode | null {
   const dummy = new TreeNode();
   let curr = dummy;

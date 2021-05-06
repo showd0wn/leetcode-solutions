@@ -1,5 +1,9 @@
 // topics = ["数组"]
 
+/**
+ * Iterate
+ * time O(n), space O(1), n 为数组长度
+ */
 function isMonotonic(A: number[]): boolean {
   const n = A.length;
   let inc = true;

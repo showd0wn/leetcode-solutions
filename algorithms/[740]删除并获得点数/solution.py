@@ -8,7 +8,7 @@ class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:
         """
         近似题 198.打家劫舍
-        DP
+        Dynamic Programming
         time O(nlogn), space O(n), n 为数组长度
         """
         cnt = Counter(nums)

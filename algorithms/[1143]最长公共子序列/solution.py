@@ -6,7 +6,7 @@ from typing import List
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         """
-        DP
+        Dynamic Programming
         time O(mn), space O(mn), m 和 n 分别为 text1 和 text2 的长度
         """
         m, n = len(text1), len(text2)

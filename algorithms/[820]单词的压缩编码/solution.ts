@@ -37,6 +37,10 @@ class Trie {
   }
 }
 
+/**
+ * Trie
+ * time O(∑wi), space O(S·∑wi), wi 为 words[i] 的长度, S 为字符集大小 26
+ */
 function minimumLengthEncoding(words: string[]): number {
   const rwords = new Set([...words.map(w => w.split('').reverse().join(''))]);
   const trie = new Trie();

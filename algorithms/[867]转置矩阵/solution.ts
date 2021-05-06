@@ -1,5 +1,9 @@
 // topics = ["数组"]
 
+/**
+ * Iterate
+ * time O(mn), space O(1), m 和 n 分别为矩阵的行数和列数
+ */
 function transpose(matrix: number[][]): number[][] {
   const m = matrix.length;
   const n = matrix[0].length;

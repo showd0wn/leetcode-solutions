@@ -1,5 +1,9 @@
 // topics = ["数组"]
 
+/**
+ * Iterate
+ * time O(n^2), space O(1), n 为矩阵长度
+ */
 function flipAndInvertImage(A: number[][]): number[][] {
   const n = A.length;
   const m = A[0].length;

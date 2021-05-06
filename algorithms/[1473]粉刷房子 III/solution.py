@@ -9,7 +9,7 @@ class Solution:
         self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int
     ) -> int:
         """
-        DP
+        Dynamic Programming
         time O(m·n^2 ·target), space O(m·n·target)
         """
         # 将颜色调整为从 0 开始编号，没有被涂色标记为 -1

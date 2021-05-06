@@ -7,6 +7,10 @@ from typing import List
 
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        """
+        Binary Search
+        time O(nlogw), space O(1), n 为香蕉堆的数量, w 为最大堆香蕉的数量
+        """
         i, j = 1, max(piles)
 
         while i < j:

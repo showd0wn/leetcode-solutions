@@ -33,6 +33,10 @@ class UnionFind:
 
 
 class Solution:
+    """
+    Union Find
+    time O(n^2·m + nlogn)), space O(n), n 为字符串的数量, m 为单个字符串的长度
+    """
     def numSimilarGroups(self, strs: List[str]) -> int:
         n = len(strs)
         uf = UnionFind(n)

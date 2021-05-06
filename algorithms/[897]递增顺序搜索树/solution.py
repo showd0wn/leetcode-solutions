@@ -27,6 +27,7 @@ class Solution:
     def increasingBST(self, root: TreeNode) -> TreeNode:
         """
         原地修改 - 递归
+        time O(n), space O(n), n 为二叉搜索树的节点总数
         """
         dummy = TreeNode()
         curr = dummy
@@ -47,6 +48,7 @@ class Solution:
     def increasingBST2(self, root: TreeNode) -> TreeNode:
         """
         原地修改 - 栈
+        time O(n), space O(n), n 为二叉搜索树的节点总数
         """
         dummy = TreeNode()
         curr = dummy

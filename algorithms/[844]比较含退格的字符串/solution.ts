@@ -1,5 +1,9 @@
 // topics = ["栈"]
 
+/**
+ * Stack
+ * time O(n + m), space O(n + m), n 和 m 分别为 S 和 T 的长度
+ */
 function backspaceCompare(S: string, T: string): boolean {
   return handleString(S) === handleString(T);
 }
