@@ -1,5 +1,9 @@
 // topics = ["数组", "动态规划"]
 
+/**
+ * DP
+ * time O(n), space O(n), n 为数组长度
+ */
 function maxTurbulenceSize(arr: number[]): number {
   const n = arr.length;
 
@@ -26,7 +30,10 @@ function maxTurbulenceSize(arr: number[]): number {
   return res;
 }
 
-// 根据状态转移规律，进一步优化空间复杂度
+/**
+ * DP + 空间复杂度优化
+ * time O(n), space O(1), n 为数组长度
+ */
 function maxTurbulenceSize2(arr: number[]): number {
   const n = arr.length;
   let dp0 = 1;

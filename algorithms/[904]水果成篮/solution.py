@@ -6,6 +6,10 @@ from typing import Dict, List
 
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
+        """
+        Sliding Window
+        time O(n), space O(n), n 为 tree 的长度
+        """
         n = len(tree)
         i = j = 0
         res = 0

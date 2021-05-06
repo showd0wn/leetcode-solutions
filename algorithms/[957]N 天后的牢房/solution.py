@@ -5,6 +5,10 @@ from typing import List
 
 class Solution:
     def prisonAfterNDays(self, cells: List[int], n: int) -> List[int]:
+        """
+        Iterate
+        time O(2^N), space O(2^N * N), N 为监狱房间的个数
+        """
         m = len(cells)
         dp: List[List[int]] = []
 

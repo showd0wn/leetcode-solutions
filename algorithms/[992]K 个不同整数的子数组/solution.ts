@@ -1,5 +1,9 @@
 // topics = ["滑动窗口", "哈希表"]
 
+/**
+ * Sliding Window
+ * time O(n), space O(n), n 为数组长度
+ */
 function subarraysWithKDistinct(A: number[], K: number): number {
   const n = A.length;
 

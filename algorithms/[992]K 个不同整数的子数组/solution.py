@@ -8,8 +8,10 @@ class Solution:
     def subarraysWithKDistinct(self, A: List[int], K: int) -> int:
         """
         近似题 904.水果成篮
-        恰好包含 K 种不同整数 = 最多包含 k 种不同整数 - 最多包含 k - 1 种不同整数
+        Sliding Window
+        time O(n), space O(n), n 为数组长度
         """
+        # 恰好包含 K 种不同整数 = 最多包含 k 种不同整数 - 最多包含 k - 1 种不同整数
         return self.atMostK(A, K) - self.atMostK(A, K - 1)
 
     def atMostK(self, A: List[int], K: int) -> int:

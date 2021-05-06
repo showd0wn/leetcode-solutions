@@ -7,6 +7,7 @@ class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         """
         快速排序
+        time O(nlogn), space O(logn), n 为数组长度
         """
         n = len(nums)
 

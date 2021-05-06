@@ -27,6 +27,7 @@ class Solution:
     def rangeSumBST(self, root: TreeNode, low: int, high: int) -> int:
         """
         近似题 94.二叉树的中序遍历
+        time O(n), space O(n), n 为二叉搜索树的节点数
         """
         s: List[TreeNode] = []
         it: Union[TreeNode, None] = root

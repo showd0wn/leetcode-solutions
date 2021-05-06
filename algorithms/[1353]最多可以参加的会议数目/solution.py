@@ -8,7 +8,7 @@ class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:
         """
         Priority Queue(Heaps)
-        time O(Tlogn), space O(T), T 为时间点的上界, n 为数组长度
+        time O(Tlogn), space O(T), T 为时间点的上界, n 为会议数量
         """
         events.sort(reverse=True)
         h: List[int] = []

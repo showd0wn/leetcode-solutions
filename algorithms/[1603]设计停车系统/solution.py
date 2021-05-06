@@ -2,13 +2,13 @@
 
 
 class ParkingSystem:
+    """
+    time O(1), space O(1)
+    """
     def __init__(self, big: int, medium: int, small: int):
         self.park = [big, medium, small]
 
     def addCar(self, carType: int) -> bool:
-        """
-        time O(1), space O(1)
-        """
         if self.park[carType - 1] == 0:
             return False
         self.park[carType - 1] -= 1

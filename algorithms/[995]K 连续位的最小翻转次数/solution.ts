@@ -1,5 +1,9 @@
 // ["贪心算法", "滑动窗口"]
 
+/**
+ * Greedy & Sliding Window
+ * time O(n·K), space O(K), n 为数组长度
+ */
 function minKBitFlips(A: number[], K: number): number {
   const n = A.length;
   const q: number[] = [];

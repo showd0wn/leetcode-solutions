@@ -1,6 +1,9 @@
 // topics = ["数组", "分治算法"]
 
-// 快速排序
+/**
+ * 快速排序
+ * time O(nlogn), space O(logn), n 为数组长度
+ */
 function sortArray(nums: number[]): number[] {
   const n = nums.length;
 

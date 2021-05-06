@@ -8,7 +8,7 @@ class Solution:
     def shipWithinDays(self, weights: List[int], D: int) -> int:
         """
         Binary Search
-        time O(nlog(Σw)), space O(1), n 为数组长度, Σw 是数组中元素的和
+        time O(nlog(Σw)), space O(1), n 为 weights 的长度, Σw 是 weights 中所有元素的和
         """
         w = max(max(weights), ceil(sum(weights) / D))
 

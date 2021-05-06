@@ -1,5 +1,9 @@
 // topics = ["队列"]
 
+/**
+ * Queue
+ * time O(Q), space O(W), Q 为 ping 的次数, W = 3000
+ */
 class RecentCounter {
   requests: number[];
   constructor() {

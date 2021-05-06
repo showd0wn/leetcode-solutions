@@ -7,7 +7,7 @@ class Solution:
     def canCross(self, stones: List[int]) -> bool:
         """
         回溯算法
-        超时 time O(3^n), n 为数组长度
+        超时 time O(3^n), n 为 stones 的长度
         """
         if stones[1] != 1:
             return False
@@ -36,7 +36,7 @@ class Solution:
     def canCross2(self, stones: List[int]) -> bool:
         """
         深度优先搜索 + 记忆化
-        time O(n^2), space O(n^2), n 为数组长度
+        time O(n^2), space O(n^2), n 为 stones 的长度
         """
         n = len(stones)
         d = {v: i for i, v in enumerate(stones)}

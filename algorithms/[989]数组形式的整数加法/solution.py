@@ -5,9 +5,13 @@ from typing import List
 
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
+        """
+        Math
+        time O(max(n, logK)), space O(1), n 为数组长度
+        """
         KL = [int(n) for n in str(K)]
 
-        res = []
+        res: List[int] = []
         i, j, carry = len(A) - 1, len(KL) - 1, 0
 
         # 逐位相加

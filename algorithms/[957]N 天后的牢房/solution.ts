@@ -1,5 +1,9 @@
 // topics = ["哈希表"]
 
+/**
+ * Iterate
+ * time O(2^N), space O(2^N * N), N 为监狱房间的个数
+ */
 function prisonAfterNDays(cells: number[], n: number): number[] {
   const m = cells.length;
   const dp: number[][] = [];

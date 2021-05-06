@@ -1,5 +1,9 @@
 // topics = ["滑动窗口", "哈希表"]
 
+/**
+ * Sliding Window
+ * time O(n), space O(n), n 为 tree 的长度
+ */
 function totalFruit(tree: number[]): number {
   const n = tree.length;
   let i = 0;

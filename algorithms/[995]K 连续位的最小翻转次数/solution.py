@@ -9,6 +9,7 @@ class Solution:
         """
         贪心策略，从左到右遍历，遇到每个 0 都把它以及后面的 K-1 个元素进行翻转
         参考 https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/solution/hua-dong-chuang-kou-shi-ben-ti-zui-rong-z403l/
+        time O(n), space O(K), n 为数组长度
         """
         n = len(A)
         q: Deque[int] = deque()

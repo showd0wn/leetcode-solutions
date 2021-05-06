@@ -10,7 +10,7 @@ class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         """
         BFS
-        time O(n^4), space O(n^2), n 为网格宽/高, 超时
+        time O(n^4), space O(n^2), n 为 grid 长度, 超时
         """
         n = len(grid)
         res = -1
@@ -45,7 +45,7 @@ class Solution:
         """
         【最短路径问题】 Dijkstra 算法（广度优先遍历 + 优先队列）
         这里需要先将「多源最短路径问题」转化成「单源最短路径问题」
-        time O(n^2), space O(n^2), n 为网格宽/高
+        time O(n^2), space O(n^2), n 为 grid 长度
         """
         n = len(grid)
         # 记录超级源（到各个陆地区域的权重为 0）到各点的最短路径

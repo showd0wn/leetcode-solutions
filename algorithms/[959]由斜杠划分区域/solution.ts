@@ -35,7 +35,10 @@ export class UnionFind {
   }
 }
 
-// 并查集求连通分量
+/**
+ * 并查集求连通分量
+ * time O(n^2logn), space O(n^2), n 为 grid 的长度
+ */
 function regionsBySlashes(grid: string[]): number {
   const n = grid.length;
   // 把一个单元格分割成逻辑上的左右 2 个部分

@@ -25,6 +25,10 @@ export class TreeNode {
   }
 }
 
+/**
+ * Recursion
+ * time O(n), space O(n), n 为二叉搜索树的节点数
+ */
 function rangeSumBST(root: TreeNode | null, low: number, high: number): number {
   let res = 0;
 

@@ -2,7 +2,7 @@
 
 /**
  * 判断斜率
- * time O(n), space O(1), n 为数组长度
+ * time O(n), space O(1), n 为坐标数量
  */
 function checkStraightLine(coordinates: number[][]): boolean {
   const [x0, y0] = coordinates[0];

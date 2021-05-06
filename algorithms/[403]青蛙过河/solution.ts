@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 /**
- * time O(n^2), space O(n^2), n 为数组长度
+ * time O(n^2), space O(n^2), n 为 stones 的长度
  */
 function canCross(stones: number[]): boolean {
   const n = stones.length;

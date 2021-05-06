@@ -18,10 +18,6 @@ class Solution:
         return graph
 
     def bfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
-        """
-        广度优先搜索
-        time O(m + n), space O(m + n), m 为数组长度
-        """
         visited[idx] = 1
         queue = deque(graph[idx])
 
@@ -32,16 +28,16 @@ class Solution:
                 queue.extend(graph[cur])
 
     def dfs(self, idx: int, visited: List[int], graph: List[Set[int]]) -> None:
-        """
-        深度优先搜索
-        time O(m + n), space O(m + n), m 为数组长度
-        """
         visited[idx] = 1
         for node in graph[idx]:
             if not visited[node]:
                 self.dfs(node, visited, graph)
 
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
+        """
+        BFS / DFS
+        time O(m + n), space O(m + n), m 为 connections 的长度
+        """
         if len(connections) < n - 1:
             return -1
 

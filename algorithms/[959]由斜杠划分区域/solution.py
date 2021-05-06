@@ -36,9 +36,10 @@ class UnionFind:
 class Solution:
     def regionsBySlashes(self, grid: List[str]) -> int:
         """
-        把一个单元格分割成逻辑上的 4 个部分
-        0 ~ 3 分别为左上下右
+        并查集求连通分量
+        time O(n^2logn), space O(n^2), n 为 grid 的长度
         """
+        # 把一个单元格分割成逻辑上的 4 个部分，0 ~ 3 分别为左上下右
         def get_pos(row: int, col: int, id: int) -> int:
             return (row * n + col) * 4 + id
 

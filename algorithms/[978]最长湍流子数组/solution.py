@@ -5,6 +5,10 @@ from typing import List
 
 class Solution:
     def maxTurbulenceSize(self, arr: List[int]) -> int:
+        """
+        Sliding Window
+        time O(n), space O(1), n 为数组长度
+        """
         n = len(arr)
 
         if n < 2:

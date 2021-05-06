@@ -7,7 +7,7 @@ class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
         """
         判断向量共线
-        time O(n), space O(1), n 为数组长度
+        time O(n), space O(1), n 为坐标数量
         """
         [x0, y0] = coordinates[0]
         [x1, y1] = coordinates[1]
