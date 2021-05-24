@@ -96,6 +96,17 @@
             ]
         },
         {
+            "id": "12",
+            "level": 2,
+            "title": "Integer to Roman",
+            "title_slug": "integer-to-roman",
+            "lock": false,
+            "caption": "整数转罗马数字",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
             "id": "14",
             "level": 1,
             "title": "Longest Common Prefix",
@@ -272,7 +283,7 @@
         },
         {
             "id": "38",
-            "level": 1,
+            "level": 2,
             "title": "Count and Say",
             "title_slug": "count-and-say",
             "lock": false,
@@ -946,7 +957,7 @@
         },
         {
             "id": "144",
-            "level": 2,
+            "level": 1,
             "title": "Binary Tree Preorder Traversal",
             "title_slug": "binary-tree-preorder-traversal",
             "lock": false,
@@ -2832,6 +2843,18 @@
             ]
         },
         {
+            "id": "1310",
+            "level": 2,
+            "title": "XOR Queries of a Subarray",
+            "title_slug": "xor-queries-of-a-subarray",
+            "lock": false,
+            "caption": "子数组异或查询",
+            "topics": [
+                "位运算",
+                "数组"
+            ]
+        },
+        {
             "id": "1319",
             "level": 2,
             "title": "Number of Operations to Make Network Connected",
@@ -3005,15 +3028,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 423,
+            "total": 424,
             "accept": 91
         },
         "Medium": {
-            "total": 917,
-            "accept": 140
+            "total": 919,
+            "accept": 142
         },
         "Hard": {
-            "total": 391,
+            "total": 392,
             "accept": 26
         }
     }
