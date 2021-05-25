@@ -107,6 +107,17 @@
             ]
         },
         {
+            "id": "13",
+            "level": 1,
+            "title": "Roman to Integer",
+            "title_slug": "roman-to-integer",
+            "lock": false,
+            "caption": "罗马数字转整数",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
             "id": "14",
             "level": 1,
             "title": "Longest Common Prefix",
@@ -1578,7 +1589,7 @@
         },
         {
             "id": "338",
-            "level": 2,
+            "level": 1,
             "title": "Counting Bits",
             "title_slug": "counting-bits",
             "lock": false,
@@ -2431,7 +2442,7 @@
             "lock": false,
             "caption": "叶子相似的树",
             "topics": [
-                "二叉树"
+                "树"
             ]
         },
         {
@@ -2614,6 +2625,17 @@
             "topics": [
                 "滑动窗口",
                 "哈希表"
+            ]
+        },
+        {
+            "id": "993",
+            "level": 1,
+            "title": "Cousins in Binary Tree",
+            "title_slug": "cousins-in-binary-tree",
+            "lock": false,
+            "caption": "二叉树的堂兄弟节点",
+            "topics": [
+                "树"
             ]
         },
         {
@@ -2918,6 +2940,17 @@
             ]
         },
         {
+            "id": "1442",
+            "level": 2,
+            "title": "Count Triplets That Can Form Two Arrays of Equal XOR",
+            "title_slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+            "lock": false,
+            "caption": "形成两个异或相等数组的三元组数目",
+            "topics": [
+                "位运算"
+            ]
+        },
+        {
             "id": "1473",
             "level": 3,
             "title": "Paint House III",
@@ -3028,15 +3061,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 424,
-            "accept": 91
+            "total": 425,
+            "accept": 94
         },
         "Medium": {
             "total": 919,
             "accept": 142
         },
         "Hard": {
-            "total": 392,
+            "total": 391,
             "accept": 26
         }
     }
