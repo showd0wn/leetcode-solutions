@@ -18,6 +18,8 @@ export class TreeNode {
   val: number;
   left: TreeNode | null;
   right: TreeNode | null;
+  parent?: TreeNode | null;
+  depth?: number;
   constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
     this.val = val === undefined ? 0 : val;
     this.left = left === undefined ? null : left;
@@ -25,37 +27,31 @@ export class TreeNode {
   }
 }
 
+export interface nodeInfo {
+  parentVal: number;
+  depth: number;
+}
+
 /**
- * Binary Tree & Generator
- * time O(n1 + n2), space O(n1 + n2), n1 和 n2 分别为两棵树的节点个数
+ * Binary Tree & DFS
+ * time O(n), space O(n), n 为二叉树节点个数
  */
-function leafSimilar(root1: TreeNode, root2: TreeNode): boolean {
-  const dfs = function* (node: TreeNode): Generator<number, void, unknown> {
-    if (!node.left && !node.right) {
-      yield node.val;
-    } else {
-      if (node.left) {
-        yield* dfs(node.left);
-      }
-      if (node.right) {
-        yield* dfs(node.right);
-      }
+function isCousins(root: TreeNode | null, x: number, y: number): boolean {
+  // 记录每个节点（值）的父节点（值）和深度
+  const map = new Map<number, nodeInfo>();
+  const dfs = (node: TreeNode, parentVal: number, depth: number) => {
+    map.set(node.val, { parentVal, depth });
+    if (node.left) {
+      dfs(node.left, node.val, depth + 1);
+    }
+    if (node.right) {
+      dfs(node.right, node.val, depth + 1);
     }
   };
 
-  const iter1 = dfs(root1);
-  const iter2 = dfs(root2);
-  let res1 = iter1.next();
-  let res2 = iter2.next();
+  dfs(root!, 0, 0);
 
-  while (res1.value == res2.value) {
-    res1 = iter1.next();
-    res2 = iter2.next();
-
-    if (res1.done && res2.done) {
-      return true;
-    }
-  }
-
-  return false;
+  const nodex = map.get(x)!;
+  const nodey = map.get(y)!;
+  return nodex.parentVal != nodey.parentVal && nodex.depth == nodey.depth;
 }

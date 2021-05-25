@@ -1,4 +1,4 @@
-# topics = ["二叉树"]
+# topics = ["树"]
 
 # Definition for a binary tree node.
 # class TreeNode:
