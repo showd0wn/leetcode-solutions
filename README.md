@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|94|142|26|262|
+|**Accept**|94|145|26|265|
 |**Total**|425|919|391|1735|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -193,6 +193,7 @@
 |665|[Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.ts)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
 |690|[Employee Importance](https://leetcode-cn.com/problems/employee-importance/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.ts)|
+|692|[Top K Frequent Words](https://leetcode-cn.com/problems/top-k-frequent-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[692]前K个高频单词/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[692]前K个高频单词/solution.ts)|
 |695|[Max Area of Island](https://leetcode-cn.com/problems/max-area-of-island/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[695]岛屿的最大面积/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[695]岛屿的最大面积/solution.ts)|
 |697|[Degree of an Array](https://leetcode-cn.com/problems/degree-of-an-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[697]数组的度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[697]数组的度/solution.ts)|
 |698|[Partition to K Equal Sum Subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[698]划分为k个相等的子集/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[698]划分为k个相等的子集/solution.ts)|
@@ -251,6 +252,7 @@
 |1137|[N-th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.ts)|
 |1143|[Longest Common Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1143]最长公共子序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1143]最长公共子序列/solution.ts)|
 |1178|[Number of Valid Words for Each Puzzle](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.ts)|
+|1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.ts)|
 |1208|[Get Equal Substrings Within Budget](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
 |1277|[Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.ts)|
@@ -271,3 +273,4 @@
 |1631|[Path With Minimum Effort](https://leetcode-cn.com/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|
 |1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.ts)|
 |1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|
+|1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.ts)|

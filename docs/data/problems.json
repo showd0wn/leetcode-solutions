@@ -2145,6 +2145,18 @@
             ]
         },
         {
+            "id": "692",
+            "level": 2,
+            "title": "Top K Frequent Words",
+            "title_slug": "top-k-frequent-words",
+            "lock": false,
+            "caption": "前K个高频单词",
+            "topics": [
+                "数组",
+                "堆"
+            ]
+        },
+        {
             "id": "695",
             "level": 2,
             "title": "Max Area of Island",
@@ -2819,6 +2831,18 @@
             ]
         },
         {
+            "id": "1190",
+            "level": 2,
+            "title": "Reverse Substrings Between Each Pair of Parentheses",
+            "title_slug": "reverse-substrings-between-each-pair-of-parentheses",
+            "lock": false,
+            "caption": "反转每对括号间的子串",
+            "topics": [
+                "递归",
+                "栈"
+            ]
+        },
+        {
             "id": "1208",
             "level": 2,
             "title": "Get Equal Substrings Within Budget",
@@ -3057,6 +3081,18 @@
             "topics": [
                 "位运算"
             ]
+        },
+        {
+            "id": "1738",
+            "level": 2,
+            "title": "Find Kth Largest XOR Coordinate Value",
+            "title_slug": "find-kth-largest-xor-coordinate-value",
+            "lock": false,
+            "caption": "找出第 K 大的异或坐标值",
+            "topics": [
+                "数组",
+                "堆"
+            ]
         }
     ],
     "stats": {
@@ -3066,7 +3102,7 @@
         },
         "Medium": {
             "total": 919,
-            "accept": 142
+            "accept": 145
         },
         "Hard": {
             "total": 391,
