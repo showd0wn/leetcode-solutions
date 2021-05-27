@@ -1,4 +1,4 @@
-# topics = ["二分搜索"]
+# topics = ["二分查找"]
 
 from sys import maxsize
 from typing import List

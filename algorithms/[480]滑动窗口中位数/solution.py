@@ -10,7 +10,7 @@ class Solution:
     def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:
         """
         近似题 295.数据流的中位数，此题不同之处在于：需要能（高效）删除任意元素
-        二分搜索 + 直接插入
+        二分查找 + 直接插入
         """
         n = len(nums)
         arr: List[int] = sorted(nums[:k])

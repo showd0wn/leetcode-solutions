@@ -7,7 +7,7 @@ import heapq
 
 
 class MedianFinder:
-    """解法一 二分搜索 + 直接插入"""
+    """解法一 二分查找 + 直接插入"""
     def __init__(self):
         """
         initialize your data structure here.
@@ -15,7 +15,7 @@ class MedianFinder:
         self.nums: List[int] = []
 
     def addNum(self, num: int) -> None:
-        # 二分搜索 O(logn) + 插入 O(n)
+        # 二分查找 O(logn) + 插入 O(n)
         bisect.insort(self.nums, num)
 
     def findMedian(self) -> float:
