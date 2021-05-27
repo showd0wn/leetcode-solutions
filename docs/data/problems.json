@@ -1797,6 +1797,18 @@
             ]
         },
         {
+            "id": "421",
+            "level": 2,
+            "title": "Maximum XOR of Two Numbers in an Array",
+            "title_slug": "maximum-xor-of-two-numbers-in-an-array",
+            "lock": false,
+            "caption": "数组中两个数的最大异或值",
+            "topics": [
+                "位运算",
+                "字典树"
+            ]
+        },
+        {
             "id": "424",
             "level": 2,
             "title": "Longest Repeating Character Replacement",
@@ -1863,6 +1875,17 @@
             "topics": [
                 "栈",
                 "贪心算法"
+            ]
+        },
+        {
+            "id": "461",
+            "level": 1,
+            "title": "Hamming Distance",
+            "title_slug": "hamming-distance",
+            "lock": false,
+            "caption": "汉明距离",
+            "topics": [
+                "位运算"
             ]
         },
         {
@@ -2986,6 +3009,18 @@
             ]
         },
         {
+            "id": "1482",
+            "level": 2,
+            "title": "Minimum Number of Days to Make m Bouquets",
+            "title_slug": "minimum-number-of-days-to-make-m-bouquets",
+            "lock": false,
+            "caption": "制作 m 束花所需的最少天数",
+            "topics": [
+                "数组",
+                "二分查找"
+            ]
+        },
+        {
             "id": "1486",
             "level": 1,
             "title": "XOR Operation in an Array",
@@ -3097,12 +3132,12 @@
     ],
     "stats": {
         "Easy": {
-            "total": 425,
-            "accept": 94
+            "total": 424,
+            "accept": 95
         },
         "Medium": {
-            "total": 919,
-            "accept": 145
+            "total": 921,
+            "accept": 147
         },
         "Hard": {
             "total": 391,
