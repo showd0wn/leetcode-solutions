@@ -1,4 +1,4 @@
-// topics = ["滑动窗口", "KMP"]
+// topics = ["字符串", "滑动窗口"]
 
 function strStr(haystack: string, needle: string): number {
   const l = haystack.length;
