@@ -35,7 +35,7 @@ class Solution:
 
         for i in range(n):
             for j in range(n):
-                # 对每一个海洋区域进行广度优先遍历，求最近陆地区域
+                # 对每一个海洋区域进行广度优先搜索，求最近陆地区域
                 if grid[i][j] == 0:
                     res = max(res, bfs(i, j))
 
@@ -43,7 +43,7 @@ class Solution:
 
     def maxDistance2(self, grid: List[List[int]]) -> int:
         """
-        【最短路径问题】 Dijkstra 算法（广度优先遍历 + 优先队列）
+        【最短路径问题】 Dijkstra 算法（广度优先搜索 + 优先队列）
         这里需要先将「多源最短路径问题」转化成「单源最短路径问题」
         time O(n^2), space O(n^2), n 为 grid 长度
         """

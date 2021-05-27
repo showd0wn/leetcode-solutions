@@ -1,4 +1,4 @@
-# topics = ["广度优先遍历"]
+# topics = ["广度优先搜索"]
 
 from typing import Deque, List, Set
 from collections import deque
