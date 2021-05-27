@@ -243,8 +243,8 @@
             "lock": false,
             "caption": "实现 strStr()",
             "topics": [
-                "滑动窗口",
-                "KMP"
+                "字符串",
+                "滑动窗口"
             ]
         },
         {
