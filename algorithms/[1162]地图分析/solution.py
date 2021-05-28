@@ -9,8 +9,8 @@ from typing import Deque, List, Set, Tuple
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         """
-        BFS
-        time O(n^4), space O(n^2), n 为 grid 长度, 超时
+        BFS（TLE）
+        time O(n^4), space O(n^2), n 为 grid 长度
         """
         n = len(grid)
         res = -1

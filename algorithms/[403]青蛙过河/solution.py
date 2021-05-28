@@ -6,8 +6,8 @@ from typing import Dict, List
 class Solution:
     def canCross(self, stones: List[int]) -> bool:
         """
-        回溯算法
-        超时 time O(3^n), n 为 stones 的长度
+        回溯算法（TLE）
+        time O(3^n), n 为 stones 的长度
         """
         if stones[1] != 1:
             return False

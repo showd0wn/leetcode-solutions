@@ -8,8 +8,8 @@ from sortedcontainers import SortedList
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
         """
-        滑动窗口 + max/min 函数
-        超时 time O(n^2), space O(n), n 为数组长度
+        滑动窗口（TLE）
+        time O(n^2), space O(n), n 为数组长度
         """
         q: Deque[int] = deque()
         res = 0
