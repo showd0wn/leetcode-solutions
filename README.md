@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|95|147|26|268|
+|**Accept**|95|148|27|270|
 |**Total**|424|921|391|1736|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -172,6 +172,7 @@
 |456|[132 Pattern](https://leetcode-cn.com/problems/132-pattern/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[456]132%20模式/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[456]132%20模式/solution.ts)|
 |461|[Hamming Distance](https://leetcode-cn.com/problems/hamming-distance/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[461]汉明距离/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[461]汉明距离/solution.ts)|
 |474|[Ones and Zeroes](https://leetcode-cn.com/problems/ones-and-zeroes/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[474]一和零/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[474]一和零/solution.ts)|
+|477|[Total Hamming Distance](https://leetcode-cn.com/problems/total-hamming-distance/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[477]汉明距离总和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[477]汉明距离总和/solution.ts)|
 |480|[Sliding Window Median](https://leetcode-cn.com/problems/sliding-window-median/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[480]滑动窗口中位数/solution.ts)|
 |485|[Max Consecutive Ones](https://leetcode-cn.com/problems/max-consecutive-ones/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[485]最大连续%201%20的个数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[485]最大连续%201%20的个数/solution.ts)|
 |486|[Predict the Winner](https://leetcode-cn.com/problems/predict-the-winner/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[486]预测赢家/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[486]预测赢家/solution.ts)|
@@ -274,6 +275,7 @@
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|
 |1603|[Design Parking System](https://leetcode-cn.com/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|
 |1631|[Path With Minimum Effort](https://leetcode-cn.com/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|
+|1723|[Find Minimum Time to Finish All Jobs](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.ts)|
 |1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.ts)|
 |1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|
 |1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.ts)|

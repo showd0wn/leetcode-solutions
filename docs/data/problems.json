@@ -1900,6 +1900,17 @@
             ]
         },
         {
+            "id": "477",
+            "level": 2,
+            "title": "Total Hamming Distance",
+            "title_slug": "total-hamming-distance",
+            "lock": false,
+            "caption": "汉明距离总和",
+            "topics": [
+                "位运算"
+            ]
+        },
+        {
             "id": "480",
             "level": 3,
             "title": "Sliding Window Median",
@@ -3096,6 +3107,18 @@
             ]
         },
         {
+            "id": "1723",
+            "level": 3,
+            "title": "Find Minimum Time to Finish All Jobs",
+            "title_slug": "find-minimum-time-to-finish-all-jobs",
+            "lock": false,
+            "caption": "完成所有工作的最短时间",
+            "topics": [
+                "回溯算法",
+                "动态规划"
+            ]
+        },
+        {
             "id": "1734",
             "level": 2,
             "title": "Decode XORed Permutation",
@@ -3137,11 +3160,11 @@
         },
         "Medium": {
             "total": 921,
-            "accept": 147
+            "accept": 148
         },
         "Hard": {
             "total": 391,
-            "accept": 26
+            "accept": 27
         }
     }
 }
