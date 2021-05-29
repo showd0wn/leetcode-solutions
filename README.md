@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|95|148|27|270|
+|**Accept**|95|148|28|271|
 |**Total**|424|921|391|1736|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -249,6 +249,7 @@
 |1162|[As Far from Land as Possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.ts)|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.ts)|
 |1052|[Grumpy Bookstore Owner](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.ts)|
+|1074|[Number of Submatrices That Sum to Target](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1074]元素和为目标值的子矩阵数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1074]元素和为目标值的子矩阵数量/solution.ts)|
 |1094|[Car Pooling](https://leetcode-cn.com/problems/car-pooling/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.ts)|
 |1109|[Corporate Flight Bookings](https://leetcode-cn.com/problems/corporate-flight-bookings/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1109]航班预订统计/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1109]航班预订统计/solution.ts)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|
