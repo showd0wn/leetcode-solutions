@@ -3164,6 +3164,18 @@
             ]
         },
         {
+            "id": "1707",
+            "level": 3,
+            "title": "Maximum XOR With an Element From Array",
+            "title_slug": "maximum-xor-with-an-element-from-array",
+            "lock": false,
+            "caption": "与数组中元素的最大异或值",
+            "topics": [
+                "位运算",
+                "字典树"
+            ]
+        },
+        {
             "id": "1734",
             "level": 2,
             "title": "Decode XORed Permutation",
@@ -3209,7 +3221,7 @@
         },
         "Hard": {
             "total": 393,
-            "accept": 29
+            "accept": 30
         }
     }
 }

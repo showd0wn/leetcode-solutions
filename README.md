@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|148|29|274|
+|**Accept**|97|148|30|275|
 |**Total**|427|924|393|1744|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -280,6 +280,7 @@
 |1603|[Design Parking System](https://leetcode-cn.com/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|
 |1631|[Path With Minimum Effort](https://leetcode-cn.com/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|
 |1723|[Find Minimum Time to Finish All Jobs](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.ts)|
+|1707|[Maximum XOR With an Element From Array](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.ts)|
 |1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.ts)|
 |1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|
 |1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.ts)|
