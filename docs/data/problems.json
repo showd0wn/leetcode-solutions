@@ -1366,6 +1366,17 @@
             ]
         },
         {
+            "id": "231",
+            "level": 1,
+            "title": "Power of Two",
+            "title_slug": "power-of-two",
+            "lock": false,
+            "caption": "2 的幂",
+            "topics": [
+                "位运算"
+            ]
+        },
+        {
             "id": "232",
             "level": 1,
             "title": "Implement Queue using Stacks",
@@ -1610,6 +1621,17 @@
                 "设计",
                 "递归",
                 "栈"
+            ]
+        },
+        {
+            "id": "342",
+            "level": 1,
+            "title": "Power of Four",
+            "title_slug": "power-of-four",
+            "lock": false,
+            "caption": "4的幂",
+            "topics": [
+                "位运算"
             ]
         },
         {
@@ -3167,15 +3189,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 424,
-            "accept": 95
+            "total": 427,
+            "accept": 97
         },
         "Medium": {
-            "total": 921,
+            "total": 924,
             "accept": 148
         },
         "Hard": {
-            "total": 391,
+            "total": 393,
             "accept": 28
         }
     }

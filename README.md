@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|95|148|28|271|
-|**Total**|424|921|391|1736|
+|**Accept**|97|148|28|273|
+|**Total**|427|924|393|1744|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -126,6 +126,7 @@
 |221|[Maximal Square](https://leetcode-cn.com/problems/maximal-square/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[221]最大正方形/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[221]最大正方形/solution.ts)|
 |224|[Basic Calculator](https://leetcode-cn.com/problems/basic-calculator/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[224]基本计算器/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[224]基本计算器/solution.ts)|
 |227|[Basic Calculator II](https://leetcode-cn.com/problems/basic-calculator-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[227]基本计算器%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[227]基本计算器%20II/solution.ts)|
+|231|[Power of Two](https://leetcode-cn.com/problems/power-of-two/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[231]2%20的幂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[231]2%20的幂/solution.ts)|
 |232|[Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[232]用栈实现队列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[232]用栈实现队列/solution.ts)|
 |234|[Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.ts)|
 |237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.ts)|
@@ -147,6 +148,7 @@
 |337|[House Robber III](https://leetcode-cn.com/problems/house-robber-iii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[337]打家劫舍%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[337]打家劫舍%20III/solution.ts)|
 |338|[Counting Bits](https://leetcode-cn.com/problems/counting-bits/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[338]比特位计数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[338]比特位计数/solution.ts)|
 |341|[Flatten Nested List Iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[341]扁平化嵌套列表迭代器/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[341]扁平化嵌套列表迭代器/solution.ts)|
+|342|[Power of Four](https://leetcode-cn.com/problems/power-of-four/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[342]4的幂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[342]4的幂/solution.ts)|
 |344|[Reverse String](https://leetcode-cn.com/problems/reverse-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[344]反转字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[344]反转字符串/solution.ts)|
 |350|[Intersection of Two Arrays II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.ts)|
 |354|[Russian Doll Envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[354]俄罗斯套娃信封问题/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[354]俄罗斯套娃信封问题/solution.ts)|
