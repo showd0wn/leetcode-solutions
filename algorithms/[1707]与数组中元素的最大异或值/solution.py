@@ -51,7 +51,7 @@ class Solution:
         Bit Manipulation & Trie
         time O(nlogn + qlogq + (n + q) * L), space O(q + n * L), n 和 q 分别为 nums 和 queries 长度, L 是 nums 中每个元素二进制表示的长度, L = 30
         近似题 421.数组中两个数的最大异或值
-        【参考】https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/solution/yu-shu-zu-zhong-yuan-su-de-zui-da-yi-huo-7erc/
+        参考 https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/solution/yu-shu-zu-zhong-yuan-su-de-zui-da-yi-huo-7erc/
         """
         n, q = len(nums), len(queries)
         nums.sort()

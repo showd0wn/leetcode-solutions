@@ -7,7 +7,7 @@ class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         """
         数字电路设计
-        【参考】 https://leetcode-cn.com/problems/single-number-ii/solution/zhi-chu-xian-yi-ci-de-shu-zi-ii-by-leetc-23t6/
+        参考 https://leetcode-cn.com/problems/single-number-ii/solution/zhi-chu-xian-yi-ci-de-shu-zi-ii-by-leetc-23t6/
         time O(n), space O(1), n 是数组的长度
         """
         seen_once = seen_twice = 0

@@ -18,7 +18,7 @@ function countTriplets(arr: number[]): number {
   let res = 0;
   for (let k = 0; k < n; k += 1) {
     if (cnt.has(s[k + 1])) {
-      // 【参考】https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solution/xing-cheng-liang-ge-yi-huo-xiang-deng-sh-jud0/
+      // 参考 https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solution/xing-cheng-liang-ge-yi-huo-xiang-deng-sh-jud0/
       res += cnt.get(s[k + 1])! * k - total.get(s[k + 1])!;
     }
 

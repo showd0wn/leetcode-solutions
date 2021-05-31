@@ -34,7 +34,7 @@ export class UnionFind {
 
 /**
  * 【最小生成树问题】 Kruskal 算法（贪心）
- * 【参考】 https://blog.csdn.net/luoshixian099/article/details/51908175
+ * 参考 https://blog.csdn.net/luoshixian099/article/details/51908175
  * time O(mlog(m), space O(n^2), m 为边数，n 为节点数, m 近似为 n^2
  */
 function minCostConnectPoints(points: number[][]): number {

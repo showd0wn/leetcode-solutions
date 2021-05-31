@@ -6,7 +6,7 @@ class Solution:
         """
         Bit Manipulation & Math
         time O(1), space O(1)
-        【参考】 https://leetcode-cn.com/problems/xor-operation-in-an-array/solution/shu-zu-yi-huo-cao-zuo-by-leetcode-solution/
+        参考 https://leetcode-cn.com/problems/xor-operation-in-an-array/solution/shu-zu-yi-huo-cao-zuo-by-leetcode-solution/
         """
         s = start >> 1
         e = n & start & 1

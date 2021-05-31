@@ -38,7 +38,7 @@ export class UnionFind {
 /**
  *
  * 【最小生成树】Kruskal 算法求最小生成树的关键边和伪关键边
- * 【参考】 https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/solution/python3-kruskalbing-cha-ji-by-smiletm-jt9y/
+ * 参考 https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/solution/python3-kruskalbing-cha-ji-by-smiletm-jt9y/
  * time O(m^2·α(n)), space O(m + n), m 和 n 分别为图的边数和节点数, α 是阿克曼函数的反函数
  */
 function findCriticalAndPseudoCriticalEdges(n: number, edges: number[][]): number[][] {
