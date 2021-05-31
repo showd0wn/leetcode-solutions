@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|148|30|275|
+|**Accept**|97|148|31|276|
 |**Total**|427|924|393|1744|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -218,6 +218,7 @@
 |794|[Valid Tic-Tac-Toe State](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[794]有效的井字游戏/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[794]有效的井字游戏/solution.ts)|
 |705|[Design HashSet](https://leetcode-cn.com/problems/design-hashset/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[705]设计哈希集合/solution.ts)|
 |706|[Design HashMap](https://leetcode-cn.com/problems/design-hashmap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[706]设计哈希映射/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[706]设计哈希映射/solution.ts)|
+|810|[Chalkboard XOR Game](https://leetcode-cn.com/problems/chalkboard-xor-game/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[810]黑板异或游戏/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[810]黑板异或游戏/solution.ts)|
 |820|[Short Encoding of Words](https://leetcode-cn.com/problems/short-encoding-of-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[820]单词的压缩编码/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[820]单词的压缩编码/solution.ts)|
 |622|[Design Circular Queue](https://leetcode-cn.com/problems/design-circular-queue/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[622]设计循环队列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[622]设计循环队列/solution.ts)|
 |832|[Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.ts)|

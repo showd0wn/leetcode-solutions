@@ -2435,6 +2435,17 @@
             ]
         },
         {
+            "id": "810",
+            "level": 3,
+            "title": "Chalkboard XOR Game",
+            "title_slug": "chalkboard-xor-game",
+            "lock": false,
+            "caption": "黑板异或游戏",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
             "id": "820",
             "level": 2,
             "title": "Short Encoding of Words",
@@ -3221,7 +3232,7 @@
         },
         "Hard": {
             "total": 393,
-            "accept": 30
+            "accept": 31
         }
     }
 }
