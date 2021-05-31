@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|148|28|273|
+|**Accept**|97|148|29|274|
 |**Total**|427|924|393|1744|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -261,6 +261,7 @@
 |1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.ts)|
 |1208|[Get Equal Substrings Within Budget](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.ts)|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|
+|1269|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1269]停在原地的方案数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1269]停在原地的方案数/solution.ts)|
 |1277|[Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.ts)|
 |1306|[Jump Game III](https://leetcode-cn.com/problems/jump-game-iii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1306]跳跃游戏%20III/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1306]跳跃游戏%20III/solution.ts)|
 |1310|[XOR Queries of a Subarray](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1310]子数组异或查询/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1310]子数组异或查询/solution.ts)|

@@ -2934,6 +2934,17 @@
             ]
         },
         {
+            "id": "1269",
+            "level": 3,
+            "title": "Number of Ways to Stay in the Same Place After Some Steps",
+            "title_slug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
+            "lock": false,
+            "caption": "停在原地的方案数",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "1277",
             "level": 2,
             "title": "Count Square Submatrices with All Ones",
@@ -3198,7 +3209,7 @@
         },
         "Hard": {
             "total": 393,
-            "accept": 28
+            "accept": 29
         }
     }
 }
