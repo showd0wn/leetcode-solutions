@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|148|31|276|
-|**Total**|427|924|393|1744|
+|**Accept**|97|149|32|278|
+|**Total**|426|925|393|1744|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -195,6 +195,7 @@
 |643|[Maximum Average Subarray I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.ts)|
 |645|[Set Mismatch](https://leetcode-cn.com/problems/set-mismatch/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[645]错误的集合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[645]错误的集合/solution.ts)|
 |648|[Replace Words](https://leetcode-cn.com/problems/replace-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.ts)|
+|664|[Strange Printer](https://leetcode-cn.com/problems/strange-printer/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[664]奇怪的打印机/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[664]奇怪的打印机/solution.ts)|
 |665|[Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.ts)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
 |690|[Employee Importance](https://leetcode-cn.com/problems/employee-importance/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.ts)|
@@ -285,3 +286,4 @@
 |1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.ts)|
 |1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|
 |1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.ts)|
+|1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.ts)|

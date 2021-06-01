@@ -2165,6 +2165,17 @@
             ]
         },
         {
+            "id": "664",
+            "level": 3,
+            "title": "Strange Printer",
+            "title_slug": "strange-printer",
+            "lock": false,
+            "caption": "奇怪的打印机",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "665",
             "level": 1,
             "title": "Non-decreasing Array",
@@ -3219,20 +3230,31 @@
                 "数组",
                 "堆"
             ]
+        },
+        {
+            "id": "1744",
+            "level": 2,
+            "title": "Can You Eat Your Favorite Candy on Your Favorite Day?",
+            "title_slug": "can-you-eat-your-favorite-candy-on-your-favorite-day",
+            "lock": false,
+            "caption": "你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
+            "topics": [
+                "数组"
+            ]
         }
     ],
     "stats": {
         "Easy": {
-            "total": 427,
+            "total": 426,
             "accept": 97
         },
         "Medium": {
-            "total": 924,
-            "accept": 148
+            "total": 925,
+            "accept": 149
         },
         "Hard": {
             "total": 393,
-            "accept": 31
+            "accept": 32
         }
     }
 }
