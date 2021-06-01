@@ -4,7 +4,7 @@
 class Solution:
     def numWays(self, steps: int, arrLen: int) -> int:
         """
-        DP
+        Dynamic Programming
         time O(steps * min(arrLen, steps)), space O(steps * min(arrLen, steps))
         """
         maxColumn = min(steps // 2, arrLen - 1)

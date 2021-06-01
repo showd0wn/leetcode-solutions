@@ -1,7 +1,7 @@
 // topics = ["动态规划"]
 
 /**
- * DP
+ * Dynamic Programming
  * time O(steps * min(arrLen, steps)), space O(min(arrLen, steps))
  */
 function numWays(steps: number, arrLen: number): number {
