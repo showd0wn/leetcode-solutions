@@ -2014,6 +2014,18 @@
             ]
         },
         {
+            "id": "523",
+            "level": 2,
+            "title": "Continuous Subarray Sum",
+            "title_slug": "continuous-subarray-sum",
+            "lock": false,
+            "caption": "连续的子数组和",
+            "topics": [
+                "数组",
+                "哈希表"
+            ]
+        },
+        {
             "id": "530",
             "level": 1,
             "title": "Minimum Absolute Difference in BST",
@@ -3249,8 +3261,8 @@
             "accept": 97
         },
         "Medium": {
-            "total": 925,
-            "accept": 149
+            "total": 926,
+            "accept": 150
         },
         "Hard": {
             "total": 393,

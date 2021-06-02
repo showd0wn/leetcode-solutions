@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|149|32|278|
-|**Total**|426|925|393|1744|
+|**Accept**|97|150|32|279|
+|**Total**|426|926|393|1745|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -182,6 +182,7 @@
 |503|[Next Greater Element II](https://leetcode-cn.com/problems/next-greater-element-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[503]下一个更大元素%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[503]下一个更大元素%20II/solution.ts)|
 |516|[Longest Palindromic Subsequence](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[516]最长回文子序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[516]最长回文子序列/solution.ts)|
 |518|[Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[518]零钱兑换%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[518]零钱兑换%20II/solution.ts)|
+|523|[Continuous Subarray Sum](https://leetcode-cn.com/problems/continuous-subarray-sum/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[523]连续的子数组和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[523]连续的子数组和/solution.ts)|
 |530|[Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[530]二叉搜索树的最小绝对差/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[530]二叉搜索树的最小绝对差/solution.ts)|
 |547|[Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]省份数量/solution.ts)|
 |554|[Brick Wall](https://leetcode-cn.com/problems/brick-wall/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[554]砖墙/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[554]砖墙/solution.ts)|
