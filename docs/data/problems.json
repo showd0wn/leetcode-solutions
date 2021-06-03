@@ -2026,6 +2026,18 @@
             ]
         },
         {
+            "id": "525",
+            "level": 2,
+            "title": "Contiguous Array",
+            "title_slug": "contiguous-array",
+            "lock": false,
+            "caption": "连续数组",
+            "topics": [
+                "数组",
+                "哈希表"
+            ]
+        },
+        {
             "id": "530",
             "level": 1,
             "title": "Minimum Absolute Difference in BST",
@@ -3262,7 +3274,7 @@
         },
         "Medium": {
             "total": 926,
-            "accept": 150
+            "accept": 151
         },
         "Hard": {
             "total": 393,
