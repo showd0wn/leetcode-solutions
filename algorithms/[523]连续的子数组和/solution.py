@@ -19,6 +19,7 @@ class Solution:
             preSum += num
             if preSum % k in d and i - d[preSum % k] > 1:
                 return True
+            # 不会覆盖已存在的值
             d.setdefault(preSum % k, i)
 
         return False
