@@ -21,6 +21,10 @@ export class ListNode {
   }
 }
 
+/**
+ * Two Pointers
+ * time O(m + n), space O(1), m 和 n 分别为 headA 和 headB 的长度
+ */
 function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): ListNode | null {
   if (!headA || !headB) {
     return null;

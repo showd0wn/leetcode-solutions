@@ -5,7 +5,7 @@ class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         """
         Two Pointers
-        time O(n + m), space O(1), n 和 m 分别为 S 和 T 的长度
+        time O(m + n), space O(1), m 和 n 分别为 S 和 T 的长度
         """
         # 逆序遍历
         i, j = len(S) - 1, len(T) - 1

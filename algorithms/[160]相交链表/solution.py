@@ -8,7 +8,7 @@
 
 
 from __future__ import annotations
-from typing import Union
+from typing import Union, Set
 
 
 class ListNode:
@@ -18,8 +18,14 @@ class ListNode:
 
 
 class Solution:
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
-        setA = set()
+    def getIntersectionNode(
+        self, headA: Union[ListNode, None], headB: Union[ListNode, None]
+    ) -> ListNode:
+        """
+        Hash Table
+        time O(m + n), space O(m), m 和 n 分别为 headA 和 headB 的长度
+        """
+        setA: Set[ListNode] = set()
 
         while headA:
             setA.add(headA)
