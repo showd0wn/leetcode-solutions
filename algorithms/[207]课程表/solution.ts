@@ -1,6 +1,10 @@
 // topics = ["图", "拓扑排序", "深度优先搜索"]
 
-// DFS 实现
+/**
+ * 拓扑排序
+ * DFS
+ * time O(m + n), space O(m + n), n 为课程数，m 为先修课程的要求数
+ */
 function canFinish(numCourses: number, prerequisites: number[][]): boolean {
   // 邻接表
   const edges = new Map<number, number[]>();

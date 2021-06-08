@@ -4,9 +4,13 @@ from collections import deque
 from typing import Dict, List
 
 
-# BFS 实现
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        """
+        拓扑排序
+        BFS
+        time O(m + n), space O(m + n), n 为课程数，m 为先修课程的要求数
+        """
         # 邻接表
         edges: Dict[int, List[int]] = {}
         # 所有顶点的入度表
