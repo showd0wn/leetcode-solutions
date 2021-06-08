@@ -3269,15 +3269,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 426,
+            "total": 427,
             "accept": 97
         },
         "Medium": {
-            "total": 926,
+            "total": 929,
             "accept": 151
         },
         "Hard": {
-            "total": 393,
+            "total": 394,
             "accept": 32
         }
     }
