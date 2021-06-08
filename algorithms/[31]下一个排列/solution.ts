@@ -1,7 +1,8 @@
 // topics = ["数组"]
 
 /**
- Do not return anything, modify nums in-place instead.
+ * 两次遍历
+ * time O(n), space O(1), n 为数组长度
  */
 function nextPermutation(nums: number[]): void {
   const n = nums.length;
