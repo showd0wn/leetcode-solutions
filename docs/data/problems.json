@@ -2839,6 +2839,18 @@
             ]
         },
         {
+            "id": "1046",
+            "level": 1,
+            "title": "Last Stone Weight",
+            "title_slug": "last-stone-weight",
+            "lock": false,
+            "caption": "最后一块石头的重量",
+            "topics": [
+                "数组",
+                "堆"
+            ]
+        },
+        {
             "id": "1047",
             "level": 1,
             "title": "Remove All Adjacent Duplicates In String",
@@ -2848,6 +2860,17 @@
             "topics": [
                 "字符串",
                 "栈"
+            ]
+        },
+        {
+            "id": "1049",
+            "level": 2,
+            "title": "Last Stone Weight II",
+            "title_slug": "last-stone-weight-ii",
+            "lock": false,
+            "caption": "最后一块石头的重量 II",
+            "topics": [
+                "动态规划"
             ]
         },
         {
@@ -3270,11 +3293,11 @@
     "stats": {
         "Easy": {
             "total": 427,
-            "accept": 97
+            "accept": 98
         },
         "Medium": {
             "total": 929,
-            "accept": 151
+            "accept": 152
         },
         "Hard": {
             "total": 394,

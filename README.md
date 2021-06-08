@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|151|32|280|
+|**Accept**|98|152|32|282|
 |**Total**|427|929|394|1750|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -253,7 +253,9 @@
 |1011|[Capacity To Ship Packages Within D Days](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1011]在%20D%20天内送达包裹的能力/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1011]在%20D%20天内送达包裹的能力/solution.ts)|
 |1035|[Uncrossed Lines](https://leetcode-cn.com/problems/uncrossed-lines/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1035]不相交的线/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1035]不相交的线/solution.ts)|
 |1162|[As Far from Land as Possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.ts)|
+|1046|[Last Stone Weight](https://leetcode-cn.com/problems/last-stone-weight/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1046]最后一块石头的重量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1046]最后一块石头的重量/solution.ts)|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1047]删除字符串中的所有相邻重复项/solution.ts)|
+|1049|[Last Stone Weight II](https://leetcode-cn.com/problems/last-stone-weight-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1049]最后一块石头的重量%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1049]最后一块石头的重量%20II/solution.ts)|
 |1052|[Grumpy Bookstore Owner](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1052]爱生气的书店老板/solution.ts)|
 |1074|[Number of Submatrices That Sum to Target](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1074]元素和为目标值的子矩阵数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1074]元素和为目标值的子矩阵数量/solution.ts)|
 |1094|[Car Pooling](https://leetcode-cn.com/problems/car-pooling/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.ts)|
