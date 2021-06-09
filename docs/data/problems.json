@@ -2201,7 +2201,7 @@
         },
         {
             "id": "665",
-            "level": 1,
+            "level": 2,
             "title": "Non-decreasing Array",
             "title_slug": "non-decreasing-array",
             "lock": false,
@@ -2579,6 +2579,17 @@
             "caption": "石子游戏",
             "topics": [
                 "数学",
+                "动态规划"
+            ]
+        },
+        {
+            "id": "879",
+            "level": 3,
+            "title": "Profitable Schemes",
+            "title_slug": "profitable-schemes",
+            "lock": false,
+            "caption": "盈利计划",
+            "topics": [
                 "动态规划"
             ]
         },
@@ -3292,16 +3303,16 @@
     ],
     "stats": {
         "Easy": {
-            "total": 427,
-            "accept": 98
+            "total": 426,
+            "accept": 97
         },
         "Medium": {
-            "total": 929,
-            "accept": 152
+            "total": 930,
+            "accept": 153
         },
         "Hard": {
             "total": 394,
-            "accept": 32
+            "accept": 33
         }
     }
 }

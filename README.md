@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|98|152|32|282|
-|**Total**|427|929|394|1750|
+|**Accept**|97|153|33|283|
+|**Total**|426|930|394|1750|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -198,7 +198,7 @@
 |645|[Set Mismatch](https://leetcode-cn.com/problems/set-mismatch/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[645]错误的集合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[645]错误的集合/solution.ts)|
 |648|[Replace Words](https://leetcode-cn.com/problems/replace-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[648]单词替换/solution.ts)|
 |664|[Strange Printer](https://leetcode-cn.com/problems/strange-printer/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[664]奇怪的打印机/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[664]奇怪的打印机/solution.ts)|
-|665|[Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.ts)|
+|665|[Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[665]非递减数列/solution.ts)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[674]最长连续递增序列/solution.ts)|
 |690|[Employee Importance](https://leetcode-cn.com/problems/employee-importance/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.ts)|
 |692|[Top K Frequent Words](https://leetcode-cn.com/problems/top-k-frequent-words/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[692]前K个高频单词/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[692]前K个高频单词/solution.ts)|
@@ -231,6 +231,7 @@
 |872|[Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[872]叶子相似的树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[872]叶子相似的树/solution.ts)|
 |875|[Koko Eating Bananas](https://leetcode-cn.com/problems/koko-eating-bananas/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.ts)|
 |877|[Stone Game](https://leetcode-cn.com/problems/stone-game/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[877]石子游戏/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[877]石子游戏/solution.ts)|
+|879|[Profitable Schemes](https://leetcode-cn.com/problems/profitable-schemes/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[879]盈利计划/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[879]盈利计划/solution.ts)|
 |888|[Fair Candy Swap](https://leetcode-cn.com/problems/fair-candy-swap/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[888]公平的糖果交换/solution.ts)|
 |896|[Monotonic Array](https://leetcode-cn.com/problems/monotonic-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.ts)|
 |897|[Increasing Order Search Tree](https://leetcode-cn.com/problems/increasing-order-search-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[897]递增顺序搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[897]递增顺序搜索树/solution.ts)|
