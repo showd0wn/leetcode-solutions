@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|153|33|283|
-|**Total**|426|930|394|1750|
+|**Accept**|97|154|33|284|
+|**Total**|426|931|394|1751|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -135,6 +135,7 @@
 |263|[Ugly Number](https://leetcode-cn.com/problems/ugly-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[263]丑数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[263]丑数/solution.ts)|
 |264|[Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[264]丑数%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[264]丑数%20II/solution.ts)|
 |278|[First Bad Version](https://leetcode-cn.com/problems/first-bad-version/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[278]第一个错误的版本/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[278]第一个错误的版本/solution.ts)|
+|279|[Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[279]完全平方数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[279]完全平方数/solution.ts)|
 |283|[Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[283]移动零/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[283]移动零/solution.ts)|
 |289|[Game of Life](https://leetcode-cn.com/problems/game-of-life/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[289]生命游戏/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[289]生命游戏/solution.ts)|
 |295|[Find Median from Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[295]数据流的中位数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[295]数据流的中位数/solution.ts)|

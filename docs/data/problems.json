@@ -1469,6 +1469,17 @@
             ]
         },
         {
+            "id": "279",
+            "level": 2,
+            "title": "Perfect Squares",
+            "title_slug": "perfect-squares",
+            "lock": false,
+            "caption": "完全平方数",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "283",
             "level": 1,
             "title": "Move Zeroes",
@@ -3307,8 +3318,8 @@
             "accept": 97
         },
         "Medium": {
-            "total": 930,
-            "accept": 153
+            "total": 931,
+            "accept": 154
         },
         "Hard": {
             "total": 394,
