@@ -1706,6 +1706,17 @@
             ]
         },
         {
+            "id": "374",
+            "level": 1,
+            "title": "Guess Number Higher or Lower",
+            "title_slug": "guess-number-higher-or-lower",
+            "lock": false,
+            "caption": "猜数字大小",
+            "topics": [
+                "二分查找"
+            ]
+        },
+        {
             "id": "377",
             "level": 2,
             "title": "Combination Sum IV",
@@ -3314,15 +3325,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 426,
-            "accept": 97
+            "total": 428,
+            "accept": 98
         },
         "Medium": {
-            "total": 931,
+            "total": 935,
             "accept": 154
         },
         "Hard": {
-            "total": 394,
+            "total": 396,
             "accept": 33
         }
     }
