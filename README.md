@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|97|154|33|284|
-|**Total**|426|931|394|1751|
+|**Accept**|98|154|33|285|
+|**Total**|428|935|396|1759|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -155,6 +155,7 @@
 |354|[Russian Doll Envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[354]俄罗斯套娃信封问题/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[354]俄罗斯套娃信封问题/solution.ts)|
 |363|[Max Sum of Rectangle No Larger Than K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[363]矩形区域不超过%20K%20的最大数值和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[363]矩形区域不超过%20K%20的最大数值和/solution.ts)|
 |368|[Largest Divisible Subset](https://leetcode-cn.com/problems/largest-divisible-subset/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[368]最大整除子集/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[368]最大整除子集/solution.ts)|
+|374|[Guess Number Higher or Lower](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[374]猜数字大小/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[374]猜数字大小/solution.ts)|
 |377|[Combination Sum IV](https://leetcode-cn.com/problems/combination-sum-iv/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[377]组合总和%20Ⅳ/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[377]组合总和%20Ⅳ/solution.ts)|
 |380|[Insert Delete GetRandom O(1)](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[380]常数时间插入、删除和获取随机元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[380]常数时间插入、删除和获取随机元素/solution.ts)|
 |384|[Shuffle an Array](https://leetcode-cn.com/problems/shuffle-an-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[384]打乱数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[384]打乱数组/solution.ts)|
