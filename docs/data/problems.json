@@ -2560,6 +2560,17 @@
             ]
         },
         {
+            "id": "852",
+            "level": 1,
+            "title": "Peak Index in a Mountain Array",
+            "title_slug": "peak-index-in-a-mountain-array",
+            "lock": false,
+            "caption": "山脉数组的峰顶索引",
+            "topics": [
+                "二分查找"
+            ]
+        },
+        {
             "id": "867",
             "level": 1,
             "title": "Transpose Matrix",
@@ -3326,7 +3337,7 @@
     "stats": {
         "Easy": {
             "total": 428,
-            "accept": 98
+            "accept": 99
         },
         "Medium": {
             "total": 935,

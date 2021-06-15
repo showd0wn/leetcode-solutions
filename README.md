@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|98|154|33|285|
+|**Accept**|99|154|33|286|
 |**Total**|428|935|396|1759|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -229,6 +229,7 @@
 |832|[Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[832]翻转图像/solution.ts)|
 |839|[Similar String Groups](https://leetcode-cn.com/problems/similar-string-groups/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.ts)|
 |844|[Backspace String Compare](https://leetcode-cn.com/problems/backspace-string-compare/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.ts)|
+|852|[Peak Index in a Mountain Array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[852]山脉数组的峰顶索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[852]山脉数组的峰顶索引/solution.ts)|
 |867|[Transpose Matrix](https://leetcode-cn.com/problems/transpose-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[867]转置矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[867]转置矩阵/solution.ts)|
 |872|[Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[872]叶子相似的树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[872]叶子相似的树/solution.ts)|
 |875|[Koko Eating Bananas](https://leetcode-cn.com/problems/koko-eating-bananas/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.ts)|
