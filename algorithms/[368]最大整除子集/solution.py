@@ -33,8 +33,3 @@ class Solution:
                 res.append(num)
 
         return res[::-1]
-
-
-s = Solution()
-
-print(s.largestDivisibleSubset([4, 8, 10, 240]))
