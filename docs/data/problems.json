@@ -3143,6 +3143,17 @@
             ]
         },
         {
+            "id": "1449",
+            "level": 3,
+            "title": "Form Largest Integer With Digits That Add up to Target",
+            "title_slug": "form-largest-integer-with-digits-that-add-up-to-target",
+            "lock": false,
+            "caption": "数位成本和为目标值的最大数字",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
             "id": "1438",
             "level": 2,
             "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
@@ -3345,7 +3356,7 @@
         },
         "Hard": {
             "total": 396,
-            "accept": 33
+            "accept": 34
         }
     }
 }
