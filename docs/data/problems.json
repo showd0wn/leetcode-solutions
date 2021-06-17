@@ -492,6 +492,18 @@
             ]
         },
         {
+            "id": "65",
+            "level": 3,
+            "title": "Valid Number",
+            "title_slug": "valid-number",
+            "lock": false,
+            "caption": "有效数字",
+            "topics": [
+                "字符串",
+                "状态机"
+            ]
+        },
+        {
             "id": "66",
             "level": 1,
             "title": "Plus One",
@@ -3351,12 +3363,12 @@
             "accept": 99
         },
         "Medium": {
-            "total": 935,
+            "total": 936,
             "accept": 154
         },
         "Hard": {
             "total": 396,
-            "accept": 34
+            "accept": 35
         }
     }
 }

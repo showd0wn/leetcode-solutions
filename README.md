@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|99|154|34|287|
-|**Total**|428|935|396|1759|
+|**Accept**|99|154|35|288|
+|**Total**|428|936|396|1760|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -52,6 +52,7 @@
 |61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[61]旋转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[61]旋转链表/solution.ts)|
 |62|[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[62]不同路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[62]不同路径/solution.ts)|
 |63|[Unique Paths II](https://leetcode-cn.com/problems/unique-paths-ii/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[63]不同路径%20II/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[63]不同路径%20II/solution.ts)|
+|65|[Valid Number](https://leetcode-cn.com/problems/valid-number/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[65]有效数字/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[65]有效数字/solution.ts)|
 |66|[Plus One](https://leetcode-cn.com/problems/plus-one/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.ts)|
 |69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/solution.ts)|
 |70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[70]爬楼梯/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[70]爬楼梯/solution.ts)|
