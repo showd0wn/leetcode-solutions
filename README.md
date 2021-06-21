@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|99|154|35|288|
-|**Total**|428|936|396|1760|
+|**Accept**|100|155|35|290|
+|**Total**|431|941|396|1768|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -163,6 +163,7 @@
 |387|[First Unique Character in a String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.ts)|
 |394|[Decode String](https://leetcode-cn.com/problems/decode-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[394]字符串解码/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[394]字符串解码/solution.ts)|
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[395]至少有%20K%20个重复字符的最长子串/solution.ts)|
+|401|[Binary Watch](https://leetcode-cn.com/problems/binary-watch/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[401]二进制手表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[401]二进制手表/solution.ts)|
 |403|[Frog Jump](https://leetcode-cn.com/problems/frog-jump/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[403]青蛙过河/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[403]青蛙过河/solution.ts)|
 |406|[Queue Reconstruction by Height](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[406]根据身高重建队伍/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[406]根据身高重建队伍/solution.ts)|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.ts)|
@@ -290,6 +291,7 @@
 |1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.ts)|
 |1584|[Min Cost to Connect All Points](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|
 |1603|[Design Parking System](https://leetcode-cn.com/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|
+|1600|[Throne Inheritance](https://leetcode-cn.com/problems/throne-inheritance/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.ts)|
 |1631|[Path With Minimum Effort](https://leetcode-cn.com/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|
 |1723|[Find Minimum Time to Finish All Jobs](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.ts)|
 |1707|[Maximum XOR With an Element From Array](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.ts)|
