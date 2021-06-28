@@ -3096,6 +3096,18 @@
             ]
         },
         {
+            "id": "1239",
+            "level": 2,
+            "title": "Maximum Length of a Concatenated String with Unique Characters",
+            "title_slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+            "lock": false,
+            "caption": "串联字符串的最大长度",
+            "topics": [
+                "回溯",
+                "位运算"
+            ]
+        },
+        {
             "id": "1269",
             "level": 3,
             "title": "Number of Ways to Stay in the Same Place After Some Steps",
@@ -3413,7 +3425,7 @@
         },
         "Medium": {
             "total": 945,
-            "accept": 156
+            "accept": 157
         },
         "Hard": {
             "total": 398,
