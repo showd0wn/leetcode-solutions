@@ -1197,6 +1197,18 @@
             ]
         },
         {
+            "id": "203",
+            "level": 1,
+            "title": "Remove Linked List Elements",
+            "title_slug": "remove-linked-list-elements",
+            "lock": false,
+            "caption": "移除链表元素",
+            "topics": [
+                "链表",
+                "递归"
+            ]
+        },
+        {
             "id": "204",
             "level": 1,
             "title": "Count Primes",
@@ -2386,6 +2398,19 @@
             ]
         },
         {
+            "id": "752",
+            "level": 2,
+            "title": "Open the Lock",
+            "title_slug": "open-the-lock",
+            "lock": false,
+            "caption": "打开转盘锁",
+            "topics": [
+                "广度优先搜索",
+                "哈希表",
+                "字符串"
+            ]
+        },
+        {
             "id": "765",
             "level": 3,
             "title": "Couples Holding Hands",
@@ -3383,15 +3408,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 431,
-            "accept": 100
+            "total": 434,
+            "accept": 101
         },
         "Medium": {
-            "total": 941,
-            "accept": 155
+            "total": 945,
+            "accept": 156
         },
         "Hard": {
-            "total": 396,
+            "total": 398,
             "accept": 35
         }
     }
