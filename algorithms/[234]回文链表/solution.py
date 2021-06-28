@@ -1,11 +1,5 @@
 # topics = ["链表", "双指针"]
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 from __future__ import annotations
 from typing import Union
 
