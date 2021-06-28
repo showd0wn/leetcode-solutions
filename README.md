@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|100|155|35|290|
-|**Total**|431|941|396|1768|
+|**Accept**|101|156|35|292|
+|**Total**|434|945|398|1777|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -112,6 +112,7 @@
 |198|[House Robber](https://leetcode-cn.com/problems/house-robber/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[198]打家劫舍/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[198]打家劫舍/solution.ts)|
 |200|[Number of Islands](https://leetcode-cn.com/problems/number-of-islands/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[200]岛屿数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[200]岛屿数量/solution.ts)|
 |202|[Happy Number](https://leetcode-cn.com/problems/happy-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[202]快乐数/solution.ts)|
+|203|[Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[203]移除链表元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[203]移除链表元素/solution.ts)|
 |204|[Count Primes](https://leetcode-cn.com/problems/count-primes/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.ts)|
 |206|[Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.ts)|
 |207|[Course Schedule](https://leetcode-cn.com/problems/course-schedule/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[207]课程表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[207]课程表/solution.ts)|
@@ -214,6 +215,7 @@
 |724|[Find Pivot Index](https://leetcode-cn.com/problems/find-pivot-index/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[724]寻找数组的中心索引/solution.ts)|
 |739|[Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[739]每日温度/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[739]每日温度/solution.ts)|
 |740|[Delete and Earn](https://leetcode-cn.com/problems/delete-and-earn/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[740]删除并获得点数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[740]删除并获得点数/solution.ts)|
+|752|[Open the Lock](https://leetcode-cn.com/problems/open-the-lock/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[752]打开转盘锁/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[752]打开转盘锁/solution.ts)|
 |765|[Couples Holding Hands](https://leetcode-cn.com/problems/couples-holding-hands/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[765]情侣牵手/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[765]情侣牵手/solution.ts)|
 |766|[Toeplitz Matrix](https://leetcode-cn.com/problems/toeplitz-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[766]托普利茨矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[766]托普利茨矩阵/solution.ts)|
 |703|[Kth Largest Element in a Stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[703]数据流中的第%20K%20大元素/solution.ts)|
