@@ -1098,6 +1098,17 @@
             ]
         },
         {
+            "id": "168",
+            "level": 1,
+            "title": "Excel Sheet Column Title",
+            "title_slug": "excel-sheet-column-title",
+            "lock": false,
+            "caption": "Excel表列名称",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
             "id": "169",
             "level": 1,
             "title": "Majority Element",
@@ -3421,7 +3432,7 @@
     "stats": {
         "Easy": {
             "total": 434,
-            "accept": 101
+            "accept": 102
         },
         "Medium": {
             "total": 945,
