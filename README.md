@@ -4,7 +4,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|102|157|35|294|
+|**Accept**|102|158|35|295|
 |**Total**|434|945|398|1777|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
@@ -244,6 +244,7 @@
 |896|[Monotonic Array](https://leetcode-cn.com/problems/monotonic-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[896]单调数列/solution.ts)|
 |897|[Increasing Order Search Tree](https://leetcode-cn.com/problems/increasing-order-search-tree/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[897]递增顺序搜索树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[897]递增顺序搜索树/solution.ts)|
 |904|[Fruit Into Baskets](https://leetcode-cn.com/problems/fruit-into-baskets/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[904]水果成篮/solution.ts)|
+|909|[Snakes and Ladders](https://leetcode-cn.com/problems/snakes-and-ladders/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[909]蛇梯棋/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[909]蛇梯棋/solution.ts)|
 |912|[Sort an Array](https://leetcode-cn.com/problems/sort-an-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[912]排序数组/solution.ts)|
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[921]使括号有效的最少添加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[921]使括号有效的最少添加/solution.ts)|
 |933|[Number of Recent Calls](https://leetcode-cn.com/problems/number-of-recent-calls/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[933]最近的请求次数/solution.ts)|

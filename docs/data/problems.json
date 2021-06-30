@@ -2732,6 +2732,17 @@
             ]
         },
         {
+            "id": "909",
+            "level": 2,
+            "title": "Snakes and Ladders",
+            "title_slug": "snakes-and-ladders",
+            "lock": false,
+            "caption": "蛇梯棋",
+            "topics": [
+                "广度优先搜索"
+            ]
+        },
+        {
             "id": "912",
             "level": 2,
             "title": "Sort an Array",
@@ -3436,7 +3447,7 @@
         },
         "Medium": {
             "total": 945,
-            "accept": 157
+            "accept": 158
         },
         "Hard": {
             "total": 398,
