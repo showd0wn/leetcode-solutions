@@ -794,8 +794,8 @@
             "caption": "二叉树的锯齿形层序遍历",
             "topics": [
                 "树",
-                "广度优先搜索",
-                "递归"
+                "递归",
+                "广度优先搜索"
             ]
         },
         {
@@ -3438,19 +3438,31 @@
             "topics": [
                 "数组"
             ]
+        },
+        {
+            "id": "1833",
+            "level": 2,
+            "title": "Maximum Ice Cream Bars",
+            "title_slug": "maximum-ice-cream-bars",
+            "lock": false,
+            "caption": "雪糕的最大数量",
+            "topics": [
+                "数组",
+                "贪心算法"
+            ]
         }
     ],
     "stats": {
         "Easy": {
-            "total": 434,
+            "total": 435,
             "accept": 102
         },
         "Medium": {
-            "total": 945,
-            "accept": 158
+            "total": 947,
+            "accept": 159
         },
         "Hard": {
-            "total": 398,
+            "total": 400,
             "accept": 35
         }
     }
