@@ -4,8 +4,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|102|158|35|295|
-|**Total**|434|945|398|1777|
+|**Accept**|102|159|35|296|
+|**Total**|435|947|400|1782|
 ### 题解
 | ID | Title | Difficulty | Python | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
@@ -304,3 +304,4 @@
 |1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|
 |1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.ts)|
 |1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.ts)|
+|1833|[Maximum Ice Cream Bars](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.ts)|
