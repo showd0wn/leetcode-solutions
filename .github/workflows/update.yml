@@ -2,7 +2,7 @@ name: Update Readme
 
 on:
   push:
-    branches: [ master ]
+    branches: [ 2021 ]
 
 jobs:
   update:
