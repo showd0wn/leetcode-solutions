@@ -4,81 +4,81 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|46|58|2|106|
-|**Total**|390|824|351|1565|
+|**Accept**|43|61|2|106|
+|**Total**|454|1016|432|1902|
 ### 题解
 | &nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp; | Title | Difficulty | &nbsp;&nbsp;Java&nbsp;&nbsp; | JavaScript | Python |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|1|[Two Sum](https://leetcode-cn.com/problems/Two-Sum/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.py)|
-|2|[Add Two Numbers](https://leetcode-cn.com/problems/Add-Two-Numbers/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.js)|To Do|
-|3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/Longest-Substring-Without-Repeating-Characters/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.js)|To Do|
+|1|[Two Sum](https://leetcode-cn.com/problems/Two-Sum/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1]两数之和/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1]两数之和/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1]两数之和/solution.py)|
+|2|[Add Two Numbers](https://leetcode-cn.com/problems/Add-Two-Numbers/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[2]两数相加/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[2]两数相加/solution.js)|To Do|
+|3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/Longest-Substring-Without-Repeating-Characters/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[3]无重复字符的最长子串/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[3]无重复字符的最长子串/solution.js)|To Do|
 |4|[Median of Two Sorted Arrays](https://leetcode-cn.com/problems/Median-of-Two-Sorted-Arrays/)|Hard|To Do|To Do|To Do|
-|5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/Longest-Palindromic-Substring/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/solution.js)|To Do|
+|5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/Longest-Palindromic-Substring/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[5]最长回文子串/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[5]最长回文子串/solution.js)|To Do|
 |6|[ZigZag Conversion](https://leetcode-cn.com/problems/ZigZag-Conversion/)|Medium|To Do|To Do|To Do|
-|7|[Reverse Integer](https://leetcode-cn.com/problems/Reverse-Integer/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.py)|
-|8|[String to Integer (atoi)](https://leetcode-cn.com/problems/String-to-Integer-atoi/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[8]字符串转换整数%20(atoi)/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[8]字符串转换整数%20(atoi)/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[8]字符串转换整数%20(atoi)/solution.py)|
-|9|[Palindrome Number](https://leetcode-cn.com/problems/Palindrome-Number/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[9]回文数/Solution.java)|To Do|To Do|
+|7|[Reverse Integer](https://leetcode-cn.com/problems/Reverse-Integer/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[7]整数反转/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[7]整数反转/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[7]整数反转/solution.py)|
+|8|[String to Integer (atoi)](https://leetcode-cn.com/problems/String-to-Integer-atoi/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[8]字符串转换整数%20(atoi)/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[8]字符串转换整数%20(atoi)/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[8]字符串转换整数%20(atoi)/solution.py)|
+|9|[Palindrome Number](https://leetcode-cn.com/problems/Palindrome-Number/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[9]回文数/Solution.java)|To Do|To Do|
 |10|[Regular Expression Matching](https://leetcode-cn.com/problems/Regular-Expression-Matching/)|Hard|To Do|To Do|To Do|
-|11|[Container With Most Water](https://leetcode-cn.com/problems/Container-With-Most-Water/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[11]盛水最多的容器/solution.js)|To Do|
+|11|[Container With Most Water](https://leetcode-cn.com/problems/Container-With-Most-Water/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[11]盛水最多的容器/solution.js)|To Do|
 |12|[Integer to Roman](https://leetcode-cn.com/problems/Integer-to-Roman/)|Medium|To Do|To Do|To Do|
 |13|[Roman to Integer](https://leetcode-cn.com/problems/Roman-to-Integer/)|Easy|To Do|To Do|To Do|
-|14|[Longest Common Prefix](https://leetcode-cn.com/problems/Longest-Common-Prefix/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.py)|
-|15|[3Sum](https://leetcode-cn.com/problems/3Sum/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[15]三数之和/solution.js)|To Do|
+|14|[Longest Common Prefix](https://leetcode-cn.com/problems/Longest-Common-Prefix/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[14]最长公共前缀/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[14]最长公共前缀/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[14]最长公共前缀/solution.py)|
+|15|[3Sum](https://leetcode-cn.com/problems/3Sum/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[15]三数之和/solution.js)|To Do|
 |16|[3Sum Closest](https://leetcode-cn.com/problems/3Sum-Closest/)|Medium|To Do|To Do|To Do|
-|17|[Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/Letter-Combinations-of-a-Phone-Number/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[17]电话号码的字母组合/solution.js)|To Do|
+|17|[Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/Letter-Combinations-of-a-Phone-Number/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[17]电话号码的字母组合/solution.js)|To Do|
 |18|[4Sum](https://leetcode-cn.com/problems/4Sum/)|Medium|To Do|To Do|To Do|
-|19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/Remove-Nth-Node-From-End-of-List/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.py)|
-|20|[Valid Parentheses](https://leetcode-cn.com/problems/Valid-Parentheses/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/Solution.java)|To Do|To Do|
-|21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/Merge-Two-Sorted-Lists/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.py)|
+|19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/Remove-Nth-Node-From-End-of-List/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[19]删除链表的倒数第N个节点/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[19]删除链表的倒数第N个节点/solution.py)|
+|20|[Valid Parentheses](https://leetcode-cn.com/problems/Valid-Parentheses/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[20]有效的括号/Solution.java)|To Do|To Do|
+|21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/Merge-Two-Sorted-Lists/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[21]合并两个有序链表/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[21]合并两个有序链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[21]合并两个有序链表/solution.py)|
 |22|[Generate Parentheses](https://leetcode-cn.com/problems/Generate-Parentheses/)|Medium|To Do|To Do|To Do|
 |23|[Merge k Sorted Lists](https://leetcode-cn.com/problems/Merge-k-Sorted-Lists/)|Hard|To Do|To Do|To Do|
 |24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/Swap-Nodes-in-Pairs/)|Medium|To Do|To Do|To Do|
 |25|[Reverse Nodes in k-Group](https://leetcode-cn.com/problems/Reverse-Nodes-in-k-Group/)|Hard|To Do|To Do|To Do|
-|26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/Remove-Duplicates-from-Sorted-Array/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[26]删除排序数组中的重复项/solution.py)|
+|26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/Remove-Duplicates-from-Sorted-Array/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[26]删除排序数组中的重复项/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[26]删除排序数组中的重复项/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[26]删除排序数组中的重复项/solution.py)|
 |27|[Remove Element](https://leetcode-cn.com/problems/Remove-Element/)|Easy|To Do|To Do|To Do|
-|28|[Implement strStr()](https://leetcode-cn.com/problems/Implement-strStr/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[28]实现%20strStr()/solution.py)|
+|28|[Implement strStr()](https://leetcode-cn.com/problems/Implement-strStr/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[28]实现%20strStr()/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[28]实现%20strStr()/solution.py)|
 |29|[Divide Two Integers](https://leetcode-cn.com/problems/Divide-Two-Integers/)|Medium|To Do|To Do|To Do|
-|30|[Substring with Concatenation of All Words](https://leetcode-cn.com/problems/Substring-with-Concatenation-of-All-Words/)|Hard|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[30]最长上升子序列/solution.js)|To Do|
-|31|[Next Permutation](https://leetcode-cn.com/problems/Next-Permutation/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[31]下一个排列/solution.js)|To Do|
+|30|[Substring with Concatenation of All Words](https://leetcode-cn.com/problems/Substring-with-Concatenation-of-All-Words/)|Hard|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[30]最长上升子序列/solution.js)|To Do|
+|31|[Next Permutation](https://leetcode-cn.com/problems/Next-Permutation/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[31]下一个排列/solution.js)|To Do|
 |32|[Longest Valid Parentheses](https://leetcode-cn.com/problems/Longest-Valid-Parentheses/)|Hard|To Do|To Do|To Do|
 |33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/Search-in-Rotated-Sorted-Array/)|Medium|To Do|To Do|To Do|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/Find-First-and-Last-Position-of-Element-in-Sorted-Array/)|Medium|To Do|To Do|To Do|
-|35|[Search Insert Position](https://leetcode-cn.com/problems/Search-Insert-Position/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[35]搜索插入位置/solution.js)|To Do|
-|36|[Valid Sudoku](https://leetcode-cn.com/problems/Valid-Sudoku/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[36]有效的数独/solution.py)|
+|35|[Search Insert Position](https://leetcode-cn.com/problems/Search-Insert-Position/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[35]搜索插入位置/solution.js)|To Do|
+|36|[Valid Sudoku](https://leetcode-cn.com/problems/Valid-Sudoku/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[36]有效的数独/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[36]有效的数独/solution.py)|
 |37|[Sudoku Solver](https://leetcode-cn.com/problems/Sudoku-Solver/)|Hard|To Do|To Do|To Do|
-|38|[Count and Say](https://leetcode-cn.com/problems/Count-and-Say/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]报数/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[38]报数/solution.py)|
+|38|[Count and Say](https://leetcode-cn.com/problems/Count-and-Say/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[38]报数/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[38]报数/solution.py)|
 |39|[Combination Sum](https://leetcode-cn.com/problems/Combination-Sum/)|Medium|To Do|To Do|To Do|
 |40|[Combination Sum II](https://leetcode-cn.com/problems/Combination-Sum-II/)|Medium|To Do|To Do|To Do|
 |41|[First Missing Positive](https://leetcode-cn.com/problems/First-Missing-Positive/)|Hard|To Do|To Do|To Do|
 |42|[Trapping Rain Water](https://leetcode-cn.com/problems/Trapping-Rain-Water/)|Hard|To Do|To Do|To Do|
 |43|[Multiply Strings](https://leetcode-cn.com/problems/Multiply-Strings/)|Medium|To Do|To Do|To Do|
 |44|[Wildcard Matching](https://leetcode-cn.com/problems/Wildcard-Matching/)|Hard|To Do|To Do|To Do|
-|45|[Jump Game II](https://leetcode-cn.com/problems/Jump-Game-II/)|Hard|To Do|To Do|To Do|
-|46|[Permutations](https://leetcode-cn.com/problems/Permutations/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[46]全排列/solution.js)|To Do|
+|45|[Jump Game II](https://leetcode-cn.com/problems/Jump-Game-II/)|Medium|To Do|To Do|To Do|
+|46|[Permutations](https://leetcode-cn.com/problems/Permutations/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[46]全排列/solution.js)|To Do|
 |47|[Permutations II](https://leetcode-cn.com/problems/Permutations-II/)|Medium|To Do|To Do|To Do|
-|48|[Rotate Image](https://leetcode-cn.com/problems/Rotate-Image/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[48]旋转图像/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[48]旋转图像/solution.py)|
+|48|[Rotate Image](https://leetcode-cn.com/problems/Rotate-Image/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[48]旋转图像/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[48]旋转图像/solution.py)|
 |49|[Group Anagrams](https://leetcode-cn.com/problems/Group-Anagrams/)|Medium|To Do|To Do|To Do|
 |50|[Pow(x, n)](https://leetcode-cn.com/problems/Powx,-n/)|Medium|To Do|To Do|To Do|
 |51|[N-Queens](https://leetcode-cn.com/problems/N-Queens/)|Hard|To Do|To Do|To Do|
 |52|[N-Queens II](https://leetcode-cn.com/problems/N-Queens-II/)|Hard|To Do|To Do|To Do|
-|53|[Maximum Subarray](https://leetcode-cn.com/problems/Maximum-Subarray/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[53]最大子序和/Solution.java)|To Do|To Do|
+|53|[Maximum Subarray](https://leetcode-cn.com/problems/Maximum-Subarray/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[53]最大子序和/Solution.java)|To Do|To Do|
 |54|[Spiral Matrix](https://leetcode-cn.com/problems/Spiral-Matrix/)|Medium|To Do|To Do|To Do|
-|55|[Jump Game](https://leetcode-cn.com/problems/Jump-Game/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[55]跳跃游戏/solution.js)|To Do|
-|56|[Merge Intervals](https://leetcode-cn.com/problems/Merge-Intervals/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[56]合并区间/solution.js)|To Do|
-|57|[Insert Interval](https://leetcode-cn.com/problems/Insert-Interval/)|Hard|To Do|To Do|To Do|
+|55|[Jump Game](https://leetcode-cn.com/problems/Jump-Game/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[55]跳跃游戏/solution.js)|To Do|
+|56|[Merge Intervals](https://leetcode-cn.com/problems/Merge-Intervals/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[56]合并区间/solution.js)|To Do|
+|57|[Insert Interval](https://leetcode-cn.com/problems/Insert-Interval/)|Medium|To Do|To Do|To Do|
 |58|[Length of Last Word](https://leetcode-cn.com/problems/Length-of-Last-Word/)|Easy|To Do|To Do|To Do|
 |59|[Spiral Matrix II](https://leetcode-cn.com/problems/Spiral-Matrix-II/)|Medium|To Do|To Do|To Do|
 |60|[Permutation Sequence](https://leetcode-cn.com/problems/Permutation-Sequence/)|Hard|To Do|To Do|To Do|
 |61|[Rotate List](https://leetcode-cn.com/problems/Rotate-List/)|Medium|To Do|To Do|To Do|
-|62|[Unique Paths](https://leetcode-cn.com/problems/Unique-Paths/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[62]不同路径/solution.js)|To Do|
+|62|[Unique Paths](https://leetcode-cn.com/problems/Unique-Paths/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[62]不同路径/solution.js)|To Do|
 |63|[Unique Paths II](https://leetcode-cn.com/problems/Unique-Paths-II/)|Medium|To Do|To Do|To Do|
 |64|[Minimum Path Sum](https://leetcode-cn.com/problems/Minimum-Path-Sum/)|Medium|To Do|To Do|To Do|
 |65|[Valid Number](https://leetcode-cn.com/problems/Valid-Number/)|Hard|To Do|To Do|To Do|
-|66|[Plus One](https://leetcode-cn.com/problems/Plus-One/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[66]加一/solution.py)|
+|66|[Plus One](https://leetcode-cn.com/problems/Plus-One/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[66]加一/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[66]加一/solution.py)|
 |67|[Add Binary](https://leetcode-cn.com/problems/Add-Binary/)|Easy|To Do|To Do|To Do|
 |68|[Text Justification](https://leetcode-cn.com/problems/Text-Justification/)|Hard|To Do|To Do|To Do|
-|69|[Sqrt(x)](https://leetcode-cn.com/problems/Sqrtx/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[69]x%20的平方根/Solution.java)|To Do|To Do|
-|70|[Climbing Stairs](https://leetcode-cn.com/problems/Climbing-Stairs/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[70]爬楼梯/Solution.java)|To Do|To Do|
+|69|[Sqrt(x)](https://leetcode-cn.com/problems/Sqrtx/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[69]x%20的平方根/Solution.java)|To Do|To Do|
+|70|[Climbing Stairs](https://leetcode-cn.com/problems/Climbing-Stairs/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[70]爬楼梯/Solution.java)|To Do|To Do|
 |71|[Simplify Path](https://leetcode-cn.com/problems/Simplify-Path/)|Medium|To Do|To Do|To Do|
 |72|[Edit Distance](https://leetcode-cn.com/problems/Edit-Distance/)|Hard|To Do|To Do|To Do|
 |73|[Set Matrix Zeroes](https://leetcode-cn.com/problems/Set-Matrix-Zeroes/)|Medium|To Do|To Do|To Do|
@@ -96,30 +96,30 @@
 |85|[Maximal Rectangle](https://leetcode-cn.com/problems/Maximal-Rectangle/)|Hard|To Do|To Do|To Do|
 |86|[Partition List](https://leetcode-cn.com/problems/Partition-List/)|Medium|To Do|To Do|To Do|
 |87|[Scramble String](https://leetcode-cn.com/problems/Scramble-String/)|Hard|To Do|To Do|To Do|
-|88|[Merge Sorted Array](https://leetcode-cn.com/problems/Merge-Sorted-Array/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[88]合并两个有序数组/solution.py)|
+|88|[Merge Sorted Array](https://leetcode-cn.com/problems/Merge-Sorted-Array/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[88]合并两个有序数组/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[88]合并两个有序数组/solution.py)|
 |89|[Gray Code](https://leetcode-cn.com/problems/Gray-Code/)|Medium|To Do|To Do|To Do|
 |90|[Subsets II](https://leetcode-cn.com/problems/Subsets-II/)|Medium|To Do|To Do|To Do|
 |91|[Decode Ways](https://leetcode-cn.com/problems/Decode-Ways/)|Medium|To Do|To Do|To Do|
 |92|[Reverse Linked List II](https://leetcode-cn.com/problems/Reverse-Linked-List-II/)|Medium|To Do|To Do|To Do|
-|93|[Restore IP Addresses](https://leetcode-cn.com/problems/Restore-IP-Addresses/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[93]复原IP地址/solution.js)|To Do|
-|94|[Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/Binary-Tree-Inorder-Traversal/)|Medium|To Do|To Do|To Do|
+|93|[Restore IP Addresses](https://leetcode-cn.com/problems/Restore-IP-Addresses/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[93]复原IP地址/solution.js)|To Do|
+|94|[Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/Binary-Tree-Inorder-Traversal/)|Easy|To Do|To Do|To Do|
 |95|[Unique Binary Search Trees II](https://leetcode-cn.com/problems/Unique-Binary-Search-Trees-II/)|Medium|To Do|To Do|To Do|
 |96|[Unique Binary Search Trees](https://leetcode-cn.com/problems/Unique-Binary-Search-Trees/)|Medium|To Do|To Do|To Do|
-|97|[Interleaving String](https://leetcode-cn.com/problems/Interleaving-String/)|Hard|To Do|To Do|To Do|
-|98|[Validate Binary Search Tree](https://leetcode-cn.com/problems/Validate-Binary-Search-Tree/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[98]验证二叉搜索树/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[98]验证二叉搜索树/solution.py)|
-|99|[Recover Binary Search Tree](https://leetcode-cn.com/problems/Recover-Binary-Search-Tree/)|Hard|To Do|To Do|To Do|
+|97|[Interleaving String](https://leetcode-cn.com/problems/Interleaving-String/)|Medium|To Do|To Do|To Do|
+|98|[Validate Binary Search Tree](https://leetcode-cn.com/problems/Validate-Binary-Search-Tree/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[98]验证二叉搜索树/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[98]验证二叉搜索树/solution.py)|
+|99|[Recover Binary Search Tree](https://leetcode-cn.com/problems/Recover-Binary-Search-Tree/)|Medium|To Do|To Do|To Do|
 |100|[Same Tree](https://leetcode-cn.com/problems/Same-Tree/)|Easy|To Do|To Do|To Do|
-|101|[Symmetric Tree](https://leetcode-cn.com/problems/Symmetric-Tree/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[101]对称二叉树/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[101]对称二叉树/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[101]对称二叉树/solution.py)|
-|102|[Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/Binary-Tree-Level-Order-Traversal/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[102]二叉树的层次遍历/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[102]二叉树的层次遍历/solution.py)|
-|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/Binary-Tree-Zigzag-Level-Order-Traversal/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[103]二叉树的锯齿形层次遍历/solution.js)|To Do|
-|104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/Maximum-Depth-of-Binary-Tree/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[104]二叉树的最大深度/solution.py)|
+|101|[Symmetric Tree](https://leetcode-cn.com/problems/Symmetric-Tree/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[101]对称二叉树/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[101]对称二叉树/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[101]对称二叉树/solution.py)|
+|102|[Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/Binary-Tree-Level-Order-Traversal/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[102]二叉树的层次遍历/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[102]二叉树的层次遍历/solution.py)|
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/Binary-Tree-Zigzag-Level-Order-Traversal/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[103]二叉树的锯齿形层次遍历/solution.js)|To Do|
+|104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/Maximum-Depth-of-Binary-Tree/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[104]二叉树的最大深度/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[104]二叉树的最大深度/solution.py)|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/)|Medium|To Do|To Do|To Do|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode-cn.com/problems/Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal/)|Medium|To Do|To Do|To Do|
-|107|[Binary Tree Level Order Traversal II](https://leetcode-cn.com/problems/Binary-Tree-Level-Order-Traversal-II/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[107]二叉树的层次遍历%20II/solution.js)|To Do|
-|108|[Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/Convert-Sorted-Array-to-Binary-Search-Tree/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[108]将有序数组转换为二叉搜索树/solution.py)|
+|107|[Binary Tree Level Order Traversal II](https://leetcode-cn.com/problems/Binary-Tree-Level-Order-Traversal-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[107]二叉树的层次遍历%20II/solution.js)|To Do|
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/Convert-Sorted-Array-to-Binary-Search-Tree/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[108]将有序数组转换为二叉搜索树/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[108]将有序数组转换为二叉搜索树/solution.py)|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode-cn.com/problems/Convert-Sorted-List-to-Binary-Search-Tree/)|Medium|To Do|To Do|To Do|
 |110|[Balanced Binary Tree](https://leetcode-cn.com/problems/Balanced-Binary-Tree/)|Easy|To Do|To Do|To Do|
-|111|[Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/Minimum-Depth-of-Binary-Tree/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[111]二叉树的最小深度/solution.js)|To Do|
+|111|[Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/Minimum-Depth-of-Binary-Tree/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[111]二叉树的最小深度/solution.js)|To Do|
 |112|[Path Sum](https://leetcode-cn.com/problems/Path-Sum/)|Easy|To Do|To Do|To Do|
 |113|[Path Sum II](https://leetcode-cn.com/problems/Path-Sum-II/)|Medium|To Do|To Do|To Do|
 |114|[Flatten Binary Tree to Linked List](https://leetcode-cn.com/problems/Flatten-Binary-Tree-to-Linked-List/)|Medium|To Do|To Do|To Do|
@@ -129,31 +129,31 @@
 |118|[Pascal's Triangle](https://leetcode-cn.com/problems/Pascal's-Triangle/)|Easy|To Do|To Do|To Do|
 |119|[Pascal's Triangle II](https://leetcode-cn.com/problems/Pascal's-Triangle-II/)|Easy|To Do|To Do|To Do|
 |120|[Triangle](https://leetcode-cn.com/problems/Triangle/)|Medium|To Do|To Do|To Do|
-|121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[121]买卖股票的最佳时机/Solution.java)|To Do|To Do|
-|122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-II/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|
+|121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[121]买卖股票的最佳时机/Solution.java)|To Do|To Do|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[122]买卖股票的最佳时机%20II/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[122]买卖股票的最佳时机%20II/solution.py)|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-III/)|Hard|To Do|To Do|To Do|
 |124|[Binary Tree Maximum Path Sum](https://leetcode-cn.com/problems/Binary-Tree-Maximum-Path-Sum/)|Hard|To Do|To Do|To Do|
-|125|[Valid Palindrome](https://leetcode-cn.com/problems/Valid-Palindrome/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[125]验证回文字符串/solution.py)|
+|125|[Valid Palindrome](https://leetcode-cn.com/problems/Valid-Palindrome/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[125]验证回文字符串/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[125]验证回文字符串/solution.py)|
 |126|[Word Ladder II](https://leetcode-cn.com/problems/Word-Ladder-II/)|Hard|To Do|To Do|To Do|
-|127|[Word Ladder](https://leetcode-cn.com/problems/Word-Ladder/)|Medium|To Do|To Do|To Do|
-|128|[Longest Consecutive Sequence](https://leetcode-cn.com/problems/Longest-Consecutive-Sequence/)|Hard|To Do|To Do|To Do|
+|127|[Word Ladder](https://leetcode-cn.com/problems/Word-Ladder/)|Hard|To Do|To Do|To Do|
+|128|[Longest Consecutive Sequence](https://leetcode-cn.com/problems/Longest-Consecutive-Sequence/)|Medium|To Do|To Do|To Do|
 |129|[Sum Root to Leaf Numbers](https://leetcode-cn.com/problems/Sum-Root-to-Leaf-Numbers/)|Medium|To Do|To Do|To Do|
 |130|[Surrounded Regions](https://leetcode-cn.com/problems/Surrounded-Regions/)|Medium|To Do|To Do|To Do|
 |131|[Palindrome Partitioning](https://leetcode-cn.com/problems/Palindrome-Partitioning/)|Medium|To Do|To Do|To Do|
 |132|[Palindrome Partitioning II](https://leetcode-cn.com/problems/Palindrome-Partitioning-II/)|Hard|To Do|To Do|To Do|
 |133|[Clone Graph](https://leetcode-cn.com/problems/Clone-Graph/)|Medium|To Do|To Do|To Do|
-|134|[Gas Station](https://leetcode-cn.com/problems/Gas-Station/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[134]加油站/solution.js)|To Do|
+|134|[Gas Station](https://leetcode-cn.com/problems/Gas-Station/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[134]加油站/solution.js)|To Do|
 |135|[Candy](https://leetcode-cn.com/problems/Candy/)|Hard|To Do|To Do|To Do|
-|136|[Single Number](https://leetcode-cn.com/problems/Single-Number/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[136]只出现一次的数字/solution.py)|
+|136|[Single Number](https://leetcode-cn.com/problems/Single-Number/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[136]只出现一次的数字/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[136]只出现一次的数字/solution.py)|
 |137|[Single Number II](https://leetcode-cn.com/problems/Single-Number-II/)|Medium|To Do|To Do|To Do|
 |138|[Copy List with Random Pointer](https://leetcode-cn.com/problems/Copy-List-with-Random-Pointer/)|Medium|To Do|To Do|To Do|
 |139|[Word Break](https://leetcode-cn.com/problems/Word-Break/)|Medium|To Do|To Do|To Do|
 |140|[Word Break II](https://leetcode-cn.com/problems/Word-Break-II/)|Hard|To Do|To Do|To Do|
-|141|[Linked List Cycle](https://leetcode-cn.com/problems/Linked-List-Cycle/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[141]环形链表/solution.py)|
+|141|[Linked List Cycle](https://leetcode-cn.com/problems/Linked-List-Cycle/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[141]环形链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[141]环形链表/solution.py)|
 |142|[Linked List Cycle II](https://leetcode-cn.com/problems/Linked-List-Cycle-II/)|Medium|To Do|To Do|To Do|
 |143|[Reorder List](https://leetcode-cn.com/problems/Reorder-List/)|Medium|To Do|To Do|To Do|
-|144|[Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/Binary-Tree-Preorder-Traversal/)|Medium|To Do|To Do|To Do|
-|145|[Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/Binary-Tree-Postorder-Traversal/)|Medium|To Do|To Do|To Do|
+|144|[Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/Binary-Tree-Preorder-Traversal/)|Easy|To Do|To Do|To Do|
+|145|[Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/Binary-Tree-Postorder-Traversal/)|Easy|To Do|To Do|To Do|
 |146|[LRU Cache](https://leetcode-cn.com/problems/LRU-Cache/)|Medium|To Do|To Do|To Do|
 |147|[Insertion Sort List](https://leetcode-cn.com/problems/Insertion-Sort-List/)|Medium|To Do|To Do|To Do|
 |148|[Sort List](https://leetcode-cn.com/problems/Sort-List/)|Medium|To Do|To Do|To Do|
@@ -163,15 +163,15 @@
 |152|[Maximum Product Subarray](https://leetcode-cn.com/problems/Maximum-Product-Subarray/)|Medium|To Do|To Do|To Do|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/Find-Minimum-in-Rotated-Sorted-Array/)|Medium|To Do|To Do|To Do|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode-cn.com/problems/Find-Minimum-in-Rotated-Sorted-Array-II/)|Hard|To Do|To Do|To Do|
-|155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[155]最小栈/solution.py)|
+|155|[Min Stack](https://leetcode-cn.com/problems/Min-Stack/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[155]最小栈/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[155]最小栈/solution.py)|
 |156|[Binary Tree Upside Down :lock:](https://leetcode-cn.com/problems/Binary-Tree-Upside-Down/)|Medium|To Do|To Do|To Do|
 |157|[Read N Characters Given Read4 :lock:](https://leetcode-cn.com/problems/Read-N-Characters-Given-Read4/)|Easy|To Do|To Do|To Do|
 |158|[Read N Characters Given Read4 II - Call multiple times :lock:](https://leetcode-cn.com/problems/Read-N-Characters-Given-Read4-II---Call-multiple-times/)|Hard|To Do|To Do|To Do|
 |159|[Longest Substring with At Most Two Distinct Characters :lock:](https://leetcode-cn.com/problems/Longest-Substring-with-At-Most-Two-Distinct-Characters/)|Medium|To Do|To Do|To Do|
-|160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/Intersection-of-Two-Linked-Lists/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[160]相交链表/Solution.java)|To Do|To Do|
+|160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/Intersection-of-Two-Linked-Lists/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[160]相交链表/Solution.java)|To Do|To Do|
 |161|[One Edit Distance :lock:](https://leetcode-cn.com/problems/One-Edit-Distance/)|Medium|To Do|To Do|To Do|
 |162|[Find Peak Element](https://leetcode-cn.com/problems/Find-Peak-Element/)|Medium|To Do|To Do|To Do|
-|163|[Missing Ranges :lock:](https://leetcode-cn.com/problems/Missing-Ranges/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[163]缺失的区间/solution.js)|To Do|
+|163|[Missing Ranges :lock:](https://leetcode-cn.com/problems/Missing-Ranges/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[163]缺失的区间/solution.js)|To Do|
 |164|[Maximum Gap](https://leetcode-cn.com/problems/Maximum-Gap/)|Hard|To Do|To Do|To Do|
 |165|[Compare Version Numbers](https://leetcode-cn.com/problems/Compare-Version-Numbers/)|Medium|To Do|To Do|To Do|
 |166|[Fraction to Recurring Decimal](https://leetcode-cn.com/problems/Fraction-to-Recurring-Decimal/)|Medium|To Do|To Do|To Do|
@@ -180,40 +180,40 @@
 |169|[Majority Element](https://leetcode-cn.com/problems/Majority-Element/)|Easy|To Do|To Do|To Do|
 |170|[Two Sum III - Data structure design :lock:](https://leetcode-cn.com/problems/Two-Sum-III---Data-structure-design/)|Easy|To Do|To Do|To Do|
 |171|[Excel Sheet Column Number](https://leetcode-cn.com/problems/Excel-Sheet-Column-Number/)|Easy|To Do|To Do|To Do|
-|172|[Factorial Trailing Zeroes](https://leetcode-cn.com/problems/Factorial-Trailing-Zeroes/)|Easy|To Do|To Do|To Do|
+|172|[Factorial Trailing Zeroes](https://leetcode-cn.com/problems/Factorial-Trailing-Zeroes/)|Medium|To Do|To Do|To Do|
 |173|[Binary Search Tree Iterator](https://leetcode-cn.com/problems/Binary-Search-Tree-Iterator/)|Medium|To Do|To Do|To Do|
 |174|[Dungeon Game](https://leetcode-cn.com/problems/Dungeon-Game/)|Hard|To Do|To Do|To Do|
 |179|[Largest Number](https://leetcode-cn.com/problems/Largest-Number/)|Medium|To Do|To Do|To Do|
 |186|[Reverse Words in a String II :lock:](https://leetcode-cn.com/problems/Reverse-Words-in-a-String-II/)|Medium|To Do|To Do|To Do|
 |187|[Repeated DNA Sequences](https://leetcode-cn.com/problems/Repeated-DNA-Sequences/)|Medium|To Do|To Do|To Do|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-IV/)|Hard|To Do|To Do|To Do|
-|189|[Rotate Array](https://leetcode-cn.com/problems/Rotate-Array/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[189]旋转数组/solution.py)|
+|189|[Rotate Array](https://leetcode-cn.com/problems/Rotate-Array/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[189]旋转数组/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[189]旋转数组/solution.py)|
 |190|[Reverse Bits](https://leetcode-cn.com/problems/Reverse-Bits/)|Easy|To Do|To Do|To Do|
 |191|[Number of 1 Bits](https://leetcode-cn.com/problems/Number-of-1-Bits/)|Easy|To Do|To Do|To Do|
-|198|[House Robber](https://leetcode-cn.com/problems/House-Robber/)|Easy|To Do|To Do|To Do|
+|198|[House Robber](https://leetcode-cn.com/problems/House-Robber/)|Medium|To Do|To Do|To Do|
 |199|[Binary Tree Right Side View](https://leetcode-cn.com/problems/Binary-Tree-Right-Side-View/)|Medium|To Do|To Do|To Do|
-|200|[Number of Islands](https://leetcode-cn.com/problems/Number-of-Islands/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[200]岛屿数量/solution.js)|To Do|
+|200|[Number of Islands](https://leetcode-cn.com/problems/Number-of-Islands/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[200]岛屿数量/solution.js)|To Do|
 |201|[Bitwise AND of Numbers Range](https://leetcode-cn.com/problems/Bitwise-AND-of-Numbers-Range/)|Medium|To Do|To Do|To Do|
 |202|[Happy Number](https://leetcode-cn.com/problems/Happy-Number/)|Easy|To Do|To Do|To Do|
 |203|[Remove Linked List Elements](https://leetcode-cn.com/problems/Remove-Linked-List-Elements/)|Easy|To Do|To Do|To Do|
-|204|[Count Primes](https://leetcode-cn.com/problems/Count-Primes/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[204]计数质数/solution.py)|
+|204|[Count Primes](https://leetcode-cn.com/problems/Count-Primes/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[204]计数质数/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[204]计数质数/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[204]计数质数/solution.py)|
 |205|[Isomorphic Strings](https://leetcode-cn.com/problems/Isomorphic-Strings/)|Easy|To Do|To Do|To Do|
-|206|[Reverse Linked List](https://leetcode-cn.com/problems/Reverse-Linked-List/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[206]反转链表/solution.py)|
-|207|[Course Schedule](https://leetcode-cn.com/problems/Course-Schedule/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[207]课程表/solution.js)|To Do|
+|206|[Reverse Linked List](https://leetcode-cn.com/problems/Reverse-Linked-List/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[206]反转链表/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[206]反转链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[206]反转链表/solution.py)|
+|207|[Course Schedule](https://leetcode-cn.com/problems/Course-Schedule/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[207]课程表/solution.js)|To Do|
 |208|[Implement Trie (Prefix Tree)](https://leetcode-cn.com/problems/Implement-Trie-Prefix-Tree/)|Medium|To Do|To Do|To Do|
 |209|[Minimum Size Subarray Sum](https://leetcode-cn.com/problems/Minimum-Size-Subarray-Sum/)|Medium|To Do|To Do|To Do|
-|210|[Course Schedule II](https://leetcode-cn.com/problems/Course-Schedule-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[210]课程表%20II/solution.js)|To Do|
+|210|[Course Schedule II](https://leetcode-cn.com/problems/Course-Schedule-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[210]课程表%20II/solution.js)|To Do|
 |211|[Design Add and Search Words Data Structure](https://leetcode-cn.com/problems/Design-Add-and-Search-Words-Data-Structure/)|Medium|To Do|To Do|To Do|
 |212|[Word Search II](https://leetcode-cn.com/problems/Word-Search-II/)|Hard|To Do|To Do|To Do|
 |213|[House Robber II](https://leetcode-cn.com/problems/House-Robber-II/)|Medium|To Do|To Do|To Do|
 |214|[Shortest Palindrome](https://leetcode-cn.com/problems/Shortest-Palindrome/)|Hard|To Do|To Do|To Do|
 |215|[Kth Largest Element in an Array](https://leetcode-cn.com/problems/Kth-Largest-Element-in-an-Array/)|Medium|To Do|To Do|To Do|
 |216|[Combination Sum III](https://leetcode-cn.com/problems/Combination-Sum-III/)|Medium|To Do|To Do|To Do|
-|217|[Contains Duplicate](https://leetcode-cn.com/problems/Contains-Duplicate/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[217]存在重复元素/solution.py)|
+|217|[Contains Duplicate](https://leetcode-cn.com/problems/Contains-Duplicate/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[217]存在重复元素/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[217]存在重复元素/solution.py)|
 |218|[The Skyline Problem](https://leetcode-cn.com/problems/The-Skyline-Problem/)|Hard|To Do|To Do|To Do|
 |219|[Contains Duplicate II](https://leetcode-cn.com/problems/Contains-Duplicate-II/)|Easy|To Do|To Do|To Do|
 |220|[Contains Duplicate III](https://leetcode-cn.com/problems/Contains-Duplicate-III/)|Medium|To Do|To Do|To Do|
-|221|[Maximal Square](https://leetcode-cn.com/problems/Maximal-Square/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[221]最大正方形/solution.js)|To Do|
+|221|[Maximal Square](https://leetcode-cn.com/problems/Maximal-Square/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[221]最大正方形/solution.js)|To Do|
 |222|[Count Complete Tree Nodes](https://leetcode-cn.com/problems/Count-Complete-Tree-Nodes/)|Medium|To Do|To Do|To Do|
 |223|[Rectangle Area](https://leetcode-cn.com/problems/Rectangle-Area/)|Medium|To Do|To Do|To Do|
 |224|[Basic Calculator](https://leetcode-cn.com/problems/Basic-Calculator/)|Hard|To Do|To Do|To Do|
@@ -226,15 +226,15 @@
 |231|[Power of Two](https://leetcode-cn.com/problems/Power-of-Two/)|Easy|To Do|To Do|To Do|
 |232|[Implement Queue using Stacks](https://leetcode-cn.com/problems/Implement-Queue-using-Stacks/)|Easy|To Do|To Do|To Do|
 |233|[Number of Digit One](https://leetcode-cn.com/problems/Number-of-Digit-One/)|Hard|To Do|To Do|To Do|
-|234|[Palindrome Linked List](https://leetcode-cn.com/problems/Palindrome-Linked-List/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[234]回文链表/solution.py)|
+|234|[Palindrome Linked List](https://leetcode-cn.com/problems/Palindrome-Linked-List/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[234]回文链表/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[234]回文链表/solution.py)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode-cn.com/problems/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/)|Easy|To Do|To Do|To Do|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/Lowest-Common-Ancestor-of-a-Binary-Tree/)|Medium|To Do|To Do|To Do|
-|237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/Delete-Node-in-a-Linked-List/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[237]删除链表中的节点/solution.py)|
+|237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/Delete-Node-in-a-Linked-List/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[237]删除链表中的节点/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[237]删除链表中的节点/solution.py)|
 |238|[Product of Array Except Self](https://leetcode-cn.com/problems/Product-of-Array-Except-Self/)|Medium|To Do|To Do|To Do|
 |239|[Sliding Window Maximum](https://leetcode-cn.com/problems/Sliding-Window-Maximum/)|Hard|To Do|To Do|To Do|
-|240|[Search a 2D Matrix II](https://leetcode-cn.com/problems/Search-a-2D-Matrix-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[240]搜索二维矩阵%20II/solution.js)|To Do|
+|240|[Search a 2D Matrix II](https://leetcode-cn.com/problems/Search-a-2D-Matrix-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[240]搜索二维矩阵%20II/solution.js)|To Do|
 |241|[Different Ways to Add Parentheses](https://leetcode-cn.com/problems/Different-Ways-to-Add-Parentheses/)|Medium|To Do|To Do|To Do|
-|242|[Valid Anagram](https://leetcode-cn.com/problems/Valid-Anagram/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[242]有效的字母异位词/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[242]有效的字母异位词/solution.py)|
+|242|[Valid Anagram](https://leetcode-cn.com/problems/Valid-Anagram/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[242]有效的字母异位词/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[242]有效的字母异位词/solution.py)|
 |243|[Shortest Word Distance :lock:](https://leetcode-cn.com/problems/Shortest-Word-Distance/)|Easy|To Do|To Do|To Do|
 |244|[Shortest Word Distance II :lock:](https://leetcode-cn.com/problems/Shortest-Word-Distance-II/)|Medium|To Do|To Do|To Do|
 |245|[Shortest Word Distance III :lock:](https://leetcode-cn.com/problems/Shortest-Word-Distance-III/)|Medium|To Do|To Do|To Do|
@@ -255,7 +255,7 @@
 |260|[Single Number III](https://leetcode-cn.com/problems/Single-Number-III/)|Medium|To Do|To Do|To Do|
 |261|[Graph Valid Tree :lock:](https://leetcode-cn.com/problems/Graph-Valid-Tree/)|Medium|To Do|To Do|To Do|
 |263|[Ugly Number](https://leetcode-cn.com/problems/Ugly-Number/)|Easy|To Do|To Do|To Do|
-|264|[Ugly Number II](https://leetcode-cn.com/problems/Ugly-Number-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[264]丑数%20II/solution.js)|To Do|
+|264|[Ugly Number II](https://leetcode-cn.com/problems/Ugly-Number-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[264]丑数%20II/solution.js)|To Do|
 |265|[Paint House II :lock:](https://leetcode-cn.com/problems/Paint-House-II/)|Hard|To Do|To Do|To Do|
 |266|[Palindrome Permutation :lock:](https://leetcode-cn.com/problems/Palindrome-Permutation/)|Easy|To Do|To Do|To Do|
 |267|[Palindrome Permutation II :lock:](https://leetcode-cn.com/problems/Palindrome-Permutation-II/)|Medium|To Do|To Do|To Do|
@@ -267,22 +267,22 @@
 |273|[Integer to English Words](https://leetcode-cn.com/problems/Integer-to-English-Words/)|Hard|To Do|To Do|To Do|
 |274|[H-Index](https://leetcode-cn.com/problems/H-Index/)|Medium|To Do|To Do|To Do|
 |275|[H-Index II](https://leetcode-cn.com/problems/H-Index-II/)|Medium|To Do|To Do|To Do|
-|276|[Paint Fence :lock:](https://leetcode-cn.com/problems/Paint-Fence/)|Easy|To Do|To Do|To Do|
+|276|[Paint Fence :lock:](https://leetcode-cn.com/problems/Paint-Fence/)|Medium|To Do|To Do|To Do|
 |277|[Find the Celebrity :lock:](https://leetcode-cn.com/problems/Find-the-Celebrity/)|Medium|To Do|To Do|To Do|
-|278|[First Bad Version](https://leetcode-cn.com/problems/First-Bad-Version/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[278]第一个错误的版本/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[278]第一个错误的版本/solution.py)|
+|278|[First Bad Version](https://leetcode-cn.com/problems/First-Bad-Version/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[278]第一个错误的版本/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[278]第一个错误的版本/solution.py)|
 |279|[Perfect Squares](https://leetcode-cn.com/problems/Perfect-Squares/)|Medium|To Do|To Do|To Do|
 |280|[Wiggle Sort :lock:](https://leetcode-cn.com/problems/Wiggle-Sort/)|Medium|To Do|To Do|To Do|
 |281|[Zigzag Iterator :lock:](https://leetcode-cn.com/problems/Zigzag-Iterator/)|Medium|To Do|To Do|To Do|
 |282|[Expression Add Operators](https://leetcode-cn.com/problems/Expression-Add-Operators/)|Hard|To Do|To Do|To Do|
-|283|[Move Zeroes](https://leetcode-cn.com/problems/Move-Zeroes/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[283]移动零/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[283]移动零/solution.py)|
+|283|[Move Zeroes](https://leetcode-cn.com/problems/Move-Zeroes/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[283]移动零/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[283]移动零/solution.py)|
 |284|[Peeking Iterator](https://leetcode-cn.com/problems/Peeking-Iterator/)|Medium|To Do|To Do|To Do|
 |285|[Inorder Successor in BST :lock:](https://leetcode-cn.com/problems/Inorder-Successor-in-BST/)|Medium|To Do|To Do|To Do|
 |286|[Walls and Gates :lock:](https://leetcode-cn.com/problems/Walls-and-Gates/)|Medium|To Do|To Do|To Do|
 |287|[Find the Duplicate Number](https://leetcode-cn.com/problems/Find-the-Duplicate-Number/)|Medium|To Do|To Do|To Do|
 |288|[Unique Word Abbreviation :lock:](https://leetcode-cn.com/problems/Unique-Word-Abbreviation/)|Medium|To Do|To Do|To Do|
-|289|[Game of Life](https://leetcode-cn.com/problems/Game-of-Life/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[289]生命游戏/solution.js)|To Do|
+|289|[Game of Life](https://leetcode-cn.com/problems/Game-of-Life/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[289]生命游戏/solution.js)|To Do|
 |290|[Word Pattern](https://leetcode-cn.com/problems/Word-Pattern/)|Easy|To Do|To Do|To Do|
-|291|[Word Pattern II :lock:](https://leetcode-cn.com/problems/Word-Pattern-II/)|Hard|To Do|To Do|To Do|
+|291|[Word Pattern II :lock:](https://leetcode-cn.com/problems/Word-Pattern-II/)|Medium|To Do|To Do|To Do|
 |292|[Nim Game](https://leetcode-cn.com/problems/Nim-Game/)|Easy|To Do|To Do|To Do|
 |293|[Flip Game :lock:](https://leetcode-cn.com/problems/Flip-Game/)|Easy|To Do|To Do|To Do|
 |294|[Flip Game II :lock:](https://leetcode-cn.com/problems/Flip-Game-II/)|Medium|To Do|To Do|To Do|
@@ -301,7 +301,7 @@
 |307|[Range Sum Query - Mutable](https://leetcode-cn.com/problems/Range-Sum-Query---Mutable/)|Medium|To Do|To Do|To Do|
 |308|[Range Sum Query 2D - Mutable :lock:](https://leetcode-cn.com/problems/Range-Sum-Query-2D---Mutable/)|Hard|To Do|To Do|To Do|
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-with-Cooldown/)|Medium|To Do|To Do|To Do|
-|310|[Minimum Height Trees](https://leetcode-cn.com/problems/Minimum-Height-Trees/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[310]最小高度树/solution.js)|To Do|
+|310|[Minimum Height Trees](https://leetcode-cn.com/problems/Minimum-Height-Trees/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[310]最小高度树/solution.js)|To Do|
 |311|[Sparse Matrix Multiplication :lock:](https://leetcode-cn.com/problems/Sparse-Matrix-Multiplication/)|Medium|To Do|To Do|To Do|
 |312|[Burst Balloons](https://leetcode-cn.com/problems/Burst-Balloons/)|Hard|To Do|To Do|To Do|
 |313|[Super Ugly Number](https://leetcode-cn.com/problems/Super-Ugly-Number/)|Medium|To Do|To Do|To Do|
@@ -316,8 +316,8 @@
 |322|[Coin Change](https://leetcode-cn.com/problems/Coin-Change/)|Medium|To Do|To Do|To Do|
 |323|[Number of Connected Components in an Undirected Graph :lock:](https://leetcode-cn.com/problems/Number-of-Connected-Components-in-an-Undirected-Graph/)|Medium|To Do|To Do|To Do|
 |324|[Wiggle Sort II](https://leetcode-cn.com/problems/Wiggle-Sort-II/)|Medium|To Do|To Do|To Do|
-|325|[Maximum Size Subarray Sum Equals k :lock:](https://leetcode-cn.com/problems/Maximum-Size-Subarray-Sum-Equals-k/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[325]和等于%20k%20的最长子数组长度/solution.js)|To Do|
-|326|[Power of Three](https://leetcode-cn.com/problems/Power-of-Three/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[326]3的幂/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[326]3的幂/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[326]3的幂/solution.py)|
+|325|[Maximum Size Subarray Sum Equals k :lock:](https://leetcode-cn.com/problems/Maximum-Size-Subarray-Sum-Equals-k/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[325]和等于%20k%20的最长子数组长度/solution.js)|To Do|
+|326|[Power of Three](https://leetcode-cn.com/problems/Power-of-Three/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[326]3的幂/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[326]3的幂/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[326]3的幂/solution.py)|
 |327|[Count of Range Sum](https://leetcode-cn.com/problems/Count-of-Range-Sum/)|Hard|To Do|To Do|To Do|
 |328|[Odd Even Linked List](https://leetcode-cn.com/problems/Odd-Even-Linked-List/)|Medium|To Do|To Do|To Do|
 |329|[Longest Increasing Path in a Matrix](https://leetcode-cn.com/problems/Longest-Increasing-Path-in-a-Matrix/)|Hard|To Do|To Do|To Do|
@@ -329,19 +329,19 @@
 |335|[Self Crossing](https://leetcode-cn.com/problems/Self-Crossing/)|Hard|To Do|To Do|To Do|
 |336|[Palindrome Pairs](https://leetcode-cn.com/problems/Palindrome-Pairs/)|Hard|To Do|To Do|To Do|
 |337|[House Robber III](https://leetcode-cn.com/problems/House-Robber-III/)|Medium|To Do|To Do|To Do|
-|338|[Counting Bits](https://leetcode-cn.com/problems/Counting-Bits/)|Medium|To Do|To Do|To Do|
-|339|[Nested List Weight Sum :lock:](https://leetcode-cn.com/problems/Nested-List-Weight-Sum/)|Easy|To Do|To Do|To Do|
-|340|[Longest Substring with At Most K Distinct Characters :lock:](https://leetcode-cn.com/problems/Longest-Substring-with-At-Most-K-Distinct-Characters/)|Hard|To Do|To Do|To Do|
+|338|[Counting Bits](https://leetcode-cn.com/problems/Counting-Bits/)|Easy|To Do|To Do|To Do|
+|339|[Nested List Weight Sum :lock:](https://leetcode-cn.com/problems/Nested-List-Weight-Sum/)|Medium|To Do|To Do|To Do|
+|340|[Longest Substring with At Most K Distinct Characters :lock:](https://leetcode-cn.com/problems/Longest-Substring-with-At-Most-K-Distinct-Characters/)|Medium|To Do|To Do|To Do|
 |341|[Flatten Nested List Iterator](https://leetcode-cn.com/problems/Flatten-Nested-List-Iterator/)|Medium|To Do|To Do|To Do|
 |342|[Power of Four](https://leetcode-cn.com/problems/Power-of-Four/)|Easy|To Do|To Do|To Do|
 |343|[Integer Break](https://leetcode-cn.com/problems/Integer-Break/)|Medium|To Do|To Do|To Do|
-|344|[Reverse String](https://leetcode-cn.com/problems/Reverse-String/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[344]反转字符串/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[344]反转字符串/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[344]反转字符串/solution.py)|
+|344|[Reverse String](https://leetcode-cn.com/problems/Reverse-String/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[344]反转字符串/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[344]反转字符串/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[344]反转字符串/solution.py)|
 |345|[Reverse Vowels of a String](https://leetcode-cn.com/problems/Reverse-Vowels-of-a-String/)|Easy|To Do|To Do|To Do|
 |346|[Moving Average from Data Stream :lock:](https://leetcode-cn.com/problems/Moving-Average-from-Data-Stream/)|Easy|To Do|To Do|To Do|
 |347|[Top K Frequent Elements](https://leetcode-cn.com/problems/Top-K-Frequent-Elements/)|Medium|To Do|To Do|To Do|
 |348|[Design Tic-Tac-Toe :lock:](https://leetcode-cn.com/problems/Design-Tic-Tac-Toe/)|Medium|To Do|To Do|To Do|
 |349|[Intersection of Two Arrays](https://leetcode-cn.com/problems/Intersection-of-Two-Arrays/)|Easy|To Do|To Do|To Do|
-|350|[Intersection of Two Arrays II](https://leetcode-cn.com/problems/Intersection-of-Two-Arrays-II/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[350]两个数组的交集%20II/solution.py)|
+|350|[Intersection of Two Arrays II](https://leetcode-cn.com/problems/Intersection-of-Two-Arrays-II/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[350]两个数组的交集%20II/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[350]两个数组的交集%20II/solution.py)|
 |351|[Android Unlock Patterns :lock:](https://leetcode-cn.com/problems/Android-Unlock-Patterns/)|Medium|To Do|To Do|To Do|
 |352|[Data Stream as Disjoint Intervals](https://leetcode-cn.com/problems/Data-Stream-as-Disjoint-Intervals/)|Hard|To Do|To Do|To Do|
 |353|[Design Snake Game :lock:](https://leetcode-cn.com/problems/Design-Snake-Game/)|Medium|To Do|To Do|To Do|
@@ -349,7 +349,7 @@
 |355|[Design Twitter](https://leetcode-cn.com/problems/Design-Twitter/)|Medium|To Do|To Do|To Do|
 |356|[Line Reflection :lock:](https://leetcode-cn.com/problems/Line-Reflection/)|Medium|To Do|To Do|To Do|
 |357|[Count Numbers with Unique Digits](https://leetcode-cn.com/problems/Count-Numbers-with-Unique-Digits/)|Medium|To Do|To Do|To Do|
-|358|[Rearrange String k Distance Apart :lock:](https://leetcode-cn.com/problems/Rearrange-String-k-Distance-Apart/)|Hard|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[358]K%20距离间隔重排字符串/solution.js)|To Do|
+|358|[Rearrange String k Distance Apart :lock:](https://leetcode-cn.com/problems/Rearrange-String-k-Distance-Apart/)|Hard|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[358]K%20距离间隔重排字符串/solution.js)|To Do|
 |359|[Logger Rate Limiter :lock:](https://leetcode-cn.com/problems/Logger-Rate-Limiter/)|Easy|To Do|To Do|To Do|
 |360|[Sort Transformed Array :lock:](https://leetcode-cn.com/problems/Sort-Transformed-Array/)|Medium|To Do|To Do|To Do|
 |361|[Bomb Enemy :lock:](https://leetcode-cn.com/problems/Bomb-Enemy/)|Medium|To Do|To Do|To Do|
@@ -362,7 +362,7 @@
 |368|[Largest Divisible Subset](https://leetcode-cn.com/problems/Largest-Divisible-Subset/)|Medium|To Do|To Do|To Do|
 |369|[Plus One Linked List :lock:](https://leetcode-cn.com/problems/Plus-One-Linked-List/)|Medium|To Do|To Do|To Do|
 |370|[Range Addition :lock:](https://leetcode-cn.com/problems/Range-Addition/)|Medium|To Do|To Do|To Do|
-|371|[Sum of Two Integers](https://leetcode-cn.com/problems/Sum-of-Two-Integers/)|Easy|To Do|To Do|To Do|
+|371|[Sum of Two Integers](https://leetcode-cn.com/problems/Sum-of-Two-Integers/)|Medium|To Do|To Do|To Do|
 |372|[Super Pow](https://leetcode-cn.com/problems/Super-Pow/)|Medium|To Do|To Do|To Do|
 |373|[Find K Pairs with Smallest Sums](https://leetcode-cn.com/problems/Find-K-Pairs-with-Smallest-Sums/)|Medium|To Do|To Do|To Do|
 |374|[Guess Number Higher or Lower](https://leetcode-cn.com/problems/Guess-Number-Higher-or-Lower/)|Easy|To Do|To Do|To Do|
@@ -371,21 +371,21 @@
 |377|[Combination Sum IV](https://leetcode-cn.com/problems/Combination-Sum-IV/)|Medium|To Do|To Do|To Do|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode-cn.com/problems/Kth-Smallest-Element-in-a-Sorted-Matrix/)|Medium|To Do|To Do|To Do|
 |379|[Design Phone Directory :lock:](https://leetcode-cn.com/problems/Design-Phone-Directory/)|Medium|To Do|To Do|To Do|
-|380|[Insert Delete GetRandom O(1)](https://leetcode-cn.com/problems/Insert-Delete-GetRandom-O1/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[380]常数时间插入、删除和获取随机元素/solution.js)|To Do|
+|380|[Insert Delete GetRandom O(1)](https://leetcode-cn.com/problems/Insert-Delete-GetRandom-O1/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[380]常数时间插入、删除和获取随机元素/solution.js)|To Do|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode-cn.com/problems/Insert-Delete-GetRandom-O1---Duplicates-allowed/)|Hard|To Do|To Do|To Do|
 |382|[Linked List Random Node](https://leetcode-cn.com/problems/Linked-List-Random-Node/)|Medium|To Do|To Do|To Do|
 |383|[Ransom Note](https://leetcode-cn.com/problems/Ransom-Note/)|Easy|To Do|To Do|To Do|
-|384|[Shuffle an Array](https://leetcode-cn.com/problems/Shuffle-an-Array/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[384]打乱数组/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[384]打乱数组/solution.py)|
+|384|[Shuffle an Array](https://leetcode-cn.com/problems/Shuffle-an-Array/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[384]打乱数组/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[384]打乱数组/solution.py)|
 |385|[Mini Parser](https://leetcode-cn.com/problems/Mini-Parser/)|Medium|To Do|To Do|To Do|
 |386|[Lexicographical Numbers](https://leetcode-cn.com/problems/Lexicographical-Numbers/)|Medium|To Do|To Do|To Do|
-|387|[First Unique Character in a String](https://leetcode-cn.com/problems/First-Unique-Character-in-a-String/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|
+|387|[First Unique Character in a String](https://leetcode-cn.com/problems/First-Unique-Character-in-a-String/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[387]字符串中的第一个唯一字符/Solution.java)|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[387]字符串中的第一个唯一字符/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[387]字符串中的第一个唯一字符/solution.py)|
 |388|[Longest Absolute File Path](https://leetcode-cn.com/problems/Longest-Absolute-File-Path/)|Medium|To Do|To Do|To Do|
 |389|[Find the Difference](https://leetcode-cn.com/problems/Find-the-Difference/)|Easy|To Do|To Do|To Do|
 |390|[Elimination Game](https://leetcode-cn.com/problems/Elimination-Game/)|Medium|To Do|To Do|To Do|
 |391|[Perfect Rectangle](https://leetcode-cn.com/problems/Perfect-Rectangle/)|Hard|To Do|To Do|To Do|
 |392|[Is Subsequence](https://leetcode-cn.com/problems/Is-Subsequence/)|Easy|To Do|To Do|To Do|
 |393|[UTF-8 Validation](https://leetcode-cn.com/problems/UTF-8-Validation/)|Medium|To Do|To Do|To Do|
-|394|[Decode String](https://leetcode-cn.com/problems/Decode-String/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[394]字符串解码/solution.js)|To Do|
+|394|[Decode String](https://leetcode-cn.com/problems/Decode-String/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[394]字符串解码/solution.js)|To Do|
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/Longest-Substring-with-At-Least-K-Repeating-Characters/)|Medium|To Do|To Do|To Do|
 |396|[Rotate Function](https://leetcode-cn.com/problems/Rotate-Function/)|Medium|To Do|To Do|To Do|
 |397|[Integer Replacement](https://leetcode-cn.com/problems/Integer-Replacement/)|Medium|To Do|To Do|To Do|
@@ -397,13 +397,13 @@
 |403|[Frog Jump](https://leetcode-cn.com/problems/Frog-Jump/)|Hard|To Do|To Do|To Do|
 |404|[Sum of Left Leaves](https://leetcode-cn.com/problems/Sum-of-Left-Leaves/)|Easy|To Do|To Do|To Do|
 |405|[Convert a Number to Hexadecimal](https://leetcode-cn.com/problems/Convert-a-Number-to-Hexadecimal/)|Easy|To Do|To Do|To Do|
-|406|[Queue Reconstruction by Height](https://leetcode-cn.com/problems/Queue-Reconstruction-by-Height/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[406]根据身高重建队伍/solution.js)|To Do|
+|406|[Queue Reconstruction by Height](https://leetcode-cn.com/problems/Queue-Reconstruction-by-Height/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[406]根据身高重建队伍/solution.js)|To Do|
 |407|[Trapping Rain Water II](https://leetcode-cn.com/problems/Trapping-Rain-Water-II/)|Hard|To Do|To Do|To Do|
 |408|[Valid Word Abbreviation :lock:](https://leetcode-cn.com/problems/Valid-Word-Abbreviation/)|Easy|To Do|To Do|To Do|
 |409|[Longest Palindrome](https://leetcode-cn.com/problems/Longest-Palindrome/)|Easy|To Do|To Do|To Do|
 |410|[Split Array Largest Sum](https://leetcode-cn.com/problems/Split-Array-Largest-Sum/)|Hard|To Do|To Do|To Do|
 |411|[Minimum Unique Word Abbreviation :lock:](https://leetcode-cn.com/problems/Minimum-Unique-Word-Abbreviation/)|Hard|To Do|To Do|To Do|
-|412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[412]Fizz%20Buzz/solution.py)|
+|412|[Fizz Buzz](https://leetcode-cn.com/problems/Fizz-Buzz/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[412]Fizz%20Buzz/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[412]Fizz%20Buzz/solution.py)|
 |413|[Arithmetic Slices](https://leetcode-cn.com/problems/Arithmetic-Slices/)|Medium|To Do|To Do|To Do|
 |414|[Third Maximum Number](https://leetcode-cn.com/problems/Third-Maximum-Number/)|Easy|To Do|To Do|To Do|
 |415|[Add Strings](https://leetcode-cn.com/problems/Add-Strings/)|Easy|To Do|To Do|To Do|
@@ -420,7 +420,7 @@
 |432|[All O`one Data Structure](https://leetcode-cn.com/problems/All-O`one-Data-Structure/)|Hard|To Do|To Do|To Do|
 |433|[Minimum Genetic Mutation](https://leetcode-cn.com/problems/Minimum-Genetic-Mutation/)|Medium|To Do|To Do|To Do|
 |434|[Number of Segments in a String](https://leetcode-cn.com/problems/Number-of-Segments-in-a-String/)|Easy|To Do|To Do|To Do|
-|435|[Non-overlapping Intervals](https://leetcode-cn.com/problems/Non-overlapping-Intervals/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[435]无重叠区间/solution.js)|To Do|
+|435|[Non-overlapping Intervals](https://leetcode-cn.com/problems/Non-overlapping-Intervals/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[435]无重叠区间/solution.js)|To Do|
 |436|[Find Right Interval](https://leetcode-cn.com/problems/Find-Right-Interval/)|Medium|To Do|To Do|To Do|
 |437|[Path Sum III](https://leetcode-cn.com/problems/Path-Sum-III/)|Medium|To Do|To Do|To Do|
 |438|[Find All Anagrams in a String](https://leetcode-cn.com/problems/Find-All-Anagrams-in-a-String/)|Medium|To Do|To Do|To Do|
@@ -428,7 +428,7 @@
 |440|[K-th Smallest in Lexicographical Order](https://leetcode-cn.com/problems/K-th-Smallest-in-Lexicographical-Order/)|Hard|To Do|To Do|To Do|
 |441|[Arranging Coins](https://leetcode-cn.com/problems/Arranging-Coins/)|Easy|To Do|To Do|To Do|
 |442|[Find All Duplicates in an Array](https://leetcode-cn.com/problems/Find-All-Duplicates-in-an-Array/)|Medium|To Do|To Do|To Do|
-|443|[String Compression](https://leetcode-cn.com/problems/String-Compression/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[443]压缩字符串/solution.js)|To Do|
+|443|[String Compression](https://leetcode-cn.com/problems/String-Compression/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[443]压缩字符串/solution.js)|To Do|
 |444|[Sequence Reconstruction :lock:](https://leetcode-cn.com/problems/Sequence-Reconstruction/)|Medium|To Do|To Do|To Do|
 |445|[Add Two Numbers II](https://leetcode-cn.com/problems/Add-Two-Numbers-II/)|Medium|To Do|To Do|To Do|
 |446|[Arithmetic Slices II - Subsequence](https://leetcode-cn.com/problems/Arithmetic-Slices-II---Subsequence/)|Hard|To Do|To Do|To Do|
@@ -440,7 +440,7 @@
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode-cn.com/problems/Minimum-Number-of-Arrows-to-Burst-Balloons/)|Medium|To Do|To Do|To Do|
 |453|[Minimum Moves to Equal Array Elements](https://leetcode-cn.com/problems/Minimum-Moves-to-Equal-Array-Elements/)|Easy|To Do|To Do|To Do|
 |454|[4Sum II](https://leetcode-cn.com/problems/4Sum-II/)|Medium|To Do|To Do|To Do|
-|455|[Assign Cookies](https://leetcode-cn.com/problems/Assign-Cookies/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[455]分发饼干/solution.js)|To Do|
+|455|[Assign Cookies](https://leetcode-cn.com/problems/Assign-Cookies/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[455]分发饼干/solution.js)|To Do|
 |456|[132 Pattern](https://leetcode-cn.com/problems/132-Pattern/)|Medium|To Do|To Do|To Do|
 |457|[Circular Array Loop](https://leetcode-cn.com/problems/Circular-Array-Loop/)|Medium|To Do|To Do|To Do|
 |458|[Poor Pigs](https://leetcode-cn.com/problems/Poor-Pigs/)|Hard|To Do|To Do|To Do|
@@ -478,27 +478,30 @@
 |492|[Construct the Rectangle](https://leetcode-cn.com/problems/Construct-the-Rectangle/)|Easy|To Do|To Do|To Do|
 |493|[Reverse Pairs](https://leetcode-cn.com/problems/Reverse-Pairs/)|Hard|To Do|To Do|To Do|
 |494|[Target Sum](https://leetcode-cn.com/problems/Target-Sum/)|Medium|To Do|To Do|To Do|
-|495|[Teemo Attacking](https://leetcode-cn.com/problems/Teemo-Attacking/)|Medium|To Do|To Do|To Do|
+|495|[Teemo Attacking](https://leetcode-cn.com/problems/Teemo-Attacking/)|Easy|To Do|To Do|To Do|
 |496|[Next Greater Element I](https://leetcode-cn.com/problems/Next-Greater-Element-I/)|Easy|To Do|To Do|To Do|
 |498|[Diagonal Traverse](https://leetcode-cn.com/problems/Diagonal-Traverse/)|Medium|To Do|To Do|To Do|
 |499|[The Maze III :lock:](https://leetcode-cn.com/problems/The-Maze-III/)|Hard|To Do|To Do|To Do|
 |500|[Keyboard Row](https://leetcode-cn.com/problems/Keyboard-Row/)|Easy|To Do|To Do|To Do|
 |501|[Find Mode in Binary Search Tree](https://leetcode-cn.com/problems/Find-Mode-in-Binary-Search-Tree/)|Easy|To Do|To Do|To Do|
 |502|[IPO](https://leetcode-cn.com/problems/IPO/)|Hard|To Do|To Do|To Do|
-|503|[Next Greater Element II](https://leetcode-cn.com/problems/Next-Greater-Element-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[503]下一个更大元素%20II/solution.js)|To Do|
+|503|[Next Greater Element II](https://leetcode-cn.com/problems/Next-Greater-Element-II/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[503]下一个更大元素%20II/solution.js)|To Do|
 |504|[Base 7](https://leetcode-cn.com/problems/Base-7/)|Easy|To Do|To Do|To Do|
 |505|[The Maze II :lock:](https://leetcode-cn.com/problems/The-Maze-II/)|Medium|To Do|To Do|To Do|
 |506|[Relative Ranks](https://leetcode-cn.com/problems/Relative-Ranks/)|Easy|To Do|To Do|To Do|
 |507|[Perfect Number](https://leetcode-cn.com/problems/Perfect-Number/)|Easy|To Do|To Do|To Do|
 |508|[Most Frequent Subtree Sum](https://leetcode-cn.com/problems/Most-Frequent-Subtree-Sum/)|Medium|To Do|To Do|To Do|
 |510|[Inorder Successor in BST II :lock:](https://leetcode-cn.com/problems/Inorder-Successor-in-BST-II/)|Medium|To Do|To Do|To Do|
+|2031|[Count Subarrays With More Ones Than Zeros](https://leetcode-cn.com/problems/Count-Subarrays-With-More-Ones-Than-Zeros/)|Medium|To Do|To Do|To Do|
 |1059|[All Paths from Source Lead to Destination :lock:](https://leetcode-cn.com/problems/All-Paths-from-Source-Lead-to-Destination/)|Medium|To Do|To Do|To Do|
+|2036|[Maximum Alternating Subarray Sum :lock:](https://leetcode-cn.com/problems/Maximum-Alternating-Subarray-Sum/)|Medium|To Do|To Do|To Do|
 |513|[Find Bottom Left Tree Value](https://leetcode-cn.com/problems/Find-Bottom-Left-Tree-Value/)|Medium|To Do|To Do|To Do|
 |514|[Freedom Trail](https://leetcode-cn.com/problems/Freedom-Trail/)|Hard|To Do|To Do|To Do|
 |515|[Find Largest Value in Each Tree Row](https://leetcode-cn.com/problems/Find-Largest-Value-in-Each-Tree-Row/)|Medium|To Do|To Do|To Do|
-|516|[Longest Palindromic Subsequence](https://leetcode-cn.com/problems/Longest-Palindromic-Subsequence/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[516]最长回文子序列/solution.js)|To Do|
+|516|[Longest Palindromic Subsequence](https://leetcode-cn.com/problems/Longest-Palindromic-Subsequence/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[516]最长回文子序列/solution.js)|To Do|
 |517|[Super Washing Machines](https://leetcode-cn.com/problems/Super-Washing-Machines/)|Hard|To Do|To Do|To Do|
 |518|[Coin Change 2](https://leetcode-cn.com/problems/Coin-Change-2/)|Medium|To Do|To Do|To Do|
+|1983|[Widest Pair of Indices With Equal Range Sum :lock:](https://leetcode-cn.com/problems/Widest-Pair-of-Indices-With-Equal-Range-Sum/)|Medium|To Do|To Do|To Do|
 |520|[Detect Capital](https://leetcode-cn.com/problems/Detect-Capital/)|Easy|To Do|To Do|To Do|
 |521|[Longest Uncommon Subsequence I](https://leetcode-cn.com/problems/Longest-Uncommon-Subsequence-I/)|Easy|To Do|To Do|To Do|
 |522|[Longest Uncommon Subsequence II](https://leetcode-cn.com/problems/Longest-Uncommon-Subsequence-II/)|Medium|To Do|To Do|To Do|
@@ -507,6 +510,7 @@
 |525|[Contiguous Array](https://leetcode-cn.com/problems/Contiguous-Array/)|Medium|To Do|To Do|To Do|
 |526|[Beautiful Arrangement](https://leetcode-cn.com/problems/Beautiful-Arrangement/)|Medium|To Do|To Do|To Do|
 |527|[Word Abbreviation :lock:](https://leetcode-cn.com/problems/Word-Abbreviation/)|Hard|To Do|To Do|To Do|
+|1721|[Swapping Nodes in a Linked List](https://leetcode-cn.com/problems/Swapping-Nodes-in-a-Linked-List/)|Medium|To Do|To Do|To Do|
 |529|[Minesweeper](https://leetcode-cn.com/problems/Minesweeper/)|Medium|To Do|To Do|To Do|
 |530|[Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/Minimum-Absolute-Difference-in-BST/)|Easy|To Do|To Do|To Do|
 |531|[Lonely Pixel I :lock:](https://leetcode-cn.com/problems/Lonely-Pixel-I/)|Medium|To Do|To Do|To Do|
@@ -524,19 +528,20 @@
 |544|[Output Contest Matches :lock:](https://leetcode-cn.com/problems/Output-Contest-Matches/)|Medium|To Do|To Do|To Do|
 |545|[Boundary of Binary Tree :lock:](https://leetcode-cn.com/problems/Boundary-of-Binary-Tree/)|Medium|To Do|To Do|To Do|
 |546|[Remove Boxes](https://leetcode-cn.com/problems/Remove-Boxes/)|Hard|To Do|To Do|To Do|
-|547|[Friend Circles](https://leetcode-cn.com/problems/Friend-Circles/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[547]朋友圈/solution.js)|To Do|
-|548|[Split Array with Equal Sum :lock:](https://leetcode-cn.com/problems/Split-Array-with-Equal-Sum/)|Medium|To Do|To Do|To Do|
+|547|[Number of Provinces](https://leetcode-cn.com/problems/Number-of-Provinces/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[547]朋友圈/solution.js)|To Do|
+|548|[Split Array with Equal Sum :lock:](https://leetcode-cn.com/problems/Split-Array-with-Equal-Sum/)|Hard|To Do|To Do|To Do|
 |549|[Binary Tree Longest Consecutive Sequence II :lock:](https://leetcode-cn.com/problems/Binary-Tree-Longest-Consecutive-Sequence-II/)|Medium|To Do|To Do|To Do|
+|1730|[Shortest Path to Get Food :lock:](https://leetcode-cn.com/problems/Shortest-Path-to-Get-Food/)|Medium|To Do|To Do|To Do|
 |551|[Student Attendance Record I](https://leetcode-cn.com/problems/Student-Attendance-Record-I/)|Easy|To Do|To Do|To Do|
 |552|[Student Attendance Record II](https://leetcode-cn.com/problems/Student-Attendance-Record-II/)|Hard|To Do|To Do|To Do|
 |553|[Optimal Division](https://leetcode-cn.com/problems/Optimal-Division/)|Medium|To Do|To Do|To Do|
-|554|[Brick Wall](https://leetcode-cn.com/problems/Brick-Wall/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[554]砖墙/solution.js)|To Do|
+|554|[Brick Wall](https://leetcode-cn.com/problems/Brick-Wall/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[554]砖墙/solution.js)|To Do|
 |555|[Split Concatenated Strings :lock:](https://leetcode-cn.com/problems/Split-Concatenated-Strings/)|Medium|To Do|To Do|To Do|
 |556|[Next Greater Element III](https://leetcode-cn.com/problems/Next-Greater-Element-III/)|Medium|To Do|To Do|To Do|
-|557|[Reverse Words in a String III](https://leetcode-cn.com/problems/Reverse-Words-in-a-String-III/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[557]反转字符串中的单词/Solution.java)|To Do|To Do|
+|557|[Reverse Words in a String III](https://leetcode-cn.com/problems/Reverse-Words-in-a-String-III/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[557]反转字符串中的单词/Solution.java)|To Do|To Do|
 |560|[Subarray Sum Equals K](https://leetcode-cn.com/problems/Subarray-Sum-Equals-K/)|Medium|To Do|To Do|To Do|
 |561|[Array Partition I](https://leetcode-cn.com/problems/Array-Partition-I/)|Easy|To Do|To Do|To Do|
-|562|[Longest Line of Consecutive One in Matrix :lock:](https://leetcode-cn.com/problems/Longest-Line-of-Consecutive-One-in-Matrix/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[562]矩阵中最长的连续1线段/solution.js)|To Do|
+|562|[Longest Line of Consecutive One in Matrix :lock:](https://leetcode-cn.com/problems/Longest-Line-of-Consecutive-One-in-Matrix/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[562]矩阵中最长的连续1线段/solution.js)|To Do|
 |563|[Binary Tree Tilt](https://leetcode-cn.com/problems/Binary-Tree-Tilt/)|Easy|To Do|To Do|To Do|
 |564|[Find the Closest Palindrome](https://leetcode-cn.com/problems/Find-the-Closest-Palindrome/)|Hard|To Do|To Do|To Do|
 |565|[Array Nesting](https://leetcode-cn.com/problems/Array-Nesting/)|Medium|To Do|To Do|To Do|
@@ -548,7 +553,7 @@
 |575|[Distribute Candies](https://leetcode-cn.com/problems/Distribute-Candies/)|Easy|To Do|To Do|To Do|
 |576|[Out of Boundary Paths](https://leetcode-cn.com/problems/Out-of-Boundary-Paths/)|Medium|To Do|To Do|To Do|
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode-cn.com/problems/Shortest-Unsorted-Continuous-Subarray/)|Medium|To Do|To Do|To Do|
-|582|[Kill Process :lock:](https://leetcode-cn.com/problems/Kill-Process/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[582]杀死进程/solution.js)|To Do|
+|582|[Kill Process :lock:](https://leetcode-cn.com/problems/Kill-Process/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[582]杀死进程/solution.js)|To Do|
 |583|[Delete Operation for Two Strings](https://leetcode-cn.com/problems/Delete-Operation-for-Two-Strings/)|Medium|To Do|To Do|To Do|
 |587|[Erect the Fence](https://leetcode-cn.com/problems/Erect-the-Fence/)|Hard|To Do|To Do|To Do|
 |588|[Design In-Memory File System :lock:](https://leetcode-cn.com/problems/Design-In-Memory-File-System/)|Hard|To Do|To Do|To Do|
@@ -566,7 +571,7 @@
 |611|[Valid Triangle Number](https://leetcode-cn.com/problems/Valid-Triangle-Number/)|Medium|To Do|To Do|To Do|
 |616|[Add Bold Tag in String :lock:](https://leetcode-cn.com/problems/Add-Bold-Tag-in-String/)|Medium|To Do|To Do|To Do|
 |617|[Merge Two Binary Trees](https://leetcode-cn.com/problems/Merge-Two-Binary-Trees/)|Easy|To Do|To Do|To Do|
-|621|[Task Scheduler](https://leetcode-cn.com/problems/Task-Scheduler/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[621]任务调度器/solution.js)|To Do|
+|621|[Task Scheduler](https://leetcode-cn.com/problems/Task-Scheduler/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[621]任务调度器/solution.js)|To Do|
 |623|[Add One Row to Tree](https://leetcode-cn.com/problems/Add-One-Row-to-Tree/)|Medium|To Do|To Do|To Do|
 |624|[Maximum Distance in Arrays :lock:](https://leetcode-cn.com/problems/Maximum-Distance-in-Arrays/)|Medium|To Do|To Do|To Do|
 |625|[Minimum Factorization :lock:](https://leetcode-cn.com/problems/Minimum-Factorization/)|Medium|To Do|To Do|To Do|
@@ -584,9 +589,9 @@
 |639|[Decode Ways II](https://leetcode-cn.com/problems/Decode-Ways-II/)|Hard|To Do|To Do|To Do|
 |640|[Solve the Equation](https://leetcode-cn.com/problems/Solve-the-Equation/)|Medium|To Do|To Do|To Do|
 |642|[Design Search Autocomplete System :lock:](https://leetcode-cn.com/problems/Design-Search-Autocomplete-System/)|Hard|To Do|To Do|To Do|
-|643|[Maximum Average Subarray I](https://leetcode-cn.com/problems/Maximum-Average-Subarray-I/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[643]子数组最大平均数%20I/solution.js)|To Do|
+|643|[Maximum Average Subarray I](https://leetcode-cn.com/problems/Maximum-Average-Subarray-I/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[643]子数组最大平均数%20I/solution.js)|To Do|
 |644|[Maximum Average Subarray II :lock:](https://leetcode-cn.com/problems/Maximum-Average-Subarray-II/)|Hard|To Do|To Do|To Do|
-|645|[Set Mismatch](https://leetcode-cn.com/problems/Set-Mismatch/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[645]错误的集合/solution.js)|To Do|
+|645|[Set Mismatch](https://leetcode-cn.com/problems/Set-Mismatch/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[645]错误的集合/solution.js)|To Do|
 |646|[Maximum Length of Pair Chain](https://leetcode-cn.com/problems/Maximum-Length-of-Pair-Chain/)|Medium|To Do|To Do|To Do|
 |647|[Palindromic Substrings](https://leetcode-cn.com/problems/Palindromic-Substrings/)|Medium|To Do|To Do|To Do|
 |648|[Replace Words](https://leetcode-cn.com/problems/Replace-Words/)|Medium|To Do|To Do|To Do|
@@ -606,11 +611,11 @@
 |662|[Maximum Width of Binary Tree](https://leetcode-cn.com/problems/Maximum-Width-of-Binary-Tree/)|Medium|To Do|To Do|To Do|
 |663|[Equal Tree Partition :lock:](https://leetcode-cn.com/problems/Equal-Tree-Partition/)|Medium|To Do|To Do|To Do|
 |664|[Strange Printer](https://leetcode-cn.com/problems/Strange-Printer/)|Hard|To Do|To Do|To Do|
-|665|[Non-decreasing Array](https://leetcode-cn.com/problems/Non-decreasing-Array/)|Easy|To Do|To Do|To Do|
+|665|[Non-decreasing Array](https://leetcode-cn.com/problems/Non-decreasing-Array/)|Medium|To Do|To Do|To Do|
 |666|[Path Sum IV :lock:](https://leetcode-cn.com/problems/Path-Sum-IV/)|Medium|To Do|To Do|To Do|
 |667|[Beautiful Arrangement II](https://leetcode-cn.com/problems/Beautiful-Arrangement-II/)|Medium|To Do|To Do|To Do|
 |668|[Kth Smallest Number in Multiplication Table](https://leetcode-cn.com/problems/Kth-Smallest-Number-in-Multiplication-Table/)|Hard|To Do|To Do|To Do|
-|669|[Trim a Binary Search Tree](https://leetcode-cn.com/problems/Trim-a-Binary-Search-Tree/)|Easy|To Do|To Do|To Do|
+|669|[Trim a Binary Search Tree](https://leetcode-cn.com/problems/Trim-a-Binary-Search-Tree/)|Medium|To Do|To Do|To Do|
 |670|[Maximum Swap](https://leetcode-cn.com/problems/Maximum-Swap/)|Medium|To Do|To Do|To Do|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode-cn.com/problems/Second-Minimum-Node-In-a-Binary-Tree/)|Easy|To Do|To Do|To Do|
 |672|[Bulb Switcher II](https://leetcode-cn.com/problems/Bulb-Switcher-II/)|Medium|To Do|To Do|To Do|
@@ -631,7 +636,7 @@
 |687|[Longest Univalue Path](https://leetcode-cn.com/problems/Longest-Univalue-Path/)|Medium|To Do|To Do|To Do|
 |688|[Knight Probability in Chessboard](https://leetcode-cn.com/problems/Knight-Probability-in-Chessboard/)|Medium|To Do|To Do|To Do|
 |689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode-cn.com/problems/Maximum-Sum-of-3-Non-Overlapping-Subarrays/)|Hard|To Do|To Do|To Do|
-|690|[Employee Importance](https://leetcode-cn.com/problems/Employee-Importance/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[690]员工的重要性/solution.js)|To Do|
+|690|[Employee Importance](https://leetcode-cn.com/problems/Employee-Importance/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[690]员工的重要性/solution.js)|To Do|
 |691|[Stickers to Spell Word](https://leetcode-cn.com/problems/Stickers-to-Spell-Word/)|Hard|To Do|To Do|To Do|
 |692|[Top K Frequent Words](https://leetcode-cn.com/problems/Top-K-Frequent-Words/)|Medium|To Do|To Do|To Do|
 |693|[Binary Number with Alternating Bits](https://leetcode-cn.com/problems/Binary-Number-with-Alternating-Bits/)|Easy|To Do|To Do|To Do|
@@ -639,11 +644,11 @@
 |695|[Max Area of Island](https://leetcode-cn.com/problems/Max-Area-of-Island/)|Medium|To Do|To Do|To Do|
 |696|[Count Binary Substrings](https://leetcode-cn.com/problems/Count-Binary-Substrings/)|Easy|To Do|To Do|To Do|
 |697|[Degree of an Array](https://leetcode-cn.com/problems/Degree-of-an-Array/)|Easy|To Do|To Do|To Do|
-|698|[Partition to K Equal Sum Subsets](https://leetcode-cn.com/problems/Partition-to-K-Equal-Sum-Subsets/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[698]划分为k个相等的子集/solution.js)|To Do|
+|698|[Partition to K Equal Sum Subsets](https://leetcode-cn.com/problems/Partition-to-K-Equal-Sum-Subsets/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[698]划分为k个相等的子集/solution.js)|To Do|
 |699|[Falling Squares](https://leetcode-cn.com/problems/Falling-Squares/)|Hard|To Do|To Do|To Do|
 |711|[Number of Distinct Islands II :lock:](https://leetcode-cn.com/problems/Number-of-Distinct-Islands-II/)|Hard|To Do|To Do|To Do|
 |712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode-cn.com/problems/Minimum-ASCII-Delete-Sum-for-Two-Strings/)|Medium|To Do|To Do|To Do|
-|713|[Subarray Product Less Than K](https://leetcode-cn.com/problems/Subarray-Product-Less-Than-K/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[713]乘积小于k的子数组/solution.js)|To Do|
+|713|[Subarray Product Less Than K](https://leetcode-cn.com/problems/Subarray-Product-Less-Than-K/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[713]乘积小于k的子数组/solution.js)|To Do|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode-cn.com/problems/Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee/)|Medium|To Do|To Do|To Do|
 |715|[Range Module](https://leetcode-cn.com/problems/Range-Module/)|Hard|To Do|To Do|To Do|
 |716|[Max Stack :lock:](https://leetcode-cn.com/problems/Max-Stack/)|Easy|To Do|To Do|To Do|
@@ -669,7 +674,7 @@
 |736|[Parse Lisp Expression](https://leetcode-cn.com/problems/Parse-Lisp-Expression/)|Hard|To Do|To Do|To Do|
 |737|[Sentence Similarity II :lock:](https://leetcode-cn.com/problems/Sentence-Similarity-II/)|Medium|To Do|To Do|To Do|
 |738|[Monotone Increasing Digits](https://leetcode-cn.com/problems/Monotone-Increasing-Digits/)|Medium|To Do|To Do|To Do|
-|739|[Daily Temperatures](https://leetcode-cn.com/problems/Daily-Temperatures/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[739]每日温度/solution.js)|To Do|
+|739|[Daily Temperatures](https://leetcode-cn.com/problems/Daily-Temperatures/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[739]每日温度/solution.js)|To Do|
 |740|[Delete and Earn](https://leetcode-cn.com/problems/Delete-and-Earn/)|Medium|To Do|To Do|To Do|
 |741|[Cherry Pickup](https://leetcode-cn.com/problems/Cherry-Pickup/)|Hard|To Do|To Do|To Do|
 |709|[To Lower Case](https://leetcode-cn.com/problems/To-Lower-Case/)|Easy|To Do|To Do|To Do|
@@ -682,7 +687,7 @@
 |748|[Shortest Completing Word](https://leetcode-cn.com/problems/Shortest-Completing-Word/)|Easy|To Do|To Do|To Do|
 |749|[Contain Virus](https://leetcode-cn.com/problems/Contain-Virus/)|Hard|To Do|To Do|To Do|
 |750|[Number Of Corner Rectangles :lock:](https://leetcode-cn.com/problems/Number-Of-Corner-Rectangles/)|Medium|To Do|To Do|To Do|
-|751|[IP to CIDR :lock:](https://leetcode-cn.com/problems/IP-to-CIDR/)|Easy|To Do|To Do|To Do|
+|751|[IP to CIDR :lock:](https://leetcode-cn.com/problems/IP-to-CIDR/)|Medium|To Do|To Do|To Do|
 |752|[Open the Lock](https://leetcode-cn.com/problems/Open-the-Lock/)|Medium|To Do|To Do|To Do|
 |753|[Cracking the Safe](https://leetcode-cn.com/problems/Cracking-the-Safe/)|Hard|To Do|To Do|To Do|
 |754|[Reach a Number](https://leetcode-cn.com/problems/Reach-a-Number/)|Medium|To Do|To Do|To Do|
@@ -690,7 +695,7 @@
 |756|[Pyramid Transition Matrix](https://leetcode-cn.com/problems/Pyramid-Transition-Matrix/)|Medium|To Do|To Do|To Do|
 |426|[Convert Binary Search Tree to Sorted Doubly Linked List :lock:](https://leetcode-cn.com/problems/Convert-Binary-Search-Tree-to-Sorted-Doubly-Linked-List/)|Medium|To Do|To Do|To Do|
 |757|[Set Intersection Size At Least Two](https://leetcode-cn.com/problems/Set-Intersection-Size-At-Least-Two/)|Hard|To Do|To Do|To Do|
-|758|[Bold Words in String :lock:](https://leetcode-cn.com/problems/Bold-Words-in-String/)|Easy|To Do|To Do|To Do|
+|758|[Bold Words in String :lock:](https://leetcode-cn.com/problems/Bold-Words-in-String/)|Medium|To Do|To Do|To Do|
 |759|[Employee Free Time :lock:](https://leetcode-cn.com/problems/Employee-Free-Time/)|Hard|To Do|To Do|To Do|
 |760|[Find Anagram Mappings :lock:](https://leetcode-cn.com/problems/Find-Anagram-Mappings/)|Easy|To Do|To Do|To Do|
 |761|[Special Binary String](https://leetcode-cn.com/problems/Special-Binary-String/)|Hard|To Do|To Do|To Do|
@@ -734,13 +739,13 @@
 |785|[Is Graph Bipartite?](https://leetcode-cn.com/problems/Is-Graph-Bipartite?/)|Medium|To Do|To Do|To Do|
 |786|[K-th Smallest Prime Fraction](https://leetcode-cn.com/problems/K-th-Smallest-Prime-Fraction/)|Hard|To Do|To Do|To Do|
 |787|[Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/Cheapest-Flights-Within-K-Stops/)|Medium|To Do|To Do|To Do|
-|788|[Rotated Digits](https://leetcode-cn.com/problems/Rotated-Digits/)|Easy|To Do|To Do|To Do|
+|788|[Rotated Digits](https://leetcode-cn.com/problems/Rotated-Digits/)|Medium|To Do|To Do|To Do|
 |789|[Escape The Ghosts](https://leetcode-cn.com/problems/Escape-The-Ghosts/)|Medium|To Do|To Do|To Do|
 |790|[Domino and Tromino Tiling](https://leetcode-cn.com/problems/Domino-and-Tromino-Tiling/)|Medium|To Do|To Do|To Do|
 |791|[Custom Sort String](https://leetcode-cn.com/problems/Custom-Sort-String/)|Medium|To Do|To Do|To Do|
 |792|[Number of Matching Subsequences](https://leetcode-cn.com/problems/Number-of-Matching-Subsequences/)|Medium|To Do|To Do|To Do|
 |793|[Preimage Size of Factorial Zeroes Function](https://leetcode-cn.com/problems/Preimage-Size-of-Factorial-Zeroes-Function/)|Hard|To Do|To Do|To Do|
-|794|[Valid Tic-Tac-Toe State](https://leetcode-cn.com/problems/Valid-Tic-Tac-Toe-State/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[794]有效的井字游戏/solution.js)|To Do|
+|794|[Valid Tic-Tac-Toe State](https://leetcode-cn.com/problems/Valid-Tic-Tac-Toe-State/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[794]有效的井字游戏/solution.js)|To Do|
 |795|[Number of Subarrays with Bounded Maximum](https://leetcode-cn.com/problems/Number-of-Subarrays-with-Bounded-Maximum/)|Medium|To Do|To Do|To Do|
 |796|[Rotate String](https://leetcode-cn.com/problems/Rotate-String/)|Easy|To Do|To Do|To Do|
 |797|[All Paths From Source to Target](https://leetcode-cn.com/problems/All-Paths-From-Source-to-Target/)|Medium|To Do|To Do|To Do|
@@ -749,7 +754,7 @@
 |705|[Design HashSet](https://leetcode-cn.com/problems/Design-HashSet/)|Easy|To Do|To Do|To Do|
 |706|[Design HashMap](https://leetcode-cn.com/problems/Design-HashMap/)|Easy|To Do|To Do|To Do|
 |800|[Similar RGB Color :lock:](https://leetcode-cn.com/problems/Similar-RGB-Color/)|Easy|To Do|To Do|To Do|
-|801|[Minimum Swaps To Make Sequences Increasing](https://leetcode-cn.com/problems/Minimum-Swaps-To-Make-Sequences-Increasing/)|Medium|To Do|To Do|To Do|
+|801|[Minimum Swaps To Make Sequences Increasing](https://leetcode-cn.com/problems/Minimum-Swaps-To-Make-Sequences-Increasing/)|Hard|To Do|To Do|To Do|
 |802|[Find Eventual Safe States](https://leetcode-cn.com/problems/Find-Eventual-Safe-States/)|Medium|To Do|To Do|To Do|
 |803|[Bricks Falling When Hit](https://leetcode-cn.com/problems/Bricks-Falling-When-Hit/)|Hard|To Do|To Do|To Do|
 |804|[Unique Morse Code Words](https://leetcode-cn.com/problems/Unique-Morse-Code-Words/)|Easy|To Do|To Do|To Do|
@@ -759,7 +764,7 @@
 |808|[Soup Servings](https://leetcode-cn.com/problems/Soup-Servings/)|Medium|To Do|To Do|To Do|
 |809|[Expressive Words](https://leetcode-cn.com/problems/Expressive-Words/)|Medium|To Do|To Do|To Do|
 |810|[Chalkboard XOR Game](https://leetcode-cn.com/problems/Chalkboard-XOR-Game/)|Hard|To Do|To Do|To Do|
-|811|[Subdomain Visit Count](https://leetcode-cn.com/problems/Subdomain-Visit-Count/)|Easy|To Do|To Do|To Do|
+|811|[Subdomain Visit Count](https://leetcode-cn.com/problems/Subdomain-Visit-Count/)|Medium|To Do|To Do|To Do|
 |812|[Largest Triangle Area](https://leetcode-cn.com/problems/Largest-Triangle-Area/)|Easy|To Do|To Do|To Do|
 |813|[Largest Sum of Averages](https://leetcode-cn.com/problems/Largest-Sum-of-Averages/)|Medium|To Do|To Do|To Do|
 |814|[Binary Tree Pruning](https://leetcode-cn.com/problems/Binary-Tree-Pruning/)|Medium|To Do|To Do|To Do|
@@ -769,7 +774,7 @@
 |818|[Race Car](https://leetcode-cn.com/problems/Race-Car/)|Hard|To Do|To Do|To Do|
 |819|[Most Common Word](https://leetcode-cn.com/problems/Most-Common-Word/)|Easy|To Do|To Do|To Do|
 |707|[Design Linked List](https://leetcode-cn.com/problems/Design-Linked-List/)|Medium|To Do|To Do|To Do|
-|820|[Short Encoding of Words](https://leetcode-cn.com/problems/Short-Encoding-of-Words/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[820]单词的压缩编码/solution.js)|To Do|
+|820|[Short Encoding of Words](https://leetcode-cn.com/problems/Short-Encoding-of-Words/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[820]单词的压缩编码/solution.js)|To Do|
 |821|[Shortest Distance to a Character](https://leetcode-cn.com/problems/Shortest-Distance-to-a-Character/)|Easy|To Do|To Do|To Do|
 |822|[Card Flipping Game](https://leetcode-cn.com/problems/Card-Flipping-Game/)|Medium|To Do|To Do|To Do|
 |823|[Binary Trees With Factors](https://leetcode-cn.com/problems/Binary-Trees-With-Factors/)|Medium|To Do|To Do|To Do|
@@ -783,7 +788,7 @@
 |830|[Positions of Large Groups](https://leetcode-cn.com/problems/Positions-of-Large-Groups/)|Easy|To Do|To Do|To Do|
 |831|[Masking Personal Information](https://leetcode-cn.com/problems/Masking-Personal-Information/)|Medium|To Do|To Do|To Do|
 |641|[Design Circular Deque](https://leetcode-cn.com/problems/Design-Circular-Deque/)|Medium|To Do|To Do|To Do|
-|622|[Design Circular Queue](https://leetcode-cn.com/problems/Design-Circular-Queue/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[622]设计循环队列/solution.js)|To Do|
+|622|[Design Circular Queue](https://leetcode-cn.com/problems/Design-Circular-Queue/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[622]设计循环队列/solution.js)|To Do|
 |832|[Flipping an Image](https://leetcode-cn.com/problems/Flipping-an-Image/)|Easy|To Do|To Do|To Do|
 |833|[Find And Replace in String](https://leetcode-cn.com/problems/Find-And-Replace-in-String/)|Medium|To Do|To Do|To Do|
 |834|[Sum of Distances in Tree](https://leetcode-cn.com/problems/Sum-of-Distances-in-Tree/)|Hard|To Do|To Do|To Do|
@@ -797,7 +802,7 @@
 |841|[Keys and Rooms](https://leetcode-cn.com/problems/Keys-and-Rooms/)|Medium|To Do|To Do|To Do|
 |842|[Split Array into Fibonacci Sequence](https://leetcode-cn.com/problems/Split-Array-into-Fibonacci-Sequence/)|Medium|To Do|To Do|To Do|
 |843|[Guess the Word](https://leetcode-cn.com/problems/Guess-the-Word/)|Hard|To Do|To Do|To Do|
-|844|[Backspace String Compare](https://leetcode-cn.com/problems/Backspace-String-Compare/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符/solution.js)|To Do|
+|844|[Backspace String Compare](https://leetcode-cn.com/problems/Backspace-String-Compare/)|Easy|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[844]比较含退格的字符/solution.js)|To Do|
 |845|[Longest Mountain in Array](https://leetcode-cn.com/problems/Longest-Mountain-in-Array/)|Medium|To Do|To Do|To Do|
 |846|[Hand of Straights](https://leetcode-cn.com/problems/Hand-of-Straights/)|Medium|To Do|To Do|To Do|
 |847|[Shortest Path Visiting All Nodes](https://leetcode-cn.com/problems/Shortest-Path-Visiting-All-Nodes/)|Hard|To Do|To Do|To Do|
@@ -829,7 +834,7 @@
 |470|[Implement Rand10() Using Rand7()](https://leetcode-cn.com/problems/Implement-Rand10-Using-Rand7/)|Medium|To Do|To Do|To Do|
 |872|[Leaf-Similar Trees](https://leetcode-cn.com/problems/Leaf-Similar-Trees/)|Easy|To Do|To Do|To Do|
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode-cn.com/problems/Length-of-Longest-Fibonacci-Subsequence/)|Medium|To Do|To Do|To Do|
-|874|[Walking Robot Simulation](https://leetcode-cn.com/problems/Walking-Robot-Simulation/)|Easy|To Do|To Do|To Do|
+|874|[Walking Robot Simulation](https://leetcode-cn.com/problems/Walking-Robot-Simulation/)|Medium|To Do|To Do|To Do|
 |875|[Koko Eating Bananas](https://leetcode-cn.com/problems/Koko-Eating-Bananas/)|Medium|To Do|To Do|To Do|
 |876|[Middle of the Linked List](https://leetcode-cn.com/problems/Middle-of-the-Linked-List/)|Easy|To Do|To Do|To Do|
 |877|[Stone Game](https://leetcode-cn.com/problems/Stone-Game/)|Medium|To Do|To Do|To Do|
@@ -852,7 +857,7 @@
 |890|[Find and Replace Pattern](https://leetcode-cn.com/problems/Find-and-Replace-Pattern/)|Medium|To Do|To Do|To Do|
 |891|[Sum of Subsequence Widths](https://leetcode-cn.com/problems/Sum-of-Subsequence-Widths/)|Hard|To Do|To Do|To Do|
 |892|[Surface Area of 3D Shapes](https://leetcode-cn.com/problems/Surface-Area-of-3D-Shapes/)|Easy|To Do|To Do|To Do|
-|893|[Groups of Special-Equivalent Strings](https://leetcode-cn.com/problems/Groups-of-Special-Equivalent-Strings/)|Easy|To Do|To Do|To Do|
+|893|[Groups of Special-Equivalent Strings](https://leetcode-cn.com/problems/Groups-of-Special-Equivalent-Strings/)|Medium|To Do|To Do|To Do|
 |894|[All Possible Full Binary Trees](https://leetcode-cn.com/problems/All-Possible-Full-Binary-Trees/)|Medium|To Do|To Do|To Do|
 |895|[Maximum Frequency Stack](https://leetcode-cn.com/problems/Maximum-Frequency-Stack/)|Hard|To Do|To Do|To Do|
 |896|[Monotonic Array](https://leetcode-cn.com/problems/Monotonic-Array/)|Easy|To Do|To Do|To Do|
@@ -880,7 +885,7 @@
 |918|[Maximum Sum Circular Subarray](https://leetcode-cn.com/problems/Maximum-Sum-Circular-Subarray/)|Medium|To Do|To Do|To Do|
 |919|[Complete Binary Tree Inserter](https://leetcode-cn.com/problems/Complete-Binary-Tree-Inserter/)|Medium|To Do|To Do|To Do|
 |920|[Number of Music Playlists](https://leetcode-cn.com/problems/Number-of-Music-Playlists/)|Hard|To Do|To Do|To Do|
-|921|[Minimum Add to Make Parentheses Valid](https://leetcode-cn.com/problems/Minimum-Add-to-Make-Parentheses-Valid/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[921]使括号有效的最少添加/solution.js)|To Do|
+|921|[Minimum Add to Make Parentheses Valid](https://leetcode-cn.com/problems/Minimum-Add-to-Make-Parentheses-Valid/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[921]使括号有效的最少添加/solution.js)|To Do|
 |922|[Sort Array By Parity II](https://leetcode-cn.com/problems/Sort-Array-By-Parity-II/)|Easy|To Do|To Do|To Do|
 |923|[3Sum With Multiplicity](https://leetcode-cn.com/problems/3Sum-With-Multiplicity/)|Medium|To Do|To Do|To Do|
 |924|[Minimize Malware Spread](https://leetcode-cn.com/problems/Minimize-Malware-Spread/)|Hard|To Do|To Do|To Do|
@@ -898,7 +903,7 @@
 |936|[Stamping The Sequence](https://leetcode-cn.com/problems/Stamping-The-Sequence/)|Hard|To Do|To Do|To Do|
 |937|[Reorder Data in Log Files](https://leetcode-cn.com/problems/Reorder-Data-in-Log-Files/)|Easy|To Do|To Do|To Do|
 |938|[Range Sum of BST](https://leetcode-cn.com/problems/Range-Sum-of-BST/)|Easy|To Do|To Do|To Do|
-|939|[Minimum Area Rectangle](https://leetcode-cn.com/problems/Minimum-Area-Rectangle/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[939]最近的请求次数/solution.js)|To Do|
+|939|[Minimum Area Rectangle](https://leetcode-cn.com/problems/Minimum-Area-Rectangle/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[939]最近的请求次数/solution.js)|To Do|
 |940|[Distinct Subsequences II](https://leetcode-cn.com/problems/Distinct-Subsequences-II/)|Hard|To Do|To Do|To Do|
 |941|[Valid Mountain Array](https://leetcode-cn.com/problems/Valid-Mountain-Array/)|Easy|To Do|To Do|To Do|
 |942|[DI String Match](https://leetcode-cn.com/problems/DI-String-Match/)|Easy|To Do|To Do|To Do|
@@ -916,7 +921,7 @@
 |954|[Array of Doubled Pairs](https://leetcode-cn.com/problems/Array-of-Doubled-Pairs/)|Medium|To Do|To Do|To Do|
 |955|[Delete Columns to Make Sorted II](https://leetcode-cn.com/problems/Delete-Columns-to-Make-Sorted-II/)|Medium|To Do|To Do|To Do|
 |956|[Tallest Billboard](https://leetcode-cn.com/problems/Tallest-Billboard/)|Hard|To Do|To Do|To Do|
-|957|[Prison Cells After N Days](https://leetcode-cn.com/problems/Prison-Cells-After-N-Days/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[957]N天后的牢房/solution.js)|To Do|
+|957|[Prison Cells After N Days](https://leetcode-cn.com/problems/Prison-Cells-After-N-Days/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[957]N天后的牢房/solution.js)|To Do|
 |958|[Check Completeness of a Binary Tree](https://leetcode-cn.com/problems/Check-Completeness-of-a-Binary-Tree/)|Medium|To Do|To Do|To Do|
 |959|[Regions Cut By Slashes](https://leetcode-cn.com/problems/Regions-Cut-By-Slashes/)|Medium|To Do|To Do|To Do|
 |960|[Delete Columns to Make Sorted III](https://leetcode-cn.com/problems/Delete-Columns-to-Make-Sorted-III/)|Hard|To Do|To Do|To Do|
@@ -929,11 +934,11 @@
 |967|[Numbers With Same Consecutive Differences](https://leetcode-cn.com/problems/Numbers-With-Same-Consecutive-Differences/)|Medium|To Do|To Do|To Do|
 |968|[Binary Tree Cameras](https://leetcode-cn.com/problems/Binary-Tree-Cameras/)|Hard|To Do|To Do|To Do|
 |969|[Pancake Sorting](https://leetcode-cn.com/problems/Pancake-Sorting/)|Medium|To Do|To Do|To Do|
-|970|[Powerful Integers](https://leetcode-cn.com/problems/Powerful-Integers/)|Easy|To Do|To Do|To Do|
+|970|[Powerful Integers](https://leetcode-cn.com/problems/Powerful-Integers/)|Medium|To Do|To Do|To Do|
 |971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode-cn.com/problems/Flip-Binary-Tree-To-Match-Preorder-Traversal/)|Medium|To Do|To Do|To Do|
 |972|[Equal Rational Numbers](https://leetcode-cn.com/problems/Equal-Rational-Numbers/)|Hard|To Do|To Do|To Do|
 |509|[Fibonacci Number](https://leetcode-cn.com/problems/Fibonacci-Number/)|Easy|To Do|To Do|To Do|
-|973|[K Closest Points to Origin](https://leetcode-cn.com/problems/K-Closest-Points-to-Origin/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[973]最接近原点的%20K%20个点/solution.js)|To Do|
+|973|[K Closest Points to Origin](https://leetcode-cn.com/problems/K-Closest-Points-to-Origin/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[973]最接近原点的%20K%20个点/solution.js)|To Do|
 |974|[Subarray Sums Divisible by K](https://leetcode-cn.com/problems/Subarray-Sums-Divisible-by-K/)|Medium|To Do|To Do|To Do|
 |975|[Odd Even Jump](https://leetcode-cn.com/problems/Odd-Even-Jump/)|Hard|To Do|To Do|To Do|
 |976|[Largest Perimeter Triangle](https://leetcode-cn.com/problems/Largest-Perimeter-Triangle/)|Easy|To Do|To Do|To Do|
@@ -945,9 +950,9 @@
 |982|[Triples with Bitwise AND Equal To Zero](https://leetcode-cn.com/problems/Triples-with-Bitwise-AND-Equal-To-Zero/)|Hard|To Do|To Do|To Do|
 |983|[Minimum Cost For Tickets](https://leetcode-cn.com/problems/Minimum-Cost-For-Tickets/)|Medium|To Do|To Do|To Do|
 |984|[String Without AAA or BBB](https://leetcode-cn.com/problems/String-Without-AAA-or-BBB/)|Medium|To Do|To Do|To Do|
-|985|[Sum of Even Numbers After Queries](https://leetcode-cn.com/problems/Sum-of-Even-Numbers-After-Queries/)|Easy|To Do|To Do|To Do|
+|985|[Sum of Even Numbers After Queries](https://leetcode-cn.com/problems/Sum-of-Even-Numbers-After-Queries/)|Medium|To Do|To Do|To Do|
 |986|[Interval List Intersections](https://leetcode-cn.com/problems/Interval-List-Intersections/)|Medium|To Do|To Do|To Do|
-|987|[Vertical Order Traversal of a Binary Tree](https://leetcode-cn.com/problems/Vertical-Order-Traversal-of-a-Binary-Tree/)|Medium|To Do|To Do|To Do|
+|987|[Vertical Order Traversal of a Binary Tree](https://leetcode-cn.com/problems/Vertical-Order-Traversal-of-a-Binary-Tree/)|Hard|To Do|To Do|To Do|
 |988|[Smallest String Starting From Leaf](https://leetcode-cn.com/problems/Smallest-String-Starting-From-Leaf/)|Medium|To Do|To Do|To Do|
 |989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/Add-to-Array-Form-of-Integer/)|Easy|To Do|To Do|To Do|
 |990|[Satisfiability of Equality Equations](https://leetcode-cn.com/problems/Satisfiability-of-Equality-Equations/)|Medium|To Do|To Do|To Do|
@@ -1019,9 +1024,9 @@
 |1133|[Largest Unique Number :lock:](https://leetcode-cn.com/problems/Largest-Unique-Number/)|Easy|To Do|To Do|To Do|
 |1102|[Path With Maximum Minimum Value :lock:](https://leetcode-cn.com/problems/Path-With-Maximum-Minimum-Value/)|Medium|To Do|To Do|To Do|
 |1135|[Connecting Cities With Minimum Cost :lock:](https://leetcode-cn.com/problems/Connecting-Cities-With-Minimum-Cost/)|Medium|To Do|To Do|To Do|
-|1136|[Parallel Courses :lock:](https://leetcode-cn.com/problems/Parallel-Courses/)|Hard|To Do|To Do|To Do|
+|1136|[Parallel Courses :lock:](https://leetcode-cn.com/problems/Parallel-Courses/)|Medium|To Do|To Do|To Do|
 |1150|[Check If a Number Is Majority Element in a Sorted Array :lock:](https://leetcode-cn.com/problems/Check-If-a-Number-Is-Majority-Element-in-a-Sorted-Array/)|Easy|To Do|To Do|To Do|
-|1033|[Moving Stones Until Consecutive](https://leetcode-cn.com/problems/Moving-Stones-Until-Consecutive/)|Easy|To Do|To Do|To Do|
+|1033|[Moving Stones Until Consecutive](https://leetcode-cn.com/problems/Moving-Stones-Until-Consecutive/)|Medium|To Do|To Do|To Do|
 |1034|[Coloring A Border](https://leetcode-cn.com/problems/Coloring-A-Border/)|Medium|To Do|To Do|To Do|
 |1035|[Uncrossed Lines](https://leetcode-cn.com/problems/Uncrossed-Lines/)|Medium|To Do|To Do|To Do|
 |1036|[Escape a Large Maze](https://leetcode-cn.com/problems/Escape-a-Large-Maze/)|Hard|To Do|To Do|To Do|
@@ -1033,7 +1038,7 @@
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode-cn.com/problems/Binary-Search-Tree-to-Greater-Sum-Tree/)|Medium|To Do|To Do|To Do|
 |1037|[Valid Boomerang](https://leetcode-cn.com/problems/Valid-Boomerang/)|Easy|To Do|To Do|To Do|
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode-cn.com/problems/Maximum-Level-Sum-of-a-Binary-Tree/)|Medium|To Do|To Do|To Do|
-|1162|[As Far from Land as Possible](https://leetcode-cn.com/problems/As-Far-from-Land-as-Possible/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1162]地图分析/solution.js)|To Do|
+|1162|[As Far from Land as Possible](https://leetcode-cn.com/problems/As-Far-from-Land-as-Possible/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1162]地图分析/solution.js)|To Do|
 |1121|[Divide Array Into Increasing Sequences :lock:](https://leetcode-cn.com/problems/Divide-Array-Into-Increasing-Sequences/)|Hard|To Do|To Do|To Do|
 |1041|[Robot Bounded In Circle](https://leetcode-cn.com/problems/Robot-Bounded-In-Circle/)|Medium|To Do|To Do|To Do|
 |1042|[Flower Planting With No Adjacent](https://leetcode-cn.com/problems/Flower-Planting-With-No-Adjacent/)|Medium|To Do|To Do|To Do|
@@ -1100,7 +1105,7 @@
 |1273|[Delete Tree Nodes :lock:](https://leetcode-cn.com/problems/Delete-Tree-Nodes/)|Medium|To Do|To Do|To Do|
 |1246|[Palindrome Removal :lock:](https://leetcode-cn.com/problems/Palindrome-Removal/)|Hard|To Do|To Do|To Do|
 |1108|[Defanging an IP Address](https://leetcode-cn.com/problems/Defanging-an-IP-Address/)|Easy|To Do|To Do|To Do|
-|1109|[Corporate Flight Bookings](https://leetcode-cn.com/problems/Corporate-Flight-Bookings/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1109]航班预订统计/solution.js)|To Do|
+|1109|[Corporate Flight Bookings](https://leetcode-cn.com/problems/Corporate-Flight-Bookings/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1109]航班预订统计/solution.js)|To Do|
 |1110|[Delete Nodes And Return Forest](https://leetcode-cn.com/problems/Delete-Nodes-And-Return-Forest/)|Medium|To Do|To Do|To Do|
 |1111|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode-cn.com/problems/Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings/)|Medium|To Do|To Do|To Do|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode-cn.com/problems/Mean-of-Array-After-Removing-Some-Elements/)|Easy|To Do|To Do|To Do|
@@ -1146,11 +1151,12 @@
 |1156|[Swap For Longest Repeated Character Substring](https://leetcode-cn.com/problems/Swap-For-Longest-Repeated-Character-Substring/)|Medium|To Do|To Do|To Do|
 |1157|[Online Majority Element In Subarray](https://leetcode-cn.com/problems/Online-Majority-Element-In-Subarray/)|Hard|To Do|To Do|To Do|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/Number-of-Dice-Rolls-With-Target-Sum/)|Medium|To Do|To Do|To Do|
+|1935|[Maximum Number of Words You Can Type](https://leetcode-cn.com/problems/Maximum-Number-of-Words-You-Can-Type/)|Easy|To Do|To Do|To Do|
 |1171|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode-cn.com/problems/Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List/)|Medium|To Do|To Do|To Do|
 |1172|[Dinner Plate Stacks](https://leetcode-cn.com/problems/Dinner-Plate-Stacks/)|Hard|To Do|To Do|To Do|
 |1236|[Web Crawler :lock:](https://leetcode-cn.com/problems/Web-Crawler/)|Medium|To Do|To Do|To Do|
 |1169|[Invalid Transactions](https://leetcode-cn.com/problems/Invalid-Transactions/)|Medium|To Do|To Do|To Do|
-|1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode-cn.com/problems/Compare-Strings-by-Frequency-of-the-Smallest-Character/)|Easy|To Do|To Do|To Do|
+|1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode-cn.com/problems/Compare-Strings-by-Frequency-of-the-Smallest-Character/)|Medium|To Do|To Do|To Do|
 |1360|[Number of Days Between Two Dates](https://leetcode-cn.com/problems/Number-of-Days-Between-Two-Dates/)|Easy|To Do|To Do|To Do|
 |1361|[Validate Binary Tree Nodes](https://leetcode-cn.com/problems/Validate-Binary-Tree-Nodes/)|Medium|To Do|To Do|To Do|
 |1362|[Closest Divisors](https://leetcode-cn.com/problems/Closest-Divisors/)|Medium|To Do|To Do|To Do|
@@ -1168,40 +1174,49 @@
 |1185|[Day of the Week](https://leetcode-cn.com/problems/Day-of-the-Week/)|Easy|To Do|To Do|To Do|
 |1187|[Make Array Strictly Increasing](https://leetcode-cn.com/problems/Make-Array-Strictly-Increasing/)|Hard|To Do|To Do|To Do|
 |1550|[Three Consecutive Odds](https://leetcode-cn.com/problems/Three-Consecutive-Odds/)|Easy|To Do|To Do|To Do|
+|1954|[Minimum Garden Perimeter to Collect Enough Apples](https://leetcode-cn.com/problems/Minimum-Garden-Perimeter-to-Collect-Enough-Apples/)|Medium|To Do|To Do|To Do|
 |1483|[Kth Ancestor of a Tree Node](https://leetcode-cn.com/problems/Kth-Ancestor-of-a-Tree-Node/)|Hard|To Do|To Do|To Do|
 |1189|[Maximum Number of Balloons](https://leetcode-cn.com/problems/Maximum-Number-of-Balloons/)|Easy|To Do|To Do|To Do|
 |1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode-cn.com/problems/Reverse-Substrings-Between-Each-Pair-of-Parentheses/)|Medium|To Do|To Do|To Do|
 |1191|[K-Concatenation Maximum Sum](https://leetcode-cn.com/problems/K-Concatenation-Maximum-Sum/)|Medium|To Do|To Do|To Do|
 |1192|[Critical Connections in a Network](https://leetcode-cn.com/problems/Critical-Connections-in-a-Network/)|Hard|To Do|To Do|To Do|
+|1957|[Delete Characters to Make Fancy String](https://leetcode-cn.com/problems/Delete-Characters-to-Make-Fancy-String/)|Easy|To Do|To Do|To Do|
 |1405|[Longest Happy String](https://leetcode-cn.com/problems/Longest-Happy-String/)|Medium|To Do|To Do|To Do|
+|1944|[Number of Visible People in a Queue](https://leetcode-cn.com/problems/Number-of-Visible-People-in-a-Queue/)|Hard|To Do|To Do|To Do|
 |1200|[Minimum Absolute Difference](https://leetcode-cn.com/problems/Minimum-Absolute-Difference/)|Easy|To Do|To Do|To Do|
 |1201|[Ugly Number III](https://leetcode-cn.com/problems/Ugly-Number-III/)|Medium|To Do|To Do|To Do|
 |1202|[Smallest String With Swaps](https://leetcode-cn.com/problems/Smallest-String-With-Swaps/)|Medium|To Do|To Do|To Do|
 |1203|[Sort Items by Groups Respecting Dependencies](https://leetcode-cn.com/problems/Sort-Items-by-Groups-Respecting-Dependencies/)|Hard|To Do|To Do|To Do|
+|1895|[Largest Magic Square](https://leetcode-cn.com/problems/Largest-Magic-Square/)|Medium|To Do|To Do|To Do|
+|1916|[Count Ways to Build Rooms in an Ant Colony](https://leetcode-cn.com/problems/Count-Ways-to-Build-Rooms-in-an-Ant-Colony/)|Hard|To Do|To Do|To Do|
 |1207|[Unique Number of Occurrences](https://leetcode-cn.com/problems/Unique-Number-of-Occurrences/)|Easy|To Do|To Do|To Do|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode-cn.com/problems/Remove-All-Adjacent-Duplicates-in-String-II/)|Medium|To Do|To Do|To Do|
 |1208|[Get Equal Substrings Within Budget](https://leetcode-cn.com/problems/Get-Equal-Substrings-Within-Budget/)|Medium|To Do|To Do|To Do|
 |1210|[Minimum Moves to Reach Target with Rotations](https://leetcode-cn.com/problems/Minimum-Moves-to-Reach-Target-with-Rotations/)|Hard|To Do|To Do|To Do|
+|1706|[Where Will the Ball Fall](https://leetcode-cn.com/problems/Where-Will-the-Ball-Fall/)|Medium|To Do|To Do|To Do|
 |1514|[Path with Maximum Probability](https://leetcode-cn.com/problems/Path-with-Maximum-Probability/)|Medium|To Do|To Do|To Do|
+|1862|[Sum of Floored Pairs](https://leetcode-cn.com/problems/Sum-of-Floored-Pairs/)|Hard|To Do|To Do|To Do|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode-cn.com/problems/Minimum-Cost-to-Move-Chips-to-The-Same-Position/)|Easy|To Do|To Do|To Do|
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode-cn.com/problems/Longest-Arithmetic-Subsequence-of-Given-Difference/)|Medium|To Do|To Do|To Do|
 |1219|[Path with Maximum Gold](https://leetcode-cn.com/problems/Path-with-Maximum-Gold/)|Medium|To Do|To Do|To Do|
 |1220|[Count Vowels Permutation](https://leetcode-cn.com/problems/Count-Vowels-Permutation/)|Hard|To Do|To Do|To Do|
+|1960|[Maximum Product of the Length of Two Palindromic Substrings](https://leetcode-cn.com/problems/Maximum-Product-of-the-Length-of-Two-Palindromic-Substrings/)|Hard|To Do|To Do|To Do|
 |1206|[Design Skiplist](https://leetcode-cn.com/problems/Design-Skiplist/)|Hard|To Do|To Do|To Do|
 |1221|[Split a String in Balanced Strings](https://leetcode-cn.com/problems/Split-a-String-in-Balanced-Strings/)|Easy|To Do|To Do|To Do|
 |1222|[Queens That Can Attack the King](https://leetcode-cn.com/problems/Queens-That-Can-Attack-the-King/)|Medium|To Do|To Do|To Do|
-|1223|[Dice Roll Simulation](https://leetcode-cn.com/problems/Dice-Roll-Simulation/)|Medium|To Do|To Do|To Do|
+|1223|[Dice Roll Simulation](https://leetcode-cn.com/problems/Dice-Roll-Simulation/)|Hard|To Do|To Do|To Do|
 |1224|[Maximum Equal Frequency](https://leetcode-cn.com/problems/Maximum-Equal-Frequency/)|Hard|To Do|To Do|To Do|
 |1427|[Perform String Shifts :lock:](https://leetcode-cn.com/problems/Perform-String-Shifts/)|Easy|To Do|To Do|To Do|
 |1232|[Check If It Is a Straight Line](https://leetcode-cn.com/problems/Check-If-It-Is-a-Straight-Line/)|Easy|To Do|To Do|To Do|
 |1233|[Remove Sub-Folders from the Filesystem](https://leetcode-cn.com/problems/Remove-Sub-Folders-from-the-Filesystem/)|Medium|To Do|To Do|To Do|
 |1234|[Replace the Substring for Balanced String](https://leetcode-cn.com/problems/Replace-the-Substring-for-Balanced-String/)|Medium|To Do|To Do|To Do|
 |1235|[Maximum Profit in Job Scheduling](https://leetcode-cn.com/problems/Maximum-Profit-in-Job-Scheduling/)|Hard|To Do|To Do|To Do|
-|1237|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/Find-Positive-Integer-Solution-for-a-Given-Equation/)|Easy|To Do|To Do|To Do|
+|1237|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/Find-Positive-Integer-Solution-for-a-Given-Equation/)|Medium|To Do|To Do|To Do|
 |1238|[Circular Permutation in Binary Representation](https://leetcode-cn.com/problems/Circular-Permutation-in-Binary-Representation/)|Medium|To Do|To Do|To Do|
 |1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode-cn.com/problems/Maximum-Length-of-a-Concatenated-String-with-Unique-Characters/)|Medium|To Do|To Do|To Do|
 |1240|[Tiling a Rectangle with the Fewest Squares](https://leetcode-cn.com/problems/Tiling-a-Rectangle-with-the-Fewest-Squares/)|Hard|To Do|To Do|To Do|
 |1227|[Airplane Seat Assignment Probability](https://leetcode-cn.com/problems/Airplane-Seat-Assignment-Probability/)|Medium|To Do|To Do|To Do|
+|1726|[Tuple with Same Product](https://leetcode-cn.com/problems/Tuple-with-Same-Product/)|Medium|To Do|To Do|To Do|
 |1429|[First Unique Number :lock:](https://leetcode-cn.com/problems/First-Unique-Number/)|Medium|To Do|To Do|To Do|
 |1691|[Maximum Height by Stacking Cuboids ](https://leetcode-cn.com/problems/Maximum-Height-by-Stacking-Cuboids-/)|Hard|To Do|To Do|To Do|
 |1247|[Minimum Swaps to Make Strings Equal](https://leetcode-cn.com/problems/Minimum-Swaps-to-Make-Strings-Equal/)|Medium|To Do|To Do|To Do|
@@ -1282,7 +1297,7 @@
 |1373|[Maximum Sum BST in Binary Tree](https://leetcode-cn.com/problems/Maximum-Sum-BST-in-Binary-Tree/)|Hard|To Do|To Do|To Do|
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/Count-Negative-Numbers-in-a-Sorted-Matrix/)|Easy|To Do|To Do|To Do|
 |1352|[Product of the Last K Numbers](https://leetcode-cn.com/problems/Product-of-the-Last-K-Numbers/)|Medium|To Do|To Do|To Do|
-|1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1353]%20最多可以参加的会议数目/solution.py)|
+|1353|[Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1353]%20最多可以参加的会议数目/solution.js)|[Python](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1353]%20最多可以参加的会议数目/solution.py)|
 |1354|[Construct Target Array With Multiple Sums](https://leetcode-cn.com/problems/Construct-Target-Array-With-Multiple-Sums/)|Hard|To Do|To Do|To Do|
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode-cn.com/problems/How-Many-Numbers-Are-Smaller-Than-the-Current-Number/)|Easy|To Do|To Do|To Do|
 |1366|[Rank Teams by Votes](https://leetcode-cn.com/problems/Rank-Teams-by-Votes/)|Medium|To Do|To Do|To Do|
@@ -1323,7 +1338,7 @@
 |1410|[HTML Entity Parser](https://leetcode-cn.com/problems/HTML-Entity-Parser/)|Medium|To Do|To Do|To Do|
 |1411|[Number of Ways to Paint N × 3 Grid](https://leetcode-cn.com/problems/Number-of-Ways-to-Paint-N-×-3-Grid/)|Hard|To Do|To Do|To Do|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode-cn.com/problems/Kids-With-the-Greatest-Number-of-Candies/)|Easy|To Do|To Do|To Do|
-|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode-cn.com/problems/Max-Difference-You-Can-Get-From-Changing-an-Integer/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1432]改变一个整数能得到的最大差值/solution.js)|To Do|
+|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode-cn.com/problems/Max-Difference-You-Can-Get-From-Changing-an-Integer/)|Medium|To Do|[JavaScript](https://github.com/showd0wn/leetcode/tree/2020/./algorithms/[1432]改变一个整数能得到的最大差值/solution.js)|To Do|
 |1433|[Check If a String Can Break Another String](https://leetcode-cn.com/problems/Check-If-a-String-Can-Break-Another-String/)|Medium|To Do|To Do|To Do|
 |1434|[Number of Ways to Wear Different Hats to Each Other](https://leetcode-cn.com/problems/Number-of-Ways-to-Wear-Different-Hats-to-Each-Other/)|Hard|To Do|To Do|To Do|
 |1417|[Reformat The String](https://leetcode-cn.com/problems/Reformat-The-String/)|Easy|To Do|To Do|To Do|
@@ -1338,7 +1353,7 @@
 |1448|[Count Good Nodes in Binary Tree](https://leetcode-cn.com/problems/Count-Good-Nodes-in-Binary-Tree/)|Medium|To Do|To Do|To Do|
 |1449|[Form Largest Integer With Digits That Add up to Target](https://leetcode-cn.com/problems/Form-Largest-Integer-With-Digits-That-Add-up-to-Target/)|Hard|To Do|To Do|To Do|
 |1436|[Destination City](https://leetcode-cn.com/problems/Destination-City/)|Easy|To Do|To Do|To Do|
-|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode-cn.com/problems/Check-If-All-1's-Are-at-Least-Length-K-Places-Away/)|Medium|To Do|To Do|To Do|
+|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode-cn.com/problems/Check-If-All-1's-Are-at-Least-Length-K-Places-Away/)|Easy|To Do|To Do|To Do|
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode-cn.com/problems/Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit/)|Medium|To Do|To Do|To Do|
 |1439|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode-cn.com/problems/Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows/)|Hard|To Do|To Do|To Do|
 |1441|[Build an Array With Stack Operations](https://leetcode-cn.com/problems/Build-an-Array-With-Stack-Operations/)|Easy|To Do|To Do|To Do|
@@ -1424,7 +1439,7 @@
 |1556|[Thousand Separator](https://leetcode-cn.com/problems/Thousand-Separator/)|Easy|To Do|To Do|To Do|
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode-cn.com/problems/Minimum-Number-of-Vertices-to-Reach-All-Nodes/)|Medium|To Do|To Do|To Do|
 |1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode-cn.com/problems/Minimum-Numbers-of-Function-Calls-to-Make-Target-Array/)|Medium|To Do|To Do|To Do|
-|1559|[Detect Cycles in 2D Grid](https://leetcode-cn.com/problems/Detect-Cycles-in-2D-Grid/)|Hard|To Do|To Do|To Do|
+|1559|[Detect Cycles in 2D Grid](https://leetcode-cn.com/problems/Detect-Cycles-in-2D-Grid/)|Medium|To Do|To Do|To Do|
 |1522|[Diameter of N-Ary Tree :lock:](https://leetcode-cn.com/problems/Diameter-of-N-Ary-Tree/)|Medium|To Do|To Do|To Do|
 |1544|[Make The String Great](https://leetcode-cn.com/problems/Make-The-String-Great/)|Easy|To Do|To Do|To Do|
 |1545|[Find Kth Bit in Nth Binary String](https://leetcode-cn.com/problems/Find-Kth-Bit-in-Nth-Binary-String/)|Medium|To Do|To Do|To Do|
@@ -1478,6 +1493,7 @@
 |1601|[Maximum Number of Achievable Transfer Requests](https://leetcode-cn.com/problems/Maximum-Number-of-Achievable-Transfer-Requests/)|Hard|To Do|To Do|To Do|
 |1621|[Number of Sets of K Non-Overlapping Line Segments](https://leetcode-cn.com/problems/Number-of-Sets-of-K-Non-Overlapping-Line-Segments/)|Medium|To Do|To Do|To Do|
 |1620|[Coordinate With Maximum Network Quality](https://leetcode-cn.com/problems/Coordinate-With-Maximum-Network-Quality/)|Medium|To Do|To Do|To Do|
+|1728|[Cat and Mouse II](https://leetcode-cn.com/problems/Cat-and-Mouse-II/)|Hard|To Do|To Do|To Do|
 |1622|[Fancy Sequence](https://leetcode-cn.com/problems/Fancy-Sequence/)|Hard|To Do|To Do|To Do|
 |1586|[Binary Search Tree Iterator II :lock:](https://leetcode-cn.com/problems/Binary-Search-Tree-Iterator-II/)|Medium|To Do|To Do|To Do|
 |1608|[Special Array With X Elements Greater Than or Equal X](https://leetcode-cn.com/problems/Special-Array-With-X-Elements-Greater-Than-or-Equal-X/)|Easy|To Do|To Do|To Do|
@@ -1541,12 +1557,308 @@
 |1679|[Max Number of K-Sum Pairs](https://leetcode-cn.com/problems/Max-Number-of-K-Sum-Pairs/)|Medium|To Do|To Do|To Do|
 |1681|[Minimum Incompatibility](https://leetcode-cn.com/problems/Minimum-Incompatibility/)|Hard|To Do|To Do|To Do|
 |1680|[Concatenation of Consecutive Binary Numbers](https://leetcode-cn.com/problems/Concatenation-of-Consecutive-Binary-Numbers/)|Medium|To Do|To Do|To Do|
+|1700|[Number of Students Unable to Eat Lunch](https://leetcode-cn.com/problems/Number-of-Students-Unable-to-Eat-Lunch/)|Easy|To Do|To Do|To Do|
+|1701|[Average Waiting Time](https://leetcode-cn.com/problems/Average-Waiting-Time/)|Medium|To Do|To Do|To Do|
+|1702|[Maximum Binary String After Change](https://leetcode-cn.com/problems/Maximum-Binary-String-After-Change/)|Medium|To Do|To Do|To Do|
+|1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode-cn.com/problems/Minimum-Adjacent-Swaps-for-K-Consecutive-Ones/)|Hard|To Do|To Do|To Do|
 |1688|[Count of Matches in Tournament](https://leetcode-cn.com/problems/Count-of-Matches-in-Tournament/)|Easy|To Do|To Do|To Do|
 |1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode-cn.com/problems/Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers/)|Medium|To Do|To Do|To Do|
 |1690|[Stone Game VII](https://leetcode-cn.com/problems/Stone-Game-VII/)|Medium|To Do|To Do|To Do|
+|1714|[Sum Of Special Evenly-Spaced Elements In Array :lock:](https://leetcode-cn.com/problems/Sum-Of-Special-Evenly-Spaced-Elements-In-Array/)|Hard|To Do|To Do|To Do|
 |1666|[Change the Root of a Binary Tree :lock:](https://leetcode-cn.com/problems/Change-the-Root-of-a-Binary-Tree/)|Medium|To Do|To Do|To Do|
+|1694|[Reformat Phone Number](https://leetcode-cn.com/problems/Reformat-Phone-Number/)|Easy|To Do|To Do|To Do|
+|1695|[Maximum Erasure Value](https://leetcode-cn.com/problems/Maximum-Erasure-Value/)|Medium|To Do|To Do|To Do|
+|1696|[Jump Game VI](https://leetcode-cn.com/problems/Jump-Game-VI/)|Medium|To Do|To Do|To Do|
+|1697|[Checking Existence of Edge Length Limited Paths](https://leetcode-cn.com/problems/Checking-Existence-of-Edge-Length-Limited-Paths/)|Hard|To Do|To Do|To Do|
 |1676|[Lowest Common Ancestor of a Binary Tree IV :lock:](https://leetcode-cn.com/problems/Lowest-Common-Ancestor-of-a-Binary-Tree-IV/)|Medium|To Do|To Do|To Do|
+|1716|[Calculate Money in Leetcode Bank](https://leetcode-cn.com/problems/Calculate-Money-in-Leetcode-Bank/)|Easy|To Do|To Do|To Do|
+|1717|[Maximum Score From Removing Substrings](https://leetcode-cn.com/problems/Maximum-Score-From-Removing-Substrings/)|Medium|To Do|To Do|To Do|
+|1718|[Construct the Lexicographically Largest Valid Sequence](https://leetcode-cn.com/problems/Construct-the-Lexicographically-Largest-Valid-Sequence/)|Medium|To Do|To Do|To Do|
+|1719|[Number Of Ways To Reconstruct A Tree](https://leetcode-cn.com/problems/Number-Of-Ways-To-Reconstruct-A-Tree/)|Hard|To Do|To Do|To Do|
 |1682|[Longest Palindromic Subsequence II :lock:](https://leetcode-cn.com/problems/Longest-Palindromic-Subsequence-II/)|Medium|To Do|To Do|To Do|
+|1704|[Determine if String Halves Are Alike](https://leetcode-cn.com/problems/Determine-if-String-Halves-Are-Alike/)|Easy|To Do|To Do|To Do|
+|1705|[Maximum Number of Eaten Apples](https://leetcode-cn.com/problems/Maximum-Number-of-Eaten-Apples/)|Medium|To Do|To Do|To Do|
+|1723|[Find Minimum Time to Finish All Jobs](https://leetcode-cn.com/problems/Find-Minimum-Time-to-Finish-All-Jobs/)|Hard|To Do|To Do|To Do|
+|1707|[Maximum XOR With an Element From Array](https://leetcode-cn.com/problems/Maximum-XOR-With-an-Element-From-Array/)|Hard|To Do|To Do|To Do|
+|1692|[Count Ways to Distribute Candies :lock:](https://leetcode-cn.com/problems/Count-Ways-to-Distribute-Candies/)|Hard|To Do|To Do|To Do|
+|1710|[Maximum Units on a Truck](https://leetcode-cn.com/problems/Maximum-Units-on-a-Truck/)|Easy|To Do|To Do|To Do|
+|1711|[Count Good Meals](https://leetcode-cn.com/problems/Count-Good-Meals/)|Medium|To Do|To Do|To Do|
+|1712|[Ways to Split Array Into Three Subarrays](https://leetcode-cn.com/problems/Ways-to-Split-Array-Into-Three-Subarrays/)|Medium|To Do|To Do|To Do|
+|1713|[Minimum Operations to Make a Subsequence](https://leetcode-cn.com/problems/Minimum-Operations-to-Make-a-Subsequence/)|Hard|To Do|To Do|To Do|
+|1732|[Find the Highest Altitude](https://leetcode-cn.com/problems/Find-the-Highest-Altitude/)|Easy|To Do|To Do|To Do|
+|1733|[Minimum Number of People to Teach](https://leetcode-cn.com/problems/Minimum-Number-of-People-to-Teach/)|Medium|To Do|To Do|To Do|
+|1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/Decode-XORed-Permutation/)|Medium|To Do|To Do|To Do|
+|1735|[Count Ways to Make Array With Product](https://leetcode-cn.com/problems/Count-Ways-to-Make-Array-With-Product/)|Hard|To Do|To Do|To Do|
+|1698|[Number of Distinct Substrings in a String :lock:](https://leetcode-cn.com/problems/Number-of-Distinct-Substrings-in-a-String/)|Medium|To Do|To Do|To Do|
+|1720|[Decode XORed Array](https://leetcode-cn.com/problems/Decode-XORed-Array/)|Easy|To Do|To Do|To Do|
+|1722|[Minimize Hamming Distance After Swap Operations](https://leetcode-cn.com/problems/Minimize-Hamming-Distance-After-Swap-Operations/)|Medium|To Do|To Do|To Do|
+|1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode-cn.com/problems/Number-Of-Rectangles-That-Can-Form-The-Largest-Square/)|Easy|To Do|To Do|To Do|
+|1742|[Maximum Number of Balls in a Box](https://leetcode-cn.com/problems/Maximum-Number-of-Balls-in-a-Box/)|Easy|To Do|To Do|To Do|
+|1727|[Largest Submatrix With Rearrangements](https://leetcode-cn.com/problems/Largest-Submatrix-With-Rearrangements/)|Medium|To Do|To Do|To Do|
+|1708|[Largest Subarray Length K :lock:](https://leetcode-cn.com/problems/Largest-Subarray-Length-K/)|Easy|To Do|To Do|To Do|
+|1748|[Sum of Unique Elements](https://leetcode-cn.com/problems/Sum-of-Unique-Elements/)|Easy|To Do|To Do|To Do|
+|1749|[Maximum Absolute Sum of Any Subarray](https://leetcode-cn.com/problems/Maximum-Absolute-Sum-of-Any-Subarray/)|Medium|To Do|To Do|To Do|
+|1750|[Minimum Length of String After Deleting Similar Ends](https://leetcode-cn.com/problems/Minimum-Length-of-String-After-Deleting-Similar-Ends/)|Medium|To Do|To Do|To Do|
+|1751|[Maximum Number of Events That Can Be Attended II](https://leetcode-cn.com/problems/Maximum-Number-of-Events-That-Can-Be-Attended-II/)|Hard|To Do|To Do|To Do|
+|1736|[Latest Time by Replacing Hidden Digits](https://leetcode-cn.com/problems/Latest-Time-by-Replacing-Hidden-Digits/)|Easy|To Do|To Do|To Do|
+|1737|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode-cn.com/problems/Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions/)|Medium|To Do|To Do|To Do|
+|1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/Find-Kth-Largest-XOR-Coordinate-Value/)|Medium|To Do|To Do|To Do|
+|1739|[Building Boxes](https://leetcode-cn.com/problems/Building-Boxes/)|Hard|To Do|To Do|To Do|
+|1724|[Checking Existence of Edge Length Limited Paths II :lock:](https://leetcode-cn.com/problems/Checking-Existence-of-Edge-Length-Limited-Paths-II/)|Hard|To Do|To Do|To Do|
+|1743|[Restore the Array From Adjacent Pairs](https://leetcode-cn.com/problems/Restore-the-Array-From-Adjacent-Pairs/)|Medium|To Do|To Do|To Do|
+|1745|[Palindrome Partitioning IV](https://leetcode-cn.com/problems/Palindrome-Partitioning-IV/)|Hard|To Do|To Do|To Do|
+|1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode-cn.com/problems/Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day?/)|Medium|To Do|To Do|To Do|
+|1763|[Longest Nice Substring](https://leetcode-cn.com/problems/Longest-Nice-Substring/)|Easy|To Do|To Do|To Do|
+|1764|[Form Array by Concatenating Subarrays of Another Array](https://leetcode-cn.com/problems/Form-Array-by-Concatenating-Subarrays-of-Another-Array/)|Medium|To Do|To Do|To Do|
+|1766|[Tree of Coprimes](https://leetcode-cn.com/problems/Tree-of-Coprimes/)|Hard|To Do|To Do|To Do|
+|1765|[Map of Highest Peak](https://leetcode-cn.com/problems/Map-of-Highest-Peak/)|Medium|To Do|To Do|To Do|
+|1752|[Check if Array Is Sorted and Rotated](https://leetcode-cn.com/problems/Check-if-Array-Is-Sorted-and-Rotated/)|Easy|To Do|To Do|To Do|
+|1753|[Maximum Score From Removing Stones](https://leetcode-cn.com/problems/Maximum-Score-From-Removing-Stones/)|Medium|To Do|To Do|To Do|
+|1754|[Largest Merge Of Two Strings](https://leetcode-cn.com/problems/Largest-Merge-Of-Two-Strings/)|Medium|To Do|To Do|To Do|
+|1755|[Closest Subsequence Sum](https://leetcode-cn.com/problems/Closest-Subsequence-Sum/)|Hard|To Do|To Do|To Do|
+|1740|[Find Distance in a Binary Tree :lock:](https://leetcode-cn.com/problems/Find-Distance-in-a-Binary-Tree/)|Medium|To Do|To Do|To Do|
+|1758|[Minimum Changes To Make Alternating Binary String](https://leetcode-cn.com/problems/Minimum-Changes-To-Make-Alternating-Binary-String/)|Easy|To Do|To Do|To Do|
+|1759|[Count Number of Homogenous Substrings](https://leetcode-cn.com/problems/Count-Number-of-Homogenous-Substrings/)|Medium|To Do|To Do|To Do|
+|1760|[Minimum Limit of Balls in a Bag](https://leetcode-cn.com/problems/Minimum-Limit-of-Balls-in-a-Bag/)|Medium|To Do|To Do|To Do|
+|1761|[Minimum Degree of a Connected Trio in a Graph](https://leetcode-cn.com/problems/Minimum-Degree-of-a-Connected-Trio-in-a-Graph/)|Hard|To Do|To Do|To Do|
+|1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode-cn.com/problems/Find-Nearest-Point-That-Has-the-Same-X-or-Y-Coordinate/)|Easy|To Do|To Do|To Do|
+|1780|[Check if Number is a Sum of Powers of Three](https://leetcode-cn.com/problems/Check-if-Number-is-a-Sum-of-Powers-of-Three/)|Medium|To Do|To Do|To Do|
+|1781|[Sum of Beauty of All Substrings](https://leetcode-cn.com/problems/Sum-of-Beauty-of-All-Substrings/)|Medium|To Do|To Do|To Do|
+|1782|[Count Pairs Of Nodes](https://leetcode-cn.com/problems/Count-Pairs-Of-Nodes/)|Hard|To Do|To Do|To Do|
+|1746|[Maximum Subarray Sum After One Operation :lock:](https://leetcode-cn.com/problems/Maximum-Subarray-Sum-After-One-Operation/)|Medium|To Do|To Do|To Do|
+|1768|[Merge Strings Alternately](https://leetcode-cn.com/problems/Merge-Strings-Alternately/)|Easy|To Do|To Do|To Do|
+|1769|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode-cn.com/problems/Minimum-Number-of-Operations-to-Move-All-Balls-to-Each-Box/)|Medium|To Do|To Do|To Do|
+|1770|[Maximum Score from Performing Multiplication Operations](https://leetcode-cn.com/problems/Maximum-Score-from-Performing-Multiplication-Operations/)|Medium|To Do|To Do|To Do|
+|1771|[Maximize Palindrome Length From Subsequences](https://leetcode-cn.com/problems/Maximize-Palindrome-Length-From-Subsequences/)|Hard|To Do|To Do|To Do|
+|1773|[Count Items Matching a Rule](https://leetcode-cn.com/problems/Count-Items-Matching-a-Rule/)|Easy|To Do|To Do|To Do|
+|1774|[Closest Dessert Cost](https://leetcode-cn.com/problems/Closest-Dessert-Cost/)|Medium|To Do|To Do|To Do|
+|1775|[Equal Sum Arrays With Minimum Number of Operations](https://leetcode-cn.com/problems/Equal-Sum-Arrays-With-Minimum-Number-of-Operations/)|Medium|To Do|To Do|To Do|
+|1776|[Car Fleet II](https://leetcode-cn.com/problems/Car-Fleet-II/)|Hard|To Do|To Do|To Do|
+|1756|[Design Most Recently Used Queue :lock:](https://leetcode-cn.com/problems/Design-Most-Recently-Used-Queue/)|Medium|To Do|To Do|To Do|
+|1796|[Second Largest Digit in a String](https://leetcode-cn.com/problems/Second-Largest-Digit-in-a-String/)|Easy|To Do|To Do|To Do|
+|1797|[Design Authentication Manager](https://leetcode-cn.com/problems/Design-Authentication-Manager/)|Medium|To Do|To Do|To Do|
+|1799|[Maximize Score After N Operations](https://leetcode-cn.com/problems/Maximize-Score-After-N-Operations/)|Hard|To Do|To Do|To Do|
+|1803|[Count Pairs With XOR in a Range](https://leetcode-cn.com/problems/Count-Pairs-With-XOR-in-a-Range/)|Hard|To Do|To Do|To Do|
+|1762|[Buildings With an Ocean View :lock:](https://leetcode-cn.com/problems/Buildings-With-an-Ocean-View/)|Medium|To Do|To Do|To Do|
+|1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode-cn.com/problems/Check-if-Binary-String-Has-at-Most-One-Segment-of-Ones/)|Easy|To Do|To Do|To Do|
+|1785|[Minimum Elements to Add to Form a Given Sum](https://leetcode-cn.com/problems/Minimum-Elements-to-Add-to-Form-a-Given-Sum/)|Medium|To Do|To Do|To Do|
+|1786|[Number of Restricted Paths From First to Last Node](https://leetcode-cn.com/problems/Number-of-Restricted-Paths-From-First-to-Last-Node/)|Medium|To Do|To Do|To Do|
+|1787|[Make the XOR of All Segments Equal to Zero](https://leetcode-cn.com/problems/Make-the-XOR-of-All-Segments-Equal-to-Zero/)|Hard|To Do|To Do|To Do|
+|1790|[Check if One String Swap Can Make Strings Equal](https://leetcode-cn.com/problems/Check-if-One-String-Swap-Can-Make-Strings-Equal/)|Easy|To Do|To Do|To Do|
+|1791|[Find Center of Star Graph](https://leetcode-cn.com/problems/Find-Center-of-Star-Graph/)|Easy|To Do|To Do|To Do|
+|1792|[Maximum Average Pass Ratio](https://leetcode-cn.com/problems/Maximum-Average-Pass-Ratio/)|Medium|To Do|To Do|To Do|
+|1793|[Maximum Score of a Good Subarray](https://leetcode-cn.com/problems/Maximum-Score-of-a-Good-Subarray/)|Hard|To Do|To Do|To Do|
+|1772|[Sort Features by Popularity :lock:](https://leetcode-cn.com/problems/Sort-Features-by-Popularity/)|Medium|To Do|To Do|To Do|
+|1812|[Determine Color of a Chessboard Square](https://leetcode-cn.com/problems/Determine-Color-of-a-Chessboard-Square/)|Easy|To Do|To Do|To Do|
+|1813|[Sentence Similarity III](https://leetcode-cn.com/problems/Sentence-Similarity-III/)|Medium|To Do|To Do|To Do|
+|1815|[Maximum Number of Groups Getting Fresh Donuts](https://leetcode-cn.com/problems/Maximum-Number-of-Groups-Getting-Fresh-Donuts/)|Hard|To Do|To Do|To Do|
+|1814|[Count Nice Pairs in an Array](https://leetcode-cn.com/problems/Count-Nice-Pairs-in-an-Array/)|Medium|To Do|To Do|To Do|
+|1800|[Maximum Ascending Subarray Sum](https://leetcode-cn.com/problems/Maximum-Ascending-Subarray-Sum/)|Easy|To Do|To Do|To Do|
+|1801|[Number of Orders in the Backlog](https://leetcode-cn.com/problems/Number-of-Orders-in-the-Backlog/)|Medium|To Do|To Do|To Do|
+|1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode-cn.com/problems/Maximum-Value-at-a-Given-Index-in-a-Bounded-Array/)|Medium|To Do|To Do|To Do|
+|1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode-cn.com/problems/Maximum-Number-of-Consecutive-Values-You-Can-Make/)|Medium|To Do|To Do|To Do|
+|1778|[Shortest Path in a Hidden Grid :lock:](https://leetcode-cn.com/problems/Shortest-Path-in-a-Hidden-Grid/)|Medium|To Do|To Do|To Do|
+|1805|[Number of Different Integers in a String](https://leetcode-cn.com/problems/Number-of-Different-Integers-in-a-String/)|Easy|To Do|To Do|To Do|
+|1807|[Evaluate the Bracket Pairs of a String](https://leetcode-cn.com/problems/Evaluate-the-Bracket-Pairs-of-a-String/)|Medium|To Do|To Do|To Do|
+|1806|[Minimum Number of Operations to Reinitialize a Permutation](https://leetcode-cn.com/problems/Minimum-Number-of-Operations-to-Reinitialize-a-Permutation/)|Medium|To Do|To Do|To Do|
+|1808|[Maximize Number of Nice Divisors](https://leetcode-cn.com/problems/Maximize-Number-of-Nice-Divisors/)|Hard|To Do|To Do|To Do|
+|1788|[Maximize the Beauty of the Garden :lock:](https://leetcode-cn.com/problems/Maximize-the-Beauty-of-the-Garden/)|Hard|To Do|To Do|To Do|
+|1827|[Minimum Operations to Make the Array Increasing](https://leetcode-cn.com/problems/Minimum-Operations-to-Make-the-Array-Increasing/)|Easy|To Do|To Do|To Do|
+|1828|[Queries on Number of Points Inside a Circle](https://leetcode-cn.com/problems/Queries-on-Number-of-Points-Inside-a-Circle/)|Medium|To Do|To Do|To Do|
+|1829|[Maximum XOR for Each Query](https://leetcode-cn.com/problems/Maximum-XOR-for-Each-Query/)|Medium|To Do|To Do|To Do|
+|1830|[Minimum Number of Operations to Make String Sorted](https://leetcode-cn.com/problems/Minimum-Number-of-Operations-to-Make-String-Sorted/)|Hard|To Do|To Do|To Do|
+|1794|[Count Pairs of Equal Substrings With Minimum Difference :lock:](https://leetcode-cn.com/problems/Count-Pairs-of-Equal-Substrings-With-Minimum-Difference/)|Medium|To Do|To Do|To Do|
+|1816|[Truncate Sentence](https://leetcode-cn.com/problems/Truncate-Sentence/)|Easy|To Do|To Do|To Do|
+|1817|[Finding the Users Active Minutes](https://leetcode-cn.com/problems/Finding-the-Users-Active-Minutes/)|Medium|To Do|To Do|To Do|
+|1818|[Minimum Absolute Sum Difference](https://leetcode-cn.com/problems/Minimum-Absolute-Sum-Difference/)|Medium|To Do|To Do|To Do|
+|1819|[Number of Different Subsequences GCDs](https://leetcode-cn.com/problems/Number-of-Different-Subsequences-GCDs/)|Hard|To Do|To Do|To Do|
+|1804|[Implement Trie II (Prefix Tree) :lock:](https://leetcode-cn.com/problems/Implement-Trie-II-Prefix-Tree/)|Medium|To Do|To Do|To Do|
+|1822|[Sign of the Product of an Array](https://leetcode-cn.com/problems/Sign-of-the-Product-of-an-Array/)|Easy|To Do|To Do|To Do|
+|1823|[Find the Winner of the Circular Game](https://leetcode-cn.com/problems/Find-the-Winner-of-the-Circular-Game/)|Medium|To Do|To Do|To Do|
+|1824|[Minimum Sideway Jumps](https://leetcode-cn.com/problems/Minimum-Sideway-Jumps/)|Medium|To Do|To Do|To Do|
+|1825|[Finding MK Average](https://leetcode-cn.com/problems/Finding-MK-Average/)|Hard|To Do|To Do|To Do|
+|1844|[Replace All Digits with Characters](https://leetcode-cn.com/problems/Replace-All-Digits-with-Characters/)|Easy|To Do|To Do|To Do|
+|1845|[Seat Reservation Manager](https://leetcode-cn.com/problems/Seat-Reservation-Manager/)|Medium|To Do|To Do|To Do|
+|1846|[Maximum Element After Decreasing and Rearranging](https://leetcode-cn.com/problems/Maximum-Element-After-Decreasing-and-Rearranging/)|Medium|To Do|To Do|To Do|
+|1847|[Closest Room](https://leetcode-cn.com/problems/Closest-Room/)|Hard|To Do|To Do|To Do|
+|1810|[Minimum Path Cost in a Hidden Grid :lock:](https://leetcode-cn.com/problems/Minimum-Path-Cost-in-a-Hidden-Grid/)|Medium|To Do|To Do|To Do|
+|1832|[Check if the Sentence Is Pangram](https://leetcode-cn.com/problems/Check-if-the-Sentence-Is-Pangram/)|Easy|To Do|To Do|To Do|
+|1833|[Maximum Ice Cream Bars](https://leetcode-cn.com/problems/Maximum-Ice-Cream-Bars/)|Medium|To Do|To Do|To Do|
+|1834|[Single-Threaded CPU](https://leetcode-cn.com/problems/Single-Threaded-CPU/)|Medium|To Do|To Do|To Do|
+|1835|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode-cn.com/problems/Find-XOR-Sum-of-All-Pairs-Bitwise-AND/)|Hard|To Do|To Do|To Do|
+|1837|[Sum of Digits in Base K](https://leetcode-cn.com/problems/Sum-of-Digits-in-Base-K/)|Easy|To Do|To Do|To Do|
+|1838|[Frequency of the Most Frequent Element](https://leetcode-cn.com/problems/Frequency-of-the-Most-Frequent-Element/)|Medium|To Do|To Do|To Do|
+|1839|[Longest Substring Of All Vowels in Order](https://leetcode-cn.com/problems/Longest-Substring-Of-All-Vowels-in-Order/)|Medium|To Do|To Do|To Do|
+|1840|[Maximum Building Height](https://leetcode-cn.com/problems/Maximum-Building-Height/)|Hard|To Do|To Do|To Do|
+|1820|[Maximum Number of Accepted Invitations :lock:](https://leetcode-cn.com/problems/Maximum-Number-of-Accepted-Invitations/)|Medium|To Do|To Do|To Do|
+|1859|[Sorting the Sentence](https://leetcode-cn.com/problems/Sorting-the-Sentence/)|Easy|To Do|To Do|To Do|
+|1860|[Incremental Memory Leak](https://leetcode-cn.com/problems/Incremental-Memory-Leak/)|Medium|To Do|To Do|To Do|
+|1861|[Rotating the Box](https://leetcode-cn.com/problems/Rotating-the-Box/)|Medium|To Do|To Do|To Do|
+|1848|[Minimum Distance to the Target Element](https://leetcode-cn.com/problems/Minimum-Distance-to-the-Target-Element/)|Easy|To Do|To Do|To Do|
+|1849|[Splitting a String Into Descending Consecutive Values](https://leetcode-cn.com/problems/Splitting-a-String-Into-Descending-Consecutive-Values/)|Medium|To Do|To Do|To Do|
+|1851|[Minimum Interval to Include Each Query](https://leetcode-cn.com/problems/Minimum-Interval-to-Include-Each-Query/)|Hard|To Do|To Do|To Do|
+|1850|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode-cn.com/problems/Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number/)|Medium|To Do|To Do|To Do|
+|1989|[Maximum Number of People That Can Be Caught in Tag :lock:](https://leetcode-cn.com/problems/Maximum-Number-of-People-That-Can-Be-Caught-in-Tag/)|Medium|To Do|To Do|To Do|
+|1826|[Faulty Sensor :lock:](https://leetcode-cn.com/problems/Faulty-Sensor/)|Easy|To Do|To Do|To Do|
+|1836|[Remove Duplicates From an Unsorted Linked List :lock:](https://leetcode-cn.com/problems/Remove-Duplicates-From-an-Unsorted-Linked-List/)|Medium|To Do|To Do|To Do|
+|1854|[Maximum Population Year](https://leetcode-cn.com/problems/Maximum-Population-Year/)|Easy|To Do|To Do|To Do|
+|1855|[Maximum Distance Between a Pair of Values](https://leetcode-cn.com/problems/Maximum-Distance-Between-a-Pair-of-Values/)|Medium|To Do|To Do|To Do|
+|1856|[Maximum Subarray Min-Product](https://leetcode-cn.com/problems/Maximum-Subarray-Min-Product/)|Medium|To Do|To Do|To Do|
+|1857|[Largest Color Value in a Directed Graph](https://leetcode-cn.com/problems/Largest-Color-Value-in-a-Directed-Graph/)|Hard|To Do|To Do|To Do|
+|1876|[Substrings of Size Three with Distinct Characters](https://leetcode-cn.com/problems/Substrings-of-Size-Three-with-Distinct-Characters/)|Easy|To Do|To Do|To Do|
+|1877|[Minimize Maximum Pair Sum in Array](https://leetcode-cn.com/problems/Minimize-Maximum-Pair-Sum-in-Array/)|Medium|To Do|To Do|To Do|
+|1879|[Minimum XOR Sum of Two Arrays](https://leetcode-cn.com/problems/Minimum-XOR-Sum-of-Two-Arrays/)|Hard|To Do|To Do|To Do|
+|1878|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode-cn.com/problems/Get-Biggest-Three-Rhombus-Sums-in-a-Grid/)|Medium|To Do|To Do|To Do|
+|2046|[Sort Linked List Already Sorted Using Absolute Values :lock:](https://leetcode-cn.com/problems/Sort-Linked-List-Already-Sorted-Using-Absolute-Values/)|Medium|To Do|To Do|To Do|
+|1863|[Sum of All Subset XOR Totals](https://leetcode-cn.com/problems/Sum-of-All-Subset-XOR-Totals/)|Easy|To Do|To Do|To Do|
+|1864|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode-cn.com/problems/Minimum-Number-of-Swaps-to-Make-the-Binary-String-Alternating/)|Medium|To Do|To Do|To Do|
+|1865|[Finding Pairs With a Certain Sum](https://leetcode-cn.com/problems/Finding-Pairs-With-a-Certain-Sum/)|Medium|To Do|To Do|To Do|
+|1866|[Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode-cn.com/problems/Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible/)|Hard|To Do|To Do|To Do|
+|1842|[Next Palindrome Using Same Digits :lock:](https://leetcode-cn.com/problems/Next-Palindrome-Using-Same-Digits/)|Hard|To Do|To Do|To Do|
+|1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode-cn.com/problems/Longer-Contiguous-Segments-of-Ones-than-Zeros/)|Easy|To Do|To Do|To Do|
+|1870|[Minimum Speed to Arrive on Time](https://leetcode-cn.com/problems/Minimum-Speed-to-Arrive-on-Time/)|Medium|To Do|To Do|To Do|
+|1871|[Jump Game VII](https://leetcode-cn.com/problems/Jump-Game-VII/)|Medium|To Do|To Do|To Do|
+|1872|[Stone Game VIII](https://leetcode-cn.com/problems/Stone-Game-VIII/)|Hard|To Do|To Do|To Do|
+|1852|[Distinct Numbers in Each Subarray :lock:](https://leetcode-cn.com/problems/Distinct-Numbers-in-Each-Subarray/)|Medium|To Do|To Do|To Do|
+|1893|[Check if All the Integers in a Range Are Covered](https://leetcode-cn.com/problems/Check-if-All-the-Integers-in-a-Range-Are-Covered/)|Easy|To Do|To Do|To Do|
+|1894|[Find the Student that Will Replace the Chalk](https://leetcode-cn.com/problems/Find-the-Student-that-Will-Replace-the-Chalk/)|Medium|To Do|To Do|To Do|
+|1896|[Minimum Cost to Change the Final Value of Expression](https://leetcode-cn.com/problems/Minimum-Cost-to-Change-the-Final-Value-of-Expression/)|Hard|To Do|To Do|To Do|
+|1858|[Longest Word With All Prefixes :lock:](https://leetcode-cn.com/problems/Longest-Word-With-All-Prefixes/)|Medium|To Do|To Do|To Do|
+|1880|[Check if Word Equals Summation of Two Words](https://leetcode-cn.com/problems/Check-if-Word-Equals-Summation-of-Two-Words/)|Easy|To Do|To Do|To Do|
+|1881|[Maximum Value after Insertion](https://leetcode-cn.com/problems/Maximum-Value-after-Insertion/)|Medium|To Do|To Do|To Do|
+|1882|[Process Tasks Using Servers](https://leetcode-cn.com/problems/Process-Tasks-Using-Servers/)|Medium|To Do|To Do|To Do|
+|1883|[Minimum Skips to Arrive at Meeting On Time](https://leetcode-cn.com/problems/Minimum-Skips-to-Arrive-at-Meeting-On-Time/)|Hard|To Do|To Do|To Do|
+|1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode-cn.com/problems/Determine-Whether-Matrix-Can-Be-Obtained-By-Rotation/)|Easy|To Do|To Do|To Do|
+|1887|[Reduction Operations to Make the Array Elements Equal](https://leetcode-cn.com/problems/Reduction-Operations-to-Make-the-Array-Elements-Equal/)|Medium|To Do|To Do|To Do|
+|1888|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode-cn.com/problems/Minimum-Number-of-Flips-to-Make-the-Binary-String-Alternating/)|Medium|To Do|To Do|To Do|
+|1889|[Minimum Space Wasted From Packaging](https://leetcode-cn.com/problems/Minimum-Space-Wasted-From-Packaging/)|Hard|To Do|To Do|To Do|
+|1868|[Product of Two Run-Length Encoded Arrays :lock:](https://leetcode-cn.com/problems/Product-of-Two-Run-Length-Encoded-Arrays/)|Medium|To Do|To Do|To Do|
+|1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode-cn.com/problems/Remove-One-Element-to-Make-the-Array-Strictly-Increasing/)|Easy|To Do|To Do|To Do|
+|1910|[Remove All Occurrences of a Substring](https://leetcode-cn.com/problems/Remove-All-Occurrences-of-a-Substring/)|Medium|To Do|To Do|To Do|
+|1911|[Maximum Alternating Subsequence Sum](https://leetcode-cn.com/problems/Maximum-Alternating-Subsequence-Sum/)|Medium|To Do|To Do|To Do|
+|1912|[Design Movie Rental System](https://leetcode-cn.com/problems/Design-Movie-Rental-System/)|Hard|To Do|To Do|To Do|
+|1897|[Redistribute Characters to Make All Strings Equal](https://leetcode-cn.com/problems/Redistribute-Characters-to-Make-All-Strings-Equal/)|Easy|To Do|To Do|To Do|
+|1899|[Merge Triplets to Form Target Triplet](https://leetcode-cn.com/problems/Merge-Triplets-to-Form-Target-Triplet/)|Medium|To Do|To Do|To Do|
+|1898|[Maximum Number of Removable Characters](https://leetcode-cn.com/problems/Maximum-Number-of-Removable-Characters/)|Medium|To Do|To Do|To Do|
+|1900|[The Earliest and Latest Rounds Where Players Compete](https://leetcode-cn.com/problems/The-Earliest-and-Latest-Rounds-Where-Players-Compete/)|Hard|To Do|To Do|To Do|
+|1874|[Minimize Product Sum of Two Arrays :lock:](https://leetcode-cn.com/problems/Minimize-Product-Sum-of-Two-Arrays/)|Medium|To Do|To Do|To Do|
+|1884|[Egg Drop With 2 Eggs and N Floors](https://leetcode-cn.com/problems/Egg-Drop-With-2-Eggs-and-N-Floors/)|Medium|To Do|To Do|To Do|
+|1903|[Largest Odd Number in String](https://leetcode-cn.com/problems/Largest-Odd-Number-in-String/)|Easy|To Do|To Do|To Do|
+|1904|[The Number of Full Rounds You Have Played](https://leetcode-cn.com/problems/The-Number-of-Full-Rounds-You-Have-Played/)|Medium|To Do|To Do|To Do|
+|1906|[Minimum Absolute Difference Queries](https://leetcode-cn.com/problems/Minimum-Absolute-Difference-Queries/)|Medium|To Do|To Do|To Do|
+|1905|[Count Sub Islands](https://leetcode-cn.com/problems/Count-Sub-Islands/)|Medium|To Do|To Do|To Do|
+|1885|[Count Pairs in Two Arrays :lock:](https://leetcode-cn.com/problems/Count-Pairs-in-Two-Arrays/)|Medium|To Do|To Do|To Do|
+|1925|[Count Square Sum Triples](https://leetcode-cn.com/problems/Count-Square-Sum-Triples/)|Easy|To Do|To Do|To Do|
+|1926|[Nearest Exit from Entrance in Maze](https://leetcode-cn.com/problems/Nearest-Exit-from-Entrance-in-Maze/)|Medium|To Do|To Do|To Do|
+|1927|[Sum Game](https://leetcode-cn.com/problems/Sum-Game/)|Medium|To Do|To Do|To Do|
+|1928|[Minimum Cost to Reach Destination in Time](https://leetcode-cn.com/problems/Minimum-Cost-to-Reach-Destination-in-Time/)|Hard|To Do|To Do|To Do|
+|1913|[Maximum Product Difference Between Two Pairs](https://leetcode-cn.com/problems/Maximum-Product-Difference-Between-Two-Pairs/)|Easy|To Do|To Do|To Do|
+|1914|[Cyclically Rotating a Grid](https://leetcode-cn.com/problems/Cyclically-Rotating-a-Grid/)|Medium|To Do|To Do|To Do|
+|1915|[Number of Wonderful Substrings](https://leetcode-cn.com/problems/Number-of-Wonderful-Substrings/)|Medium|To Do|To Do|To Do|
+|1891|[Cutting Ribbons :lock:](https://leetcode-cn.com/problems/Cutting-Ribbons/)|Medium|To Do|To Do|To Do|
+|1901|[Find a Peak Element II](https://leetcode-cn.com/problems/Find-a-Peak-Element-II/)|Medium|To Do|To Do|To Do|
+|1920|[Build Array from Permutation](https://leetcode-cn.com/problems/Build-Array-from-Permutation/)|Easy|To Do|To Do|To Do|
+|1921|[Eliminate Maximum Number of Monsters](https://leetcode-cn.com/problems/Eliminate-Maximum-Number-of-Monsters/)|Medium|To Do|To Do|To Do|
+|1922|[Count Good Numbers](https://leetcode-cn.com/problems/Count-Good-Numbers/)|Medium|To Do|To Do|To Do|
+|1923|[Longest Common Subpath](https://leetcode-cn.com/problems/Longest-Common-Subpath/)|Hard|To Do|To Do|To Do|
+|1902|[Depth of BST Given Insertion Order :lock:](https://leetcode-cn.com/problems/Depth-of-BST-Given-Insertion-Order/)|Medium|To Do|To Do|To Do|
+|1941|[Check if All Characters Have Equal Number of Occurrences](https://leetcode-cn.com/problems/Check-if-All-Characters-Have-Equal-Number-of-Occurrences/)|Easy|To Do|To Do|To Do|
+|1942|[The Number of the Smallest Unoccupied Chair](https://leetcode-cn.com/problems/The-Number-of-the-Smallest-Unoccupied-Chair/)|Medium|To Do|To Do|To Do|
+|1943|[Describe the Painting](https://leetcode-cn.com/problems/Describe-the-Painting/)|Medium|To Do|To Do|To Do|
+|1929|[Concatenation of Array](https://leetcode-cn.com/problems/Concatenation-of-Array/)|Easy|To Do|To Do|To Do|
+|1930|[Unique Length-3 Palindromic Subsequences](https://leetcode-cn.com/problems/Unique-Length-3-Palindromic-Subsequences/)|Medium|To Do|To Do|To Do|
+|1932|[Merge BSTs to Create Single BST](https://leetcode-cn.com/problems/Merge-BSTs-to-Create-Single-BST/)|Hard|To Do|To Do|To Do|
+|1931|[Painting a Grid With Three Different Colors](https://leetcode-cn.com/problems/Painting-a-Grid-With-Three-Different-Colors/)|Hard|To Do|To Do|To Do|
+|1908|[Game of Nim :lock:](https://leetcode-cn.com/problems/Game-of-Nim/)|Medium|To Do|To Do|To Do|
+|1936|[Add Minimum Number of Rungs](https://leetcode-cn.com/problems/Add-Minimum-Number-of-Rungs/)|Medium|To Do|To Do|To Do|
+|1937|[Maximum Number of Points with Cost](https://leetcode-cn.com/problems/Maximum-Number-of-Points-with-Cost/)|Medium|To Do|To Do|To Do|
+|1938|[Maximum Genetic Difference Query](https://leetcode-cn.com/problems/Maximum-Genetic-Difference-Query/)|Hard|To Do|To Do|To Do|
+|1918|[Kth Smallest Subarray Sum :lock:](https://leetcode-cn.com/problems/Kth-Smallest-Subarray-Sum/)|Medium|To Do|To Do|To Do|
+|1933|[Check if String Is Decomposable Into Value-Equal Substrings :lock:](https://leetcode-cn.com/problems/Check-if-String-Is-Decomposable-Into-Value-Equal-Substrings/)|Easy|To Do|To Do|To Do|
+|1940|[Longest Common Subsequence Between Sorted Arrays :lock:](https://leetcode-cn.com/problems/Longest-Common-Subsequence-Between-Sorted-Arrays/)|Medium|To Do|To Do|To Do|
+|1950|[Maximum of Minimum Values in All Subarrays :lock:](https://leetcode-cn.com/problems/Maximum-of-Minimum-Values-in-All-Subarrays/)|Medium|To Do|To Do|To Do|
+|1956|[Minimum Time For K Virus Variants to Spread :lock:](https://leetcode-cn.com/problems/Minimum-Time-For-K-Virus-Variants-to-Spread/)|Hard|To Do|To Do|To Do|
+|1924|[Erect the Fence II :lock:](https://leetcode-cn.com/problems/Erect-the-Fence-II/)|Hard|To Do|To Do|To Do|
+|2021|[Brightest Position on Street](https://leetcode-cn.com/problems/Brightest-Position-on-Street/)|Medium|To Do|To Do|To Do|
+|1945|[Sum of Digits of String After Convert](https://leetcode-cn.com/problems/Sum-of-Digits-of-String-After-Convert/)|Easy|To Do|To Do|To Do|
+|1946|[Largest Number After Mutating Substring](https://leetcode-cn.com/problems/Largest-Number-After-Mutating-Substring/)|Medium|To Do|To Do|To Do|
+|1947|[Maximum Compatibility Score Sum](https://leetcode-cn.com/problems/Maximum-Compatibility-Score-Sum/)|Medium|To Do|To Do|To Do|
+|1948|[Delete Duplicate Folders in System](https://leetcode-cn.com/problems/Delete-Duplicate-Folders-in-System/)|Hard|To Do|To Do|To Do|
+|1958|[Check if Move is Legal](https://leetcode-cn.com/problems/Check-if-Move-is-Legal/)|Medium|To Do|To Do|To Do|
+|1959|[Minimum Total Space Wasted With K Resizing Operations](https://leetcode-cn.com/problems/Minimum-Total-Space-Wasted-With-K-Resizing-Operations/)|Medium|To Do|To Do|To Do|
+|1952|[Three Divisors](https://leetcode-cn.com/problems/Three-Divisors/)|Easy|To Do|To Do|To Do|
+|1953|[Maximum Number of Weeks for Which You Can Work](https://leetcode-cn.com/problems/Maximum-Number-of-Weeks-for-Which-You-Can-Work/)|Medium|To Do|To Do|To Do|
+|1968|[Array With Elements Not Equal to Average of Neighbors](https://leetcode-cn.com/problems/Array-With-Elements-Not-Equal-to-Average-of-Neighbors/)|Medium|To Do|To Do|To Do|
+|1955|[Count Number of Special Subsequences](https://leetcode-cn.com/problems/Count-Number-of-Special-Subsequences/)|Hard|To Do|To Do|To Do|
+|1974|[Minimum Time to Type Word Using Special Typewriter](https://leetcode-cn.com/problems/Minimum-Time-to-Type-Word-Using-Special-Typewriter/)|Easy|To Do|To Do|To Do|
+|1975|[Maximum Matrix Sum](https://leetcode-cn.com/problems/Maximum-Matrix-Sum/)|Medium|To Do|To Do|To Do|
+|1976|[Number of Ways to Arrive at Destination](https://leetcode-cn.com/problems/Number-of-Ways-to-Arrive-at-Destination/)|Medium|To Do|To Do|To Do|
+|1977|[Number of Ways to Separate Numbers](https://leetcode-cn.com/problems/Number-of-Ways-to-Separate-Numbers/)|Hard|To Do|To Do|To Do|
+|1961|[Check If String Is a Prefix of Array](https://leetcode-cn.com/problems/Check-If-String-Is-a-Prefix-of-Array/)|Easy|To Do|To Do|To Do|
+|1962|[Remove Stones to Minimize the Total](https://leetcode-cn.com/problems/Remove-Stones-to-Minimize-the-Total/)|Medium|To Do|To Do|To Do|
+|1963|[Minimum Number of Swaps to Make the String Balanced](https://leetcode-cn.com/problems/Minimum-Number-of-Swaps-to-Make-the-String-Balanced/)|Medium|To Do|To Do|To Do|
+|1964|[Find the Longest Valid Obstacle Course at Each Position](https://leetcode-cn.com/problems/Find-the-Longest-Valid-Obstacle-Course-at-Each-Position/)|Hard|To Do|To Do|To Do|
+|1967|[Number of Strings That Appear as Substrings in Word](https://leetcode-cn.com/problems/Number-of-Strings-That-Appear-as-Substrings-in-Word/)|Easy|To Do|To Do|To Do|
+|1969|[Minimum Non-Zero Product of the Array Elements](https://leetcode-cn.com/problems/Minimum-Non-Zero-Product-of-the-Array-Elements/)|Medium|To Do|To Do|To Do|
+|1970|[Last Day Where You Can Still Cross](https://leetcode-cn.com/problems/Last-Day-Where-You-Can-Still-Cross/)|Hard|To Do|To Do|To Do|
+|1991|[Find the Middle Index in Array](https://leetcode-cn.com/problems/Find-the-Middle-Index-in-Array/)|Easy|To Do|To Do|To Do|
+|1992|[Find All Groups of Farmland](https://leetcode-cn.com/problems/Find-All-Groups-of-Farmland/)|Medium|To Do|To Do|To Do|
+|1993|[Operations on Tree](https://leetcode-cn.com/problems/Operations-on-Tree/)|Medium|To Do|To Do|To Do|
+|1994|[The Number of Good Subsets](https://leetcode-cn.com/problems/The-Number-of-Good-Subsets/)|Hard|To Do|To Do|To Do|
+|1979|[Find Greatest Common Divisor of Array](https://leetcode-cn.com/problems/Find-Greatest-Common-Divisor-of-Array/)|Easy|To Do|To Do|To Do|
+|1980|[Find Unique Binary String](https://leetcode-cn.com/problems/Find-Unique-Binary-String/)|Medium|To Do|To Do|To Do|
+|1981|[Minimize the Difference Between Target and Chosen Elements](https://leetcode-cn.com/problems/Minimize-the-Difference-Between-Target-and-Chosen-Elements/)|Medium|To Do|To Do|To Do|
+|1982|[Find Array Given Subset Sums](https://leetcode-cn.com/problems/Find-Array-Given-Subset-Sums/)|Hard|To Do|To Do|To Do|
+|1966|[Binary Searchable Numbers in an Unsorted Array :lock:](https://leetcode-cn.com/problems/Binary-Searchable-Numbers-in-an-Unsorted-Array/)|Medium|To Do|To Do|To Do|
+|1984|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode-cn.com/problems/Minimum-Difference-Between-Highest-and-Lowest-of-K-Scores/)|Easy|To Do|To Do|To Do|
+|1985|[Find the Kth Largest Integer in the Array](https://leetcode-cn.com/problems/Find-the-Kth-Largest-Integer-in-the-Array/)|Medium|To Do|To Do|To Do|
+|1986|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode-cn.com/problems/Minimum-Number-of-Work-Sessions-to-Finish-the-Tasks/)|Medium|To Do|To Do|To Do|
+|1987|[Number of Unique Good Subsequences](https://leetcode-cn.com/problems/Number-of-Unique-Good-Subsequences/)|Hard|To Do|To Do|To Do|
+|2006|[Count Number of Pairs With Absolute Difference K](https://leetcode-cn.com/problems/Count-Number-of-Pairs-With-Absolute-Difference-K/)|Easy|To Do|To Do|To Do|
+|2007|[Find Original Array From Doubled Array](https://leetcode-cn.com/problems/Find-Original-Array-From-Doubled-Array/)|Medium|To Do|To Do|To Do|
+|2008|[Maximum Earnings From Taxi](https://leetcode-cn.com/problems/Maximum-Earnings-From-Taxi/)|Medium|To Do|To Do|To Do|
+|2009|[Minimum Number of Operations to Make Array Continuous](https://leetcode-cn.com/problems/Minimum-Number-of-Operations-to-Make-Array-Continuous/)|Hard|To Do|To Do|To Do|
+|1971|[Find if Path Exists in Graph](https://leetcode-cn.com/problems/Find-if-Path-Exists-in-Graph/)|Easy|To Do|To Do|To Do|
+|1995|[Count Special Quadruplets](https://leetcode-cn.com/problems/Count-Special-Quadruplets/)|Easy|To Do|To Do|To Do|
+|1996|[The Number of Weak Characters in the Game](https://leetcode-cn.com/problems/The-Number-of-Weak-Characters-in-the-Game/)|Medium|To Do|To Do|To Do|
+|1997|[First Day Where You Have Been in All the Rooms](https://leetcode-cn.com/problems/First-Day-Where-You-Have-Been-in-All-the-Rooms/)|Medium|To Do|To Do|To Do|
+|1998|[GCD Sort of an Array](https://leetcode-cn.com/problems/GCD-Sort-of-an-Array/)|Hard|To Do|To Do|To Do|
+|1973|[Count Nodes Equal to Sum of Descendants :lock:](https://leetcode-cn.com/problems/Count-Nodes-Equal-to-Sum-of-Descendants/)|Medium|To Do|To Do|To Do|
+|2000|[Reverse Prefix of Word](https://leetcode-cn.com/problems/Reverse-Prefix-of-Word/)|Easy|To Do|To Do|To Do|
+|2001|[Number of Pairs of Interchangeable Rectangles](https://leetcode-cn.com/problems/Number-of-Pairs-of-Interchangeable-Rectangles/)|Medium|To Do|To Do|To Do|
+|2002|[Maximum Product of the Length of Two Palindromic Subsequences](https://leetcode-cn.com/problems/Maximum-Product-of-the-Length-of-Two-Palindromic-Subsequences/)|Medium|To Do|To Do|To Do|
+|2003|[Smallest Missing Genetic Value in Each Subtree](https://leetcode-cn.com/problems/Smallest-Missing-Genetic-Value-in-Each-Subtree/)|Hard|To Do|To Do|To Do|
+|2022|[Convert 1D Array Into 2D Array](https://leetcode-cn.com/problems/Convert-1D-Array-Into-2D-Array/)|Easy|To Do|To Do|To Do|
+|2023|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode-cn.com/problems/Number-of-Pairs-of-Strings-With-Concatenation-Equal-to-Target/)|Medium|To Do|To Do|To Do|
+|2024|[Maximize the Confusion of an Exam](https://leetcode-cn.com/problems/Maximize-the-Confusion-of-an-Exam/)|Medium|To Do|To Do|To Do|
+|2025|[Maximum Number of Ways to Partition an Array](https://leetcode-cn.com/problems/Maximum-Number-of-Ways-to-Partition-an-Array/)|Hard|To Do|To Do|To Do|
+|2011|[Final Value of Variable After Performing Operations](https://leetcode-cn.com/problems/Final-Value-of-Variable-After-Performing-Operations/)|Easy|To Do|To Do|To Do|
+|2012|[Sum of Beauty in the Array](https://leetcode-cn.com/problems/Sum-of-Beauty-in-the-Array/)|Medium|To Do|To Do|To Do|
+|2013|[Detect Squares](https://leetcode-cn.com/problems/Detect-Squares/)|Medium|To Do|To Do|To Do|
+|2014|[Longest Subsequence Repeated k Times](https://leetcode-cn.com/problems/Longest-Subsequence-Repeated-k-Times/)|Hard|To Do|To Do|To Do|
+|1999|[Smallest Greater Multiple Made of Two Digits :lock:](https://leetcode-cn.com/problems/Smallest-Greater-Multiple-Made-of-Two-Digits/)|Medium|To Do|To Do|To Do|
+|2015|[Average Height of Buildings in Each Segment :lock:](https://leetcode-cn.com/problems/Average-Height-of-Buildings-in-Each-Segment/)|Medium|To Do|To Do|To Do|
+|2016|[Maximum Difference Between Increasing Elements](https://leetcode-cn.com/problems/Maximum-Difference-Between-Increasing-Elements/)|Easy|To Do|To Do|To Do|
+|2017|[Grid Game](https://leetcode-cn.com/problems/Grid-Game/)|Medium|To Do|To Do|To Do|
+|2018|[Check if Word Can Be Placed In Crossword](https://leetcode-cn.com/problems/Check-if-Word-Can-Be-Placed-In-Crossword/)|Medium|To Do|To Do|To Do|
+|2019|[The Score of Students Solving Math Expression](https://leetcode-cn.com/problems/The-Score-of-Students-Solving-Math-Expression/)|Hard|To Do|To Do|To Do|
+|2037|[Minimum Number of Moves to Seat Everyone](https://leetcode-cn.com/problems/Minimum-Number-of-Moves-to-Seat-Everyone/)|Easy|To Do|To Do|To Do|
+|2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode-cn.com/problems/Remove-Colored-Pieces-if-Both-Neighbors-are-the-Same-Color/)|Medium|To Do|To Do|To Do|
+|2040|[Kth Smallest Product of Two Sorted Arrays](https://leetcode-cn.com/problems/Kth-Smallest-Product-of-Two-Sorted-Arrays/)|Hard|To Do|To Do|To Do|
+|2039|[The Time When the Network Becomes Idle](https://leetcode-cn.com/problems/The-Time-When-the-Network-Becomes-Idle/)|Medium|To Do|To Do|To Do|
+|2005|[Subtree Removal Game with Fibonacci Tree :lock:](https://leetcode-cn.com/problems/Subtree-Removal-Game-with-Fibonacci-Tree/)|Hard|To Do|To Do|To Do|
+|2027|[Minimum Moves to Convert String](https://leetcode-cn.com/problems/Minimum-Moves-to-Convert-String/)|Easy|To Do|To Do|To Do|
+|2028|[Find Missing Observations](https://leetcode-cn.com/problems/Find-Missing-Observations/)|Medium|To Do|To Do|To Do|
+|2029|[Stone Game IX](https://leetcode-cn.com/problems/Stone-Game-IX/)|Medium|To Do|To Do|To Do|
+|2030|[Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode-cn.com/problems/Smallest-K-Length-Subsequence-With-Occurrences-of-a-Letter/)|Hard|To Do|To Do|To Do|
+|2032|[Two Out of Three](https://leetcode-cn.com/problems/Two-Out-of-Three/)|Easy|To Do|To Do|To Do|
+|2033|[Minimum Operations to Make a Uni-Value Grid](https://leetcode-cn.com/problems/Minimum-Operations-to-Make-a-Uni-Value-Grid/)|Medium|To Do|To Do|To Do|
+|2034|[Stock Price Fluctuation ](https://leetcode-cn.com/problems/Stock-Price-Fluctuation-/)|Medium|To Do|To Do|To Do|
+|2035|[Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode-cn.com/problems/Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference/)|Hard|To Do|To Do|To Do|
+|2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode-cn.com/problems/Check-if-Numbers-Are-Ascending-in-a-Sentence/)|Easy|To Do|To Do|To Do|
+|2043|[Simple Bank System](https://leetcode-cn.com/problems/Simple-Bank-System/)|Medium|To Do|To Do|To Do|
+|2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode-cn.com/problems/Count-Number-of-Maximum-Bitwise-OR-Subsets/)|Medium|To Do|To Do|To Do|
+|2045|[Second Minimum Time to Reach Destination](https://leetcode-cn.com/problems/Second-Minimum-Time-to-Reach-Destination/)|Hard|To Do|To Do|To Do|
 |LCP 02|[Deep Dark Fraction](https://leetcode-cn.com/problems/Deep-Dark-Fraction/)|Easy|To Do|To Do|To Do|
 |LCP 04|[Broken Board Dominoes](https://leetcode-cn.com/problems/Broken-Board-Dominoes/)|Hard|To Do|To Do|To Do|
 |LCP 05|[Coin Bonus](https://leetcode-cn.com/problems/Coin-Bonus/)|Hard|To Do|To Do|To Do|
@@ -1562,7 +1874,9 @@
 |LCP 11|[期望个数统计](https://leetcode-cn.com/problems/期望个数统计/)|Easy|To Do|To Do|To Do|
 |LCP 12|[小张刷题计划](https://leetcode-cn.com/problems/小张刷题计划/)|Medium|To Do|To Do|To Do|
 |LCP 15|[游乐园的迷宫](https://leetcode-cn.com/problems/游乐园的迷宫/)|Hard|To Do|To Do|To Do|
+|LCP 34|[二叉树染色](https://leetcode-cn.com/problems/二叉树染色/)|Medium|To Do|To Do|To Do|
 |LCP 09|[最小跳跃次数](https://leetcode-cn.com/problems/最小跳跃次数/)|Hard|To Do|To Do|To Do|
+|LCP 37|[最小矩形面积](https://leetcode-cn.com/problems/最小矩形面积/)|Hard|To Do|To Do|To Do|
 |LCP 13|[寻宝](https://leetcode-cn.com/problems/寻宝/)|Hard|To Do|To Do|To Do|
 |LCP 19|[秋叶收藏集](https://leetcode-cn.com/problems/秋叶收藏集/)|Medium|To Do|To Do|To Do|
 |LCP 24|[数字游戏](https://leetcode-cn.com/problems/数字游戏/)|Hard|To Do|To Do|To Do|
@@ -1574,3 +1888,26 @@
 |LCP 22|[黑白方格画](https://leetcode-cn.com/problems/黑白方格画/)|Easy|To Do|To Do|To Do|
 |LCP 18|[早餐组合](https://leetcode-cn.com/problems/早餐组合/)|Easy|To Do|To Do|To Do|
 |LCP 27|[黑盒光线反射](https://leetcode-cn.com/problems/黑盒光线反射/)|Hard|To Do|To Do|To Do|
+|LCP 28|[采购方案](https://leetcode-cn.com/problems/采购方案/)|Easy|To Do|To Do|To Do|
+|LCP 29|[乐团站位](https://leetcode-cn.com/problems/乐团站位/)|Easy|To Do|To Do|To Do|
+|LCP 31|[变换的迷宫](https://leetcode-cn.com/problems/变换的迷宫/)|Hard|To Do|To Do|To Do|
+|LCP 32|[批量处理任务](https://leetcode-cn.com/problems/批量处理任务/)|Hard|To Do|To Do|To Do|
+|LCP 35|[电动车游城市](https://leetcode-cn.com/problems/电动车游城市/)|Hard|To Do|To Do|To Do|
+|LCP 33|[蓄水](https://leetcode-cn.com/problems/蓄水/)|Easy|To Do|To Do|To Do|
+|LCP 36|[最多牌组数](https://leetcode-cn.com/problems/最多牌组数/)|Hard|To Do|To Do|To Do|
+|LCP 38|[守卫城堡](https://leetcode-cn.com/problems/守卫城堡/)|Hard|To Do|To Do|To Do|
+|LCP 30|[魔塔游戏](https://leetcode-cn.com/problems/魔塔游戏/)|Medium|To Do|To Do|To Do|
+|LCS 01|[下载插件](https://leetcode-cn.com/problems/下载插件/)|Easy|To Do|To Do|To Do|
+|LCS 02|[完成一半题目](https://leetcode-cn.com/problems/完成一半题目/)|Easy|To Do|To Do|To Do|
+|LCS 03|[主题空间](https://leetcode-cn.com/problems/主题空间/)|Medium|To Do|To Do|To Do|
+|LCP 49|[环形闯关游戏](https://leetcode-cn.com/problems/环形闯关游戏/)|Hard|To Do|To Do|To Do|
+|LCP 47|[入场安检](https://leetcode-cn.com/problems/入场安检/)|Hard|To Do|To Do|To Do|
+|LCP 44|[开幕式焰火](https://leetcode-cn.com/problems/开幕式焰火/)|Easy|To Do|To Do|To Do|
+|LCP 43|[十字路口的交通](https://leetcode-cn.com/problems/十字路口的交通/)|Hard|To Do|To Do|To Do|
+|LCP 40|[心算挑战](https://leetcode-cn.com/problems/心算挑战/)|Easy|To Do|To Do|To Do|
+|LCP 39|[无人机方阵](https://leetcode-cn.com/problems/无人机方阵/)|Easy|To Do|To Do|To Do|
+|LCP 41|[黑白翻转棋](https://leetcode-cn.com/problems/黑白翻转棋/)|Medium|To Do|To Do|To Do|
+|LCP 42|[玩具套圈](https://leetcode-cn.com/problems/玩具套圈/)|Hard|To Do|To Do|To Do|
+|LCP 46|[志愿者调配](https://leetcode-cn.com/problems/志愿者调配/)|Medium|To Do|To Do|To Do|
+|LCP 48|[无限棋局](https://leetcode-cn.com/problems/无限棋局/)|Hard|To Do|To Do|To Do|
+|LCP 45|[自行车炫技赛场](https://leetcode-cn.com/problems/自行车炫技赛场/)|Medium|To Do|To Do|To Do|

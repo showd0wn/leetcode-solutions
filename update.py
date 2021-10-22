@@ -7,7 +7,7 @@ requests.packages.urllib3.disable_warnings()
 
 
 class Readme:
-    __target = 'https://github.com/showd0wn/leetcode/tree/master/'
+    __target = 'https://github.com/showd0wn/leetcode/tree/2020/'
     __url = 'https://leetcode-cn.com/api/problems/algorithms/'
     __dir = './algorithms/'
     __readme_path = './README.md'
