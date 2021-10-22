@@ -889,7 +889,7 @@
         },
         {
             "id": "122",
-            "level": 1,
+            "level": 2,
             "title": "Best Time to Buy and Sell Stock II",
             "title_slug": "best-time-to-buy-and-sell-stock-ii",
             "lock": false,
@@ -1221,7 +1221,7 @@
         },
         {
             "id": "204",
-            "level": 1,
+            "level": 2,
             "title": "Count Primes",
             "title_slug": "count-primes",
             "lock": false,
@@ -3454,15 +3454,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 435,
-            "accept": 102
+            "total": 454,
+            "accept": 100
         },
         "Medium": {
-            "total": 947,
-            "accept": 159
+            "total": 1016,
+            "accept": 161
         },
         "Hard": {
-            "total": 400,
+            "total": 432,
             "accept": 35
         }
     }
