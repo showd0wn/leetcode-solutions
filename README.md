@@ -10,7 +10,7 @@
 | ID | Title | Difficulty | Java | JavaScript(TS) |
 |:---:|:---:|:---:|:---:|:---:|
 |1|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|Easy|[Java](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[1]两数之和/Solution.java)|[TypeScript](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[1]两数之和/solution.ts)|
-|2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)|Medium|--|[TypeScript](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[2]两数相加/solution.ts)|
+|2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)|Medium|[Java](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[2]两数相加/Solution.java)|[TypeScript](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[2]两数相加/solution.ts)|
 |3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|Medium|--|[TypeScript](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[3]无重复字符的最长子串/solution.ts)|
 |5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)|Medium|--|[TypeScript](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[5]最长回文子串/solution.ts)|
 |7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)|Easy|--|[TypeScript](https://github.com/showd0wn/leetcode/tree/2021/./algorithms/[7]整数反转/solution.ts)|
