@@ -3,6 +3,7 @@ import re
 import os
 import ssl
 import json
+import subprocess
 from urllib import request
 
 ssl._create_default_https_context = ssl._create_unverified_context  # type: ignore
@@ -11,11 +12,15 @@ ssl._create_default_https_context = ssl._create_unverified_context  # type: igno
 class Update:
     _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
     _type_map = {
+        'java': 'Java',
         'ts': 'TypeScript',
-        'py': 'Python',
+#         'py': 'Python',
     }
 
     def __init__(self):
+        cmd = 'git rev-parse --abbrev-ref HEAD'
+        self.branch = subprocess.check_output(cmd.split()).strip().decode('utf-8')
+
         self.solutions = {}
         self.stats = {
             'Easy': {'total': 0, 'accept': 0},
@@ -98,7 +103,7 @@ class Update:
                 '|**Accept**|{}|{}|{}|{}|\n'
                 '|**Total**|{}|{}|{}|{}|\n'
                 '### 题解\n'
-                '| ID | Title | Difficulty | Python | JavaScript(TS) |\n'
+                '| ID | Title | Difficulty | Java | JavaScript(TS) |\n'
                 '|:---:|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
@@ -113,11 +118,11 @@ class Update:
             for problem in self.problems:
                 id, level, title, title_slug, lock, *_ = problem.values()
                 f.write(
-                    '|{id}|{title}|{level}|{py}|{ts}|\n'.format(
+                    '|{id}|{title}|{level}|{java}|{ts}|\n'.format(
                         id=id,
                         level=Update._level_map[level],
                         title=self._generate_Title(title, title_slug, lock),
-                        py=self._generate_solution('py', id),
+                        java=self._generate_solution('java', id),
                         ts=self._generate_solution('ts', id),
                     )
                 )
@@ -126,7 +131,9 @@ class Update:
         return f'[{title + ":lock" if lock else title}](https://leetcode-cn.com/problems/{title_slug}/)'
 
     def _generate_solution(self, type: str, id: str) -> str:
-        path = os.path.join('https://github.com/showd0wn/leetcode/tree/master/', self.solutions[id]['path'][type])
+        if type not in self.solutions[id]['path']:
+            return '--'
+        path = os.path.join(f'https://github.com/showd0wn/leetcode/tree/{self.branch}/', self.solutions[id]['path'][type])
         return f'[{Update._type_map[type]}]({path})'
 
     def _fetch_data(self, url: str):
