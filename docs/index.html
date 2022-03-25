@@ -1,119 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LeetCode 刷题记录</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vxe-table/lib/style.css" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <main id="app" v-cloak>
-      <aside v-if="tags.length">
-        <div class="aside-item">
-          <span
-            class="tag"
-            v-for="(tag, index) in tags"
-            :key="tag.name"
-            :class="{ selected : tag.selected }"
-            @click="tagClick(index)"
-          >
-            <span class="tag-name">{{ tag.name }}</span>
-            <span class="tag-num">{{ tag.count }}</span>
-          </span>
-        </div>
-        <div class="aside-item" style="margin-top: 10px">
-          <div class="stats-item total">
-            已解决 {{ this.stats.Easy.accept + this.stats.Medium.accept + this.stats.Hard.accept }} / {{
-            this.stats.Easy.total + this.stats.Medium.total + this.stats.Hard.total }}
-          </div>
-          <div>
-            <span class="stats-item easy">简单 {{ this.stats.Easy.accept }}</span>
-            <span class="stats-item medium">中等 {{ this.stats.Medium.accept }}</span>
-            <span class="stats-item hard">困难 {{ this.stats.Hard.accept }}</span>
-          </div>
-        </div>
-      </aside>
-      <article v-if="problems.length">
-        <vxe-table border="inner" :data="showList" highlight-hover-row>
-          <vxe-table-column field="id" title="#" width="60"></vxe-table-column>
-          <vxe-table-column field="caption" title="题名" type="html" :formatter="formatterTitle"></vxe-table-column>
-          <vxe-table-column field="level" title="难度" width="120" :formatter="formatterLevel"></vxe-table-column>
-          <vxe-table-column field="topics" title="标签" show-overflow="title"></vxe-table-column>
-        </vxe-table>
-      </article>
-    </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="https://cdn.jsdelivr.net/npm/xe-utils"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vxe-table"></script>
-    <script>
-      new Vue({
-        el: '#app',
-        data: {
-          problems: [],
-          tags: [],
-          stats: {
-            Easy: {},
-            Medium: {},
-            Hard: {},
-          },
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode 刷题记录</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vxe-table@3.4.12/lib/style.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <main id="app" v-cloak>
+    <aside v-if="tags.length">
+      <div class="aside-item">
+        <span class="tag" v-for="(tag, index) in tags" :key="tag.name" :class="{ selected : tag.selected }"
+          @click="tagClick(index)">
+          <span class="tag-name">{{ tag.name }}</span>
+          <span class="tag-num">{{ tag.count }}</span>
+        </span>
+      </div>
+      <div class="aside-item" style="margin-top: 10px">
+        <div class="stats-item total">
+          已解决 {{ this.stats.Easy.accept + this.stats.Medium.accept + this.stats.Hard.accept }} / {{
+          this.stats.Easy.total + this.stats.Medium.total + this.stats.Hard.total }}
+        </div>
+        <div>
+          <span class="stats-item easy">简单 {{ this.stats.Easy.accept }}</span>
+          <span class="stats-item medium">中等 {{ this.stats.Medium.accept }}</span>
+          <span class="stats-item hard">困难 {{ this.stats.Hard.accept }}</span>
+        </div>
+      </div>
+    </aside>
+    <article v-if="problems.length">
+      <vxe-table border="inner" :data="showList" highlight-hover-row>
+        <vxe-table-column field="id" title="#" width="60"></vxe-table-column>
+        <vxe-table-column field="caption" title="题名" type="html" :formatter="formatterTitle"></vxe-table-column>
+        <vxe-table-column field="level" title="难度" width="120" :formatter="formatterLevel"></vxe-table-column>
+        <vxe-table-column field="topics" title="标签" show-overflow="title"></vxe-table-column>
+      </vxe-table>
+    </article>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xe-utils"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vxe-table@3.4.12/lib/index.umd.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        problems: [],
+        tags: [],
+        stats: {
+          Easy: {},
+          Medium: {},
+          Hard: {},
         },
-        computed: {
-          showList() {
-            const tagsSelect = new Set(this.tags.filter(tag => tag.selected).map(tag => tag.name));
-            return tagsSelect.size
-              ? this.problems.filter(problem => problem.topics.some(topic => tagsSelect.has(topic)))
-              : this.problems;
-          },
+      },
+      computed: {
+        showList() {
+          const tagsSelect = new Set(this.tags.filter(tag => tag.selected).map(tag => tag.name));
+          return tagsSelect.size
+            ? this.problems.filter(problem => problem.topics.some(topic => tagsSelect.has(topic)))
+            : this.problems;
         },
-        created() {
-          fetch('./data/problems.json')
-            .then(resp => resp.json())
-            .then(json => {
-              const map = new Map();
-              for (const problem of json.problems) {
-                for (const topic of problem.topics) {
-                  if (map.has(topic)) {
-                    map.set(topic, map.get(topic) + 1);
-                  } else {
-                    map.set(topic, 1);
-                  }
+      },
+      created() {
+        fetch('./data/problems.json')
+          .then(resp => resp.json())
+          .then(json => {
+            const map = new Map();
+            for (const problem of json.problems) {
+              for (const topic of problem.topics) {
+                if (map.has(topic)) {
+                  map.set(topic, map.get(topic) + 1);
+                } else {
+                  map.set(topic, 1);
                 }
               }
+            }
 
-              const tags = [];
-              for (const item of map.entries()) {
-                tags.push({
-                  name: item[0],
-                  count: item[1],
-                  selected: false,
-                });
-              }
-              tags.sort((a, b) => b.count - a.count);
+            const tags = [];
+            for (const item of map.entries()) {
+              tags.push({
+                name: item[0],
+                count: item[1],
+                selected: false,
+              });
+            }
+            tags.sort((a, b) => b.count - a.count);
 
-              this.tags = tags;
-              this.stats = json.stats;
-              this.problems = json.problems;
-            });
+            this.tags = tags;
+            this.stats = json.stats;
+            this.problems = json.problems;
+          });
+      },
+      methods: {
+        tagClick(idx) {
+          this.tags[idx].selected = !this.tags[idx].selected;
         },
-        methods: {
-          tagClick(idx) {
-            this.tags[idx].selected = !this.tags[idx].selected;
-          },
-          formatterTitle({ cellValue, row }) {
-            return `<a href="https://leetcode-cn.com/problems/${row.title_slug}/" class="link" target="_black">${cellValue}</a>`;
-          },
-          formatterLevel({ cellValue }) {
-            return {
-              1: '简单',
-              2: '中等',
-              3: '困难',
-            }[cellValue];
-          },
+        formatterTitle({ cellValue, row }) {
+          return `<a href="https://leetcode-cn.com/problems/${row.title_slug}/" class="link" target="_black">${cellValue}</a>`;
         },
-      });
-    </script>
-  </body>
+        formatterLevel({ cellValue }) {
+          return {
+            1: '简单',
+            2: '中等',
+            3: '困难',
+          }[cellValue];
+        },
+      },
+    });
+  </script>
+</body>
+
 </html>

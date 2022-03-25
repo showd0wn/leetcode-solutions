@@ -12,9 +12,8 @@ ssl._create_default_https_context = ssl._create_unverified_context  # type: igno
 class Update:
     _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
     _type_map = {
-        'java': 'Java',
         'ts': 'TypeScript',
-#         'py': 'Python',
+        'py': 'Python',
     }
 
     def __init__(self):
@@ -103,7 +102,7 @@ class Update:
                 '|**Accept**|{}|{}|{}|{}|\n'
                 '|**Total**|{}|{}|{}|{}|\n'
                 '### 题解\n'
-                '| ID | Title | Difficulty | Java | JavaScript(TS) |\n'
+                '| ID | Title | Difficulty | Python | TypeScript |\n'
                 '|:---:|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
@@ -118,11 +117,11 @@ class Update:
             for problem in self.problems:
                 id, level, title, title_slug, lock, *_ = problem.values()
                 f.write(
-                    '|{id}|{title}|{level}|{java}|{ts}|\n'.format(
+                    '|{id}|{title}|{level}|{py}|{ts}|\n'.format(
                         id=id,
                         level=Update._level_map[level],
                         title=self._generate_Title(title, title_slug, lock),
-                        java=self._generate_solution('java', id),
+                        py=self._generate_solution('py', id),
                         ts=self._generate_solution('ts', id),
                     )
                 )
