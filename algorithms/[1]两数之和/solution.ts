@@ -5,10 +5,10 @@ function twoSum(nums: number[], target: number): number[] {
 
   for (const [idx, ele] of nums.entries()) {
     const another = target - ele;
-    if (!map.has(another)) {
-      map.set(ele, idx);
+    if (map.has(another)) {
+      return [map.get(another)!, idx];
     }
-    return [map.get(another)!, idx];
+    map.set(ele, idx);
   }
 
   return [-1, -1];
