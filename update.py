@@ -12,8 +12,9 @@ ssl._create_default_https_context = ssl._create_unverified_context  # type: igno
 class Update:
     _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
     _type_map = {
-        'ts': 'TypeScript',
         'py': 'Python',
+        'ts': 'TypeScript',
+        'cs': 'C#',
     }
 
     def __init__(self):
@@ -94,16 +95,16 @@ class Update:
 
         with open('./README.md', 'w', encoding='utf-8') as f:
             f.write(
-                '# LeetCode\n'
+                '# LeetCode\n\n'
                 '### 进度\n'
                 '> 统计规则： 算法题\n\n'
                 '|     |Easy|Medium|Hard|Total|\n'
                 '|:---:|:---:|:---:|:---:|:---:|\n'
                 '|**Accept**|{}|{}|{}|{}|\n'
-                '|**Total**|{}|{}|{}|{}|\n'
+                '|**Total**|{}|{}|{}|{}|\n\n'
                 '### 题解\n'
-                '| ID | Title | Difficulty | Python | TypeScript |\n'
-                '|:---:|:---:|:---:|:---:|:---:|\n'.format(
+                '| ID | Title | Difficulty | Python | TypeScript | C# |\n'
+                '|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
                     stats_hard['accept'],
@@ -117,12 +118,13 @@ class Update:
             for problem in self.problems:
                 id, level, title, title_slug, lock, *_ = problem.values()
                 f.write(
-                    '|{id}|{title}|{level}|{py}|{ts}|\n'.format(
+                    '|{id}|{title}|{level}|{py}|{ts}|{cs}|\n'.format(
                         id=id,
                         level=Update._level_map[level],
                         title=self._generate_Title(title, title_slug, lock),
                         py=self._generate_solution('py', id),
                         ts=self._generate_solution('ts', id),
+                        cs=self._generate_solution('cs', id),
                     )
                 )
 
