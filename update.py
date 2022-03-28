@@ -38,8 +38,9 @@ class Update:
                 continue
             if id_search_obj := re.search(r'(?<=\[)\d+(?=\])', root):
                 id = id_search_obj.group()
+                caption = os.path.split(root)[1]
                 solutions = self.solutions[id] = {}
-                solutions['caption'] = os.path.split(root)[1].replace('[' + id + ']', '')
+                solutions['caption'] = caption.replace('[' + id + ']', '')
                 path = solutions['path'] = {}
                 topics = solutions['topics'] = []
 
@@ -85,10 +86,16 @@ class Update:
 
     def update_pages(self) -> None:
         with open('./docs/data/problems.json', 'w', encoding='utf-8') as f:
-            f.write(json.dumps({
-                'problems': self.problems,
-                'stats': self.stats,
-            }, indent=4, ensure_ascii=False))
+            f.write(
+                json.dumps(
+                    {
+                        'problems': self.problems,
+                        'stats': self.stats,
+                    },
+                    indent=4,
+                    ensure_ascii=False,
+                )
+            )
 
     def update_readme(self) -> None:
         stats_easy, stats_medium, stats_hard = self.stats.values()
@@ -108,7 +115,9 @@ class Update:
                     stats_easy['accept'],
                     stats_medium['accept'],
                     stats_hard['accept'],
-                    stats_easy['accept'] + stats_medium['accept'] + stats_hard['accept'],
+                    stats_easy['accept']
+                    + stats_medium['accept']
+                    + stats_hard['accept'],
                     stats_easy['total'],
                     stats_medium['total'],
                     stats_hard['total'],
@@ -134,7 +143,10 @@ class Update:
     def _generate_solution(self, type: str, id: str) -> str:
         if type not in self.solutions[id]['path']:
             return '--'
-        path = os.path.join(f'https://github.com/showd0wn/leetcode/tree/{self.branch}/', self.solutions[id]['path'][type])
+        path = os.path.join(
+            f'https://github.com/showd0wn/leetcode/tree/{self.branch}/',
+            self.solutions[id]['path'][type],
+        )
         return f'[{Update._type_map[type]}]({path})'
 
     def _fetch_data(self, url: str):
