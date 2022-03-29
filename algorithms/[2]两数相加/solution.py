@@ -12,6 +12,10 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        """
+        模拟法
+        time O(max(m,n)) space O(1), m 和 n 分别为两个链表的长度
+        """
         dummy = ListNode()
         head = dummy
         carry = 0

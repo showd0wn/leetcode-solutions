@@ -9,7 +9,14 @@ export class ListNode {
   }
 }
 
-function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+/**
+ * 模拟法
+ * time O(max(m,n)) space O(1), m 和 n 分别为两个链表的长度
+ */
+function addTwoNumbers(
+  l1: ListNode | null,
+  l2: ListNode | null
+): ListNode | null {
   const dummy = new ListNode();
   let head = dummy;
   let carry = 0;
