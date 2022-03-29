@@ -11,7 +11,7 @@
 ### 题解
 | ID | Title | Difficulty | Python | TypeScript | C# |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|1|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.ts)|--|
+|1|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/Solution.cs)|
 |2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.ts)|--|
 |3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.ts)|--|
 |5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/solution.ts)|--|
