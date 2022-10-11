@@ -1,8 +1,9 @@
 // topics = ["字符串", "动态规划"]
 
+// time O(n^2), space O(n^2), n 为 s 的长度
 function longestPalindrome(s: string): string {
   const n = s.length;
-  // dp[i][j] 表示区间 [i, j] 间的最长回文子串
+  // dp[i][j] 表示区间 [i, j] 是否为回文串
   const dp = new Array(n).fill(0).map(() => new Array<boolean>(n).fill(false));
   let res = '';
 

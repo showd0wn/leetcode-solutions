@@ -4,7 +4,7 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
-        # dp[i][j] 表示区间 [i, j] 间的最长回文子串
+        # dp[i][j] 表示区间 [i, j] 是否为回文串
         dp = [[False] * n for _ in range(n)]
         res = ''
 

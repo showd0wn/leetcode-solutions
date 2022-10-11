@@ -1,6 +1,5 @@
 // topics = ["链表", "数学"]
 
-
 public class ListNode
 {
     public int val;
