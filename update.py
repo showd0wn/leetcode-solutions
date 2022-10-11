@@ -145,7 +145,10 @@ class Update:
         return f'[{Update._type_map[type]}]({path})'
 
     def _fetch_data(self, url: str):
-        req = request.Request(url)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
+        }
+        req = request.Request(url, headers=headers)
         with request.urlopen(req) as f:
             return json.loads(f.read().decode('utf-8'))
 
