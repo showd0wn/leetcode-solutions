@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 import re
 import os
-import ssl
 import json
 import subprocess
 from urllib import request
-
-ssl._create_default_https_context = ssl._create_unverified_context  # type: ignore
 
 
 class Update:
@@ -55,7 +52,7 @@ class Update:
                             topics.extend(keys)
 
     def _handle_algorithms(self) -> None:
-        response = self._fetch_data('https://leetcode.cn/api/problems/algorithms/')
+        response = self._fetch_data('http://leetcode.cn/api/problems/algorithms/')
         algorithms = response['stat_status_pairs']
 
         for algo in algorithms[::-1]:
@@ -115,9 +112,7 @@ class Update:
                     stats_easy['accept'],
                     stats_medium['accept'],
                     stats_hard['accept'],
-                    stats_easy['accept']
-                    + stats_medium['accept']
-                    + stats_hard['accept'],
+                    stats_easy['accept'] + stats_medium['accept'] + stats_hard['accept'],
                     stats_easy['total'],
                     stats_medium['total'],
                     stats_hard['total'],
@@ -138,7 +133,7 @@ class Update:
                 )
 
     def _generate_Title(self, title: str, title_slug: str, lock: bool) -> str:
-        return f'[{title + ":lock" if lock else title}](https://leetcode.cn/problems/{title_slug}/)'
+        return f'[{title + ":lock" if lock else title}](http://leetcode.cn/problems/{title_slug}/)'
 
     def _generate_solution(self, type: str, id: str) -> str:
         if type not in self.solutions[id]['path']:
