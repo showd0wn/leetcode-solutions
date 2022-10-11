@@ -55,7 +55,7 @@ class Update:
                             topics.extend(keys)
 
     def _handle_algorithms(self) -> None:
-        response = self._fetch_data('https://leetcode-cn.com/api/problems/algorithms/')
+        response = self._fetch_data('https://leetcode.cn/api/problems/algorithms/')
         algorithms = response['stat_status_pairs']
 
         for algo in algorithms[::-1]:
@@ -138,7 +138,7 @@ class Update:
                 )
 
     def _generate_Title(self, title: str, title_slug: str, lock: bool) -> str:
-        return f'[{title + ":lock" if lock else title}](https://leetcode-cn.com/problems/{title_slug}/)'
+        return f'[{title + ":lock" if lock else title}](https://leetcode.cn/problems/{title_slug}/)'
 
     def _generate_solution(self, type: str, id: str) -> str:
         if type not in self.solutions[id]['path']:
