@@ -3454,15 +3454,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 524,
+            "total": 526,
             "accept": 93
         },
         "Medium": {
-            "total": 1219,
+            "total": 1224,
             "accept": 167
         },
         "Hard": {
-            "total": 537,
+            "total": 539,
             "accept": 36
         }
     }

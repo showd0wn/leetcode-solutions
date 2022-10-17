@@ -6,7 +6,7 @@
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |**Accept**|93|167|36|296|
-|**Total**|524|1219|537|2280|
+|**Total**|526|1224|539|2289|
 
 ### 题解
 | ID | Title | Difficulty | Python | TypeScript | C# |
@@ -15,7 +15,7 @@
 |2|[Add Two Numbers](http://leetcode.cn/problems/add-two-numbers/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/Solution.cs)|
 |3|[Longest Substring Without Repeating Characters](http://leetcode.cn/problems/longest-substring-without-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/Solution.cs)|
 |5|[Longest Palindromic Substring](http://leetcode.cn/problems/longest-palindromic-substring/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[5]最长回文子串/Solution.cs)|
-|7|[Reverse Integer](http://leetcode.cn/problems/reverse-integer/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.ts)|--|
+|7|[Reverse Integer](http://leetcode.cn/problems/reverse-integer/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[7]整数反转/Solution.cs)|
 |8|[String to Integer (atoi)](http://leetcode.cn/problems/string-to-integer-atoi/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[8]字符串转换整数%20(atoi)/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[8]字符串转换整数%20(atoi)/solution.ts)|--|
 |9|[Palindrome Number](http://leetcode.cn/problems/palindrome-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[9]回文数/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[9]回文数/solution.ts)|--|
 |11|[Container With Most Water](http://leetcode.cn/problems/container-with-most-water/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[11]盛最多水的容器/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[11]盛最多水的容器/solution.ts)|--|
