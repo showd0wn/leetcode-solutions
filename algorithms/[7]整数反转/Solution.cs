@@ -1,4 +1,4 @@
-using System;
+// topics = ["数学"]
 
 public class Solution
 {

@@ -20,10 +20,10 @@ function myAtoi(s: string): number {
 }
 
 export enum State {
-  Start = 'START',
-  Signed = 'SIGNED',
-  In_number = 'IN_NUMBER',
-  End = 'END',
+  Start = "START",
+  Signed = "SIGNED",
+  In_number = "IN_NUMBER",
+  End = "END",
 }
 
 export enum Stage {
@@ -64,11 +64,11 @@ class Automaton {
   // 获取状态对应索引
   getIndex(char: string): Stage {
     // 空格判断
-    if (char === ' ') {
+    if (char === " ") {
       return Stage.Space;
     }
     // 正负判断
-    if (char === '-' || char === '+') {
+    if (char === "-" || char === "+") {
       return Stage.Sign;
     }
     // 空格判断
@@ -84,7 +84,7 @@ class Automaton {
     this.state = this.map.get(this.state)![this.getIndex(char)];
     switch (this.state) {
       case State.Signed:
-        this.sign = char === '+' ? Sign.Positive : Sign.Negative;
+        this.sign = char === "+" ? Sign.Positive : Sign.Negative;
         break;
       case State.In_number:
         this.answer = this.answer * 10 + Number(char);

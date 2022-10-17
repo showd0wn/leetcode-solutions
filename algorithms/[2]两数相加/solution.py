@@ -1,17 +1,14 @@
 # topics = ["链表", "数学"]
 
-from __future__ import annotations
-from typing import Union
-
 
 class ListNode:
-    def __init__(self, x: int = 0):
-        self.val = x
-        self.next: Union[ListNode, None] = None
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next: ListNode | None = next
 
 
 class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def addTwoNumbers(self, l1: ListNode | None, l2: ListNode | None) -> ListNode | None:
         """
         模拟法
         time O(max(m,n)) space O(1), m 和 n 分别为两个链表的长度

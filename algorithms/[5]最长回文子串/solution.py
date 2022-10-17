@@ -1,6 +1,5 @@
 # topics = ["字符串", "动态规划"]
 
-
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)

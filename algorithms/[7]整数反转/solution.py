@@ -1,3 +1,5 @@
+# topics = ["数学"]
+
 class Solution:
     def reverse(self, x: int) -> int:
         limit = 2 ** 31

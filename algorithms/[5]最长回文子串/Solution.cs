@@ -1,9 +1,5 @@
 // topics = ["字符串", "动态规划"]
 
-Solution s = new Solution();
-System.Console.WriteLine(s.LongestPalindrome("cbbsdsbasxd"));
-System.Console.WriteLine(s.LongestPalindrome2("cbbsdsbasxd"));
-
 public class Solution
 {
     // time O(n^2), space O(n^2), n 为 s 的长度

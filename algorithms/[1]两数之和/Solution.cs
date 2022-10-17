@@ -1,5 +1,7 @@
 // topics = ["数组", "哈希表"]
 
+using System.Collections.Generic;
+
 public class Solution
 {
     /// <summary>
