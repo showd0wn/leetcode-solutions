@@ -1,4 +1,5 @@
 // topics = ["字符串", "哈希表", "滑动窗口"]
+using System;
 
 public class Solution
 {
