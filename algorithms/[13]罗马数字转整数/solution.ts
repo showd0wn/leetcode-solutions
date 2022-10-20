@@ -16,14 +16,12 @@ function romanToInt(s: string): number {
     M: 1000,
   };
 
-  type Roman = keyof typeof d;
-
   let res = 0;
   for (let i = 0; i < n; i += 1) {
-    const ch = s[i] as Roman;
+    const ch = s[i];
     const value = d[ch];
 
-    if (i < n - 1 && value < d[s[i + 1] as Roman]) {
+    if (i < n - 1 && value < d[s[i + 1]]) {
       res -= value;
     } else {
       res += value;
