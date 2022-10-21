@@ -1,8 +1,12 @@
 // topics = ["字符串"]
 
+/**
+ * 遍历
+ * time O(mn) space O(1), m 为 strs 中字符串平均长度, n 为 strs 长度
+ */
 function longestCommonPrefix(strs: string[]): string {
-  if (strs.length === 0) return '';
-  let prefix = '';
+  if (strs.length === 0) return "";
+  let prefix = "";
 
   // 横向比较
   for (let i = 0; i < strs.length; i += 1) {
@@ -11,7 +15,7 @@ function longestCommonPrefix(strs: string[]): string {
     } else {
       prefix = lcp(prefix, strs[i]);
     }
-    if (prefix === '') {
+    if (prefix === "") {
       break;
     }
   }
