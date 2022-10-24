@@ -794,8 +794,8 @@
             "caption": "二叉树的锯齿形层序遍历",
             "topics": [
                 "树",
-                "递归",
-                "广度优先搜索"
+                "广度优先搜索",
+                "递归"
             ]
         },
         {
@@ -3454,15 +3454,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 526,
+            "total": 527,
             "accept": 93
         },
         "Medium": {
-            "total": 1225,
+            "total": 1226,
             "accept": 167
         },
         "Hard": {
-            "total": 539,
+            "total": 541,
             "accept": 36
         }
     }
