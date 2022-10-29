@@ -12,7 +12,7 @@ class ListNode:
 
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
-        start = ListNode(0)
+        start = ListNode()
         start.next = head
 
         i = j = start
