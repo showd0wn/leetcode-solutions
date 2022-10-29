@@ -6,7 +6,7 @@
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |**Accept**|93|167|36|296|
-|**Total**|527|1226|541|2294|
+|**Total**|527|1227|541|2295|
 
 ### 题解
 | ID | Title | Difficulty | Python | TypeScript | C# |
@@ -24,8 +24,8 @@
 |14|[Longest Common Prefix](http://leetcode.cn/problems/longest-common-prefix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[14]最长公共前缀/Solution.cs)|
 |15|[3Sum](http://leetcode.cn/problems/3sum/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[15]三数之和/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[15]三数之和/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[15]三数之和/Solution.cs)|
 |17|[Letter Combinations of a Phone Number](http://leetcode.cn/problems/letter-combinations-of-a-phone-number/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[17]电话号码的字母组合/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[17]电话号码的字母组合/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[17]电话号码的字母组合/Solution.cs)|
-|19|[Remove Nth Node From End of List](http://leetcode.cn/problems/remove-nth-node-from-end-of-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.ts)|--|
-|20|[Valid Parentheses](http://leetcode.cn/problems/valid-parentheses/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.ts)|--|
+|19|[Remove Nth Node From End of List](http://leetcode.cn/problems/remove-nth-node-from-end-of-list/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[19]删除链表的倒数第N个节点/Solution.cs)|
+|20|[Valid Parentheses](http://leetcode.cn/problems/valid-parentheses/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[20]有效的括号/Solution.cs)|
 |21|[Merge Two Sorted Lists](http://leetcode.cn/problems/merge-two-sorted-lists/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[21]合并两个有序链表/solution.ts)|--|
 |23|[Merge k Sorted Lists](http://leetcode.cn/problems/merge-k-sorted-lists/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[23]合并K个升序链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[23]合并K个升序链表/solution.ts)|--|
 |25|[Reverse Nodes in k-Group](http://leetcode.cn/problems/reverse-nodes-in-k-group/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[25]K%20个一组翻转链表/solution.ts)|--|
