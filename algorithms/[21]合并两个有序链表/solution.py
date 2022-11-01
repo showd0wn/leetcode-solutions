@@ -11,7 +11,9 @@ class ListNode:
 
 
 class Solution:
-    def mergeTwoLists(self, l1: Union[ListNode, None], l2: Union[ListNode, None]) -> Union[ListNode, None]:
+    def mergeTwoLists(
+        self, l1: Union[ListNode, None], l2: Union[ListNode, None]
+    ) -> Union[ListNode, None]:
         if not l1:
             return l2
         if not l2:
