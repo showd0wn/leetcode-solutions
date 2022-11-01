@@ -188,6 +188,18 @@
             ]
         },
         {
+            "id": "22",
+            "level": 2,
+            "title": "Generate Parentheses",
+            "title_slug": "generate-parentheses",
+            "lock": false,
+            "caption": "括号生成",
+            "topics": [
+                "回溯算法",
+                "栈"
+            ]
+        },
+        {
             "id": "23",
             "level": 3,
             "title": "Merge k Sorted Lists",
@@ -3454,15 +3466,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 527,
+            "total": 529,
             "accept": 93
         },
         "Medium": {
-            "total": 1227,
-            "accept": 167
+            "total": 1231,
+            "accept": 168
         },
         "Hard": {
-            "total": 541,
+            "total": 544,
             "accept": 36
         }
     }
