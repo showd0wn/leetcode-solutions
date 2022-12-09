@@ -5,8 +5,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|93|168|36|297|
-|**Total**|529|1231|544|2304|
+|**Accept**|97|172|36|305|
+|**Total**|536|1249|552|2337|
 
 ### 题解
 | ID | Title | Difficulty | Python | TypeScript | C# |
@@ -307,4 +307,12 @@
 |1720|[Decode XORed Array](http://leetcode.cn/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|--|
 |1738|[Find Kth Largest XOR Coordinate Value](http://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.ts)|--|
 |1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](http://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.ts)|--|
+|1779|[Find Nearest Point That Has the Same X or Y Coordinate](http://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1779]找到最近的有相同%20X%20或%20Y%20坐标的点/Solution.cs)|
+|1780|[Check if Number is a Sum of Powers of Three](http://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1780]判断一个数字是否可以表示成三的幂的和/Solution.cs)|
+|1769|[Minimum Number of Operations to Move All Balls to Each Box](http://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1769]移动所有球到每个盒子所需的最小操作数/Solution.cs)|
+|1774|[Closest Dessert Cost](http://leetcode.cn/problems/closest-dessert-cost/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1774]最接近目标价格的甜点成本/Solution.cs)|
+|1775|[Equal Sum Arrays With Minimum Number of Operations](http://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1775]通过最少操作次数使数组的和相等/Solution.cs)|
+|1796|[Second Largest Digit in a String](http://leetcode.cn/problems/second-largest-digit-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1796]字符串中第二大的数字/Solution.cs)|
+|1812|[Determine Color of a Chessboard Square](http://leetcode.cn/problems/determine-color-of-a-chessboard-square/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1812]判断国际象棋棋盘中一个格子的颜色/Solution.cs)|
+|1805|[Number of Different Integers in a String](http://leetcode.cn/problems/number-of-different-integers-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1805]字符串中不同整数的数目/Solution.cs)|
 |1833|[Maximum Ice Cream Bars](http://leetcode.cn/problems/maximum-ice-cream-bars/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.ts)|--|

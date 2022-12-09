@@ -208,8 +208,8 @@
             "caption": "合并K个升序链表",
             "topics": [
                 "链表",
-                "堆",
-                "分治算法"
+                "分治算法",
+                "堆"
             ]
         },
         {
@@ -255,8 +255,8 @@
             "lock": false,
             "caption": "实现 strStr()",
             "topics": [
-                "滑动窗口",
-                "字符串"
+                "字符串",
+                "滑动窗口"
             ]
         },
         {
@@ -324,8 +324,8 @@
             "lock": false,
             "caption": "组合总和",
             "topics": [
-                "动态规划",
-                "回溯算法"
+                "回溯算法",
+                "动态规划"
             ]
         },
         {
@@ -347,8 +347,8 @@
             "lock": false,
             "caption": "接雨水",
             "topics": [
-                "栈",
-                "双指针"
+                "双指针",
+                "栈"
             ]
         },
         {
@@ -683,8 +683,8 @@
             "lock": false,
             "caption": "扰乱字符串",
             "topics": [
-                "递归",
-                "动态规划"
+                "动态规划",
+                "递归"
             ]
         },
         {
@@ -708,8 +708,8 @@
             "caption": "子集 II",
             "topics": [
                 "数组",
-                "哈希表",
-                "回溯算法"
+                "回溯算法",
+                "哈希表"
             ]
         },
         {
@@ -754,8 +754,8 @@
             "caption": "二叉树的中序遍历",
             "topics": [
                 "树",
-                "栈",
-                "递归"
+                "递归",
+                "栈"
             ]
         },
         {
@@ -780,8 +780,8 @@
             "caption": "对称二叉树",
             "topics": [
                 "树",
-                "深度优先搜索",
-                "广度优先搜索"
+                "广度优先搜索",
+                "深度优先搜索"
             ]
         },
         {
@@ -793,8 +793,8 @@
             "caption": "二叉树的层次遍历",
             "topics": [
                 "树",
-                "递归",
-                "广度优先搜索"
+                "广度优先搜索",
+                "递归"
             ]
         },
         {
@@ -819,8 +819,8 @@
             "caption": "二叉树的最大深度",
             "topics": [
                 "树",
-                "深度优先搜索",
-                "广度优先搜索"
+                "广度优先搜索",
+                "深度优先搜索"
             ]
         },
         {
@@ -832,8 +832,8 @@
             "caption": "二叉树的层序遍历 II",
             "topics": [
                 "树",
-                "递归",
-                "广度优先搜索"
+                "广度优先搜索",
+                "递归"
             ]
         },
         {
@@ -857,8 +857,8 @@
             "caption": "二叉树的最小深度",
             "topics": [
                 "树",
-                "广度优先搜索",
-                "深度优先搜索"
+                "深度优先搜索",
+                "广度优先搜索"
             ]
         },
         {
@@ -882,8 +882,8 @@
             "caption": "杨辉三角 II",
             "topics": [
                 "数组",
-                "数学",
-                "动态规划"
+                "动态规划",
+                "数学"
             ]
         },
         {
@@ -895,8 +895,8 @@
             "caption": "买卖股票的最佳时机",
             "topics": [
                 "数组",
-                "栈",
-                "动态规划"
+                "动态规划",
+                "栈"
             ]
         },
         {
@@ -999,8 +999,8 @@
             "caption": "二叉树的前序遍历",
             "topics": [
                 "树",
-                "栈",
-                "递归"
+                "递归",
+                "栈"
             ]
         },
         {
@@ -1012,8 +1012,8 @@
             "caption": "二叉树的后序遍历",
             "topics": [
                 "树",
-                "栈",
-                "递归"
+                "递归",
+                "栈"
             ]
         },
         {
@@ -1105,8 +1105,8 @@
             "caption": "相交链表",
             "topics": [
                 "链表",
-                "哈希表",
-                "双指针"
+                "双指针",
+                "哈希表"
             ]
         },
         {
@@ -1215,8 +1215,8 @@
             "lock": false,
             "caption": "快乐数",
             "topics": [
-                "哈希表",
-                "双指针"
+                "双指针",
+                "哈希表"
             ]
         },
         {
@@ -1264,8 +1264,8 @@
             "topics": [
                 "图",
                 "拓扑排序",
-                "广度优先搜索",
-                "深度优先搜索"
+                "深度优先搜索",
+                "广度优先搜索"
             ]
         },
         {
@@ -1290,8 +1290,8 @@
             "topics": [
                 "图",
                 "拓扑排序",
-                "广度优先搜索",
-                "深度优先搜索"
+                "深度优先搜索",
+                "广度优先搜索"
             ]
         },
         {
@@ -1372,9 +1372,9 @@
             "lock": false,
             "caption": "存在重复元素 III",
             "topics": [
+                "桶排序",
                 "滑动窗口",
-                "二分查找",
-                "桶排序"
+                "二分查找"
             ]
         },
         {
@@ -1571,9 +1571,9 @@
             "lock": false,
             "caption": "最长递增子序列",
             "topics": [
+                "动态规划",
                 "贪心算法",
-                "二分查找",
-                "动态规划"
+                "二分查找"
             ]
         },
         {
@@ -1677,8 +1677,8 @@
             "caption": "扁平化嵌套列表迭代器",
             "topics": [
                 "设计",
-                "栈",
-                "递归"
+                "递归",
+                "栈"
             ]
         },
         {
@@ -1724,9 +1724,9 @@
             "lock": false,
             "caption": "俄罗斯套娃信封问题",
             "topics": [
+                "动态规划",
                 "贪心算法",
-                "二分查找",
-                "动态规划"
+                "二分查找"
             ]
         },
         {
@@ -1737,8 +1737,8 @@
             "lock": false,
             "caption": "矩形区域不超过 K 的最大数值和",
             "topics": [
-                "二分查找",
-                "动态规划"
+                "动态规划",
+                "二分查找"
             ]
         },
         {
@@ -1818,8 +1818,8 @@
             "lock": false,
             "caption": "字符串解码",
             "topics": [
-                "栈",
-                "递归"
+                "递归",
+                "栈"
             ]
         },
         {
@@ -1842,8 +1842,8 @@
             "lock": false,
             "caption": "二进制手表",
             "topics": [
-                "回溯算法",
-                "位运算"
+                "位运算",
+                "回溯算法"
             ]
         },
         {
@@ -2138,9 +2138,9 @@
             "caption": "省份数量",
             "topics": [
                 "图",
-                "并查集",
                 "深度优先搜索",
-                "广度优先搜索"
+                "广度优先搜索",
+                "并查集"
             ]
         },
         {
@@ -2196,8 +2196,8 @@
             "lock": false,
             "caption": "字符串的排列",
             "topics": [
-                "双指针",
-                "滑动窗口"
+                "滑动窗口",
+                "双指针"
             ]
         },
         {
@@ -2253,8 +2253,8 @@
             "lock": false,
             "caption": "错误的集合",
             "topics": [
-                "位运算",
-                "哈希表"
+                "哈希表",
+                "位运算"
             ]
         },
         {
@@ -2312,8 +2312,8 @@
             "caption": "员工的重要性",
             "topics": [
                 "哈希表",
-                "深度优先搜索",
-                "广度优先搜索"
+                "广度优先搜索",
+                "深度优先搜索"
             ]
         },
         {
@@ -2336,8 +2336,8 @@
             "lock": false,
             "caption": "岛屿的最大面积",
             "topics": [
-                "广度优先搜索",
-                "深度优先搜索"
+                "深度优先搜索",
+                "广度优先搜索"
             ]
         },
         {
@@ -2441,8 +2441,8 @@
             "lock": false,
             "caption": "情侣牵手",
             "topics": [
-                "并查集",
-                "贪心算法"
+                "贪心算法",
+                "并查集"
             ]
         },
         {
@@ -2465,8 +2465,8 @@
             "caption": "数据流中的第 K 大元素",
             "topics": [
                 "设计",
-                "堆",
-                "二分查找"
+                "二分查找",
+                "堆"
             ]
         },
         {
@@ -2489,9 +2489,9 @@
             "caption": "水位上升的泳池中游泳",
             "topics": [
                 "图",
+                "并查集",
                 "最短路径",
-                "广度优先搜索",
-                "并查集"
+                "广度优先搜索"
             ]
         },
         {
@@ -2524,8 +2524,8 @@
             "lock": false,
             "caption": "判断二分图",
             "topics": [
-                "广度优先搜索",
-                "深度优先搜索"
+                "深度优先搜索",
+                "广度优先搜索"
             ]
         },
         {
@@ -2627,8 +2627,8 @@
             "lock": false,
             "caption": "比较含退格的字符串",
             "topics": [
-                "双指针",
-                "栈"
+                "栈",
+                "双指针"
             ]
         },
         {
@@ -2683,8 +2683,8 @@
             "lock": false,
             "caption": "石子游戏",
             "topics": [
-                "动态规划",
-                "数学"
+                "数学",
+                "动态规划"
             ]
         },
         {
@@ -2841,8 +2841,8 @@
             "caption": "最长湍流子数组",
             "topics": [
                 "数组",
-                "滑动窗口",
-                "动态规划"
+                "动态规划",
+                "滑动窗口"
             ]
         },
         {
@@ -2911,8 +2911,8 @@
             "lock": false,
             "caption": "笨阶乘",
             "topics": [
-                "栈",
-                "数学"
+                "数学",
+                "栈"
             ]
         },
         {
@@ -2924,8 +2924,8 @@
             "caption": "前序遍历构造二叉搜索树",
             "topics": [
                 "树",
-                "栈",
-                "递归"
+                "递归",
+                "栈"
             ]
         },
         {
@@ -2936,8 +2936,8 @@
             "lock": false,
             "caption": "在 D 天内送达包裹的能力",
             "topics": [
-                "数组",
-                "二分查找"
+                "二分查找",
+                "数组"
             ]
         },
         {
@@ -2959,10 +2959,10 @@
             "lock": false,
             "caption": "地图分析",
             "topics": [
+                "动态规划",
                 "图",
                 "最短路径",
-                "广度优先搜索",
-                "动态规划"
+                "广度优先搜索"
             ]
         },
         {
@@ -2973,8 +2973,8 @@
             "lock": false,
             "caption": "最后一块石头的重量",
             "topics": [
-                "堆",
-                "数组"
+                "数组",
+                "堆"
             ]
         },
         {
@@ -3102,8 +3102,8 @@
             "lock": false,
             "caption": "反转每对括号间的子串",
             "topics": [
-                "栈",
-                "递归"
+                "递归",
+                "栈"
             ]
         },
         {
@@ -3171,8 +3171,8 @@
             "lock": false,
             "caption": "跳跃游戏 III",
             "topics": [
-                "广度优先搜索",
-                "深度优先搜索"
+                "深度优先搜索",
+                "广度优先搜索"
             ]
         },
         {
@@ -3196,9 +3196,9 @@
             "caption": "连通网络的操作次数",
             "topics": [
                 "图",
+                "并查集",
                 "广度优先搜索",
-                "深度优先搜索",
-                "并查集"
+                "深度优先搜索"
             ]
         },
         {
@@ -3209,8 +3209,8 @@
             "lock": false,
             "caption": "最多可以参加的会议数目",
             "topics": [
-                "堆",
-                "贪心算法"
+                "贪心算法",
+                "堆"
             ]
         },
         {
@@ -3377,9 +3377,9 @@
             "caption": "最小体力消耗路径",
             "topics": [
                 "图",
+                "并查集",
                 "最短路径",
-                "广度优先搜索",
-                "并查集"
+                "广度优先搜索"
             ]
         },
         {
@@ -3452,6 +3452,96 @@
             ]
         },
         {
+            "id": "1779",
+            "level": 1,
+            "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+            "title_slug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+            "lock": false,
+            "caption": "找到最近的有相同 X 或 Y 坐标的点",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
+            "id": "1780",
+            "level": 2,
+            "title": "Check if Number is a Sum of Powers of Three",
+            "title_slug": "check-if-number-is-a-sum-of-powers-of-three",
+            "lock": false,
+            "caption": "判断一个数字是否可以表示成三的幂的和",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
+            "id": "1769",
+            "level": 2,
+            "title": "Minimum Number of Operations to Move All Balls to Each Box",
+            "title_slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+            "lock": false,
+            "caption": "移动所有球到每个盒子所需的最小操作数",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
+            "id": "1774",
+            "level": 2,
+            "title": "Closest Dessert Cost",
+            "title_slug": "closest-dessert-cost",
+            "lock": false,
+            "caption": "最接近目标价格的甜点成本",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
+            "id": "1775",
+            "level": 2,
+            "title": "Equal Sum Arrays With Minimum Number of Operations",
+            "title_slug": "equal-sum-arrays-with-minimum-number-of-operations",
+            "lock": false,
+            "caption": "通过最少操作次数使数组的和相等",
+            "topics": [
+                "贪心算法",
+                "哈希表"
+            ]
+        },
+        {
+            "id": "1796",
+            "level": 1,
+            "title": "Second Largest Digit in a String",
+            "title_slug": "second-largest-digit-in-a-string",
+            "lock": false,
+            "caption": "字符串中第二大的数字",
+            "topics": [
+                "字符串"
+            ]
+        },
+        {
+            "id": "1812",
+            "level": 1,
+            "title": "Determine Color of a Chessboard Square",
+            "title_slug": "determine-color-of-a-chessboard-square",
+            "lock": false,
+            "caption": "判断国际象棋棋盘中一个格子的颜色",
+            "topics": [
+                "数学"
+            ]
+        },
+        {
+            "id": "1805",
+            "level": 1,
+            "title": "Number of Different Integers in a String",
+            "title_slug": "number-of-different-integers-in-a-string",
+            "lock": false,
+            "caption": "字符串中不同整数的数目",
+            "topics": [
+                "字符串",
+                "哈希表"
+            ]
+        },
+        {
             "id": "1833",
             "level": 2,
             "title": "Maximum Ice Cream Bars",
@@ -3459,22 +3549,22 @@
             "lock": false,
             "caption": "雪糕的最大数量",
             "topics": [
-                "数组",
-                "贪心算法"
+                "贪心算法",
+                "数组"
             ]
         }
     ],
     "stats": {
         "Easy": {
-            "total": 529,
-            "accept": 93
+            "total": 536,
+            "accept": 97
         },
         "Medium": {
-            "total": 1231,
-            "accept": 168
+            "total": 1249,
+            "accept": 172
         },
         "Hard": {
-            "total": 544,
+            "total": 552,
             "accept": 36
         }
     }
