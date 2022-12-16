@@ -3383,6 +3383,18 @@
             ]
         },
         {
+            "id": "1697",
+            "level": 3,
+            "title": "Checking Existence of Edge Length Limited Paths",
+            "title_slug": "checking-existence-of-edge-length-limited-paths",
+            "lock": false,
+            "caption": "检查边长度限制的路径是否存在",
+            "topics": [
+                "图",
+                "并查集"
+            ]
+        },
+        {
             "id": "1723",
             "level": 3,
             "title": "Find Minimum Time to Finish All Jobs",
@@ -3474,6 +3486,18 @@
             ]
         },
         {
+            "id": "1781",
+            "level": 2,
+            "title": "Sum of Beauty of All Substrings",
+            "title_slug": "sum-of-beauty-of-all-substrings",
+            "lock": false,
+            "caption": "所有子字符串美丽值之和",
+            "topics": [
+                "数组",
+                "字符串"
+            ]
+        },
+        {
             "id": "1769",
             "level": 2,
             "title": "Minimum Number of Operations to Move All Balls to Each Box",
@@ -3519,6 +3543,18 @@
             ]
         },
         {
+            "id": "1785",
+            "level": 2,
+            "title": "Minimum Elements to Add to Form a Given Sum",
+            "title_slug": "minimum-elements-to-add-to-form-a-given-sum",
+            "lock": false,
+            "caption": "构成特定和需要添加的最少元素",
+            "topics": [
+                "数组",
+                "贪心算法"
+            ]
+        },
+        {
             "id": "1812",
             "level": 1,
             "title": "Determine Color of a Chessboard Square",
@@ -3542,6 +3578,30 @@
             ]
         },
         {
+            "id": "1827",
+            "level": 1,
+            "title": "Minimum Operations to Make the Array Increasing",
+            "title_slug": "minimum-operations-to-make-the-array-increasing",
+            "lock": false,
+            "caption": "最少操作使数组递增",
+            "topics": [
+                "贪心算法",
+                "数组"
+            ]
+        },
+        {
+            "id": "1832",
+            "level": 1,
+            "title": "Check if the Sentence Is Pangram",
+            "title_slug": "check-if-the-sentence-is-pangram",
+            "lock": false,
+            "caption": "判断句子是否为全字母句",
+            "topics": [
+                "哈希表",
+                "字符串"
+            ]
+        },
+        {
             "id": "1833",
             "level": 2,
             "title": "Maximum Ice Cream Bars",
@@ -3552,20 +3612,31 @@
                 "贪心算法",
                 "数组"
             ]
+        },
+        {
+            "id": "1945",
+            "level": 1,
+            "title": "Sum of Digits of String After Convert",
+            "title_slug": "sum-of-digits-of-string-after-convert",
+            "lock": false,
+            "caption": "字符串转化后的各位数字之和",
+            "topics": [
+                "字符串"
+            ]
         }
     ],
     "stats": {
         "Easy": {
-            "total": 536,
-            "accept": 97
+            "total": 538,
+            "accept": 100
         },
         "Medium": {
-            "total": 1249,
-            "accept": 172
+            "total": 1254,
+            "accept": 174
         },
         "Hard": {
-            "total": 552,
-            "accept": 36
+            "total": 554,
+            "accept": 37
         }
     }
 }
