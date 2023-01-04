@@ -5,8 +5,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|100|174|37|311|
-|**Total**|538|1254|554|2346|
+|**Accept**|105|177|37|319|
+|**Total**|542|1263|560|2365|
 
 ### 题解
 | ID | Title | Difficulty | Python | TypeScript | C# |
@@ -238,6 +238,7 @@
 |839|[Similar String Groups](http://leetcode.cn/problems/similar-string-groups/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[839]相似字符串组/solution.ts)|--|
 |844|[Backspace String Compare](http://leetcode.cn/problems/backspace-string-compare/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[844]比较含退格的字符串/solution.ts)|--|
 |852|[Peak Index in a Mountain Array](http://leetcode.cn/problems/peak-index-in-a-mountain-array/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[852]山脉数组的峰顶索引/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[852]山脉数组的峰顶索引/solution.ts)|--|
+|855|[Exam Room](http://leetcode.cn/problems/exam-room/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[855]考场就座/Solution.cs)|
 |867|[Transpose Matrix](http://leetcode.cn/problems/transpose-matrix/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[867]转置矩阵/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[867]转置矩阵/solution.ts)|--|
 |872|[Leaf-Similar Trees](http://leetcode.cn/problems/leaf-similar-trees/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[872]叶子相似的树/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[872]叶子相似的树/solution.ts)|--|
 |875|[Koko Eating Bananas](http://leetcode.cn/problems/koko-eating-bananas/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[875]爱吃香蕉的珂珂/solution.ts)|--|
@@ -317,8 +318,15 @@
 |1796|[Second Largest Digit in a String](http://leetcode.cn/problems/second-largest-digit-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1796]字符串中第二大的数字/Solution.cs)|
 |1785|[Minimum Elements to Add to Form a Given Sum](http://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1785]构成特定和需要添加的最少元素/Solution.cs)|
 |1812|[Determine Color of a Chessboard Square](http://leetcode.cn/problems/determine-color-of-a-chessboard-square/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1812]判断国际象棋棋盘中一个格子的颜色/Solution.cs)|
+|1801|[Number of Orders in the Backlog](http://leetcode.cn/problems/number-of-orders-in-the-backlog/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1801]积压订单中的订单总数/Solution.cs)|
+|1802|[Maximum Value at a Given Index in a Bounded Array](http://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1802]有界数组中指定下标处的最大值/Solution.cs)|
 |1805|[Number of Different Integers in a String](http://leetcode.cn/problems/number-of-different-integers-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1805]字符串中不同整数的数目/Solution.cs)|
 |1827|[Minimum Operations to Make the Array Increasing](http://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1827]最少操作使数组递增/Solution.cs)|
 |1832|[Check if the Sentence Is Pangram](http://leetcode.cn/problems/check-if-the-sentence-is-pangram/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1832]判断句子是否为全字母句/Solution.cs)|
 |1833|[Maximum Ice Cream Bars](http://leetcode.cn/problems/maximum-ice-cream-bars/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.ts)|--|
 |1945|[Sum of Digits of String After Convert](http://leetcode.cn/problems/sum-of-digits-of-string-after-convert/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1945]字符串转化后的各位数字之和/Solution.cs)|
+|2037|[Minimum Number of Moves to Seat Everyone](http://leetcode.cn/problems/minimum-number-of-moves-to-seat-everyone/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2037]使每位学生都有座位的最少移动次数/Solution.cs)|
+|2027|[Minimum Moves to Convert String](http://leetcode.cn/problems/minimum-moves-to-convert-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2027]转换字符串的最少操作次数/Solution.cs)|
+|2032|[Two Out of Three](http://leetcode.cn/problems/two-out-of-three/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2032]至少在两个数组中出现的值/Solution.cs)|
+|2042|[Check if Numbers Are Ascending in a Sentence](http://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2042]%20检查句子中的数字是否递增/Solution.cs)|
+|2351|[First Letter to Appear Twice](http://leetcode.cn/problems/first-letter-to-appear-twice/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2351]第一个出现两次的字母/Solution.cs)|

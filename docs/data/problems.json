@@ -2643,6 +2643,17 @@
             ]
         },
         {
+            "id": "855",
+            "level": 2,
+            "title": "Exam Room",
+            "title_slug": "exam-room",
+            "lock": false,
+            "caption": "考场就座",
+            "topics": [
+                "设计"
+            ]
+        },
+        {
             "id": "867",
             "level": 1,
             "title": "Transpose Matrix",
@@ -3566,6 +3577,31 @@
             ]
         },
         {
+            "id": "1801",
+            "level": 2,
+            "title": "Number of Orders in the Backlog",
+            "title_slug": "number-of-orders-in-the-backlog",
+            "lock": false,
+            "caption": "积压订单中的订单总数",
+            "topics": [
+                "数组",
+                "堆"
+            ]
+        },
+        {
+            "id": "1802",
+            "level": 2,
+            "title": "Maximum Value at a Given Index in a Bounded Array",
+            "title_slug": "maximum-value-at-a-given-index-in-a-bounded-array",
+            "lock": false,
+            "caption": "有界数组中指定下标处的最大值",
+            "topics": [
+                "贪心算法",
+                "二分查找",
+                "数学"
+            ]
+        },
+        {
             "id": "1805",
             "level": 1,
             "title": "Number of Different Integers in a String",
@@ -3623,19 +3659,75 @@
             "topics": [
                 "字符串"
             ]
+        },
+        {
+            "id": "2037",
+            "level": 1,
+            "title": "Minimum Number of Moves to Seat Everyone",
+            "title_slug": "minimum-number-of-moves-to-seat-everyone",
+            "lock": false,
+            "caption": "使每位学生都有座位的最少移动次数",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
+            "id": "2027",
+            "level": 1,
+            "title": "Minimum Moves to Convert String",
+            "title_slug": "minimum-moves-to-convert-string",
+            "lock": false,
+            "caption": "转换字符串的最少操作次数",
+            "topics": [
+                "贪心",
+                "字符串"
+            ]
+        },
+        {
+            "id": "2032",
+            "level": 1,
+            "title": "Two Out of Three",
+            "title_slug": "two-out-of-three",
+            "lock": false,
+            "caption": "至少在两个数组中出现的值",
+            "topics": [
+                "哈希表"
+            ]
+        },
+        {
+            "id": "2042",
+            "level": 1,
+            "title": "Check if Numbers Are Ascending in a Sentence",
+            "title_slug": "check-if-numbers-are-ascending-in-a-sentence",
+            "lock": false,
+            "caption": " 检查句子中的数字是否递增",
+            "topics": [
+                "字符串"
+            ]
+        },
+        {
+            "id": "2351",
+            "level": 1,
+            "title": "First Letter to Appear Twice",
+            "title_slug": "first-letter-to-appear-twice",
+            "lock": false,
+            "caption": "第一个出现两次的字母",
+            "topics": [
+                "哈希表"
+            ]
         }
     ],
     "stats": {
         "Easy": {
-            "total": 538,
-            "accept": 100
+            "total": 542,
+            "accept": 105
         },
         "Medium": {
-            "total": 1254,
-            "accept": 174
+            "total": 1263,
+            "accept": 177
         },
         "Hard": {
-            "total": 554,
+            "total": 560,
             "accept": 37
         }
     }
