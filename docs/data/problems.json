@@ -3719,15 +3719,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 542,
+            "total": 544,
             "accept": 105
         },
         "Medium": {
-            "total": 1263,
+            "total": 1267,
             "accept": 177
         },
         "Hard": {
-            "total": 560,
+            "total": 562,
             "accept": 37
         }
     }
