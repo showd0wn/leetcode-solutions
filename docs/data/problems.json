@@ -3394,6 +3394,19 @@
             ]
         },
         {
+            "id": "1658",
+            "level": 2,
+            "title": "Minimum Operations to Reduce X to Zero",
+            "title_slug": "minimum-operations-to-reduce-x-to-zero",
+            "lock": false,
+            "caption": "将 x 减到 0 的最小操作数",
+            "topics": [
+                "数组",
+                "滑动窗口",
+                "二分查找"
+            ]
+        },
+        {
             "id": "1697",
             "level": 3,
             "title": "Checking Existence of Edge Length Limited Paths",
@@ -3614,6 +3627,18 @@
             ]
         },
         {
+            "id": "1806",
+            "level": 2,
+            "title": "Minimum Number of Operations to Reinitialize a Permutation",
+            "title_slug": "minimum-number-of-operations-to-reinitialize-a-permutation",
+            "lock": false,
+            "caption": "还原排列的最少操作步数",
+            "topics": [
+                "数组",
+                "数学"
+            ]
+        },
+        {
             "id": "1827",
             "level": 1,
             "title": "Minimum Operations to Make the Array Increasing",
@@ -3700,9 +3725,31 @@
             "title": "Check if Numbers Are Ascending in a Sentence",
             "title_slug": "check-if-numbers-are-ascending-in-a-sentence",
             "lock": false,
-            "caption": " 检查句子中的数字是否递增",
+            "caption": "检查句子中的数字是否递增",
             "topics": [
                 "字符串"
+            ]
+        },
+        {
+            "id": "2185",
+            "level": 1,
+            "title": "Counting Words With a Given Prefix",
+            "title_slug": "counting-words-with-a-given-prefix",
+            "lock": false,
+            "caption": "统计包含给定前缀的字符串",
+            "topics": [
+                "字符串"
+            ]
+        },
+        {
+            "id": "2180",
+            "level": 1,
+            "title": "Count Integers With Even Digit Sum",
+            "title_slug": "count-integers-with-even-digit-sum",
+            "lock": false,
+            "caption": "统计各位数字之和为偶数的整数个数",
+            "topics": [
+                "数学"
             ]
         },
         {
@@ -3720,11 +3767,11 @@
     "stats": {
         "Easy": {
             "total": 544,
-            "accept": 105
+            "accept": 107
         },
         "Medium": {
             "total": 1267,
-            "accept": 177
+            "accept": 179
         },
         "Hard": {
             "total": 562,

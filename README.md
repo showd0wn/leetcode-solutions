@@ -5,7 +5,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|105|177|37|319|
+|**Accept**|107|179|37|323|
 |**Total**|544|1267|562|2373|
 
 ### 题解
@@ -302,6 +302,7 @@
 |1603|[Design Parking System](http://leetcode.cn/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|--|
 |1600|[Throne Inheritance](http://leetcode.cn/problems/throne-inheritance/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.ts)|--|
 |1631|[Path With Minimum Effort](http://leetcode.cn/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|--|
+|1658|[Minimum Operations to Reduce X to Zero](http://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1658]将%20x%20减到%200%20的最小操作数/Solution.py)|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1658]将%20x%20减到%200%20的最小操作数/Solution.cs)|
 |1697|[Checking Existence of Edge Length Limited Paths](http://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/)|Hard|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1697]检查边长度限制的路径是否存在/Solution.cs)|
 |1723|[Find Minimum Time to Finish All Jobs](http://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1723]完成所有工作的最短时间/solution.ts)|--|
 |1707|[Maximum XOR With an Element From Array](http://leetcode.cn/problems/maximum-xor-with-an-element-from-array/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.ts)|--|
@@ -321,6 +322,7 @@
 |1801|[Number of Orders in the Backlog](http://leetcode.cn/problems/number-of-orders-in-the-backlog/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1801]积压订单中的订单总数/Solution.cs)|
 |1802|[Maximum Value at a Given Index in a Bounded Array](http://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1802]有界数组中指定下标处的最大值/Solution.cs)|
 |1805|[Number of Different Integers in a String](http://leetcode.cn/problems/number-of-different-integers-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1805]字符串中不同整数的数目/Solution.cs)|
+|1806|[Minimum Number of Operations to Reinitialize a Permutation](http://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1806]还原排列的最少操作步数/Solution.cs)|
 |1827|[Minimum Operations to Make the Array Increasing](http://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1827]最少操作使数组递增/Solution.cs)|
 |1832|[Check if the Sentence Is Pangram](http://leetcode.cn/problems/check-if-the-sentence-is-pangram/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1832]判断句子是否为全字母句/Solution.cs)|
 |1833|[Maximum Ice Cream Bars](http://leetcode.cn/problems/maximum-ice-cream-bars/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1833]雪糕的最大数量/solution.ts)|--|
@@ -328,5 +330,7 @@
 |2037|[Minimum Number of Moves to Seat Everyone](http://leetcode.cn/problems/minimum-number-of-moves-to-seat-everyone/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2037]使每位学生都有座位的最少移动次数/Solution.cs)|
 |2027|[Minimum Moves to Convert String](http://leetcode.cn/problems/minimum-moves-to-convert-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2027]转换字符串的最少操作次数/Solution.cs)|
 |2032|[Two Out of Three](http://leetcode.cn/problems/two-out-of-three/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2032]至少在两个数组中出现的值/Solution.cs)|
-|2042|[Check if Numbers Are Ascending in a Sentence](http://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2042]%20检查句子中的数字是否递增/Solution.cs)|
+|2042|[Check if Numbers Are Ascending in a Sentence](http://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2042]检查句子中的数字是否递增/Solution.cs)|
+|2185|[Counting Words With a Given Prefix](http://leetcode.cn/problems/counting-words-with-a-given-prefix/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2185]统计包含给定前缀的字符串/Solution.cs)|
+|2180|[Count Integers With Even Digit Sum](http://leetcode.cn/problems/count-integers-with-even-digit-sum/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2180]统计各位数字之和为偶数的整数个数/Solution.cs)|
 |2351|[First Letter to Appear Twice](http://leetcode.cn/problems/first-letter-to-appear-twice/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2351]第一个出现两次的字母/Solution.cs)|
