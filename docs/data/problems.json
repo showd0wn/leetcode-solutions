@@ -3465,6 +3465,17 @@
             ]
         },
         {
+            "id": "1750",
+            "level": 2,
+            "title": "Minimum Length of String After Deleting Similar Ends",
+            "title_slug": "minimum-length-of-string-after-deleting-similar-ends",
+            "lock": false,
+            "caption": "删除字符串两端相同字符后的最短长度",
+            "topics": [
+                "双指针"
+            ]
+        },
+        {
             "id": "1738",
             "level": 2,
             "title": "Find Kth Largest XOR Coordinate Value",
@@ -3485,6 +3496,17 @@
             "caption": "你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
             "topics": [
                 "数组"
+            ]
+        },
+        {
+            "id": "1764",
+            "level": 2,
+            "title": "Form Array by Concatenating Subarrays of Another Array",
+            "title_slug": "form-array-by-concatenating-subarrays-of-another-array",
+            "lock": false,
+            "caption": "通过连接另一个数组的子数组得到一个数组",
+            "topics": [
+                "双指针"
             ]
         },
         {
@@ -3627,6 +3649,17 @@
             ]
         },
         {
+            "id": "1807",
+            "level": 2,
+            "title": "Evaluate the Bracket Pairs of a String",
+            "title_slug": "evaluate-the-bracket-pairs-of-a-string",
+            "lock": false,
+            "caption": "替换字符串中的括号内容",
+            "topics": [
+                "哈希表"
+            ]
+        },
+        {
             "id": "1806",
             "level": 2,
             "title": "Minimum Number of Operations to Reinitialize a Permutation",
@@ -3753,6 +3786,17 @@
             ]
         },
         {
+            "id": "2283",
+            "level": 1,
+            "title": "Check if Number Has Equal Digit Count and Digit Value",
+            "title_slug": "check-if-number-has-equal-digit-count-and-digit-value",
+            "lock": false,
+            "caption": "判断一个数的数字计数是否等于数位的值",
+            "topics": [
+                "哈希表"
+            ]
+        },
+        {
             "id": "2351",
             "level": 1,
             "title": "First Letter to Appear Twice",
@@ -3767,11 +3811,11 @@
     "stats": {
         "Easy": {
             "total": 544,
-            "accept": 107
+            "accept": 108
         },
         "Medium": {
             "total": 1268,
-            "accept": 179
+            "accept": 182
         },
         "Hard": {
             "total": 562,

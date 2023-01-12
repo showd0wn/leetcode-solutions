@@ -5,7 +5,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|107|179|37|323|
+|**Accept**|108|182|37|327|
 |**Total**|544|1268|562|2374|
 
 ### 题解
@@ -308,8 +308,10 @@
 |1707|[Maximum XOR With an Element From Array](http://leetcode.cn/problems/maximum-xor-with-an-element-from-array/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1707]与数组中元素的最大异或值/solution.ts)|--|
 |1734|[Decode XORed Permutation](http://leetcode.cn/problems/decode-xored-permutation/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1734]解码异或后的排列/solution.ts)|--|
 |1720|[Decode XORed Array](http://leetcode.cn/problems/decode-xored-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1720]解码异或后的数组/solution.ts)|--|
+|1750|[Minimum Length of String After Deleting Similar Ends](http://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1750]删除字符串两端相同字符后的最短长度/Solution.cs)|
 |1738|[Find Kth Largest XOR Coordinate Value](http://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1738]找出第%20K%20大的异或坐标值/solution.ts)|--|
 |1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](http://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.py)|[TypeScript](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？/solution.ts)|--|
+|1764|[Form Array by Concatenating Subarrays of Another Array](http://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1764]通过连接另一个数组的子数组得到一个数组/Solution.cs)|
 |1779|[Find Nearest Point That Has the Same X or Y Coordinate](http://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1779]找到最近的有相同%20X%20或%20Y%20坐标的点/Solution.cs)|
 |1780|[Check if Number is a Sum of Powers of Three](http://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1780]判断一个数字是否可以表示成三的幂的和/Solution.cs)|
 |1781|[Sum of Beauty of All Substrings](http://leetcode.cn/problems/sum-of-beauty-of-all-substrings/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1781]所有子字符串美丽值之和/Solution.cs)|
@@ -322,6 +324,7 @@
 |1801|[Number of Orders in the Backlog](http://leetcode.cn/problems/number-of-orders-in-the-backlog/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1801]积压订单中的订单总数/Solution.cs)|
 |1802|[Maximum Value at a Given Index in a Bounded Array](http://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1802]有界数组中指定下标处的最大值/Solution.cs)|
 |1805|[Number of Different Integers in a String](http://leetcode.cn/problems/number-of-different-integers-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1805]字符串中不同整数的数目/Solution.cs)|
+|1807|[Evaluate the Bracket Pairs of a String](http://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1807]替换字符串中的括号内容/Solution.cs)|
 |1806|[Minimum Number of Operations to Reinitialize a Permutation](http://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1806]还原排列的最少操作步数/Solution.cs)|
 |1827|[Minimum Operations to Make the Array Increasing](http://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1827]最少操作使数组递增/Solution.cs)|
 |1832|[Check if the Sentence Is Pangram](http://leetcode.cn/problems/check-if-the-sentence-is-pangram/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1832]判断句子是否为全字母句/Solution.cs)|
@@ -333,4 +336,5 @@
 |2042|[Check if Numbers Are Ascending in a Sentence](http://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2042]检查句子中的数字是否递增/Solution.cs)|
 |2185|[Counting Words With a Given Prefix](http://leetcode.cn/problems/counting-words-with-a-given-prefix/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2185]统计包含给定前缀的字符串/Solution.cs)|
 |2180|[Count Integers With Even Digit Sum](http://leetcode.cn/problems/count-integers-with-even-digit-sum/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2180]统计各位数字之和为偶数的整数个数/Solution.cs)|
+|2283|[Check if Number Has Equal Digit Count and Digit Value](http://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2283]判断一个数的数字计数是否等于数位的值/Solution.cs)|
 |2351|[First Letter to Appear Twice](http://leetcode.cn/problems/first-letter-to-appear-twice/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2351]第一个出现两次的字母/Solution.cs)|
