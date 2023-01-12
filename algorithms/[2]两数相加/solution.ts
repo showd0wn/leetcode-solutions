@@ -11,7 +11,7 @@ export class ListNode {
 
 /**
  * 模拟法
- * time O(max(m,n)) space O(1), m 和 n 分别为两个链表的长度
+ * time O(max(m,n)), space O(1), m 和 n 分别为两个链表的长度
  */
 function addTwoNumbers(
   l1: ListNode | null,

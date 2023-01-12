@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class Solution
 {
     /// <summary>
-    /// time O(n) space O(|Σ|)
+    /// time O(n), space O(|Σ|)
     /// n 为字符串的长度
     /// Σ 表示字符串可以出现的字符集, |Σ| 表示字符集大小
     /// </summary>

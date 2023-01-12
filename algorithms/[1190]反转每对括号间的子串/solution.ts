@@ -20,7 +20,7 @@ function reverseParentheses(s: string): string {
  * time O(n^2), space O(n), n 为字符串的长度
  */
 function reverseParentheses2(s: string): string {
-  const stk = [];
+  const stk: string[] = [];
   let str = '';
   for (const ch of s) {
     if (ch === '(') {

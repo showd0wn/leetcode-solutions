@@ -6,7 +6,7 @@ public class Solution
 {
     /// <summary>
     /// 双指针
-    /// time O(n) space O(1), n 为 height 长度
+    /// time O(n), space O(1), n 为 height 长度
     /// </summary>
     public int MaxArea(int[] height)
     {

@@ -23,8 +23,8 @@ public class Solution
             return MinOperations(nums2, nums1);
         }
 
-        Dictionary<int, int> d1 = toDict(nums1);
-        Dictionary<int, int> d2 = toDict(nums2);
+        Dictionary<int, int> d1 = ToDict(nums1);
+        Dictionary<int, int> d2 = ToDict(nums2);
         int difference = sum1 - sum2;
         int res = 0;
 
@@ -55,7 +55,7 @@ public class Solution
         return -1;
     }
 
-    public Dictionary<int, int> toDict(int[] nums)
+    public Dictionary<int, int> ToDict(int[] nums)
     {
         Dictionary<int, int> dict = new Dictionary<int, int>();
 

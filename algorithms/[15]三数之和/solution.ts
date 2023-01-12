@@ -2,7 +2,7 @@
 
 /**
  * 排序 + 双指针
- * time O(n^2) space O(logn), n 为 nums 长度
+ * time O(n^2), space O(logn), n 为 nums 长度
  */
 function threeSum(nums: number[]): number[][] {
   const n = nums.length;

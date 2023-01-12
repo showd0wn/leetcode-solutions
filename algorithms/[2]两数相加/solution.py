@@ -1,17 +1,23 @@
 # topics = ["链表", "数学"]
 
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+from typing import Optional
 
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
-        self.next: ListNode | None = next
-
+        self.next = next
 
 class Solution:
-    def addTwoNumbers(self, l1: ListNode | None, l2: ListNode | None) -> ListNode | None:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         """
         模拟法
-        time O(max(m,n)) space O(1), m 和 n 分别为两个链表的长度
+        time O(max(m,n)), space O(1), m 和 n 分别为两个链表的长度
         """
         dummy = ListNode()
         head = dummy

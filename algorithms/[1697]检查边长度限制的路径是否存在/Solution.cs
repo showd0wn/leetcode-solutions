@@ -23,10 +23,10 @@ public class UnionFind
         SetCount = n;
     }
 
-    public void union(int i, int j)
+    public void Union(int i, int j)
     {
-        int x = find(i);
-        int y = find(j);
+        int x = Find(i);
+        int y = Find(j);
 
         if (x == y)
         {
@@ -50,11 +50,11 @@ public class UnionFind
         SetCount -= 1;
     }
 
-    public int find(int x)
+    public int Find(int x)
     {
         if (parent[x] != x)
         {
-            parent[x] = find(parent[x]);
+            parent[x] = Find(parent[x]);
         }
         return parent[x];
     }
@@ -87,11 +87,11 @@ public class Solution
             // 依次将剩余长度小于 limit 的边的顶点加入到并查集中
             while (k < el && edgeList[k][2] < queries[i][2])
             {
-                uf.union(edgeList[k][0], edgeList[k][1]);
+                uf.Union(edgeList[k][0], edgeList[k][1]);
                 k += 1;
             }
             // 判断 queries[i] 两点是否连通
-            res[i] = uf.find(queries[i][0]) == uf.find(queries[i][1]);
+            res[i] = uf.Find(queries[i][0]) == uf.Find(queries[i][1]);
         }
 
         return res;

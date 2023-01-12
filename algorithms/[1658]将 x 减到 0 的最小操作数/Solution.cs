@@ -6,7 +6,7 @@ public class Solution
 {
     /// <summary>
     /// 前缀和 + 二分查找
-    /// time O(nlogn) space O(n), n 为 nums 长度
+    /// time O(nlogn), space O(n), n 为 nums 长度
     /// </summary>
     public int MinOperations(int[] nums, int x)
     {
@@ -34,7 +34,7 @@ public class Solution
         for (int i = 0; i <= n; i++)
         {
             // 二分查找
-            int j = bisect(postSum, n - i, x - preSum[i]);
+            int j = Bisect(postSum, n - i, x - preSum[i]);
             if (j != -1)
             {
                 res = Math.Min(res, i + j);
@@ -44,7 +44,7 @@ public class Solution
         return res > n ? -1 : res;
     }
 
-    public int bisect(int[] nums, int idx, int value)
+    public int Bisect(int[] nums, int idx, int value)
     {
         int left = 0, right = idx;
         while (left <= right)
