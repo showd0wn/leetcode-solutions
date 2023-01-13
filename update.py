@@ -109,7 +109,7 @@ class Update:
                 '|**Total**|{}|{}|{}|{}|\n\n'
                 '### 题解\n'
                 '| ID | Title | Difficulty | Python | TS | C# | Java |\n'
-                '|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
+                '|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
                     stats_hard['accept'],
