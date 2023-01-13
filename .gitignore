@@ -4,6 +4,8 @@
 .vs
 .vscode
 
+out
 node_modules
 
 *.py[cod]
+*.class
