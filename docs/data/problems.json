@@ -3786,6 +3786,17 @@
             ]
         },
         {
+            "id": "2287",
+            "level": 1,
+            "title": "Rearrange Characters to Make Target String",
+            "title_slug": "rearrange-characters-to-make-target-string",
+            "lock": false,
+            "caption": "重排字符形成目标字符串",
+            "topics": [
+                "哈希表"
+            ]
+        },
+        {
             "id": "2283",
             "level": 1,
             "title": "Check if Number Has Equal Digit Count and Digit Value",
@@ -3811,7 +3822,7 @@
     "stats": {
         "Easy": {
             "total": 544,
-            "accept": 108
+            "accept": 109
         },
         "Medium": {
             "total": 1268,

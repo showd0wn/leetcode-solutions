@@ -5,7 +5,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|108|182|37|327|
+|**Accept**|109|182|37|328|
 |**Total**|544|1268|562|2374|
 
 ### 题解
@@ -336,5 +336,6 @@
 |2042|[Check if Numbers Are Ascending in a Sentence](http://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2042]检查句子中的数字是否递增/Solution.cs)|--|
 |2185|[Counting Words With a Given Prefix](http://leetcode.cn/problems/counting-words-with-a-given-prefix/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2185]统计包含给定前缀的字符串/Solution.cs)|--|
 |2180|[Count Integers With Even Digit Sum](http://leetcode.cn/problems/count-integers-with-even-digit-sum/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2180]统计各位数字之和为偶数的整数个数/Solution.cs)|--|
+|2287|[Rearrange Characters to Make Target String](http://leetcode.cn/problems/rearrange-characters-to-make-target-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2287]重排字符形成目标字符串/Solution.cs)|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2287]重排字符形成目标字符串/Solution.java)|
 |2283|[Check if Number Has Equal Digit Count and Digit Value](http://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2283]判断一个数的数字计数是否等于数位的值/Solution.cs)|--|
 |2351|[First Letter to Appear Twice](http://leetcode.cn/problems/first-letter-to-appear-twice/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2351]第一个出现两次的字母/Solution.cs)|--|
