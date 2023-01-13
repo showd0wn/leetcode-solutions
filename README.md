@@ -10,7 +10,7 @@
 
 ### 题解
 | ID | Title | Difficulty | Python | TS | C# | Java |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |1|[Two Sum](http://leetcode.cn/problems/two-sum/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1]两数之和/Solution.cs)|--|
 |2|[Add Two Numbers](http://leetcode.cn/problems/add-two-numbers/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2]两数相加/Solution.cs)|--|
 |3|[Longest Substring Without Repeating Characters](http://leetcode.cn/problems/longest-substring-without-repeating-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/solution.ts)|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[3]无重复字符的最长子串/Solution.cs)|--|
