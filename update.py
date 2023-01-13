@@ -10,8 +10,9 @@ class Update:
     _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
     _type_map = {
         'py': 'Python',
-        'ts': 'TypeScript',
+        'ts': 'TS',
         'cs': 'C#',
+        'java': 'Java',
     }
 
     def __init__(self):
@@ -107,7 +108,7 @@ class Update:
                 '|**Accept**|{}|{}|{}|{}|\n'
                 '|**Total**|{}|{}|{}|{}|\n\n'
                 '### 题解\n'
-                '| ID | Title | Difficulty | Python | TypeScript | C# |\n'
+                '| ID | Title | Difficulty | Python | TS | C# | Java |\n'
                 '|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
@@ -122,13 +123,14 @@ class Update:
             for problem in self.problems:
                 id, level, title, title_slug, lock, *_ = problem.values()
                 f.write(
-                    '|{id}|{title}|{level}|{py}|{ts}|{cs}|\n'.format(
+                    '|{id}|{title}|{level}|{py}|{ts}|{cs}|{java}|\n'.format(
                         id=id,
                         level=Update._level_map[level],
                         title=self._generate_Title(title, title_slug, lock),
                         py=self._generate_solution('py', id),
                         ts=self._generate_solution('ts', id),
                         cs=self._generate_solution('cs', id),
+                        java=self._generate_solution('java', id),
                     )
                 )
 
