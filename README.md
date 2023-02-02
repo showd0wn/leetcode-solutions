@@ -5,8 +5,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|109|182|37|328|
-|**Total**|544|1268|562|2374|
+|**Accept**|109|183|37|329|
+|**Total**|548|1277|568|2393|
 
 ### 题解
 | ID | Title | Difficulty | Python | TS | C# | Java |
@@ -275,6 +275,7 @@
 |1094|[Car Pooling](http://leetcode.cn/problems/car-pooling/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1094]拼车/solution.ts)|--|--|
 |1109|[Corporate Flight Bookings](http://leetcode.cn/problems/corporate-flight-bookings/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1109]航班预订统计/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1109]航班预订统计/solution.ts)|--|--|
 |1128|[Number of Equivalent Domino Pairs](http://leetcode.cn/problems/number-of-equivalent-domino-pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|--|--|
+|1129|[Shortest Path with Alternating Colors](http://leetcode.cn/problems/shortest-path-with-alternating-colors/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1129]颜色交替的最短路径/solution.py)|--|--|--|
 |1137|[N-th Tribonacci Number](http://leetcode.cn/problems/n-th-tribonacci-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.ts)|--|--|
 |1143|[Longest Common Subsequence](http://leetcode.cn/problems/longest-common-subsequence/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1143]最长公共子序列/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1143]最长公共子序列/solution.ts)|--|--|
 |1178|[Number of Valid Words for Each Puzzle](http://leetcode.cn/problems/number-of-valid-words-for-each-puzzle/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.ts)|--|--|
