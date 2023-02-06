@@ -3079,8 +3079,7 @@
             "caption": "颜色交替的最短路径",
             "topics": [
                 "图",
-                "广度优先搜索",
-                "深度优先搜索"
+                "广度优先搜索"
             ]
         },
         {
@@ -3821,6 +3820,30 @@
             ]
         },
         {
+            "id": "2325",
+            "level": 1,
+            "title": "Decode the Message",
+            "title_slug": "decode-the-message",
+            "lock": false,
+            "caption": "解密消息",
+            "topics": [
+                "字符串",
+                "哈希表"
+            ]
+        },
+        {
+            "id": "2331",
+            "level": 1,
+            "title": "Evaluate Boolean Binary Tree",
+            "title_slug": "evaluate-boolean-binary-tree",
+            "lock": false,
+            "caption": "计算布尔二叉树的值",
+            "topics": [
+                "树",
+                "递归"
+            ]
+        },
+        {
             "id": "2351",
             "level": 1,
             "title": "First Letter to Appear Twice",
@@ -3834,15 +3857,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 548,
-            "accept": 109
+            "total": 550,
+            "accept": 111
         },
         "Medium": {
-            "total": 1277,
+            "total": 1283,
             "accept": 183
         },
         "Hard": {
-            "total": 568,
+            "total": 569,
             "accept": 37
         }
     }

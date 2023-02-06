@@ -5,8 +5,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|109|183|37|329|
-|**Total**|548|1277|568|2393|
+|**Accept**|111|183|37|331|
+|**Total**|550|1283|569|2402|
 
 ### 题解
 | ID | Title | Difficulty | Python | TS | C# | Java |
@@ -339,4 +339,6 @@
 |2180|[Count Integers With Even Digit Sum](http://leetcode.cn/problems/count-integers-with-even-digit-sum/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2180]统计各位数字之和为偶数的整数个数/Solution.cs)|--|
 |2287|[Rearrange Characters to Make Target String](http://leetcode.cn/problems/rearrange-characters-to-make-target-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2287]重排字符形成目标字符串/Solution.cs)|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2287]重排字符形成目标字符串/Solution.java)|
 |2283|[Check if Number Has Equal Digit Count and Digit Value](http://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2283]判断一个数的数字计数是否等于数位的值/Solution.cs)|--|
+|2325|[Decode the Message](http://leetcode.cn/problems/decode-the-message/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2325]解密消息/Solution.java)|
+|2331|[Evaluate Boolean Binary Tree](http://leetcode.cn/problems/evaluate-boolean-binary-tree/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2331]计算布尔二叉树的值/Solution.java)|
 |2351|[First Letter to Appear Twice](http://leetcode.cn/problems/first-letter-to-appear-twice/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2351]第一个出现两次的字母/Solution.cs)|--|
