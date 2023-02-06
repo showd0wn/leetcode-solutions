@@ -7,9 +7,9 @@ from typing import List, Set
 class Solution:
     def buildGraph(self, n: int, edges: List[List[int]]) -> List[Set[int]]:
         """
-        邻接表
+        无向图-邻接表
         """
-        graph: List[Set[int]] = [set()] * n
+        graph: List[Set[int]] = [set() for _ in range(n)]
 
         for i, j in edges:
             graph[i].add(j)

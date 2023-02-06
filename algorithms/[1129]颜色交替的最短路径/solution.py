@@ -1,17 +1,10 @@
-# topics = ["图", "广度优先搜索, "深度优先搜索"]
+# topics = ["图", "广度优先搜索"]
 
+from collections import deque
 from typing import List, Set
 
 
 class Solution:
-    redGraph: List[Set[int]] = []
-
-    blueGraph: List[Set[int]] = []
-
-    redVisited: Set[int] = set()
-
-    blueVisited: Set[int] = set()
-
     def buildGraph(self, n: int, edges: List[List[int]]) -> List[Set[int]]:
         """
         有向图-邻接表
@@ -23,48 +16,36 @@ class Solution:
 
         return graph
 
-    def dfs(self, idx: int, type: int, deep: int, dist: List[int]) -> None:
-        if type == 0:
-            self.redVisited.add(idx)
-            nodes = self.redGraph[idx]
-            visited = self.blueVisited
-        else:
-            self.blueVisited.add(idx)
-            nodes = self.blueGraph[idx]
-            visited = self.redVisited
-
-        for node in nodes:
-            if dist[node] == -1:
-                dist[node] = deep
-            else:
-                dist[node] = min(dist[node], deep)
-            if node not in visited:
-                self.dfs(node, 1 - type, deep + 1, dist)
-
     def shortestAlternatingPaths(
         self, n: int, redEdges: List[List[int]], blueEdges: List[List[int]]
     ) -> List[int]:
-        self.redGraph = self.buildGraph(n, redEdges)
-        self.blueGraph = self.buildGraph(n, blueEdges)
+        """
+        time O(n + r + b), space O(n + r + b), r 和 b 分别为红色边和蓝色边的数目
+        """
+        redGraph = self.buildGraph(n, redEdges)
+        blueGraph = self.buildGraph(n, blueEdges)
 
-        self.redVisited = set()
-        self.blueVisited = set()
+        redVisited = set()
+        blueVisited = set()
 
-        dist: List[int] = [0] + [-1] * (n - 1)
+        dist = [-1] * n
+        node, distance = [0, 0]
+        queue = deque(
+            [
+                (node, distance, redVisited, redGraph, blueVisited, blueGraph),
+                (node, distance, blueVisited, blueGraph, redVisited, redGraph),
+            ]
+        )
 
-        self.dfs(0, 0, 1, dist)
-        self.dfs(0, 1, 1, dist)
+        while queue:
+            [idx, dis, visited, graph, nextVisited, nextGraph] = queue.popleft()
+            if idx not in visited:
+                visited.add(idx)
+                if dist[idx] == -1:
+                    dist[idx] = dis
+                for next in graph[idx]:
+                    queue.append(
+                        (next, dis + 1, nextVisited, nextGraph, visited, graph)
+                    )
 
         return dist
-
-
-s = Solution()
-
-print(
-    # [0,1,2,1,1]
-    s.shortestAlternatingPaths(
-        5,
-        [[2, 2], [0, 1], [0, 3], [0, 0], [0, 4], [2, 1], [2, 0], [1, 4], [3, 4]],
-        [[1, 3], [0, 0], [0, 3], [4, 2], [1, 0]],
-    )
-)
