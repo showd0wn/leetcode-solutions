@@ -3153,6 +3153,15 @@
             ]
         },
         {
+            "id": "1233",
+            "level": 2,
+            "title": "Remove Sub-Folders from the Filesystem",
+            "title_slug": "remove-sub-folders-from-the-filesystem",
+            "lock": false,
+            "caption": "删除子文件夹",
+            "topics": []
+        },
+        {
             "id": "1239",
             "level": 2,
             "title": "Maximum Length of a Concatenated String with Unique Characters",
@@ -3377,6 +3386,18 @@
             "caption": "设计停车系统",
             "topics": [
                 "设计"
+            ]
+        },
+        {
+            "id": "1604",
+            "level": 2,
+            "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+            "title_slug": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+            "lock": false,
+            "caption": "警告一小时内使用相同员工卡大于等于三次的人",
+            "topics": [
+                "数组",
+                "哈希表"
             ]
         },
         {
@@ -3749,8 +3770,8 @@
             "lock": false,
             "caption": "转换字符串的最少操作次数",
             "topics": [
-                "贪心",
-                "字符串"
+                "字符串",
+                "贪心算法"
             ]
         },
         {
@@ -3862,7 +3883,7 @@
         },
         "Medium": {
             "total": 1283,
-            "accept": 183
+            "accept": 185
         },
         "Hard": {
             "total": 569,

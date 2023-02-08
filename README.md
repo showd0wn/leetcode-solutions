@@ -5,7 +5,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|111|183|37|331|
+|**Accept**|111|185|37|333|
 |**Total**|550|1283|569|2402|
 
 ### 题解
@@ -282,6 +282,7 @@
 |1190|[Reverse Substrings Between Each Pair of Parentheses](http://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.ts)|--|--|
 |1208|[Get Equal Substrings Within Budget](http://leetcode.cn/problems/get-equal-substrings-within-budget/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.ts)|--|--|
 |1232|[Check If It Is a Straight Line](http://leetcode.cn/problems/check-if-it-is-a-straight-line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|--|--|
+|1233|[Remove Sub-Folders from the Filesystem](http://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1233]删除子文件夹/Solution.java)|
 |1239|[Maximum Length of a Concatenated String with Unique Characters](http://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1239]串联字符串的最大长度/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1239]串联字符串的最大长度/solution.ts)|--|--|
 |1269|[Number of Ways to Stay in the Same Place After Some Steps](http://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1269]停在原地的方案数/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1269]停在原地的方案数/solution.ts)|--|--|
 |1277|[Count Square Submatrices with All Ones](http://leetcode.cn/problems/count-square-submatrices-with-all-ones/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.ts)|--|--|
@@ -301,6 +302,7 @@
 |1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](http://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.ts)|--|--|
 |1584|[Min Cost to Connect All Points](http://leetcode.cn/problems/min-cost-to-connect-all-points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|--|--|
 |1603|[Design Parking System](http://leetcode.cn/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|--|--|
+|1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](http://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1604]警告一小时内使用相同员工卡大于等于三次的人/Solution.java)|
 |1600|[Throne Inheritance](http://leetcode.cn/problems/throne-inheritance/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.ts)|--|--|
 |1631|[Path With Minimum Effort](http://leetcode.cn/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|--|--|
 |1658|[Minimum Operations to Reduce X to Zero](http://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1658]将%20x%20减到%200%20的最小操作数/Solution.py)|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1658]将%20x%20减到%200%20的最小操作数/Solution.cs)|--|
