@@ -1,4 +1,4 @@
-// topics = ["贪心", "字符串"]
+// topics = ["字符串", "贪心算法"]
 
 public class Solution
 {

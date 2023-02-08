@@ -3,11 +3,11 @@
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 哈希表
- * time O(m+n), space O(n + |Σ|), m 和 n 分别为 key 和 message 长度，|Σ| = 26.
- */
 class Solution {
+    /**
+     * 哈希表
+     * time O(m+n), space O(n + |Σ|), m 和 n 分别为 key 和 message 长度，|Σ| = 26.
+     */
     public String decodeMessage(String key, String message) {
         Map<Character, Character> map = new HashMap<>();
         map.put(' ', ' ');

@@ -16,11 +16,12 @@
  * }
  */
 
-/**
- * 递归
- * time O(n), space O(n), n 为二叉树节点个数
- */
+
 class Solution {
+    /**
+     * 递归
+     * time O(n), space O(n), n 为二叉树节点个数
+     */
     public boolean evaluateTree(TreeNode root) {
         if (root.left == null) {
             return root.val == 1;
