@@ -5,8 +5,8 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|111|185|37|333|
-|**Total**|550|1283|569|2402|
+|**Accept**|112|189|37|338|
+|**Total**|551|1285|570|2406|
 
 ### 题解
 | ID | Title | Difficulty | Python | TS | C# | Java |
@@ -277,12 +277,14 @@
 |1128|[Number of Equivalent Domino Pairs](http://leetcode.cn/problems/number-of-equivalent-domino-pairs/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1128]等价多米诺骨牌对的数量/solution.ts)|--|--|
 |1129|[Shortest Path with Alternating Colors](http://leetcode.cn/problems/shortest-path-with-alternating-colors/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1129]颜色交替的最短路径/solution.py)|--|--|--|
 |1137|[N-th Tribonacci Number](http://leetcode.cn/problems/n-th-tribonacci-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.ts)|--|--|
+|1145|[Binary Tree Coloring Game](http://leetcode.cn/problems/binary-tree-coloring-game/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1145]二叉树着色游戏/Solution.java)|
 |1143|[Longest Common Subsequence](http://leetcode.cn/problems/longest-common-subsequence/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1143]最长公共子序列/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1143]最长公共子序列/solution.ts)|--|--|
 |1178|[Number of Valid Words for Each Puzzle](http://leetcode.cn/problems/number-of-valid-words-for-each-puzzle/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1178]猜字谜/solution.ts)|--|--|
 |1190|[Reverse Substrings Between Each Pair of Parentheses](http://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1190]反转每对括号间的子串/solution.ts)|--|--|
 |1208|[Get Equal Substrings Within Budget](http://leetcode.cn/problems/get-equal-substrings-within-budget/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1208]尽可能使字符串相等/solution.ts)|--|--|
 |1232|[Check If It Is a Straight Line](http://leetcode.cn/problems/check-if-it-is-a-straight-line/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1232]缀点成线/solution.ts)|--|--|
 |1233|[Remove Sub-Folders from the Filesystem](http://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1233]删除子文件夹/Solution.java)|
+|1234|[Replace the Substring for Balanced String](http://leetcode.cn/problems/replace-the-substring-for-balanced-string/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1234]替换子串得到平衡字符串/solution.py)|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1234]替换子串得到平衡字符串/Solution.java)|
 |1239|[Maximum Length of a Concatenated String with Unique Characters](http://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1239]串联字符串的最大长度/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1239]串联字符串的最大长度/solution.ts)|--|--|
 |1269|[Number of Ways to Stay in the Same Place After Some Steps](http://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1269]停在原地的方案数/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1269]停在原地的方案数/solution.ts)|--|--|
 |1277|[Count Square Submatrices with All Ones](http://leetcode.cn/problems/count-square-submatrices-with-all-ones/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1277]统计全为%201%20的正方形子矩阵/solution.ts)|--|--|
@@ -322,10 +324,12 @@
 |1774|[Closest Dessert Cost](http://leetcode.cn/problems/closest-dessert-cost/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1774]最接近目标价格的甜点成本/Solution.cs)|--|
 |1775|[Equal Sum Arrays With Minimum Number of Operations](http://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1775]通过最少操作次数使数组的和相等/Solution.cs)|--|
 |1796|[Second Largest Digit in a String](http://leetcode.cn/problems/second-largest-digit-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1796]字符串中第二大的数字/Solution.cs)|--|
+|1797|[Design Authentication Manager](http://leetcode.cn/problems/design-authentication-manager/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1797]设计一个验证系统/Solution.java)|
 |1785|[Minimum Elements to Add to Form a Given Sum](http://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1785]构成特定和需要添加的最少元素/Solution.cs)|--|
 |1812|[Determine Color of a Chessboard Square](http://leetcode.cn/problems/determine-color-of-a-chessboard-square/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1812]判断国际象棋棋盘中一个格子的颜色/Solution.cs)|--|
 |1801|[Number of Orders in the Backlog](http://leetcode.cn/problems/number-of-orders-in-the-backlog/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1801]积压订单中的订单总数/Solution.cs)|--|
 |1802|[Maximum Value at a Given Index in a Bounded Array](http://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1802]有界数组中指定下标处的最大值/Solution.cs)|--|
+|1798|[Maximum Number of Consecutive Values You Can Make](http://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1798]你能构造出连续值的最大数目/Solution.java)|
 |1805|[Number of Different Integers in a String](http://leetcode.cn/problems/number-of-different-integers-in-a-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1805]字符串中不同整数的数目/Solution.cs)|--|
 |1807|[Evaluate the Bracket Pairs of a String](http://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1807]替换字符串中的括号内容/Solution.cs)|--|
 |1806|[Minimum Number of Operations to Reinitialize a Permutation](http://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1806]还原排列的最少操作步数/Solution.cs)|--|
@@ -342,5 +346,6 @@
 |2287|[Rearrange Characters to Make Target String](http://leetcode.cn/problems/rearrange-characters-to-make-target-string/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2287]重排字符形成目标字符串/Solution.cs)|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2287]重排字符形成目标字符串/Solution.java)|
 |2283|[Check if Number Has Equal Digit Count and Digit Value](http://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2283]判断一个数的数字计数是否等于数位的值/Solution.cs)|--|
 |2325|[Decode the Message](http://leetcode.cn/problems/decode-the-message/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2325]解密消息/Solution.java)|
+|2335|[Minimum Amount of Time to Fill Cups](http://leetcode.cn/problems/minimum-amount-of-time-to-fill-cups/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2335]装满杯子需要的最短总时长/Solution.java)|
 |2331|[Evaluate Boolean Binary Tree](http://leetcode.cn/problems/evaluate-boolean-binary-tree/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2331]计算布尔二叉树的值/Solution.java)|
 |2351|[First Letter to Appear Twice](http://leetcode.cn/problems/first-letter-to-appear-twice/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2351]第一个出现两次的字母/Solution.cs)|--|

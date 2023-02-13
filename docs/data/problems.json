@@ -3094,6 +3094,19 @@
             ]
         },
         {
+            "id": "1145",
+            "level": 2,
+            "title": "Binary Tree Coloring Game",
+            "title_slug": "binary-tree-coloring-game",
+            "lock": false,
+            "caption": "二叉树着色游戏",
+            "topics": [
+                "树",
+                "深度优先搜索",
+                "递归"
+            ]
+        },
+        {
             "id": "1143",
             "level": 2,
             "title": "Longest Common Subsequence",
@@ -3159,7 +3172,23 @@
             "title_slug": "remove-sub-folders-from-the-filesystem",
             "lock": false,
             "caption": "删除子文件夹",
-            "topics": []
+            "topics": [
+                "数组",
+                "字符串",
+                "字典树"
+            ]
+        },
+        {
+            "id": "1234",
+            "level": 2,
+            "title": "Replace the Substring for Balanced String",
+            "title_slug": "replace-the-substring-for-balanced-string",
+            "lock": false,
+            "caption": "替换子串得到平衡字符串",
+            "topics": [
+                "哈希表",
+                "滑动窗口"
+            ]
         },
         {
             "id": "1239",
@@ -3622,6 +3651,19 @@
             ]
         },
         {
+            "id": "1797",
+            "level": 2,
+            "title": "Design Authentication Manager",
+            "title_slug": "design-authentication-manager",
+            "lock": false,
+            "caption": "设计一个验证系统",
+            "topics": [
+                "设计",
+                "哈希表",
+                "链表"
+            ]
+        },
+        {
             "id": "1785",
             "level": 2,
             "title": "Minimum Elements to Add to Form a Given Sum",
@@ -3667,6 +3709,18 @@
                 "贪心算法",
                 "二分查找",
                 "数学"
+            ]
+        },
+        {
+            "id": "1798",
+            "level": 2,
+            "title": "Maximum Number of Consecutive Values You Can Make",
+            "title_slug": "maximum-number-of-consecutive-values-you-can-make",
+            "lock": false,
+            "caption": "你能构造出连续值的最大数目",
+            "topics": [
+                "数组",
+                "贪心算法"
             ]
         },
         {
@@ -3853,6 +3907,17 @@
             ]
         },
         {
+            "id": "2335",
+            "level": 1,
+            "title": "Minimum Amount of Time to Fill Cups",
+            "title_slug": "minimum-amount-of-time-to-fill-cups",
+            "lock": false,
+            "caption": "装满杯子需要的最短总时长",
+            "topics": [
+                "贪心算法"
+            ]
+        },
+        {
             "id": "2331",
             "level": 1,
             "title": "Evaluate Boolean Binary Tree",
@@ -3878,15 +3943,15 @@
     ],
     "stats": {
         "Easy": {
-            "total": 550,
-            "accept": 111
+            "total": 551,
+            "accept": 112
         },
         "Medium": {
-            "total": 1283,
-            "accept": 185
+            "total": 1285,
+            "accept": 189
         },
         "Hard": {
-            "total": 569,
+            "total": 570,
             "accept": 37
         }
     }
