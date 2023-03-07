@@ -700,6 +700,18 @@
             ]
         },
         {
+            "id": "89",
+            "level": 2,
+            "title": "Gray Code",
+            "title_slug": "gray-code",
+            "lock": false,
+            "caption": "格雷编码",
+            "topics": [
+                "数学",
+                "位运算"
+            ]
+        },
+        {
             "id": "90",
             "level": 2,
             "title": "Subsets II",
@@ -3060,6 +3072,19 @@
             ]
         },
         {
+            "id": "1124",
+            "level": 2,
+            "title": "Longest Well-Performing Interval",
+            "title_slug": "longest-well-performing-interval",
+            "lock": false,
+            "caption": "表现良好的最长时间段",
+            "topics": [
+                "数组",
+                "贪心算法",
+                "哈希表"
+            ]
+        },
+        {
             "id": "1128",
             "level": 1,
             "title": "Number of Equivalent Domino Pairs",
@@ -3091,6 +3116,40 @@
             "caption": "第 N 个泰波那契数",
             "topics": [
                 "递归"
+            ]
+        },
+        {
+            "id": "1138",
+            "level": 2,
+            "title": "Alphabet Board Path",
+            "title_slug": "alphabet-board-path",
+            "lock": false,
+            "caption": "字母板上的路径",
+            "topics": [
+                "字符串"
+            ]
+        },
+        {
+            "id": "1140",
+            "level": 2,
+            "title": "Stone Game II",
+            "title_slug": "stone-game-ii",
+            "lock": false,
+            "caption": "石子游戏 II",
+            "topics": [
+                "动态规划"
+            ]
+        },
+        {
+            "id": "1144",
+            "level": 2,
+            "title": "Decrease Elements To Make Array Zigzag",
+            "title_slug": "decrease-elements-to-make-array-zigzag",
+            "lock": false,
+            "caption": "递减元素使数组呈锯齿状",
+            "topics": [
+                "数组",
+                "贪心算法"
             ]
         },
         {
@@ -3191,6 +3250,31 @@
             ]
         },
         {
+            "id": "1237",
+            "level": 2,
+            "title": "Find Positive Integer Solution for a Given Equation",
+            "title_slug": "find-positive-integer-solution-for-a-given-equation",
+            "lock": false,
+            "caption": "找出给定方程的正整数解",
+            "topics": [
+                "数组",
+                "双指针",
+                "二分查找"
+            ]
+        },
+        {
+            "id": "1238",
+            "level": 2,
+            "title": "Circular Permutation in Binary Representation",
+            "title_slug": "circular-permutation-in-binary-representation",
+            "lock": false,
+            "caption": "循环码排列",
+            "topics": [
+                "数学",
+                "位运算"
+            ]
+        },
+        {
             "id": "1239",
             "level": 2,
             "title": "Maximum Length of a Concatenated String with Unique Characters",
@@ -3200,6 +3284,17 @@
             "topics": [
                 "回溯算法",
                 "位运算"
+            ]
+        },
+        {
+            "id": "1247",
+            "level": 2,
+            "title": "Minimum Swaps to Make Strings Equal",
+            "title_slug": "minimum-swaps-to-make-strings-equal",
+            "lock": false,
+            "caption": "交换字符使得字符串相同",
+            "topics": [
+                "贪心算法"
             ]
         },
         {
@@ -3456,6 +3551,19 @@
             ]
         },
         {
+            "id": "1653",
+            "level": 2,
+            "title": "Minimum Deletions to Make String Balanced",
+            "title_slug": "minimum-deletions-to-make-string-balanced",
+            "lock": false,
+            "caption": "使字符串平衡的最少删除次数",
+            "topics": [
+                "双指针",
+                "字符串",
+                "栈"
+            ]
+        },
+        {
             "id": "1658",
             "level": 2,
             "title": "Minimum Operations to Reduce X to Zero",
@@ -3464,8 +3572,8 @@
             "caption": "将 x 减到 0 的最小操作数",
             "topics": [
                 "数组",
-                "滑动窗口",
-                "二分查找"
+                "二分查找",
+                "滑动窗口"
             ]
         },
         {
@@ -3673,6 +3781,18 @@
             "topics": [
                 "数组",
                 "贪心算法"
+            ]
+        },
+        {
+            "id": "1792",
+            "level": 2,
+            "title": "Maximum Average Pass Ratio",
+            "title_slug": "maximum-average-pass-ratio",
+            "lock": false,
+            "caption": "最大平均通过率",
+            "topics": [
+                "贪心算法",
+                "堆"
             ]
         },
         {
@@ -3930,6 +4050,18 @@
             ]
         },
         {
+            "id": "2341",
+            "level": 1,
+            "title": "Maximum Number of Pairs in Array",
+            "title_slug": "maximum-number-of-pairs-in-array",
+            "lock": false,
+            "caption": "数组能形成多少数对",
+            "topics": [
+                "数组",
+                "哈希表"
+            ]
+        },
+        {
             "id": "2351",
             "level": 1,
             "title": "First Letter to Appear Twice",
@@ -3939,19 +4071,43 @@
             "topics": [
                 "哈希表"
             ]
+        },
+        {
+            "id": "2347",
+            "level": 1,
+            "title": "Best Poker Hand",
+            "title_slug": "best-poker-hand",
+            "lock": false,
+            "caption": "最好的扑克手牌",
+            "topics": [
+                "数组",
+                "哈希表"
+            ]
+        },
+        {
+            "id": "2357",
+            "level": 1,
+            "title": "Make Array Zero by Subtracting Equal Amounts",
+            "title_slug": "make-array-zero-by-subtracting-equal-amounts",
+            "lock": false,
+            "caption": "使数组中所有元素都等于零",
+            "topics": [
+                "数组",
+                "哈希表"
+            ]
         }
     ],
     "stats": {
         "Easy": {
-            "total": 551,
-            "accept": 112
+            "total": 556,
+            "accept": 115
         },
         "Medium": {
-            "total": 1285,
-            "accept": 189
+            "total": 1294,
+            "accept": 199
         },
         "Hard": {
-            "total": 570,
+            "total": 576,
             "accept": 37
         }
     }
