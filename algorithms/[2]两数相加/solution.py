@@ -16,7 +16,7 @@ class ListNode:
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         """
-        模拟法
+        模拟
         time O(max(m,n)), space O(1), m 和 n 分别为两个链表的长度
         """
         dummy = ListNode()

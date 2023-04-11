@@ -14,7 +14,7 @@ public class ListNode
 public class Solution
 {
     /// <summary>
-    /// 模拟法
+    /// 模拟
     /// time O(max(m,n)), space O(1), m 和 n 分别为两个链表的长度
     /// </summary>
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
