@@ -6,7 +6,7 @@
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |**Accept**|115|199|37|351|
-|**Total**|556|1294|576|2426|
+|**Total**|563|1312|583|2458|
 
 ### 题解
 | ID | Title | Difficulty | Python | TS | C# | Java |
