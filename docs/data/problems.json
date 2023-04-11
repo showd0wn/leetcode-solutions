@@ -3130,6 +3130,17 @@
             ]
         },
         {
+            "id": "1139",
+            "level": 2,
+            "title": "Largest 1-Bordered Square",
+            "title_slug": "largest-1-bordered-square",
+            "lock": false,
+            "caption": "最大的以 1 为边界的正方形",
+            "topics": [
+                "字符串"
+            ]
+        },
+        {
             "id": "1140",
             "level": 2,
             "title": "Stone Game II",
@@ -3464,6 +3475,18 @@
             ]
         },
         {
+            "id": "1487",
+            "level": 2,
+            "title": "Making File Names Unique",
+            "title_slug": "making-file-names-unique",
+            "lock": false,
+            "caption": "保证文件名唯一",
+            "topics": [
+                "数组",
+                "哈希表"
+            ]
+        },
+        {
             "id": "1489",
             "level": 3,
             "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
@@ -3474,6 +3497,30 @@
                 "图",
                 "最小生成树",
                 "并查集"
+            ]
+        },
+        {
+            "id": "1574",
+            "level": 2,
+            "title": "Shortest Subarray to be Removed to Make Array Sorted",
+            "title_slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+            "lock": false,
+            "caption": "删除最短的子数组使剩余数组有序",
+            "topics": [
+                "数组",
+                "双指针"
+            ]
+        },
+        {
+            "id": "1590",
+            "level": 2,
+            "title": "Make Sum Divisible by P",
+            "title_slug": "make-sum-divisible-by-p",
+            "lock": false,
+            "caption": "使数组和能被 P 整除",
+            "topics": [
+                "数组",
+                "哈希表"
             ]
         },
         {
@@ -3522,6 +3569,17 @@
             "topics": [
                 "数组",
                 "哈希表"
+            ]
+        },
+        {
+            "id": "1599",
+            "level": 2,
+            "title": "Maximum Profit of Operating a Centennial Wheel",
+            "title_slug": "maximum-profit-of-operating-a-centennial-wheel",
+            "lock": false,
+            "caption": "经营摩天轮的最大利润",
+            "topics": [
+                "数组"
             ]
         },
         {
@@ -4095,16 +4153,38 @@
                 "数组",
                 "哈希表"
             ]
+        },
+        {
+            "id": "2373",
+            "level": 1,
+            "title": "Largest Local Values in a Matrix",
+            "title_slug": "largest-local-values-in-a-matrix",
+            "lock": false,
+            "caption": "矩阵中的局部最大值",
+            "topics": [
+                "数组"
+            ]
+        },
+        {
+            "id": "2379",
+            "level": 1,
+            "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+            "title_slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+            "lock": false,
+            "caption": "得到 K 个黑块的最少涂色次数",
+            "topics": [
+                "滑动窗口"
+            ]
         }
     ],
     "stats": {
         "Easy": {
             "total": 563,
-            "accept": 115
+            "accept": 117
         },
         "Medium": {
             "total": 1312,
-            "accept": 199
+            "accept": 204
         },
         "Hard": {
             "total": 583,

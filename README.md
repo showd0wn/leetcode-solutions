@@ -5,7 +5,7 @@
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accept**|115|199|37|351|
+|**Accept**|117|204|37|358|
 |**Total**|563|1312|583|2458|
 
 ### 题解
@@ -280,6 +280,7 @@
 |1129|[Shortest Path with Alternating Colors](http://leetcode.cn/problems/shortest-path-with-alternating-colors/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1129]颜色交替的最短路径/solution.py)|--|--|--|
 |1137|[N-th Tribonacci Number](http://leetcode.cn/problems/n-th-tribonacci-number/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1137]第%20N%20个泰波那契数/solution.ts)|--|--|
 |1138|[Alphabet Board Path](http://leetcode.cn/problems/alphabet-board-path/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1138]字母板上的路径/Solution.java)|
+|1139|[Largest 1-Bordered Square](http://leetcode.cn/problems/largest-1-bordered-square/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1139]最大的以%201%20为边界的正方形/Solution.java)|
 |1140|[Stone Game II](http://leetcode.cn/problems/stone-game-ii/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1140]石子游戏%20II/Solution.java)|
 |1144|[Decrease Elements To Make Array Zigzag](http://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1144]递减元素使数组呈锯齿状/Solution.java)|
 |1145|[Binary Tree Coloring Game](http://leetcode.cn/problems/binary-tree-coloring-game/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1145]二叉树着色游戏/Solution.java)|
@@ -308,11 +309,15 @@
 |1473|[Paint House III](http://leetcode.cn/problems/paint-house-iii/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1473]粉刷房子%20III/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1473]粉刷房子%20III/solution.ts)|--|--|
 |1482|[Minimum Number of Days to Make m Bouquets](http://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1482]制作%20m%20束花所需的最少天数/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1482]制作%20m%20束花所需的最少天数/solution.ts)|--|--|
 |1486|[XOR Operation in an Array](http://leetcode.cn/problems/xor-operation-in-an-array/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1486]数组异或操作/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1486]数组异或操作/solution.ts)|--|--|
+|1487|[Making File Names Unique](http://leetcode.cn/problems/making-file-names-unique/)|Medium|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1487]保证文件名唯一/Solution.cs)|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1487]保证文件名唯一/Solution.java)|
 |1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](http://leetcode.cn/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1489]找到最小生成树里的关键边和伪关键边/solution.ts)|--|--|
+|1574|[Shortest Subarray to be Removed to Make Array Sorted](http://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1574]删除最短的子数组使剩余数组有序/Solution.java)|
+|1590|[Make Sum Divisible by P](http://leetcode.cn/problems/make-sum-divisible-by-p/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1590]使数组和能被%20P%20整除/Solution.java)|
 |1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](http://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|Hard|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1579]保证图可完全遍历/solution.ts)|--|--|
 |1584|[Min Cost to Connect All Points](http://leetcode.cn/problems/min-cost-to-connect-all-points/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1584]连接所有点的最小费用/solution.ts)|--|--|
 |1603|[Design Parking System](http://leetcode.cn/problems/design-parking-system/)|Easy|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1603]设计停车系统/solution.ts)|--|--|
 |1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](http://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1604]警告一小时内使用相同员工卡大于等于三次的人/Solution.java)|
+|1599|[Maximum Profit of Operating a Centennial Wheel](http://leetcode.cn/problems/maximum-profit-of-operating-a-centennial-wheel/)|Medium|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1599]经营摩天轮的最大利润/Solution.java)|
 |1600|[Throne Inheritance](http://leetcode.cn/problems/throne-inheritance/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1600]皇位继承顺序/solution.ts)|--|--|
 |1631|[Path With Minimum Effort](http://leetcode.cn/problems/path-with-minimum-effort/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.py)|[TS](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1631]最小体力消耗路径/solution.ts)|--|--|
 |1653|[Minimum Deletions to Make String Balanced](http://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/)|Medium|[Python](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1653]使字符串平衡的最少删除次数/solution.py)|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[1653]使字符串平衡的最少删除次数/Solution.java)|
@@ -362,3 +367,5 @@
 |2351|[First Letter to Appear Twice](http://leetcode.cn/problems/first-letter-to-appear-twice/)|Easy|--|--|[C#](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2351]第一个出现两次的字母/Solution.cs)|--|
 |2347|[Best Poker Hand](http://leetcode.cn/problems/best-poker-hand/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2347]最好的扑克手牌/Solution.java)|
 |2357|[Make Array Zero by Subtracting Equal Amounts](http://leetcode.cn/problems/make-array-zero-by-subtracting-equal-amounts/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2357]使数组中所有元素都等于零/Solution.java)|
+|2373|[Largest Local Values in a Matrix](http://leetcode.cn/problems/largest-local-values-in-a-matrix/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2373]矩阵中的局部最大值/Solution.java)|
+|2379|[Minimum Recolors to Get K Consecutive Black Blocks](http://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|Easy|--|--|--|[Java](https://github.com/showd0wn/leetcode/tree/master/./algorithms/[2379]得到%20K%20个黑块的最少涂色次数/Solution.java)|
