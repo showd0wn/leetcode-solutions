@@ -1,11 +1,11 @@
 SELECT
-    Customers.Name AS Customers
+    Customers.name AS customers
 FROM
     Customers
 WHERE
-    Customers.Id NOT IN (
+    id NOT IN(
         SELECT
-            CustomerId
+            customerId
         FROM
             Orders
     );

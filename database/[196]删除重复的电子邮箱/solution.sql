@@ -1,6 +1,6 @@
 DELETE FROM Person
 WHERE
-    id NOT IN (
+    id NOT IN(
         SELECT
             MIN(id)
         FROM

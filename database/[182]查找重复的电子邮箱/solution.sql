@@ -1,5 +1,5 @@
 SELECT
-    Email
+    email
 FROM
     Person
 GROUP BY

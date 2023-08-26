@@ -1,5 +1,5 @@
 SELECT
-    e1.name AS 'Employee'
+    e1.name AS employee
 FROM
     Employee AS e1
     INNER JOIN Employee AS e2 ON e1.managerId = e2.id
