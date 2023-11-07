@@ -1,4 +1,4 @@
-# topjcs = ["深度优先搜索", "广度优先搜索"]
+# topics = ["深度优先搜索", "广度优先搜索"]
 
 from typing import List, Tuple, Deque
 from collections import deque
