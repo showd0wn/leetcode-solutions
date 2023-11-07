@@ -8,12 +8,6 @@ from urllib import request
 
 class Update:
     _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
-    _type_map = {
-        'py': 'Python',
-        'ts': 'TS',
-        'cs': 'C#',
-        'java': 'Java',
-    }
 
     def __init__(self):
         cmd = 'git rev-parse --abbrev-ref HEAD'
@@ -108,7 +102,7 @@ class Update:
                 '|**Accept**|{}|{}|{}|{}|\n'
                 '|**Total**|{}|{}|{}|{}|\n\n'
                 '### 题解\n'
-                '| ID | Title | Difficulty | Python | TS | C# | Java |\n'
+                '| ID | Title | Difficulty | Solutions |\n'
                 '|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
@@ -123,28 +117,26 @@ class Update:
             for problem in self.problems:
                 id, level, title, title_slug, lock, *_ = problem.values()
                 f.write(
-                    '|{id}|{title}|{level}|{py}|{ts}|{cs}|{java}|\n'.format(
+                    '|{id}|{title}|{level}|{sln}|\n'.format(
                         id=id,
                         level=Update._level_map[level],
                         title=self._generate_Title(title, title_slug, lock),
-                        py=self._generate_solution('py', id),
-                        ts=self._generate_solution('ts', id),
-                        cs=self._generate_solution('cs', id),
-                        java=self._generate_solution('java', id),
+                        sln=self._generate_solutions(id),
                     )
                 )
 
     def _generate_Title(self, title: str, title_slug: str, lock: bool) -> str:
         return f'[{title + ":lock" if lock else title}](http://leetcode.cn/problems/{title_slug}/)'
 
-    def _generate_solution(self, type: str, id: str) -> str:
-        if type not in self.solutions[id]['path']:
-            return '--'
-        path = os.path.join(
-            f'https://github.com/showd0wn/leetcode/tree/{self.branch}/',
-            self.solutions[id]['path'][type],
-        )
-        return f'[{Update._type_map[type]}]({path})'
+    def _generate_solutions(self, id: str) -> str:
+        ret = ''
+        for type in self.solutions[id]['path']:
+            path = os.path.join(
+                f'https://github.com/showd0wn/leetcode/tree/{self.branch}/',
+                self.solutions[id]['path'][type],
+            )
+            ret += f' [.{type}]({path})'
+        return ret
 
     def _fetch_data(self, url: str):
         headers = {
