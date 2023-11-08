@@ -4,7 +4,11 @@ import os
 import json
 import subprocess
 from urllib import request
+import ssl
 
+context = ssl.create_default_context()
+context.check_hostname = False
+context.verify_mode = ssl.CERT_NONE
 
 class Update:
     _level_map = {1: 'Easy', 2: 'Medium', 3: 'Hard'}
@@ -47,7 +51,7 @@ class Update:
                             topics.extend(keys)
 
     def _handle_algorithms(self) -> None:
-        response = self._fetch_data('http://leetcode.cn/api/problems/algorithms/')
+        response = self._fetch_data('https://leetcode.cn/api/problems/algorithms/')
         algorithms = response['stat_status_pairs']
 
         for algo in algorithms[::-1]:
@@ -103,7 +107,7 @@ class Update:
                 '|**Total**|{}|{}|{}|{}|\n\n'
                 '### 题解\n'
                 '| ID | Title | Difficulty | Solutions |\n'
-                '|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
+                '|:---:|:---:|:---:|:---:|\n'.format(
                     stats_easy['accept'],
                     stats_medium['accept'],
                     stats_hard['accept'],
@@ -135,7 +139,7 @@ class Update:
                 f'https://github.com/showd0wn/leetcode/tree/{self.branch}/',
                 self.solutions[id]['path'][type],
             )
-            ret += f' [.{type}]({path})'
+            ret += f' [{type}]({path})'
         return ret
 
     def _fetch_data(self, url: str):
@@ -143,7 +147,7 @@ class Update:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
         }
         req = request.Request(url, headers=headers)
-        with request.urlopen(req) as f:
+        with request.urlopen(req, context=context) as f:
             return json.loads(f.read().decode('utf-8'))
 
 
