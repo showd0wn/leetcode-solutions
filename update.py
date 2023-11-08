@@ -134,12 +134,12 @@ class Update:
 
     def _generate_solutions(self, id: str) -> str:
         ret = ''
-        for type in self.solutions[id]['path']:
+        for type in sorted(self.solutions[id]['path']):
             path = os.path.join(
                 f'https://github.com/showd0wn/leetcode/tree/{self.branch}/',
                 self.solutions[id]['path'][type],
             )
-            ret += f' [{type}]({path})'
+            ret += f'  [{type}]({path})'
         return ret
 
     def _fetch_data(self, url: str):
